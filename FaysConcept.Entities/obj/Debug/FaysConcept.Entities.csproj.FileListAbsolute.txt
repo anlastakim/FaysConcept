@@ -1,0 +1,105 @@
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll.config
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\EntityFramework.dll
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\EntityFramework.xml
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\FluentValidation.dll
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\System.ValueTuple.dll
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\FluentValidation.xml
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\bin\Debug\System.ValueTuple.xml
+C:\Anlas Otomasyon\Projeler\Ön Muhasebe\FaysConcept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csprojAssemblyReference.cache
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll.config
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.pdb
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\EntityFramework.dll
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FluentValidation.dll
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\EntityFramework.xml
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FluentValidation.xml
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
+C:\Users\Muzaffer\Documents\GitHub\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll.config
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\EntityFramework.dll
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FluentValidation.dll
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.dll
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\EntityFramework.xml
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\FluentValidation.xml
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.xml
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csprojAssemblyReference.cache
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\YeniProje\Fays Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll.config
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.pdb
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\EntityFramework.dll
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\FluentValidation.dll
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\EntityFramework.xml
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\FluentValidation.xml
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csprojAssemblyReference.cache
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
+C:\Users\SercanHosgoren\Desktop\yeni yedek fays concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll.config
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\EntityFramework.dll
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\FluentValidation.dll
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.dll
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\EntityFramework.xml
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\FluentValidation.xml
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.xml
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\Github\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll.config
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\EntityFramework.dll
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\FluentValidation.dll
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.dll
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\EntityFramework.xml
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\FluentValidation.xml
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\bin\Debug\System.ValueTuple.xml
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb

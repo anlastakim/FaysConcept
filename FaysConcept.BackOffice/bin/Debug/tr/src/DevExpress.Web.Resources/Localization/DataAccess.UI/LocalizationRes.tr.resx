@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataAccessUIStringId.ConnectionEditorTitle" xml:space="preserve">
+    <value>Bağlantı Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Close" xml:space="preserve">
+    <value>&amp;Kapat</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Finish" xml:space="preserve">
+    <value>&amp;Bitir</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Next" xml:space="preserve">
+    <value>&amp;Sonraki</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeRemote" xml:space="preserve">
+    <value>Uzak</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ClientSecret" xml:space="preserve">
+    <value>Gizli İstemci:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ProjectID" xml:space="preserve">
+    <value>Proje ID:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Provider" xml:space="preserve">
+    <value>Sağlayıcı:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerTypeServer" xml:space="preserve">
+    <value>Sunucu</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeEF" xml:space="preserve">
+    <value>Entity Framework</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeSql" xml:space="preserve">
+    <value>Veritabanı</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_TrimBlanks" xml:space="preserve">
+    <value>Boşlukları kırp</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_RefreshToken" xml:space="preserve">
+    <value>Yenileme belirteci:</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorRemoveRelationMessage" xml:space="preserve">
+    <value>İlişkiyi Kaldır</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_DetectAutomatically" xml:space="preserve">
+    <value>Otomatik olarak algıla</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_BindTo" xml:space="preserve">
+    <value>Bağlama</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureExcelFileColumns_ColumnNameEmptyError" xml:space="preserve">
+    <value>Sütun adı boş olamaz.</value>
+  </data>
+  <data name="DataAccessUIStringId.DataConnectionParametersDialog_Header_UnableConnect" xml:space="preserve">
+    <value>Belirtilen bağlantı parametrelerini kullanarak veritabanına bağlanamıyor.
+Doğru bağlantı parametrelerini belirtin ve Tamam'ı tıklatın.
+Bu iletişim kutusu penceresini kapattıktan sonra bu parametreler kaydedilmeyecek.</value>
+  </data>
+  <data name="DataAccessUIStringId.CustomAssemblyWarning" xml:space="preserve">
+    <value>Yaklaşık bir üçüncü taraf kütüphane yüklemek üzeresiniz: '{0}'.
+
+Devam etmeden önce lütfen ortaya çıkan güvenlik riskleri göz önünde bulundurun ve bu kitaplığı güvenilir bir kaynaktan sağlanan emin olun.</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerType" xml:space="preserve">
+    <value>Sunucu türü:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Port" xml:space="preserve">
+    <value>Bağlantı noktası:</value>
+  </data>
+  <data name="DataAccessUIStringId.EFConnectionEditorMessageCustomAssembliesProhibited" xml:space="preserve">
+    <value>Üçüncü taraf derlemelerini yükleme geçerli güvenlik ilkesi engelliyor.
+
+Geçerli veri kaynağı ayarları silmek ve onları--dan tırmalamak yapılandırmak için Tamam'ı tıklatın.
+Veri kaynağını yapılandırma olmadan geçerli ayarları korumak için İptal'i</value>
+  </data>
+  <data name="DataAccessUIStringId.EFConnectionEditorTitle" xml:space="preserve">
+    <value>Varlık çerçeve veri bağlantı Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataSourceDesignerVerbEdit" xml:space="preserve">
+    <value>Düzenle...</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataSourceEditorTitle" xml:space="preserve">
+    <value>Varlık çerçeve veri kaynak Düzenleyici</value>
+  </data>
+  <data name="DataAccessUIStringId.EFStoredProcsEditorTitle" xml:space="preserve">
+    <value>Saklı yordam Yönet</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceDesignerVerbEdit" xml:space="preserve">
+    <value>Düzenle...</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_InvalidProperty" xml:space="preserve">
+    <value>Geçersiz özellik: '{0}'.</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditorViewTitle" xml:space="preserve">
+    <value>İfade Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceEditorTitle" xml:space="preserve">
+    <value>Excel veri kaynağı Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_WorksheetItem" xml:space="preserve">
+    <value>Çalışma sayfası</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEqualOperator" xml:space="preserve">
+    <value>Eşittir</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorGreaterOperator" xml:space="preserve">
+    <value>Büyüktür</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorGreaterOrEqualOperator" xml:space="preserve">
+    <value>Büyüktür veya eşittir</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorLessOrEqualOperator" xml:space="preserve">
+    <value>Küçük veya eşit</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorEditRelation" xml:space="preserve">
+    <value>İlişki Düzenle</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageMissingConnection" xml:space="preserve">
+    <value>Belirtilen bağlantı yok.</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Selected" xml:space="preserve">
+    <value>Seçili</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Version" xml:space="preserve">
+    <value>Sürüm</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersGridForm_Title" xml:space="preserve">
+    <value>Sorgu parametreleri</value>
+  </data>
+  <data name="DataAccessUIStringId.PasswordRequest" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorAddConditionMessage" xml:space="preserve">
+    <value>Yeni koşul oluştur</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_DeleteCondition" xml:space="preserve">
+    <value>Koşulu Sil</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_DeleteRelation" xml:space="preserve">
+    <value>İlişki Sil</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_EditRelation" xml:space="preserve">
+    <value>İlişki Düzenle</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Alias" xml:space="preserve">
+    <value>Diğer ad</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Output" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_SortingType" xml:space="preserve">
+    <value>Sıralama türü</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_SortOrder" xml:space="preserve">
+    <value>Sıralama düzeni</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumnsOf" xml:space="preserve">
+    <value>{0} sütun</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlDataPreviewCaption_All" xml:space="preserve">
+    <value>Veri önizleme</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateDBSchemaComplete" xml:space="preserve">
+    <value>Veritabanı şeması başarıyla güncelleştirildi.</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeNone" xml:space="preserve">
+    <value>Sıralanmamış</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseConnectionNoChoice" xml:space="preserve">
+    <value>Bir veri bağlantısı seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_BigQueryKeyFile" xml:space="preserve">
+    <value>Anahtar dosyası</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_BigQueryOAuth" xml:space="preserve">
+    <value>OAuth</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Hostname" xml:space="preserve">
+    <value>Ana bilgisayar adı:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerType" xml:space="preserve">
+    <value>Sunucu türü:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeInternet" xml:space="preserve">
+    <value>Internet</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeLocal" xml:space="preserve">
+    <value>Yerel</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ClientID" xml:space="preserve">
+    <value>İstemci kimliği:</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_EditRelations" xml:space="preserve">
+    <value>&amp; ilişkiler... yönetmek</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Preview" xml:space="preserve">
+    <value>&amp; önceki...</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Previous" xml:space="preserve">
+    <value>&amp; önceki</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_QueryBuilder" xml:space="preserve">
+    <value>&amp; Sorgu Oluşturucusu'nu çalıştırın</value>
+  </data>
+  <data name="DataAccessUIStringId.ChooseEFStoredProceduresDialog" xml:space="preserve">
+    <value>Eklemek için saklı yordamlar seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Browse" xml:space="preserve">
+    <value>Gözat...</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionErrorFormDetailPattern" xml:space="preserve">
+    <value>Bağlantı adı: {0}
+Hata iletisi: {1}</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Database" xml:space="preserve">
+    <value>Veritabanı:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_DataSetID" xml:space="preserve">
+    <value>Veri kümesi kimliği:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseDataSourceName" xml:space="preserve">
+    <value>Veri kaynağı adını girin</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseDSType" xml:space="preserve">
+    <value>Veri kaynağı türünü seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFConnectionString" xml:space="preserve">
+    <value>Bir bağlantı dizesi kullanılabilir ayarlar listesinden seçmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFConnectionString_ChooseConnection" xml:space="preserve">
+    <value>Evet, listesinden seçmeme izin ver</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFConnectionString_CustomConnection" xml:space="preserve">
+    <value>Hayır, özel bağlantı dizesi belirtme</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFContext" xml:space="preserve">
+    <value>Bir derleme için varolan veri içeriği veya Gözat seçim.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFDataMember" xml:space="preserve">
+    <value>Veri üyesi seçin</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseExcelFileDataRange" xml:space="preserve">
+    <value>Gerekli çalışma sayfası, tablo veya tanımlı ad için belirtilen aralığı atıfta seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFile" xml:space="preserve">
+    <value>Bir Excel çalışma kitabı veya CSV dosyasını seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions" xml:space="preserve">
+    <value>Alma ayarlarını belirleme.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_Culture" xml:space="preserve">
+    <value>&amp; Kültür:</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbEditConnection" xml:space="preserve">
+    <value>... Bağlantıyı yapılandırma</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbManageQueries" xml:space="preserve">
+    <value>... Sorguları yönetme</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbManageRelations" xml:space="preserve">
+    <value>... İlişkileri yönetme</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbRebuildSchema" xml:space="preserve">
+    <value>Sonuç şema yeniden</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbRequestDatabaseSchema" xml:space="preserve">
+    <value>Veritabanı şeması isteği</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlQueryCollectionEditorForm_Title" xml:space="preserve">
+    <value>Sorguları yönetme</value>
+  </data>
+  <data name="DataAccessUIStringId.StoredProcControl_Caption" xml:space="preserve">
+    <value>Saklı yordamı seçin:</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateDBSchemaCaption" xml:space="preserve">
+    <value>Veritabanı şeması isteği</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateSchemaCaption" xml:space="preserve">
+    <value>güncelleştirme şema</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateSchemaComplete" xml:space="preserve">
+    <value>veri kaynağı şemasını başarıyla güncelleştirdi.</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateSchemaDataSourceIsNotReady" xml:space="preserve">
+    <value>Dosya adı ve SourceOptions özelliklerini atanmış.</value>
+  </data>
+  <data name="DataAccessUIStringId.WaitFormWithCancel_Loading" xml:space="preserve">
+    <value>... Veri yükleme</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardCannotConnectMessage" xml:space="preserve">
+    <value>Veritabanına bağlanamıyor. Aşağıda ayrıntıları bakın.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardCannotCreateDataSourceMessage" xml:space="preserve">
+    <value>Boş veri kaynağı oluşturulamıyor. Lütfen dahil etmek için bir nesne seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardCannotRetrieveDatabasesMessage" xml:space="preserve">
+    <value>Kullanılabilir veritabanlarının listesini alamıyor. Aşağıda ayrıntıları bakın.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardConfirmExecutionMessage" xml:space="preserve">
+    <value>Sunucuda yürütmek sorgu ve sonuçta elde edilen sorgu şema elde etmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardDataSourceCreatedMessage" xml:space="preserve">
+    <value>Veri kaynağındaki verileri başarıyla oluşturuldu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardDataSourceEmptyNameMessage" xml:space="preserve">
+    <value>&lt; b &gt; veri kaynağı adı yok. &lt; /b &gt; olamaz</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardDataSourceNameExistsMessage" xml:space="preserve">
+    <value>&lt; /b &gt; &lt; b &gt; A veri kaynağı belirtilen adla zaten yok</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardDuplicatingColumnNameMessage" xml:space="preserve">
+    <value>A veri şeması '{0}' yinelenen bir sütun içerir. Tüm sütunları benzersiz adlara sahip şekilde sorguyu değiştirin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardEmptyStoredProceduresListMessage" xml:space="preserve">
+    <value>Geçerli veritabanında herhangi bir saklı yordam vardır..</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardFinishPageText" xml:space="preserve">
+    <value>Veri kaynağınıza dahil etmek için bir nesne seçin</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseConnection" xml:space="preserve">
+    <value>Varolan bir veri bağlantısını kullanmak istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseConnection_ChooseExistingConnection" xml:space="preserve">
+    <value>Evet, varolan bir bağlantı listesinden seçmeme izin ver</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseConnection_SpecifyCustomConnection" xml:space="preserve">
+    <value>Hayır, ben kendimi bağlantı parametrelerini belirtmek istiyorum</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlExpressionChanged" xml:space="preserve">
+    <value>Bu eylem SQL deyimi sıfırlar ve tüm değişikliklerinizi iptal edilecek. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlJoinCommandPattern" xml:space="preserve">
+    <value>{0} Katılabilir</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlNoSelection" xml:space="preserve">
+    <value>Hiçbir sütun seçilmedi. Lütfen devam etmek için en az bir sütun seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlRemoveTables" xml:space="preserve">
+    <value>Aşağıdaki tablolarda sorgudan kaldırılır.
+
+{0}
+Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlTableNameAlreadyExists" xml:space="preserve">
+    <value>Bir tablo ile belirtilen ad zaten var. Lütfen farklı bir tablo adı belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlTableNameEmpty" xml:space="preserve">
+    <value>Tablo adı boş olamaz.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryEditorMessageInvalidQuery" xml:space="preserve">
+    <value>Sorgu doğrulama iletisi ile başarısız oldu:
+{0}
+
+Bu sorgu atıp sıfırdan başlamak için Tamam'ı tıklatın.
+Görsel Editör ve geçerli sorgunun tutmak için İptal'i tıklatın.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryEditorTitle" xml:space="preserve">
+    <value>Sorgu Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryEditorWaitFormValidating" xml:space="preserve">
+    <value>Validating sorgu...</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_AddQueryParameter" xml:space="preserve">
+    <value>Sorgu parametresi ekleme</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderCustomSqlRequiresParameters" xml:space="preserve">
+    <value>Sorgu parametrelerini içerir ve onlar bildirilen önce yürütülemiyor. 
+Lütfen gerekli sorgu parametreleri bildirmek ve sonuçlar görmek için sonraki Sihirbazı sayfasına gidin.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderJoinTypeUpdatingConfirmation" xml:space="preserve">
+    <value>Yeni birleşim türü aşağıdaki iki tablo arasındaki tüm varolan ilişkileri uygulanacak: {0}, {1}. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderRelationBetweenTwoColumnsOfTheSameTable" xml:space="preserve">
+    <value>Aynı tabloya {0} ait iki sütun arasında bir ilişki oluşturamazsınız.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryControl_SqlString" xml:space="preserve">
+    <value>SQL dizesi:</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlAliasAlreadyExists" xml:space="preserve">
+    <value>Belirtilen diğer ad zaten. Değeri düzeltmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlDataPreviewCaption" xml:space="preserve">
+    <value>Önizleme veri (ilk 1000 satırları görüntülenir)</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_RemoveFromSelect" xml:space="preserve">
+    <value>Sorgudan kaldırır</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderButtons_Filter" xml:space="preserve">
+    <value>&amp; filtre...</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderButtons_PreviewResults" xml:space="preserve">
+    <value>&amp; önizleme sonuçları...</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderCircularRelationWarning" xml:space="preserve">
+    <value>Arasındaki {0}. {1} ve {2}. {3} sonuçları dairesel bir ilişki içinde ve eklenemiyor.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorAddRelationMessage" xml:space="preserve">
+    <value>Bir ilişki için ayrıntılı sorgu Ekle</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorColumnsHasDifferentTypesConfirmation" xml:space="preserve">
+    <value>'{0}'.' {1}' ve '{3}'.' {4}' sütunlarınız farklı türleri ({2} ve {5}). Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorEditQueryRelations" xml:space="preserve">
+    <value>' {0}' sorgu için İlişkileri Düzenle</value>
+  </data>
+  <data name="DataAccessUIStringId.PasswordRequest_FileName" xml:space="preserve">
+    <value>&amp;Dosya Adı:</value>
+  </data>
+  <data name="DataAccessUIStringId.PasswordRequest_Password" xml:space="preserve">
+    <value>&amp; parola:</value>
+  </data>
+  <data name="DataAccessUIStringId.PasswordRequest_SavePassword" xml:space="preserve">
+    <value>&amp; Parolayı Kaydet</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder" xml:space="preserve">
+    <value>Sorgu Oluşturucusu'nu</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_AddToSelect" xml:space="preserve">
+    <value>Sorguya ekleyin</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_AllowEdit" xml:space="preserve">
+    <value>&amp; düzenlenmesine ver SQL</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSConstructorEditorTitle" xml:space="preserve">
+    <value>Oluşturucu ayarlarını yapılandırma</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSDataMemberEditorTitle" xml:space="preserve">
+    <value>Veri üyesi yapılandırmak</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSDataSourceEditorTitle" xml:space="preserve">
+    <value>Veri kaynağı yapılandırma</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsAbstractTypeMessage" xml:space="preserve">
+    <value>Cant statik veya soyut sınıftır {0} türünde bir nesne oluşturmak için bir Oluşturucu kullanın veya arabirim.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsCannotResolveDataMember" xml:space="preserve">
+    <value>Belirtilen veri üyesi çözümlenemiyor. Veri üyesi ve parametreleri belirtmek için veri üyesi Düzenleyicisi kullanın.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsCannotResolveDataSource" xml:space="preserve">
+    <value>Belirtilen nesne türü çözümlenemiyor. Veri parametreleri, üye ve/veya Oluşturucu nesnesinin derleme, dönüş türü belirtmek için veri kaynağı editörü kullanın.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsIsPropertyMessage" xml:space="preserve">
+    <value>{0} veri üyesi bir özelliktir. Parametreler alabilmesi için bir veri üyesi bir yöntem olmalıdır.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsNoDataMemberMessage" xml:space="preserve">
+    <value>Sürece DataMember özellik değeri atanmış olan parametre belirleyemez.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsNoDataSetMessage" xml:space="preserve">
+    <value>Veri kaynağını belirtilmedikçe geçerli işlemi başarılı olamaz.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsNoMembersInType" xml:space="preserve">
+    <value>{0} veri kaynağı türü için bağlama uygun herhangi bir üye sağlamaz.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsNoParametersMessage" xml:space="preserve">
+    <value>Bu parametre kullanmadan bir yöntem olduğundan {0} veri üyesi parametreleri alınamıyor.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsStaticMemberMessage" xml:space="preserve">
+    <value>{0} statik bir üyesidir. {1} sınıfının bir örneğini oluşturmak için bir kurucu kullanarak uygun değil.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSParametersEditorTitle" xml:space="preserve">
+    <value>Parametrelerini yapılandırma</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorForm_Title" xml:space="preserve">
+    <value>Ana ayrıntı ilişkisi Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidColumnNameMessage" xml:space="preserve">
+    <value>Belirtilen sütun bulamıyor: "{0}". Varolan bir sütun adı belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidColumnQueryNameMessage" xml:space="preserve">
+    <value>Belirtilen sorgu bulamıyor: "{0}". Varolan bir sorgu adını bir sütuna seçmeden önce belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidQueryNameMessage" xml:space="preserve">
+    <value>Belirtilen sorgu bulamıyor: "{0}". Varolan bir sorgu adı belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidRelationNameMessage" xml:space="preserve">
+    <value>Belirtilen ada sahip bir ilişki zaten varolduğundan.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorLabelInvalidRelationsText" xml:space="preserve">
+    <value>{0} geçersiz relation(s)</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorMultipleValidationErrorsMessage" xml:space="preserve">
+    <value>sorgu doğrulama sırasında aşağıdaki hatalar oluştu: {0}</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorRemoveConditionMessage" xml:space="preserve">
+    <value>Koşul kaldırma</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorNotEqualOperator" xml:space="preserve">
+    <value>için eşit değil</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinInformation" xml:space="preserve">
+    <value>Bilgi katılmak</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataCustomError" xml:space="preserve">
+    <value>Hata iletisi:
+{0}</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataException" xml:space="preserve">
+    <value>Özel durumun oluştuğu için veri yükleme başarısız oldu.</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataSourceAborted" xml:space="preserve">
+    <value>Veri yükleme iptal edildi.</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataSourceOpeningConnectionError" xml:space="preserve">
+    <value>Bağlantı adı: {0}
+Hata iletisi:
+{1}</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDatasourceOutOfMemoryError" xml:space="preserve">
+    <value>Veri yüklemek için yeterli bellek yok</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataSqlError" xml:space="preserve">
+    <value>SQL yürütme hatası:
+{0}</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorLessOperator" xml:space="preserve">
+    <value>Mi daha az</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorFillAllFieldsException" xml:space="preserve">
+    <value>Bazı alanları boş. Lütfen tüm boş alanları doldurun veya devam etmek için ilgili koşulları kaldırın.</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_EmptyExpression" xml:space="preserve">
+    <value>İfade dizesi boş olamaz.</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_ExpressionContainsErrors" xml:space="preserve">
+    <value>İfade hataları içeriyor.</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_DefinedNameItem" xml:space="preserve">
+    <value>Adı tanımlı</value>
+  </data>
+  <data name="DataAccessUIStringId.FilterStringEditorInvalidQuery" xml:space="preserve">
+    <value>bir hata oluştu: {0}
+Veritabanı şemasıyla eşleşen veya bu sorgu atma bağlantı ayarlarını güncelleştirmek.</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_CheckText" xml:space="preserve">
+    <value>&amp; yalnızca seçin</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_Distinct" xml:space="preserve">
+    <value>Sadece farklı bir değer seçin</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_Filter" xml:space="preserve">
+    <value>&amp; filtre</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_GroupFilter" xml:space="preserve">
+    <value>&amp; Grup filtresi</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_SkipTooltip" xml:space="preserve">
+    <value>Bu seçenek yalnızca sonuç kümesi sıralandığında kullanılabilir</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_TopAndSkipText" xml:space="preserve">
+    <value>kayıtların dizin ile başlayan</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditor" xml:space="preserve">
+    <value>Editör katılın</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditor_JoinType" xml:space="preserve">
+    <value>birleştirmek türü:</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEmptyColumnText" xml:space="preserve">
+    <value>&lt; sütun seçin &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEmptyTableText" xml:space="preserve">
+    <value>&lt; Tablo &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceDesignerVerbUpdateSchema" xml:space="preserve">
+    <value>Sonuç şema yeniden</value>
+  </data>
+  <data name="DataAccessUIStringId.ErrorFormDatasourceInitializationText" xml:space="preserve">
+    <value>bir veya daha fazla veri kaynakları veri yüklenemiyor. Ayrıntıları aşağıda bkz.</value>
+  </data>
+  <data name="DataAccessUIStringId.EFEditorsNoStoredProcs" xml:space="preserve">
+    <value>Hiçbir saklı yordamlar, veri içeriğinde kullanılabilir.</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataMemberEditorTitle" xml:space="preserve">
+    <value>Varlık çerçeve veri üye Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerTypeEmbedded" xml:space="preserve">
+    <value>Katıştırılmış</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMultiQuery" xml:space="preserve">
+    <value>Bir sorgu oluşturmak veya bir saklı yordam seçin.
+Belirli tabloları ve/veya Görünüm seçili veri sütunları otomatik olarak ayrı bir sorgu dahil edilir.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureParameters" xml:space="preserve">
+    <value>Sorgu parametrelerini yapılandırmak ve sonucu önizlemek.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery" xml:space="preserve">
+    <value>Bir sorgu oluşturmak veya bir saklı yordam seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery_StoredProcedure" xml:space="preserve">
+    <value>Saklı yordam</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureStoredProcedures" xml:space="preserve">
+    <value>Saklı yordamlar veri kaynağı, kendi parametrelerini yapılandırmak ve sonucu önizleme eklemek.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConnectionProperties" xml:space="preserve">
+    <value>Veri sağlayıcı seçin ve bağlantı özelliklerini belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageEFConnectionProperties" xml:space="preserve">
+    <value>Bir bağlantı dizesi belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageEFConnectionProperties_CustomConnection" xml:space="preserve">
+    <value>Özel bağlantı dizesi belirtme</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageEFConnectionProperties_DefaultConnection" xml:space="preserve">
+    <value>Varsayılan bağlantı dizesi kullan</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageEFConnectionProperties_SaveToConfig" xml:space="preserve">
+    <value>Bağlantı dizesini yapılandırma dosyası kaydedin:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageObjectConstructorParameters" xml:space="preserve">
+    <value>Oluşturucu parametreleri belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageObjectMemberParameters" xml:space="preserve">
+    <value>Yöntem parametreleri belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection" xml:space="preserve">
+    <value>Bağlantı dizesini kaydedin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_ConfirmSaving" xml:space="preserve">
+    <value>Evet, bağlantı olarak kaydetmek:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_SaveConnectionString" xml:space="preserve">
+    <value>Bağlantı dizesini uygulama yapılandırma dosyasına kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_SaveCredentials" xml:space="preserve">
+    <value>Evet, kurtarmak tüm gerekli parametreleri</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_SaveCredentialsQuestion" xml:space="preserve">
+    <value>Bağlantı sunucu kimlik doğrulaması kullanır.
+Kullanıcı adınızı ve parolanızı kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_SkipSaveCredentials" xml:space="preserve">
+    <value>Hayır, kimlik bilgileri güvenlik nedenleriyle atla</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardTitleDatasource" xml:space="preserve">
+    <value>Veri kaynağı Sihirbazı</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardTitleODS" xml:space="preserve">
+    <value>ObjectDataSource Sihirbazı</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_BoundTo" xml:space="preserve">
+    <value>{0} öğesine bağlı</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_CreateQueryParameter" xml:space="preserve">
+    <value>Sorgu parametresi oluşturmak</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_SelectParameter" xml:space="preserve">
+    <value>&lt; bir parametre seçin &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.RebuildResultSchemaCaption" xml:space="preserve">
+    <value>Sonuç şema yeniden</value>
+  </data>
+  <data name="DataAccessUIStringId.RebuildResultSchemaComplete" xml:space="preserve">
+    <value>Sonucu şema başarıyla yeniden.</value>
+  </data>
+  <data name="DataAccessUIStringId.RebuildResultSchemaConfirmationText" xml:space="preserve">
+    <value>Sunucu üzerinde aşağıdaki sorgu yürütmek ve elde edilen şema elde etmek istiyor musunuz?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_Encoding" xml:space="preserve">
+    <value>&amp; kodlama:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_FirstRowAsFieldNames" xml:space="preserve">
+    <value>Değerlerini kullanın &amp; ilk satırı alan adları olarak</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_NewLineType" xml:space="preserve">
+    <value>&amp; yeni satır türü:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_SkipHiddenColumns" xml:space="preserve">
+    <value>Sütun &amp; gizli atla</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_SkipHiddenRows" xml:space="preserve">
+    <value>Satır &amp; gizli atla</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_TextQualifier" xml:space="preserve">
+    <value>Metin &amp; Elemesi:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_ValueSeparator" xml:space="preserve">
+    <value>Değeri &amp; ayırıcı:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectAssembly" xml:space="preserve">
+    <value>Veri kaynağı sınıf türü tanımını içeren bir derleme seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectAssembly_ShowOnlyHighlighted" xml:space="preserve">
+    <value>Yalnızca vurgulanan derlemeler göster</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode" xml:space="preserve">
+    <value>Veri bağlama modunu seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode_RetrieveData" xml:space="preserve">
+    <value>Gerçek veri almak</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode_RetrieveDataDescription" xml:space="preserve">
+    <value>Nesne veri kaynağının otomatik olarak kullanılabilir kurucularından birini kullanarak belirtilen türün bir örneğini oluşturur. Sadece bir Oluşturucu varsa, bu Oluşturucu kullanılacaktır.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode_RetrieveSchema" xml:space="preserve">
+    <value>Veri kaynağı şemasını al</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode_RetrieveSchemaDescription" xml:space="preserve">
+    <value>Yalnızca veri kaynağı şemasını belirtilen nesneden gerçek veri besleme olmadan alınır.
+
+El ile gerçek veri almak için bir veri kaynak nesne örnek kodda oluşturabilir ve bunu ObjectDataSource.DataSource özelliğine atayın.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectConstructor" xml:space="preserve">
+    <value>Bir veri kaynağı Oluşturucu seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectConstructor_ShowOnlyHighlighted" xml:space="preserve">
+    <value>Yalnızca vurgulanan oluşturucular göster</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectMember" xml:space="preserve">
+    <value>Veri kaynağı üyesi seçin (gerekirse).</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectMember_BindToMember" xml:space="preserve">
+    <value>Bağlamak için bir üyeyi seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectMember_BindToObject" xml:space="preserve">
+    <value>Üye seçmek, tüm nesneyi bağlamak değil.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectMember_ShowOnlyHighlighted" xml:space="preserve">
+    <value>Yalnızca vurgulanan üyeleri göster</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectType" xml:space="preserve">
+    <value>Veri kaynağı türünü seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectType_ShowOnlyHighlighted" xml:space="preserve">
+    <value>Yalnızca vurgulanan türlerini göster</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureExcelFileColumns" xml:space="preserve">
+    <value>Gerekli sütunları seçip ayarlarını belirtin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureExcelFileColumns_ColumnExist" xml:space="preserve">
+    <value>Sütun ile '{0}' adı allready var.</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageCannotLoadDatabasesList" xml:space="preserve">
+    <value>Veritabanları listesi yükleme sırasında hata oluştu.</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageLessThanTwoQueries" xml:space="preserve">
+    <value>En az iki sorgu bir ana ayrıntı ilişkisi oluşturmak için gereklidir.</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeAscending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView" xml:space="preserve">
+    <value>Filtre Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_Rename" xml:space="preserve">
+    <value>Yeniden adlandırma</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_QueryName" xml:space="preserve">
+    <value>Sorgu</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Cancel" xml:space="preserve">
+    <value>&amp;İptal</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_SortDescending" xml:space="preserve">
+    <value>Azalan sıralama</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Expression" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_TableItem" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumn" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_GroupBy" xml:space="preserve">
+    <value>Göre Gruplandır</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeDescending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Add" xml:space="preserve">
+    <value>&amp; Ekle</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Password" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageBoxErrorTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_OK" xml:space="preserve">
+    <value>&amp;Tamam</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderTable" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Remove" xml:space="preserve">
+    <value>&amp;Kaldır</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery_Query" xml:space="preserve">
+    <value>Sorgu</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageBoxConfirmationTitle" xml:space="preserve">
+    <value>Onay</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Aggregate" xml:space="preserve">
+    <value>Toplama</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Type" xml:space="preserve">
+    <value>Türü</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_Title" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_SortAscending" xml:space="preserve">
+    <value>Artan sıralama</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageBoxWarningTitle" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+</root>

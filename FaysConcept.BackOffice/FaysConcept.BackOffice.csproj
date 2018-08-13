@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26A778F7-A902-4ED8-A907-8C0A26F6EFA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FaysConcept.BackOffice</RootNamespace>
+    <AssemblyName>FaysConcept.BackOffice</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.1" />
+    <Reference Include="DevExpress.Data.v17.1" />
+    <Reference Include="DevExpress.Printing.v17.1.Core" />
+    <Reference Include="DevExpress.Utils.v17.1" />
+    <Reference Include="DevExpress.XtraBars.v17.1" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v17.1" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ana Menu\FrmAnaMenuBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana Menu\FrmAnaMenuBilgi.Designer.cs">
+      <DependentUpon>FrmAnaMenuBilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cari\FrmCariHareket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cari\FrmCariHareket.Designer.cs">
+      <DependentUpon>FrmCariHareket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cari\FrmCariIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cari\FrmCariIslem.Designer.cs">
+      <DependentUpon>FrmCariIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cari\FrmCariKart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cari\FrmCariKart.Designer.cs">
+      <DependentUpon>FrmCariKart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cari\FrmCariSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cari\FrmCariSec.Designer.cs">
+      <DependentUpon>FrmCariSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Depo\FrmDepoHareket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depo\FrmDepoHareket.Designer.cs">
+      <DependentUpon>FrmDepoHareket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Depo\FrmDepoIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depo\FrmDepoIslem.Designer.cs">
+      <DependentUpon>FrmDepoIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Depo\FrmDepoKart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depo\FrmDepoKart.Designer.cs">
+      <DependentUpon>FrmDepoKart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Depo\FrmDepoSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depo\FrmDepoSec.Designer.cs">
+      <DependentUpon>FrmDepoSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisler\FrmFis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fisler\FrmFis.Designer.cs">
+      <DependentUpon>FrmFis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisler\FrmFisIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fisler\FrmFisIslem.Designer.cs">
+      <DependentUpon>FrmFisIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasalar\FrmKasa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasalar\FrmKasa.Designer.cs">
+      <DependentUpon>FrmKasa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasalar\FrmKasaHareket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasalar\FrmKasaHareket.Designer.cs">
+      <DependentUpon>FrmKasaHareket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasalar\FrmKasaIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasalar\FrmKasaIslem.Designer.cs">
+      <DependentUpon>FrmKasaIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasalar\FrmKasaSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasalar\FrmKasaSec.Designer.cs">
+      <DependentUpon>FrmKasaSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ana Menu\FrmAnaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana Menu\FrmAnaMenu.Designer.cs">
+      <DependentUpon>FrmAnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stok\FrmStok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stok\FrmStok.Designer.cs">
+      <DependentUpon>FrmStok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stok\FrmStokHareket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stok\FrmStokHareket.Designer.cs">
+      <DependentUpon>FrmStokHareket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stok\FrmStokIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stok\FrmStokIslem.Designer.cs">
+      <DependentUpon>FrmStokIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stok\FrmStokSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stok\FrmStokSec.Designer.cs">
+      <DependentUpon>FrmStokSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ödeme Türü\FrmOdemeIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ödeme Türü\FrmOdemeIslem.Designer.cs">
+      <DependentUpon>FrmOdemeIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ödeme Türü\FrmOdemeTuru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ödeme Türü\FrmOdemeTuru.Designer.cs">
+      <DependentUpon>FrmOdemeTuru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ödeme Türü\FrmOdemeTuruHareket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ödeme Türü\FrmOdemeTuruHareket.Designer.cs">
+      <DependentUpon>FrmOdemeTuruHareket.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ana Menu\FrmAnaMenuBilgi.resx">
+      <DependentUpon>FrmAnaMenuBilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cari\FrmCariHareket.resx">
+      <DependentUpon>FrmCariHareket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cari\FrmCariIslem.resx">
+      <DependentUpon>FrmCariIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cari\FrmCariKart.resx">
+      <DependentUpon>FrmCariKart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cari\FrmCariSec.resx">
+      <DependentUpon>FrmCariSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Depo\FrmDepoHareket.resx">
+      <DependentUpon>FrmDepoHareket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Depo\FrmDepoIslem.resx">
+      <DependentUpon>FrmDepoIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Depo\FrmDepoKart.resx">
+      <DependentUpon>FrmDepoKart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Depo\FrmDepoSec.resx">
+      <DependentUpon>FrmDepoSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisler\FrmFis.resx">
+      <DependentUpon>FrmFis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisler\FrmFisIslem.resx">
+      <DependentUpon>FrmFisIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasalar\FrmKasa.resx">
+      <DependentUpon>FrmKasa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasalar\FrmKasaHareket.resx">
+      <DependentUpon>FrmKasaHareket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasalar\FrmKasaIslem.resx">
+      <DependentUpon>FrmKasaIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasalar\FrmKasaSec.resx">
+      <DependentUpon>FrmKasaSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ana Menu\FrmAnaMenu.resx">
+      <DependentUpon>FrmAnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stok\FrmStok.resx">
+      <DependentUpon>FrmStok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stok\FrmStokHareket.resx">
+      <DependentUpon>FrmStokHareket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stok\FrmStokIslem.resx">
+      <DependentUpon>FrmStokIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stok\FrmStokSec.resx">
+      <DependentUpon>FrmStokSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ödeme Türü\FrmOdemeIslem.resx">
+      <DependentUpon>FrmOdemeIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ödeme Türü\FrmOdemeTuru.resx">
+      <DependentUpon>FrmOdemeTuru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ödeme Türü\FrmOdemeTuruHareket.resx">
+      <DependentUpon>FrmOdemeTuruHareket.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\FaysConcept.Entities.Tables.Cari.datasource" />
+    <None Include="Properties\DataSources\FaysConcept.Entities.Tables.Depo.datasource" />
+    <None Include="Properties\DataSources\FaysConcept.Entities.Tables.Fis.datasource" />
+    <None Include="Properties\DataSources\FaysConcept.Entities.Tables.Kasa.datasource" />
+    <None Include="Properties\DataSources\FaysConcept.Entities.Tables.KasaHareket.datasource" />
+    <None Include="Properties\DataSources\FaysConcept.Entities.Tables.OdemeTuru.datasource" />
+    <None Include="Properties\DataSources\FaysConcept.Entities.Tables.Stok.datasource" />
+    <None Include="Properties\DataSources\FaysConcept.Entities.Tables.StokHareket.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FaysConcept.Entities\FaysConcept.Entities.csproj">
+      <Project>{b2d155b4-65e6-4bba-84d1-26936e7a1413}</Project>
+      <Name>FaysConcept.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FaysConcept.FrontOffice\FaysConcept.FrontOffice.csproj">
+      <Project>{25430E6A-2BA0-4ABB-BEDE-886AB0E5B719}</Project>
+      <Name>FaysConcept.FrontOffice</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
