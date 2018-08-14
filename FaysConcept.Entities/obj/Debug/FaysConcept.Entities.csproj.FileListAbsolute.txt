@@ -103,3 +103,21 @@ C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\obj\Debu
 C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
 C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
 C:\Anlas Otomasyon\Projeler\GitHub Güncel\Concept\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll.config
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.pdb
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\EntityFramework.dll
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\FluentValidation.dll
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\System.ValueTuple.dll
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\EntityFramework.xml
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\FluentValidation.xml
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\bin\Debug\System.ValueTuple.xml
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csprojAssemblyReference.cache
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
+C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
