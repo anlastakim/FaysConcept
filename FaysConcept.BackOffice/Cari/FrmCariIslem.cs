@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using FaysConcept.BackOffice.Tanım;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
 
@@ -85,6 +86,44 @@ namespace FaysConcept.BackOffice.Cari
         private void FrmCariIslem_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCariGrubu_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
+            switch (e.Button.Index)
+            {
+                case 0:
+                    FrmTanim form=new FrmTanim(FrmTanim.TanimTuru.CariGrubu);
+                    form.ShowDialog();
+                    if (form.secildi)
+                    {
+                        btnCariGrubu.Text = form._entity.Tanimi; // seçtiğin tanimi ilgili carigrubu textine yaz.
+
+                    }
+                    break; // switch kullanımında kodun bittiğini belirtiyorsunuz
+                case 1:
+                    btnCariGrubu.Text = null;
+                    break;
+            }
+        }
+
+        private void btnozelkod1_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
+            switch (e.Button.Index)
+            {
+                case 0:
+                    FrmTanim form = new FrmTanim(FrmTanim.TanimTuru.CariOzelKod1);
+                    form.ShowDialog();
+                    if (form.secildi)
+                    {
+                        btnozelkod1.Text = form._entity.Tanimi; // seçtiğin tanimi ilgili carigrubu textine yaz.
+
+                    }
+                    break; // switch kullanımında kodun bittiğini belirtiyorsunuz
+                case 1:
+                    btnozelkod1.Text = null;
+                    break;
+            }
         }
     }
 }

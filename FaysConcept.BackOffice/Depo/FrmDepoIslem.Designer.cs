@@ -139,28 +139,28 @@
             // 
             this.txtSemt.Location = new System.Drawing.Point(105, 103);
             this.txtSemt.Name = "txtSemt";
-            this.txtSemt.Size = new System.Drawing.Size(250, 20);
+            this.txtSemt.Size = new System.Drawing.Size(449, 20);
             this.txtSemt.TabIndex = 12;
             // 
             // txtIlce
             // 
             this.txtIlce.Location = new System.Drawing.Point(105, 76);
             this.txtIlce.Name = "txtIlce";
-            this.txtIlce.Size = new System.Drawing.Size(250, 20);
+            this.txtIlce.Size = new System.Drawing.Size(449, 20);
             this.txtIlce.TabIndex = 13;
             // 
             // txtIl
             // 
             this.txtIl.Location = new System.Drawing.Point(104, 49);
             this.txtIl.Name = "txtIl";
-            this.txtIl.Size = new System.Drawing.Size(250, 20);
+            this.txtIl.Size = new System.Drawing.Size(449, 20);
             this.txtIl.TabIndex = 14;
             // 
             // txtTelefon
             // 
             this.txtTelefon.Location = new System.Drawing.Point(105, 23);
             this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(249, 20);
+            this.txtTelefon.Size = new System.Drawing.Size(448, 20);
             this.txtTelefon.TabIndex = 15;
             // 
             // labelControl13
@@ -231,7 +231,7 @@
             // 
             this.txtAdres.Location = new System.Drawing.Point(104, 129);
             this.txtAdres.Name = "txtAdres";
-            this.txtAdres.Size = new System.Drawing.Size(250, 99);
+            this.txtAdres.Size = new System.Drawing.Size(450, 99);
             this.txtAdres.TabIndex = 7;
             // 
             // labelControl9
@@ -274,7 +274,7 @@
             // 
             this.txtYetkiliKodu.Location = new System.Drawing.Point(104, 24);
             this.txtYetkiliKodu.Name = "txtYetkiliKodu";
-            this.txtYetkiliKodu.Size = new System.Drawing.Size(250, 20);
+            this.txtYetkiliKodu.Size = new System.Drawing.Size(450, 20);
             this.txtYetkiliKodu.TabIndex = 2;
             // 
             // labelControl14
@@ -404,7 +404,7 @@
             // 
             this.txtAciklama.Location = new System.Drawing.Point(105, 23);
             this.txtAciklama.Name = "txtAciklama";
-            this.txtAciklama.Size = new System.Drawing.Size(250, 99);
+            this.txtAciklama.Size = new System.Drawing.Size(449, 99);
             this.txtAciklama.TabIndex = 9;
             // 
             // labelControl1

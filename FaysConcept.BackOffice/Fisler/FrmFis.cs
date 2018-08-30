@@ -27,7 +27,7 @@ namespace FaysConcept.BackOffice.Fisler
 
         private void FrmFis_Load(object sender, EventArgs e)
         {
-
+            Listele();
         }
 
         private void Listele()

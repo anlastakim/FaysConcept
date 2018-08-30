@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCariIslem));
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions13 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions14 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
@@ -42,6 +40,8 @@
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions8 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions9 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions10 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions11 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions12 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.grupgenel = new DevExpress.XtraEditors.GroupControl();
@@ -673,13 +673,13 @@
             // 
             this.btnozelkod3.Location = new System.Drawing.Point(104, 78);
             this.btnozelkod3.Name = "btnozelkod3";
-            editorButtonImageOptions13.ImageIndex = 0;
-            editorButtonImageOptions13.ImageList = this.ımageList1;
-            editorButtonImageOptions14.ImageIndex = 1;
-            editorButtonImageOptions14.ImageList = this.ımageList1;
+            editorButtonImageOptions1.ImageIndex = 0;
+            editorButtonImageOptions1.ImageList = this.ımageList1;
+            editorButtonImageOptions2.ImageIndex = 1;
+            editorButtonImageOptions2.ImageList = this.ımageList1;
             this.btnozelkod3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions13, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions14, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions1, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions2, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnozelkod3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnozelkod3.Size = new System.Drawing.Size(250, 22);
             this.btnozelkod3.TabIndex = 8;
@@ -688,28 +688,29 @@
             // 
             this.btnozelkod1.Location = new System.Drawing.Point(104, 51);
             this.btnozelkod1.Name = "btnozelkod1";
-            editorButtonImageOptions1.ImageIndex = 0;
-            editorButtonImageOptions1.ImageList = this.ımageList1;
-            editorButtonImageOptions2.ImageIndex = 1;
-            editorButtonImageOptions2.ImageList = this.ımageList1;
+            editorButtonImageOptions3.ImageIndex = 0;
+            editorButtonImageOptions3.ImageList = this.ımageList1;
+            editorButtonImageOptions4.ImageIndex = 1;
+            editorButtonImageOptions4.ImageList = this.ımageList1;
             this.btnozelkod1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions1, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions2, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions3, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions4, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnozelkod1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnozelkod1.Size = new System.Drawing.Size(250, 22);
             this.btnozelkod1.TabIndex = 9;
+            this.btnozelkod1.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnozelkod1_ButtonClick);
             // 
             // btnozelkod4
             // 
             this.btnozelkod4.Location = new System.Drawing.Point(459, 78);
             this.btnozelkod4.Name = "btnozelkod4";
-            editorButtonImageOptions3.ImageIndex = 0;
-            editorButtonImageOptions3.ImageList = this.ımageList1;
-            editorButtonImageOptions4.ImageIndex = 1;
-            editorButtonImageOptions4.ImageList = this.ımageList1;
+            editorButtonImageOptions5.ImageIndex = 0;
+            editorButtonImageOptions5.ImageList = this.ımageList1;
+            editorButtonImageOptions6.ImageIndex = 1;
+            editorButtonImageOptions6.ImageList = this.ımageList1;
             this.btnozelkod4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions3, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions4, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions5, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions6, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnozelkod4.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnozelkod4.Size = new System.Drawing.Size(250, 22);
             this.btnozelkod4.TabIndex = 10;
@@ -718,13 +719,13 @@
             // 
             this.btnozelkod2.Location = new System.Drawing.Point(459, 51);
             this.btnozelkod2.Name = "btnozelkod2";
-            editorButtonImageOptions5.ImageIndex = 0;
-            editorButtonImageOptions5.ImageList = this.ımageList1;
-            editorButtonImageOptions6.ImageIndex = 1;
-            editorButtonImageOptions6.ImageList = this.ımageList1;
+            editorButtonImageOptions7.ImageIndex = 0;
+            editorButtonImageOptions7.ImageList = this.ımageList1;
+            editorButtonImageOptions8.ImageIndex = 1;
+            editorButtonImageOptions8.ImageList = this.ımageList1;
             this.btnozelkod2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions5, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions6, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions7, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions8, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnozelkod2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnozelkod2.Size = new System.Drawing.Size(250, 22);
             this.btnozelkod2.TabIndex = 11;
@@ -733,13 +734,13 @@
             // 
             this.btncarialtgrubu.Location = new System.Drawing.Point(459, 24);
             this.btncarialtgrubu.Name = "btncarialtgrubu";
-            editorButtonImageOptions7.ImageIndex = 0;
-            editorButtonImageOptions7.ImageList = this.ımageList1;
-            editorButtonImageOptions8.ImageIndex = 1;
-            editorButtonImageOptions8.ImageList = this.ımageList1;
+            editorButtonImageOptions9.ImageIndex = 0;
+            editorButtonImageOptions9.ImageList = this.ımageList1;
+            editorButtonImageOptions10.ImageIndex = 1;
+            editorButtonImageOptions10.ImageList = this.ımageList1;
             this.btncarialtgrubu.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions7, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions8, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions9, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions10, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btncarialtgrubu.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btncarialtgrubu.Size = new System.Drawing.Size(250, 22);
             this.btncarialtgrubu.TabIndex = 12;
@@ -748,16 +749,17 @@
             // 
             this.btnCariGrubu.Location = new System.Drawing.Point(104, 23);
             this.btnCariGrubu.Name = "btnCariGrubu";
-            editorButtonImageOptions9.ImageIndex = 0;
-            editorButtonImageOptions9.ImageList = this.ımageList1;
-            editorButtonImageOptions10.ImageIndex = 1;
-            editorButtonImageOptions10.ImageList = this.ımageList1;
+            editorButtonImageOptions11.ImageIndex = 0;
+            editorButtonImageOptions11.ImageList = this.ımageList1;
+            editorButtonImageOptions12.ImageIndex = 1;
+            editorButtonImageOptions12.ImageList = this.ımageList1;
             this.btnCariGrubu.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions9, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions10, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions11, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions12, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnCariGrubu.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnCariGrubu.Size = new System.Drawing.Size(250, 22);
             this.btnCariGrubu.TabIndex = 13;
+            this.btnCariGrubu.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnCariGrubu_ButtonClick);
             // 
             // labelControl10
             // 

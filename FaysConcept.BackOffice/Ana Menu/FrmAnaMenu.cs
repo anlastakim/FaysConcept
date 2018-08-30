@@ -17,6 +17,7 @@ using FaysConcept.BackOffice.Depo;
 using FaysConcept.BackOffice.Fisler;
 using FaysConcept.BackOffice.Kasalar;
 using FaysConcept.BackOffice.Stok;
+using FaysConcept.BackOffice.Tanım;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
 using FaysConcept.Entities.Tables;
@@ -120,6 +121,11 @@ namespace FaysConcept.BackOffice
             FrmKasa form = new FrmKasa();
             form.MdiParent = this;
             form.Show();
+        }
+
+        private void barButtonItem21_ItemClick(object sender, ItemClickEventArgs e)
+        {
+           
         }
     }
 }

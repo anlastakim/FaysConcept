@@ -83,8 +83,9 @@
             this.lblBaslik.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.lblBaslik.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblBaslik.Location = new System.Drawing.Point(0, 0);
+            this.lblBaslik.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.lblBaslik.Name = "lblBaslik";
-            this.lblBaslik.Size = new System.Drawing.Size(962, 59);
+            this.lblBaslik.Size = new System.Drawing.Size(1976, 104);
             this.lblBaslik.TabIndex = 2;
             this.lblBaslik.Text = "Fiş Hareketleri";
             // 
@@ -96,9 +97,10 @@
             this.grpMenu.Controls.Add(this.btnsil);
             this.grpMenu.Controls.Add(this.btnduzenle);
             this.grpMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpMenu.Location = new System.Drawing.Point(0, 483);
+            this.grpMenu.Location = new System.Drawing.Point(0, 974);
+            this.grpMenu.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.grpMenu.Name = "grpMenu";
-            this.grpMenu.Size = new System.Drawing.Size(962, 69);
+            this.grpMenu.Size = new System.Drawing.Size(1976, 122);
             this.grpMenu.TabIndex = 3;
             this.grpMenu.Text = "Menü";
             // 
@@ -108,9 +110,10 @@
             this.dropDownButton1.DropDownControl = this.popupMenu1;
             this.dropDownButton1.ImageOptions.ImageIndex = 12;
             this.dropDownButton1.ImageOptions.ImageList = this.imgmenu;
-            this.dropDownButton1.Location = new System.Drawing.Point(12, 22);
+            this.dropDownButton1.Location = new System.Drawing.Point(20, 39);
+            this.dropDownButton1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.dropDownButton1.Name = "dropDownButton1";
-            this.dropDownButton1.Size = new System.Drawing.Size(87, 43);
+            this.dropDownButton1.Size = new System.Drawing.Size(145, 76);
             this.dropDownButton1.TabIndex = 5;
             this.dropDownButton1.Text = "Ekle";
             // 
@@ -154,15 +157,17 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(962, 0);
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.barDockControlTop.Size = new System.Drawing.Size(1976, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 552);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 1096);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(962, 0);
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1976, 0);
             // 
             // barDockControlLeft
             // 
@@ -170,15 +175,17 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 552);
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1096);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(962, 0);
+            this.barDockControlRight.Location = new System.Drawing.Point(1976, 0);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 552);
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 1096);
             // 
             // imgmenu
             // 
@@ -218,9 +225,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnkapat.ImageOptions.ImageIndex = 5;
             this.btnkapat.ImageOptions.ImageList = this.imgmenu;
-            this.btnkapat.Location = new System.Drawing.Point(863, 22);
+            this.btnkapat.Location = new System.Drawing.Point(1811, 39);
+            this.btnkapat.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnkapat.Name = "btnkapat";
-            this.btnkapat.Size = new System.Drawing.Size(87, 42);
+            this.btnkapat.Size = new System.Drawing.Size(145, 74);
             this.btnkapat.TabIndex = 4;
             this.btnkapat.Text = "Kapat";
             this.btnkapat.Click += new System.EventHandler(this.btnkapat_Click);
@@ -231,9 +239,10 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.btnguncelle.ImageOptions.ImageIndex = 17;
             this.btnguncelle.ImageOptions.ImageList = this.imgmenu;
-            this.btnguncelle.Location = new System.Drawing.Point(291, 22);
+            this.btnguncelle.Location = new System.Drawing.Point(485, 39);
+            this.btnguncelle.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnguncelle.Name = "btnguncelle";
-            this.btnguncelle.Size = new System.Drawing.Size(87, 42);
+            this.btnguncelle.Size = new System.Drawing.Size(145, 74);
             this.btnguncelle.TabIndex = 4;
             this.btnguncelle.Text = "Güncelle";
             this.btnguncelle.Click += new System.EventHandler(this.btnguncelle_Click);
@@ -244,9 +253,10 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.btnsil.ImageOptions.ImageIndex = 13;
             this.btnsil.ImageOptions.ImageList = this.imgmenu;
-            this.btnsil.Location = new System.Drawing.Point(198, 23);
+            this.btnsil.Location = new System.Drawing.Point(330, 41);
+            this.btnsil.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnsil.Name = "btnsil";
-            this.btnsil.Size = new System.Drawing.Size(87, 42);
+            this.btnsil.Size = new System.Drawing.Size(145, 74);
             this.btnsil.TabIndex = 4;
             this.btnsil.Text = "Sil";
             this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
@@ -257,19 +267,22 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.btnduzenle.ImageOptions.ImageIndex = 14;
             this.btnduzenle.ImageOptions.ImageList = this.imgmenu;
-            this.btnduzenle.Location = new System.Drawing.Point(105, 23);
+            this.btnduzenle.Location = new System.Drawing.Point(175, 41);
+            this.btnduzenle.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnduzenle.Name = "btnduzenle";
-            this.btnduzenle.Size = new System.Drawing.Size(87, 42);
+            this.btnduzenle.Size = new System.Drawing.Size(145, 74);
             this.btnduzenle.TabIndex = 3;
             this.btnduzenle.Text = "Düzenle";
             // 
             // gridControlFisler
             // 
             this.gridControlFisler.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControlFisler.Location = new System.Drawing.Point(0, 59);
+            this.gridControlFisler.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.gridControlFisler.Location = new System.Drawing.Point(0, 104);
             this.gridControlFisler.MainView = this.gridViewFisler;
+            this.gridControlFisler.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.gridControlFisler.Name = "gridControlFisler";
-            this.gridControlFisler.Size = new System.Drawing.Size(962, 424);
+            this.gridControlFisler.Size = new System.Drawing.Size(1976, 870);
             this.gridControlFisler.TabIndex = 4;
             this.gridControlFisler.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewFisler});
@@ -298,98 +311,110 @@
             // 
             this.colId.FieldName = "Id";
             this.colId.Name = "colId";
-            this.colId.Visible = true;
-            this.colId.VisibleIndex = 0;
+            this.colId.OptionsColumn.AllowEdit = false;
+            this.colId.OptionsColumn.ShowInCustomizationForm = false;
             // 
             // colFisKodu
             // 
             this.colFisKodu.FieldName = "FisKodu";
             this.colFisKodu.Name = "colFisKodu";
+            this.colFisKodu.OptionsColumn.AllowEdit = false;
             this.colFisKodu.Visible = true;
-            this.colFisKodu.VisibleIndex = 1;
+            this.colFisKodu.VisibleIndex = 0;
             // 
             // colFisTuru
             // 
             this.colFisTuru.FieldName = "FisTuru";
             this.colFisTuru.Name = "colFisTuru";
+            this.colFisTuru.OptionsColumn.AllowEdit = false;
             this.colFisTuru.Visible = true;
-            this.colFisTuru.VisibleIndex = 2;
+            this.colFisTuru.VisibleIndex = 1;
             // 
             // colCariKodu
             // 
             this.colCariKodu.FieldName = "CariKodu";
             this.colCariKodu.Name = "colCariKodu";
+            this.colCariKodu.OptionsColumn.AllowEdit = false;
             this.colCariKodu.Visible = true;
-            this.colCariKodu.VisibleIndex = 3;
+            this.colCariKodu.VisibleIndex = 2;
             // 
             // colCariAdi
             // 
             this.colCariAdi.FieldName = "CariAdi";
             this.colCariAdi.Name = "colCariAdi";
+            this.colCariAdi.OptionsColumn.AllowEdit = false;
             this.colCariAdi.Visible = true;
-            this.colCariAdi.VisibleIndex = 4;
+            this.colCariAdi.VisibleIndex = 3;
             // 
             // colBelgeNo
             // 
             this.colBelgeNo.FieldName = "BelgeNo";
             this.colBelgeNo.Name = "colBelgeNo";
+            this.colBelgeNo.OptionsColumn.AllowEdit = false;
             this.colBelgeNo.Visible = true;
-            this.colBelgeNo.VisibleIndex = 5;
+            this.colBelgeNo.VisibleIndex = 4;
             // 
             // colTarih
             // 
             this.colTarih.FieldName = "Tarih";
             this.colTarih.Name = "colTarih";
+            this.colTarih.OptionsColumn.AllowEdit = false;
             this.colTarih.Visible = true;
-            this.colTarih.VisibleIndex = 6;
+            this.colTarih.VisibleIndex = 5;
             // 
             // colPlasiyerKodu
             // 
             this.colPlasiyerKodu.FieldName = "PlasiyerKodu";
             this.colPlasiyerKodu.Name = "colPlasiyerKodu";
+            this.colPlasiyerKodu.OptionsColumn.AllowEdit = false;
             this.colPlasiyerKodu.Visible = true;
-            this.colPlasiyerKodu.VisibleIndex = 7;
+            this.colPlasiyerKodu.VisibleIndex = 6;
             // 
             // colPlasiyerAdi
             // 
             this.colPlasiyerAdi.FieldName = "PlasiyerAdi";
             this.colPlasiyerAdi.Name = "colPlasiyerAdi";
+            this.colPlasiyerAdi.OptionsColumn.AllowEdit = false;
             this.colPlasiyerAdi.Visible = true;
-            this.colPlasiyerAdi.VisibleIndex = 8;
+            this.colPlasiyerAdi.VisibleIndex = 7;
             // 
             // colIskontoOrani
             // 
             this.colIskontoOrani.FieldName = "IskontoOrani";
             this.colIskontoOrani.Name = "colIskontoOrani";
+            this.colIskontoOrani.OptionsColumn.AllowEdit = false;
             this.colIskontoOrani.Visible = true;
-            this.colIskontoOrani.VisibleIndex = 9;
+            this.colIskontoOrani.VisibleIndex = 8;
             // 
             // colIskontoTutar
             // 
             this.colIskontoTutar.FieldName = "IskontoTutar";
             this.colIskontoTutar.Name = "colIskontoTutar";
+            this.colIskontoTutar.OptionsColumn.AllowEdit = false;
             this.colIskontoTutar.Visible = true;
-            this.colIskontoTutar.VisibleIndex = 10;
+            this.colIskontoTutar.VisibleIndex = 9;
             // 
             // colToplamTutar
             // 
             this.colToplamTutar.FieldName = "ToplamTutar";
             this.colToplamTutar.Name = "colToplamTutar";
+            this.colToplamTutar.OptionsColumn.AllowEdit = false;
             this.colToplamTutar.Visible = true;
-            this.colToplamTutar.VisibleIndex = 11;
+            this.colToplamTutar.VisibleIndex = 10;
             // 
             // colAciklama
             // 
             this.colAciklama.FieldName = "Aciklama";
             this.colAciklama.Name = "colAciklama";
+            this.colAciklama.OptionsColumn.AllowEdit = false;
             this.colAciklama.Visible = true;
-            this.colAciklama.VisibleIndex = 12;
+            this.colAciklama.VisibleIndex = 11;
             // 
             // FrmFis
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 552);
+            this.ClientSize = new System.Drawing.Size(1976, 1096);
             this.Controls.Add(this.gridControlFisler);
             this.Controls.Add(this.grpMenu);
             this.Controls.Add(this.lblBaslik);
@@ -398,6 +423,7 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "FrmFis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stok Fiş Hareketleri";

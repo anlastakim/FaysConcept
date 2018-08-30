@@ -121,3 +121,16 @@ C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.En
 C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
 C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
 C:\Anlas Otomasyon\Projeler\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll.config
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.dll
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\FaysConcept.Entities.pdb
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\EntityFramework.dll
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\FluentValidation.dll
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\EntityFramework.xml
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\GitHub\FaysConcept.Entities\bin\Debug\FluentValidation.xml
+C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
+C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
+C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
+C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
