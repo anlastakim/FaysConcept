@@ -131,6 +131,12 @@
     <Compile Include="Fisler\FrmFisIslem.Designer.cs">
       <DependentUpon>FrmFisIslem.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fisler\FrmSeriNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fisler\FrmSeriNo.Designer.cs">
+      <DependentUpon>FrmSeriNo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kasalar\FrmKasa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,12 @@
     </Compile>
     <Compile Include="Ana Menu\FrmAnaMenu.Designer.cs">
       <DependentUpon>FrmAnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stok Hareketleri\FrmStokHareketleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stok Hareketleri\FrmStokHareketleri.Designer.cs">
+      <DependentUpon>FrmStokHareketleri.cs</DependentUpon>
     </Compile>
     <Compile Include="Stok\FrmStok.cs">
       <SubType>Form</SubType>
@@ -244,6 +256,9 @@
     <EmbeddedResource Include="Fisler\FrmFisIslem.resx">
       <DependentUpon>FrmFisIslem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Fisler\FrmSeriNo.resx">
+      <DependentUpon>FrmSeriNo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kasalar\FrmKasa.resx">
       <DependentUpon>FrmKasa.cs</DependentUpon>
     </EmbeddedResource>
@@ -268,6 +283,9 @@
     </Compile>
     <EmbeddedResource Include="Ana Menu\FrmAnaMenu.resx">
       <DependentUpon>FrmAnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stok Hareketleri\FrmStokHareketleri.resx">
+      <DependentUpon>FrmStokHareketleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Stok\FrmStok.resx">
       <DependentUpon>FrmStok.cs</DependentUpon>

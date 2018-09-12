@@ -17,6 +17,7 @@ using FaysConcept.BackOffice.Depo;
 using FaysConcept.BackOffice.Fisler;
 using FaysConcept.BackOffice.Kasalar;
 using FaysConcept.BackOffice.Stok;
+using FaysConcept.BackOffice.Stok_Hareketleri;
 using FaysConcept.BackOffice.Tanım;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
@@ -106,7 +107,7 @@ namespace FaysConcept.BackOffice
 
         private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
         {
-            FrmFis form = new FrmFis();
+            FrmStokHareketleri form = new FrmStokHareketleri();
             form.MdiParent = this;
             form.Show();
         }
@@ -126,6 +127,13 @@ namespace FaysConcept.BackOffice
         private void barButtonItem21_ItemClick(object sender, ItemClickEventArgs e)
         {
            
+        }
+
+        private void barButtonItem3_ItemClick_1(object sender, ItemClickEventArgs e)
+        {
+            FrmFisIslem form = new FrmFisIslem();
+            form.MdiParent = this;
+            form.Show();
         }
     }
 }

@@ -18,6 +18,7 @@ namespace FaysConcept.BackOffice.Stok
         StokDAL stokDal=new StokDAL();
         FaysConceptContext context=new FaysConceptContext();
         public List<Entities.Tables.Stok> secilen=new List<Entities.Tables.Stok>();
+        public bool secildi = false;
 
         public FrmStokSec(bool cokluSecim=false)
         {
@@ -25,33 +26,44 @@ namespace FaysConcept.BackOffice.Stok
             if (cokluSecim)
             {
                 lbluyarı.Visible = true;
-                gridstoklar.OptionsSelection.MultiSelect = true;
+                gridViewStokSec.OptionsSelection.MultiSelect = true;
 
                 }
 
         }
+
+        private void FrmStokSec_Load(object sender, EventArgs e)
+        {
+           gridControlStokSec.DataSource = stokDal.GetStoklar(context);
+          
+
+        }
+
 
         private void btnkapat_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void FrmStokSec_Load(object sender, EventArgs e)
-        {
-            gridanastoklar.DataSource = stokDal.GetStoklar(context);
-
-        }
-
+     
         private void btnsec_Click(object sender, EventArgs e)
         {
-            foreach (var row in gridstoklar.GetSelectedRows())
+            if (gridViewStokSec.GetSelectedRows().Length!=0) // secilen değer 0 değil ise bu işlemi yap
             {
-                string stokkodu = gridstoklar.GetRowCellValue(row, colStokKodu).ToString();
-                secilen.Add(context.Stoklar.SingleOrDefault(c=>c.StokKodu==stokkodu));
-            }
+                foreach (var row in gridViewStokSec.GetSelectedRows())
+                {
+                    string stokkodu = gridViewStokSec.GetRowCellValue(row, colStokKodu).ToString();
+                    secilen.Add(context.Stoklar.SingleOrDefault(c => c.StokKodu == stokkodu));
+                    // secilen değişkenine atama yaptık.
+                }
 
-            this.Close();
-            
-        }
+                secildi = true;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Seçilen bir ürün bulunamadı.");
+            }
+          }
     }
 }

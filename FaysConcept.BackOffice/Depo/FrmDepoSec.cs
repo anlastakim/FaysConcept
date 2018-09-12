@@ -18,6 +18,7 @@ namespace FaysConcept.BackOffice.Depo
         DepoDAL depoDAL = new DepoDAL();
         public Entities.Tables.Depo entity = new Entities.Tables.Depo();
         private string _stokKodu;
+        public bool secildi = false;
 
         
         public FrmDepoSec(string stokKodu)
@@ -33,9 +34,14 @@ namespace FaysConcept.BackOffice.Depo
 
         private void btnDepoSec_Click(object sender, EventArgs e)
         {
-            string depoKodu = gridDepolar.GetFocusedRowCellValue(colDepoKodu).ToString();
-            entity = context.Depolar.SingleOrDefault(c => c.DepoKodu == depoKodu);
-            this.Close();
+            if (gridDepolar.SelectedRowsCount != 0)
+            {
+                string depoKodu = gridDepolar.GetFocusedRowCellValue(colDepoKodu).ToString();
+                entity = context.Depolar.SingleOrDefault(c => c.DepoKodu == depoKodu);
+                secildi = true;
+                this.Close();
+            }
+        
         }
 
         private void btnkapat_Click(object sender, EventArgs e)

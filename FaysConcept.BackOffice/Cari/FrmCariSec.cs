@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
+using FaysConcept.Entities.Tables;
 
 namespace FaysConcept.BackOffice.Cari
 {
@@ -17,8 +18,9 @@ namespace FaysConcept.BackOffice.Cari
     {
         CariDAL cariDal = new CariDAL();
         FaysConceptContext context = new FaysConceptContext();
-        public List<Entities.Tables.Cari> secilen = new List<Entities.Tables.Cari>();
-        // liste tipinde veri döndürme 
+        public List<Entities.Tables.Cari> secilen = new List<Entities.Tables.Cari>(); // liste tipinde veri döndürme 
+        public bool secildi = false;
+
 
         public FrmCariSec(bool cokluSecim = false)
         {
@@ -39,14 +41,22 @@ namespace FaysConcept.BackOffice.Cari
 
         private void btnCariSec_Click(object sender, EventArgs e)
         {
-            foreach (var row in gridView1.GetSelectedRows())
-                // gridview1 de seçili olan satırları getselectedrows ile dolaşıyoruz.row index değerini tutuyor int tipi
+            if (gridView1.GetSelectedRows().Length != 0)
             {
-                string carikodu = gridView1.GetRowCellValue(row, colCariKodu).ToString();
-                secilen.Add(context.Cariler.SingleOrDefault(c => c.CariKodu == carikodu));
-            }
+                foreach (var row in gridView1.GetSelectedRows())
+                // gridview1 de seçili olan satırları getselectedrows ile dolaşıyoruz.row index değerini tutuyor int tipi
+                {
+                    string carikodu = gridView1.GetRowCellValue(row, colCariKodu).ToString();
+                    secilen.Add(context.Cariler.SingleOrDefault(c => c.CariKodu == carikodu));
+                    }
 
-            this.Close();
+                secildi = true;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Seçilen bir cari bulunamadı.");
+            }
         }
 
         private void btnkapat_Click(object sender, EventArgs e)

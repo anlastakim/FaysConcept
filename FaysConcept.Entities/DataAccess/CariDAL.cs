@@ -171,5 +171,29 @@ namespace FaysConcept.Entities.DataAccess
             return genelToplamlar;
 
         }
+
+        public CariBakiye CariBakiyesi(FaysConceptContext context, string cariKodu)
+        {
+            decimal alacak =
+                (context.Fisler.Where(c => c.CariKodu == cariKodu && c.FisTuru == "Alış Faturası")
+                     .Sum(c => c.ToplamTutar) ?? 0) +
+                (context.KasaHareketleri.Where(c => c.CariKodu == cariKodu && c.Hareket == "Kasa Giriş")
+                     .Sum(c => c.Tutar) ?? 0);
+            decimal borc =
+                (context.Fisler.Where(c => c.CariKodu == cariKodu && c.FisTuru == "Parekende Satış Faturası")
+                     .Sum(c => c.ToplamTutar) ?? 0) +
+                (context.KasaHareketleri.Where(c => c.CariKodu == cariKodu && c.Hareket == "Kasa Çıkış")
+                     .Sum(c => c.Tutar) ?? 0);
+            CariBakiye entityCariBakiye=new CariBakiye
+            {
+                CariKodu=cariKodu,
+                RiskLimiti = Convert.ToDecimal(context.Cariler.Where(c => c.CariKodu == cariKodu).SingleOrDefault().RiskLimiti),
+                Alacak = alacak,
+                Borc = borc,
+                Bakiye = alacak-borc
+            }
+            ;
+            return entityCariBakiye;
+        }
     }
 }

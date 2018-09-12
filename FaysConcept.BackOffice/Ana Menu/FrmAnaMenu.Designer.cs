@@ -52,6 +52,7 @@
             this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
             this.skinRibbonGalleryBarItem1 = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
             this.skinRibbonGalleryBarItem2 = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
+            this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
             this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -69,7 +70,6 @@
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -109,7 +109,7 @@
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
             this.ribbonPage5});
-            this.ribbon.Size = new System.Drawing.Size(1169, 143);
+            this.ribbon.Size = new System.Drawing.Size(1479, 143);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             this.ribbon.Click += new System.EventHandler(this.ribbon_Click);
             // 
@@ -135,6 +135,7 @@
             this.barButtonItem3.Id = 5;
             this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
             this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick_1);
             // 
             // barButtonItem5
             // 
@@ -264,6 +265,13 @@
             this.skinRibbonGalleryBarItem2.Id = 23;
             this.skinRibbonGalleryBarItem2.Name = "skinRibbonGalleryBarItem2";
             // 
+            // barButtonItem21
+            // 
+            this.barButtonItem21.Caption = "barButtonItem21";
+            this.barButtonItem21.Id = 24;
+            this.barButtonItem21.Name = "barButtonItem21";
+            this.barButtonItem21.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem21_ItemClick);
+            // 
             // ribbonPageCategory1
             // 
             this.ribbonPageCategory1.Name = "ribbonPageCategory1";
@@ -322,7 +330,6 @@
             // 
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem5);
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem6);
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem21);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             this.ribbonPageGroup4.Text = "Hareketler";
             // 
@@ -375,10 +382,10 @@
             // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 666);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 751);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1169, 31);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1479, 31);
             // 
             // xtraTabbedMdiManager1
             // 
@@ -391,18 +398,11 @@
             this.barButtonItem2.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.LargeImage")));
             this.barButtonItem2.Name = "barButtonItem2";
             // 
-            // barButtonItem21
-            // 
-            this.barButtonItem21.Caption = "barButtonItem21";
-            this.barButtonItem21.Id = 24;
-            this.barButtonItem21.Name = "barButtonItem21";
-            this.barButtonItem21.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem21_ItemClick);
-            // 
             // RibbonForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1169, 697);
+            this.ClientSize = new System.Drawing.Size(1479, 782);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

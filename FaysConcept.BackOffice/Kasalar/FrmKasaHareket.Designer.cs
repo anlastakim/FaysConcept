@@ -56,16 +56,16 @@
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.gridcontOdemeTuruToplam = new DevExpress.XtraGrid.GridControl();
             this.gridOdemeTuruToplam = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.gridcontGenelToplam = new DevExpress.XtraGrid.GridControl();
-            this.gridGenelToplam = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.colGenelBilgi = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colGenelToplam = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colOdemeTuru = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colKasaGiris = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colKasaCikis = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colBakiye = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.gridcontGenelToplam = new DevExpress.XtraGrid.GridControl();
+            this.gridGenelToplam = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colGenelBilgi = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colKayitSayisi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colGenelToplam = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).BeginInit();
             this.grpMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
@@ -374,54 +374,6 @@
             this.gridOdemeTuruToplam.Name = "gridOdemeTuruToplam";
             this.gridOdemeTuruToplam.OptionsView.ShowGroupPanel = false;
             // 
-            // groupControl2
-            // 
-            this.groupControl2.Controls.Add(this.gridcontGenelToplam);
-            this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl2.Location = new System.Drawing.Point(0, 0);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(533, 275);
-            this.groupControl2.TabIndex = 2;
-            this.groupControl2.Text = "Genel Toplamlar";
-            // 
-            // gridcontGenelToplam
-            // 
-            this.gridcontGenelToplam.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridcontGenelToplam.Location = new System.Drawing.Point(2, 20);
-            this.gridcontGenelToplam.MainView = this.gridGenelToplam;
-            this.gridcontGenelToplam.Name = "gridcontGenelToplam";
-            this.gridcontGenelToplam.Size = new System.Drawing.Size(529, 253);
-            this.gridcontGenelToplam.TabIndex = 2;
-            this.gridcontGenelToplam.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridGenelToplam});
-            // 
-            // gridGenelToplam
-            // 
-            this.gridGenelToplam.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colGenelBilgi,
-            this.colKayitSayisi,
-            this.colGenelToplam});
-            this.gridGenelToplam.GridControl = this.gridcontGenelToplam;
-            this.gridGenelToplam.Name = "gridGenelToplam";
-            this.gridGenelToplam.OptionsView.ShowGroupPanel = false;
-            // 
-            // colGenelBilgi
-            // 
-            this.colGenelBilgi.Caption = "Bilgi";
-            this.colGenelBilgi.Name = "colGenelBilgi";
-            this.colGenelBilgi.Visible = true;
-            this.colGenelBilgi.VisibleIndex = 0;
-            // 
-            // colGenelToplam
-            // 
-            this.colGenelToplam.Caption = "Toplam";
-            this.colGenelToplam.DisplayFormat.FormatString = "C2";
-            this.colGenelToplam.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.colGenelToplam.FieldName = "GenelToplam";
-            this.colGenelToplam.Name = "colGenelToplam";
-            this.colGenelToplam.Visible = true;
-            this.colGenelToplam.VisibleIndex = 2;
-            // 
             // colOdemeTuru
             // 
             this.colOdemeTuru.Caption = "Ödeme Türü";
@@ -464,6 +416,44 @@
             this.colBakiye.Visible = true;
             this.colBakiye.VisibleIndex = 3;
             // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.gridcontGenelToplam);
+            this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl2.Location = new System.Drawing.Point(0, 0);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(533, 275);
+            this.groupControl2.TabIndex = 2;
+            this.groupControl2.Text = "Genel Toplamlar";
+            // 
+            // gridcontGenelToplam
+            // 
+            this.gridcontGenelToplam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridcontGenelToplam.Location = new System.Drawing.Point(2, 20);
+            this.gridcontGenelToplam.MainView = this.gridGenelToplam;
+            this.gridcontGenelToplam.Name = "gridcontGenelToplam";
+            this.gridcontGenelToplam.Size = new System.Drawing.Size(529, 253);
+            this.gridcontGenelToplam.TabIndex = 2;
+            this.gridcontGenelToplam.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridGenelToplam});
+            // 
+            // gridGenelToplam
+            // 
+            this.gridGenelToplam.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colGenelBilgi,
+            this.colKayitSayisi,
+            this.colGenelToplam});
+            this.gridGenelToplam.GridControl = this.gridcontGenelToplam;
+            this.gridGenelToplam.Name = "gridGenelToplam";
+            this.gridGenelToplam.OptionsView.ShowGroupPanel = false;
+            // 
+            // colGenelBilgi
+            // 
+            this.colGenelBilgi.Caption = "Bilgi";
+            this.colGenelBilgi.Name = "colGenelBilgi";
+            this.colGenelBilgi.Visible = true;
+            this.colGenelBilgi.VisibleIndex = 0;
+            // 
             // colKayitSayisi
             // 
             this.colKayitSayisi.Caption = "Kayıt Sayısı";
@@ -471,6 +461,16 @@
             this.colKayitSayisi.Name = "colKayitSayisi";
             this.colKayitSayisi.Visible = true;
             this.colKayitSayisi.VisibleIndex = 1;
+            // 
+            // colGenelToplam
+            // 
+            this.colGenelToplam.Caption = "Toplam";
+            this.colGenelToplam.DisplayFormat.FormatString = "C2";
+            this.colGenelToplam.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colGenelToplam.FieldName = "GenelToplam";
+            this.colGenelToplam.Name = "colGenelToplam";
+            this.colGenelToplam.Visible = true;
+            this.colGenelToplam.VisibleIndex = 2;
             // 
             // FrmKasaHareket
             // 

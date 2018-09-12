@@ -16,9 +16,10 @@ namespace FaysConcept.BackOffice.Kasalar
 {
     public partial class FrmKasaSec : DevExpress.XtraEditors.XtraForm
     {
-        KasaDAL kasaDal=new  KasaDAL();
-        FaysConceptContext context=new FaysConceptContext();
-        public Kasa entity=new Kasa();
+        KasaDAL kasaDal = new KasaDAL();
+        FaysConceptContext context = new FaysConceptContext();
+        public Kasa entity = new Kasa();
+        public bool secildi = false;
 
         public FrmKasaSec()
         {
@@ -32,9 +33,15 @@ namespace FaysConcept.BackOffice.Kasalar
 
         private void btnCariSec_Click(object sender, EventArgs e)
         {
-            string kasakodu = gridView1KasaSecim.GetFocusedRowCellValue(colKasaKodu).ToString();
-            entity = context.Kasalar.SingleOrDefault(c => c.KasaKodu == kasakodu);
-            this.Close();
+            if (gridView1KasaSecim.GetSelectedRows().Length != 0) // gridview boş değil ise bu işlemi yap
+        
+            {
+                string kasakodu = gridView1KasaSecim.GetFocusedRowCellValue(colKasaKodu).ToString();
+                entity = context.Kasalar.SingleOrDefault(c => c.KasaKodu == kasakodu);
+                secildi = true;
+                this.Close();
+            }
+
         }
 
         private void btnkapat_Click(object sender, EventArgs e)

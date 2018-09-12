@@ -25,8 +25,6 @@ namespace FaysConcept.Entities.Mapping
             this.Property(p => p.Miktar).HasPrecision(12,3).HasColumnName("Miktar");
             this.Property(p => p.BirimFiyat).HasPrecision(12,2).HasColumnName("BirimFiyat");
             this.Property(p => p.IndirimOrani).HasPrecision(5,2).HasColumnName("IndirimOrani");
-            this.Property(p => p.IndirimTutari).HasPrecision(12,2).HasColumnName("IndirimTutari");
-            this.Property(p => p.ToplamTutar).HasPrecision(12,2).HasColumnName("ToplamTutar");
             this.Property(p => p.DepoKodu).HasMaxLength(12).HasColumnName("DepoKodu");
             this.Property(p => p.DepoAdi).HasMaxLength(30).HasColumnName("DepoAdi");
             this.Property(p => p.SeriNo).HasMaxLength(200).HasColumnName("SeriNo");
