@@ -58,6 +58,8 @@
     <Compile Include="DataAccess\FisDAL.cs" />
     <Compile Include="DataAccess\KasaDAL.cs" />
     <Compile Include="DataAccess\KasaHareketDAL.cs" />
+    <Compile Include="DataAccess\KullaniciDAL.cs" />
+    <Compile Include="DataAccess\KullaniciRolDAL.cs" />
     <Compile Include="DataAccess\OdemeTuruDAL.cs" />
     <Compile Include="DataAccess\StokDAL.cs" />
     <Compile Include="DataAccess\StokHareketDAL.cs" />
@@ -69,6 +71,9 @@
     <Compile Include="Mapping\FisMap.cs" />
     <Compile Include="Mapping\KasaHareketMap.cs" />
     <Compile Include="Mapping\KasaMap.cs" />
+    <Compile Include="Mapping\KodUretMap.cs" />
+    <Compile Include="Mapping\KullaniciMap.cs" />
+    <Compile Include="Mapping\KullaniciRolMap.cs" />
     <Compile Include="Mapping\OdemeTuruMap.cs" />
     <Compile Include="Mapping\StokHareketMap.cs" />
     <Compile Include="Mapping\StokMap.cs" />
@@ -83,6 +88,9 @@
     <Compile Include="Tables\GenelToplam.cs" />
     <Compile Include="Tables\Kasa.cs" />
     <Compile Include="Tables\KasaHareket.cs" />
+    <Compile Include="Tables\KodUret.cs" />
+    <Compile Include="Tables\Kullanici.cs" />
+    <Compile Include="Tables\KullaniciRol.cs" />
     <Compile Include="Tables\OdemeTuru.cs" />
     <Compile Include="Tables\Stok.cs" />
     <Compile Include="Tables\StokHareket.cs" />
@@ -93,6 +101,9 @@
     <Compile Include="Validations\FisValidator.cs" />
     <Compile Include="Validations\KasaHareketValidator.cs" />
     <Compile Include="Validations\KasaValidator.cs" />
+    <Compile Include="Validations\KodUretValidator.cs" />
+    <Compile Include="Validations\KullaniciRolValidator.cs" />
+    <Compile Include="Validations\KullaniciValidator.cs" />
     <Compile Include="Validations\OdemeTuruValidator.cs" />
     <Compile Include="Validations\StokHareketValidator.cs" />
     <Compile Include="Validations\StokValidator.cs" />

@@ -66,9 +66,8 @@
             this.lblBaslik.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
             this.lblBaslik.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblBaslik.Location = new System.Drawing.Point(0, 0);
-            this.lblBaslik.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.lblBaslik.Name = "lblBaslik";
-            this.lblBaslik.Size = new System.Drawing.Size(783, 88);
+            this.lblBaslik.Size = new System.Drawing.Size(470, 60);
             this.lblBaslik.TabIndex = 10;
             this.lblBaslik.Text = "Seri No Bilgileri";
             // 
@@ -78,10 +77,9 @@
             this.grupbilgi.Controls.Add(this.labelControl2);
             this.grupbilgi.Dock = System.Windows.Forms.DockStyle.Top;
             this.grupbilgi.Enabled = false;
-            this.grupbilgi.Location = new System.Drawing.Point(0, 88);
-            this.grupbilgi.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grupbilgi.Location = new System.Drawing.Point(0, 60);
             this.grupbilgi.Name = "grupbilgi";
-            this.grupbilgi.Size = new System.Drawing.Size(783, 94);
+            this.grupbilgi.Size = new System.Drawing.Size(470, 53);
             this.grupbilgi.TabIndex = 11;
             this.grupbilgi.Text = "Seri No Bilgileri";
             // 
@@ -89,10 +87,9 @@
             // 
             this.txtSeriNo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSeriNo.Location = new System.Drawing.Point(173, 46);
-            this.txtSeriNo.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSeriNo.Location = new System.Drawing.Point(104, 26);
             this.txtSeriNo.Name = "txtSeriNo";
-            this.txtSeriNo.Size = new System.Drawing.Size(602, 32);
+            this.txtSeriNo.Size = new System.Drawing.Size(361, 20);
             this.txtSeriNo.TabIndex = 2;
             // 
             // labelControl2
@@ -105,10 +102,9 @@
             this.labelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl2.Location = new System.Drawing.Point(8, 44);
-            this.labelControl2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.labelControl2.Location = new System.Drawing.Point(5, 25);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(155, 37);
+            this.labelControl2.Size = new System.Drawing.Size(93, 21);
             this.labelControl2.TabIndex = 0;
             this.labelControl2.Text = "Seri No :";
             // 
@@ -120,10 +116,9 @@
             this.grpMenu.Controls.Add(this.btnYeni);
             this.grpMenu.Controls.Add(this.btnVazgec);
             this.grpMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpMenu.Location = new System.Drawing.Point(0, 833);
-            this.grpMenu.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.grpMenu.Location = new System.Drawing.Point(0, 471);
             this.grpMenu.Name = "grpMenu";
-            this.grpMenu.Size = new System.Drawing.Size(783, 152);
+            this.grpMenu.Size = new System.Drawing.Size(470, 86);
             this.grpMenu.TabIndex = 14;
             this.grpMenu.Text = "İşlemler";
             // 
@@ -133,10 +128,9 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.btnkapat.ImageOptions.ImageIndex = 4;
             this.btnkapat.ImageOptions.ImageList = this.ımageList1;
-            this.btnkapat.Location = new System.Drawing.Point(628, 44);
-            this.btnkapat.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnkapat.Location = new System.Drawing.Point(377, 25);
             this.btnkapat.Name = "btnkapat";
-            this.btnkapat.Size = new System.Drawing.Size(145, 99);
+            this.btnkapat.Size = new System.Drawing.Size(87, 56);
             this.btnkapat.TabIndex = 4;
             this.btnkapat.Text = "Kapat";
             this.btnkapat.Click += new System.EventHandler(this.btnkapat_Click);
@@ -158,10 +152,9 @@
             this.btnKaydet.Enabled = false;
             this.btnKaydet.ImageOptions.ImageIndex = 2;
             this.btnKaydet.ImageOptions.ImageList = this.ımageList1;
-            this.btnKaydet.Location = new System.Drawing.Point(318, 44);
-            this.btnKaydet.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnKaydet.Location = new System.Drawing.Point(191, 25);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(145, 99);
+            this.btnKaydet.Size = new System.Drawing.Size(87, 56);
             this.btnKaydet.TabIndex = 4;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
@@ -172,10 +165,9 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSil.ImageOptions.ImageIndex = 1;
             this.btnSil.ImageOptions.ImageList = this.ımageList1;
-            this.btnSil.Location = new System.Drawing.Point(163, 44);
-            this.btnSil.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnSil.Location = new System.Drawing.Point(98, 25);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(145, 99);
+            this.btnSil.Size = new System.Drawing.Size(87, 56);
             this.btnSil.TabIndex = 4;
             this.btnSil.Text = "Sil";
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
@@ -186,10 +178,9 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.btnYeni.ImageOptions.ImageIndex = 0;
             this.btnYeni.ImageOptions.ImageList = this.ımageList1;
-            this.btnYeni.Location = new System.Drawing.Point(8, 44);
-            this.btnYeni.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnYeni.Location = new System.Drawing.Point(5, 25);
             this.btnYeni.Name = "btnYeni";
-            this.btnYeni.Size = new System.Drawing.Size(145, 99);
+            this.btnYeni.Size = new System.Drawing.Size(87, 56);
             this.btnYeni.TabIndex = 4;
             this.btnYeni.Text = "Yeni";
             this.btnYeni.Click += new System.EventHandler(this.btnYeni_Click);
@@ -201,10 +192,9 @@
             this.btnVazgec.Enabled = false;
             this.btnVazgec.ImageOptions.ImageIndex = 3;
             this.btnVazgec.ImageOptions.ImageList = this.ımageList1;
-            this.btnVazgec.Location = new System.Drawing.Point(473, 44);
-            this.btnVazgec.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnVazgec.Location = new System.Drawing.Point(284, 25);
             this.btnVazgec.Name = "btnVazgec";
-            this.btnVazgec.Size = new System.Drawing.Size(145, 99);
+            this.btnVazgec.Size = new System.Drawing.Size(87, 56);
             this.btnVazgec.TabIndex = 4;
             this.btnVazgec.Text = "Vazgeç";
             this.btnVazgec.Click += new System.EventHandler(this.btnVazgec_Click);
@@ -215,23 +205,25 @@
             this.listboxSeriNo.Appearance.Options.UseFont = true;
             this.listboxSeriNo.Cursor = System.Windows.Forms.Cursors.Default;
             this.listboxSeriNo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listboxSeriNo.Location = new System.Drawing.Point(0, 182);
-            this.listboxSeriNo.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.listboxSeriNo.Location = new System.Drawing.Point(0, 113);
             this.listboxSeriNo.Name = "listboxSeriNo";
-            this.listboxSeriNo.Size = new System.Drawing.Size(783, 651);
+            this.listboxSeriNo.Size = new System.Drawing.Size(470, 358);
             this.listboxSeriNo.TabIndex = 15;
             // 
             // FrmSeriNo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 985);
+            this.ClientSize = new System.Drawing.Size(470, 557);
             this.Controls.Add(this.listboxSeriNo);
             this.Controls.Add(this.grpMenu);
             this.Controls.Add(this.grupbilgi);
             this.Controls.Add(this.lblBaslik);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(486, 596);
+            this.MinimumSize = new System.Drawing.Size(486, 596);
             this.Name = "FrmSeriNo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmSeriNo";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmSeriNo_FormClosing);
             this.Load += new System.EventHandler(this.FrmSeriNo_Load);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions16 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions8 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions9 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
@@ -58,7 +57,7 @@
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.textBelgeNo = new DevExpress.XtraEditors.TextEdit();
             this.CmbTarih = new DevExpress.XtraEditors.DateEdit();
-            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barManager1 = new DevExpress.XtraBars.BarManager();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -99,7 +98,7 @@
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.ımageList1 = new System.Windows.Forms.ImageList();
             this.btnkaydet = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.calcGenelToplam = new DevExpress.XtraEditors.CalcEdit();
@@ -166,7 +165,7 @@
             this.colKasaHareketSil = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repoKHSil = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.flowOdemeTurleri = new System.Windows.Forms.FlowLayoutPanel();
-            this.radialFiyat = new DevExpress.XtraBars.Ribbon.RadialMenu(this.components);
+            this.radialFiyat = new DevExpress.XtraBars.Ribbon.RadialMenu();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
             this.navFisBilgi.SuspendLayout();
@@ -235,7 +234,7 @@
             this.navPlasiyerBilgi});
             this.navigationPane1.RegularSize = new System.Drawing.Size(1351, 203);
             this.navigationPane1.SelectedPage = this.navFisBilgi;
-            this.navigationPane1.Size = new System.Drawing.Size(1303, 208);
+            this.navigationPane1.Size = new System.Drawing.Size(1449, 208);
             this.navigationPane1.State = DevExpress.XtraBars.Navigation.NavigationPaneState.Expanded;
             this.navigationPane1.TabIndex = 1;
             this.navigationPane1.Text = "navigationPane1";
@@ -258,7 +257,7 @@
             this.navFisBilgi.Name = "navFisBilgi";
             this.navFisBilgi.Properties.ShowCollapseButton = DevExpress.Utils.DefaultBoolean.False;
             this.navFisBilgi.Properties.ShowExpandButton = DevExpress.Utils.DefaultBoolean.False;
-            this.navFisBilgi.Size = new System.Drawing.Size(1221, 162);
+            this.navFisBilgi.Size = new System.Drawing.Size(1367, 162);
             // 
             // textAciklama
             // 
@@ -266,7 +265,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textAciklama.Location = new System.Drawing.Point(106, 56);
             this.textAciklama.Name = "textAciklama";
-            this.textAciklama.Size = new System.Drawing.Size(1108, 95);
+            this.textAciklama.Size = new System.Drawing.Size(1264, 95);
             this.textAciklama.TabIndex = 31;
             // 
             // labelControl2
@@ -280,7 +279,7 @@
             this.labelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl2.Location = new System.Drawing.Point(671, 5);
+            this.labelControl2.Location = new System.Drawing.Point(826, 5);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(97, 21);
             this.labelControl2.TabIndex = 26;
@@ -305,7 +304,7 @@
             // textFisTuru
             // 
             this.textFisTuru.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textFisTuru.Location = new System.Drawing.Point(774, 6);
+            this.textFisTuru.Location = new System.Drawing.Point(930, 6);
             this.textFisTuru.Name = "textFisTuru";
             this.textFisTuru.Size = new System.Drawing.Size(440, 20);
             this.textFisTuru.TabIndex = 24;
@@ -348,7 +347,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textFisNo.Location = new System.Drawing.Point(106, 6);
             this.textFisNo.Name = "textFisNo";
-            this.textFisNo.Size = new System.Drawing.Size(559, 20);
+            this.textFisNo.Size = new System.Drawing.Size(715, 20);
             this.textFisNo.TabIndex = 25;
             // 
             // labelControl3
@@ -362,7 +361,7 @@
             this.labelControl3.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl3.Location = new System.Drawing.Point(671, 29);
+            this.labelControl3.Location = new System.Drawing.Point(826, 29);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(97, 22);
             this.labelControl3.TabIndex = 27;
@@ -371,7 +370,7 @@
             // textBelgeNo
             // 
             this.textBelgeNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBelgeNo.Location = new System.Drawing.Point(774, 31);
+            this.textBelgeNo.Location = new System.Drawing.Point(930, 31);
             this.textBelgeNo.Name = "textBelgeNo";
             this.textBelgeNo.Size = new System.Drawing.Size(440, 20);
             this.textBelgeNo.TabIndex = 25;
@@ -398,9 +397,10 @@
             this.CmbTarih.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.CmbTarih.Properties.Mask.EditMask = "G";
             this.CmbTarih.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
-            this.CmbTarih.Size = new System.Drawing.Size(559, 22);
+            this.CmbTarih.Size = new System.Drawing.Size(715, 22);
             this.CmbTarih.TabIndex = 32;
             this.CmbTarih.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.CmbTarih_ButtonClick);
+            this.CmbTarih.EditValueChanged += new System.EventHandler(this.CmbTarih_EditValueChanged);
             // 
             // barManager1
             // 
@@ -421,15 +421,15 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(1303, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(1449, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 743);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 728);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(1303, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1449, 0);
             // 
             // barDockControlLeft
             // 
@@ -437,15 +437,15 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 743);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 728);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1303, 0);
+            this.barDockControlRight.Location = new System.Drawing.Point(1449, 0);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 743);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 728);
             // 
             // barFiyat1
             // 
@@ -513,7 +513,7 @@
             this.navCariBilgi.Name = "navCariBilgi";
             this.navCariBilgi.Properties.ShowCollapseButton = DevExpress.Utils.DefaultBoolean.False;
             this.navCariBilgi.Properties.ShowExpandButton = DevExpress.Utils.DefaultBoolean.False;
-            this.navCariBilgi.Size = new System.Drawing.Size(1218, 162);
+            this.navCariBilgi.Size = new System.Drawing.Size(1240, 162);
             // 
             // textAdres
             // 
@@ -521,7 +521,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textAdres.Location = new System.Drawing.Point(329, 110);
             this.textAdres.Name = "textAdres";
-            this.textAdres.Size = new System.Drawing.Size(886, 48);
+            this.textAdres.Size = new System.Drawing.Size(908, 48);
             this.textAdres.TabIndex = 32;
             // 
             // textVergiNo
@@ -537,7 +537,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textSemt.Location = new System.Drawing.Point(1017, 85);
             this.textSemt.Name = "textSemt";
-            this.textSemt.Size = new System.Drawing.Size(198, 20);
+            this.textSemt.Size = new System.Drawing.Size(220, 20);
             this.textSemt.TabIndex = 31;
             // 
             // textIlce
@@ -546,7 +546,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textIlce.Location = new System.Drawing.Point(1017, 58);
             this.textIlce.Name = "textIlce";
-            this.textIlce.Size = new System.Drawing.Size(198, 20);
+            this.textIlce.Size = new System.Drawing.Size(220, 20);
             this.textIlce.TabIndex = 31;
             // 
             // textIl
@@ -555,7 +555,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textIl.Location = new System.Drawing.Point(1017, 32);
             this.textIl.Name = "textIl";
-            this.textIl.Size = new System.Drawing.Size(198, 20);
+            this.textIl.Size = new System.Drawing.Size(220, 20);
             this.textIl.TabIndex = 31;
             // 
             // textGsmNo
@@ -564,7 +564,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textGsmNo.Location = new System.Drawing.Point(1017, 5);
             this.textGsmNo.Name = "textGsmNo";
-            this.textGsmNo.Size = new System.Drawing.Size(198, 20);
+            this.textGsmNo.Size = new System.Drawing.Size(220, 20);
             this.textGsmNo.TabIndex = 31;
             // 
             // textVergiDairesi
@@ -916,7 +916,7 @@
             this.lblBaslik.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblBaslik.Location = new System.Drawing.Point(0, 0);
             this.lblBaslik.Name = "lblBaslik";
-            this.lblBaslik.Size = new System.Drawing.Size(1303, 47);
+            this.lblBaslik.Size = new System.Drawing.Size(1449, 47);
             this.lblBaslik.TabIndex = 11;
             this.lblBaslik.Text = "Fiş Hareketleri";
             // 
@@ -925,10 +925,10 @@
             this.groupControl1.Controls.Add(this.btnkapat);
             this.groupControl1.Controls.Add(this.btnkaydet);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupControl1.Location = new System.Drawing.Point(0, 683);
+            this.groupControl1.Location = new System.Drawing.Point(0, 668);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.ShowCaption = false;
-            this.groupControl1.Size = new System.Drawing.Size(1303, 60);
+            this.groupControl1.Size = new System.Drawing.Size(1449, 60);
             this.groupControl1.TabIndex = 13;
             this.groupControl1.Text = "groupControl1";
             // 
@@ -938,7 +938,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnkapat.ImageOptions.ImageIndex = 0;
             this.btnkapat.ImageOptions.ImageList = this.ımageList1;
-            this.btnkapat.Location = new System.Drawing.Point(1150, 5);
+            this.btnkapat.Location = new System.Drawing.Point(1296, 5);
             this.btnkapat.Name = "btnkapat";
             this.btnkapat.Size = new System.Drawing.Size(148, 50);
             this.btnkapat.TabIndex = 5;
@@ -959,7 +959,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnkaydet.ImageOptions.ImageIndex = 1;
             this.btnkaydet.ImageOptions.ImageList = this.ımageList1;
-            this.btnkaydet.Location = new System.Drawing.Point(996, 5);
+            this.btnkaydet.Location = new System.Drawing.Point(1142, 5);
             this.btnkaydet.Name = "btnkaydet";
             this.btnkaydet.Size = new System.Drawing.Size(148, 50);
             this.btnkaydet.TabIndex = 6;
@@ -985,9 +985,9 @@
             this.groupControl2.Controls.Add(this.labelControl28);
             this.groupControl2.Controls.Add(this.labelControl30);
             this.groupControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupControl2.Location = new System.Drawing.Point(0, 574);
+            this.groupControl2.Location = new System.Drawing.Point(0, 559);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(1303, 109);
+            this.groupControl2.Size = new System.Drawing.Size(1449, 109);
             this.groupControl2.TabIndex = 14;
             this.groupControl2.Text = "Toplamlar ve Ek Bilgileri";
             // 
@@ -999,7 +999,7 @@
             0,
             0,
             0});
-            this.calcGenelToplam.Location = new System.Drawing.Point(1048, 68);
+            this.calcGenelToplam.Location = new System.Drawing.Point(1194, 68);
             this.calcGenelToplam.Name = "calcGenelToplam";
             this.calcGenelToplam.Properties.Appearance.BackColor = System.Drawing.Color.ForestGreen;
             this.calcGenelToplam.Properties.Appearance.Font = new System.Drawing.Font("DS-Digital", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1031,7 +1031,7 @@
             0,
             0,
             0});
-            this.calcKdvToplami.Location = new System.Drawing.Point(1048, 24);
+            this.calcKdvToplami.Location = new System.Drawing.Point(1194, 24);
             this.calcKdvToplami.Name = "calcKdvToplami";
             this.calcKdvToplami.Properties.Appearance.BackColor = System.Drawing.Color.ForestGreen;
             this.calcKdvToplami.Properties.Appearance.Font = new System.Drawing.Font("DS-Digital", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1063,7 +1063,7 @@
             0,
             0,
             0});
-            this.calcIskontoTutari.Location = new System.Drawing.Point(741, 77);
+            this.calcIskontoTutari.Location = new System.Drawing.Point(887, 77);
             this.calcIskontoTutari.Name = "calcIskontoTutari";
             this.calcIskontoTutari.Properties.Appearance.BackColor = System.Drawing.Color.ForestGreen;
             this.calcIskontoTutari.Properties.Appearance.Font = new System.Drawing.Font("DS-Digital", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1095,7 +1095,7 @@
             0,
             0,
             0});
-            this.calcIskontoOrani.Location = new System.Drawing.Point(741, 50);
+            this.calcIskontoOrani.Location = new System.Drawing.Point(887, 50);
             this.calcIskontoOrani.Name = "calcIskontoOrani";
             this.calcIskontoOrani.Properties.Appearance.BackColor = System.Drawing.Color.ForestGreen;
             this.calcIskontoOrani.Properties.Appearance.Font = new System.Drawing.Font("DS-Digital", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1128,7 +1128,7 @@
             0,
             0,
             0});
-            this.calcIndirimToplami.Location = new System.Drawing.Point(741, 24);
+            this.calcIndirimToplami.Location = new System.Drawing.Point(887, 24);
             this.calcIndirimToplami.Name = "calcIndirimToplami";
             this.calcIndirimToplami.Properties.Appearance.BackColor = System.Drawing.Color.ForestGreen;
             this.calcIndirimToplami.Properties.Appearance.Font = new System.Drawing.Font("DS-Digital", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1256,7 +1256,7 @@
             this.labelControl9.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl9.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl9.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl9.Location = new System.Drawing.Point(927, 66);
+            this.labelControl9.Location = new System.Drawing.Point(1073, 66);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(115, 33);
             this.labelControl9.TabIndex = 7;
@@ -1273,7 +1273,7 @@
             this.labelControl10.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl10.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl10.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl10.Location = new System.Drawing.Point(927, 26);
+            this.labelControl10.Location = new System.Drawing.Point(1073, 26);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(115, 28);
             this.labelControl10.TabIndex = 8;
@@ -1290,7 +1290,7 @@
             this.labelControl5.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl5.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl5.Location = new System.Drawing.Point(620, 77);
+            this.labelControl5.Location = new System.Drawing.Point(766, 77);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(115, 21);
             this.labelControl5.TabIndex = 3;
@@ -1307,7 +1307,7 @@
             this.labelControl6.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl6.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl6.Location = new System.Drawing.Point(620, 50);
+            this.labelControl6.Location = new System.Drawing.Point(766, 50);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(115, 21);
             this.labelControl6.TabIndex = 4;
@@ -1324,7 +1324,7 @@
             this.labelControl7.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl7.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl7.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl7.Location = new System.Drawing.Point(620, 23);
+            this.labelControl7.Location = new System.Drawing.Point(766, 23);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(115, 21);
             this.labelControl7.TabIndex = 5;
@@ -1390,7 +1390,7 @@
             this.navOdemeEkrani});
             this.navigationPane2.RegularSize = new System.Drawing.Size(2250, 626);
             this.navigationPane2.SelectedPage = this.navSatisEkrani;
-            this.navigationPane2.Size = new System.Drawing.Size(1303, 319);
+            this.navigationPane2.Size = new System.Drawing.Size(1449, 304);
             this.navigationPane2.State = DevExpress.XtraBars.Navigation.NavigationPaneState.Expanded;
             this.navigationPane2.TabIndex = 0;
             this.navigationPane2.Text = "navigationPane2";
@@ -1404,7 +1404,7 @@
             this.navSatisEkrani.Name = "navSatisEkrani";
             this.navSatisEkrani.Properties.ShowCollapseButton = DevExpress.Utils.DefaultBoolean.False;
             this.navSatisEkrani.Properties.ShowExpandButton = DevExpress.Utils.DefaultBoolean.False;
-            this.navSatisEkrani.Size = new System.Drawing.Size(1221, 273);
+            this.navSatisEkrani.Size = new System.Drawing.Size(1367, 258);
             // 
             // gridControlSatisEkrani
             // 
@@ -1417,7 +1417,7 @@
             this.repoBirimFiyat,
             this.repoDepoAdi,
             this.repoSeriNo});
-            this.gridControlSatisEkrani.Size = new System.Drawing.Size(1221, 228);
+            this.gridControlSatisEkrani.Size = new System.Drawing.Size(1367, 213);
             this.gridControlSatisEkrani.TabIndex = 1;
             this.gridControlSatisEkrani.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewSatisEkrani,
@@ -1710,7 +1710,7 @@
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1221, 45);
+            this.panelControl1.Size = new System.Drawing.Size(1367, 45);
             this.panelControl1.TabIndex = 2;
             // 
             // btnUrunBul
@@ -1933,7 +1933,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1303, 743);
+            this.ClientSize = new System.Drawing.Size(1449, 728);
             this.Controls.Add(this.navigationPane2);
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.groupControl1);

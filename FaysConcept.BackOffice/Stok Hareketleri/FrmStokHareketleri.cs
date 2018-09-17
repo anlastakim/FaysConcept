@@ -16,8 +16,8 @@ namespace FaysConcept.BackOffice.Stok_Hareketleri
 {
     public partial class FrmStokHareketleri : DevExpress.XtraEditors.XtraForm
     {
-        FaysConceptContext context=new FaysConceptContext();
-        StokHareketDAL stokHareketDal=new StokHareketDAL();
+        FaysConceptContext context = new FaysConceptContext();
+        StokHareketDAL stokHareketDal = new StokHareketDAL();
 
         public FrmStokHareketleri()
         {
@@ -27,7 +27,7 @@ namespace FaysConcept.BackOffice.Stok_Hareketleri
 
         private void Listele()
         {
-            stokHareketDal.GetAll(context);
+            gridcontstokhareket.DataSource = stokHareketDal.GetAll(context);
         }
 
         private void FrmStokHareketleri_Load(object sender, EventArgs e)
@@ -49,8 +49,15 @@ namespace FaysConcept.BackOffice.Stok_Hareketleri
         {
             string veri = Convert.ToString(gridstokhareket.GetFocusedRowCellValue(colSeriNo));
             FrmSeriNo form = new FrmSeriNo(veri);
+            form.kilitli = true;
             form.ShowDialog();
-            gridstokhareket.SetFocusedRowCellValue(colSeriNo, form.veriSeriNo);
+
+        }
+
+        private void btnDetayGor_Click(object sender, EventArgs e)
+        {
+            FrmFisIslem form=new FrmFisIslem(gridstokhareket.GetFocusedRowCellValue(colFisKodu).ToString());
+            form.ShowDialog();
         }
     }
 }

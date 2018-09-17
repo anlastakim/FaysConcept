@@ -14,11 +14,12 @@ namespace FaysConcept.BackOffice.Fisler
     public partial class FrmSeriNo : DevExpress.XtraEditors.XtraForm
     {
         public string veriSeriNo;
+        public bool kilitli = false;
 
         public FrmSeriNo(string veri)
         {
             InitializeComponent();
-            if (veri != null) ;  // veri null değil ise bu işlemleri yap.
+            if (veri != null)  // veri null değil ise bu işlemleri yap.
             {
                 string[] veriListesi =
                     veri.Split(new[] { System.Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
@@ -30,6 +31,10 @@ namespace FaysConcept.BackOffice.Fisler
                 // Erhan,Toprak,Ali,Veli   split ayırıcı yöntem belirleme
             }
 
+            if (kilitli)
+            {
+                grpMenu.Enabled = true;
+            }
         }
 
         void KayitAc()

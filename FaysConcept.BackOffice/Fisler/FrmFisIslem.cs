@@ -351,7 +351,6 @@ namespace FaysConcept.BackOffice.Fisler
                 _fisentity.IskontoOrani = calcIskontoOrani.Value;
                 _fisentity.IskontoTutar = calcIskontoTutari.Value;
                 fisDal.AddOrUpdate(context, _fisentity);
-
                 context.SaveChanges();
             }
 
@@ -365,6 +364,11 @@ namespace FaysConcept.BackOffice.Fisler
             {
                 CmbTarih.DateTime = DateTime.Now;
             }
+        }
+
+        private void CmbTarih_EditValueChanged(object sender, EventArgs e)
+        {
+            CmbTarih.DateTime = DateTime.Now;
         }
     }
 }

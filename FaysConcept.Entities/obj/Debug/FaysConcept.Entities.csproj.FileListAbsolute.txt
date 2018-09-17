@@ -134,3 +134,4 @@ C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCom
 C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
 C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll
 C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.pdb
+C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csprojAssemblyReference.cache

@@ -22,6 +22,7 @@ using FaysConcept.BackOffice.Tanım;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
 using FaysConcept.Entities.Tables;
+using FrmKullanicilar;
 
 namespace FaysConcept.BackOffice
 {
@@ -32,6 +33,8 @@ namespace FaysConcept.BackOffice
 
        
             InitializeComponent();
+            FrmKullaniciGiris girisForm = new FrmKullaniciGiris();
+            girisForm.ShowDialog();
 
             using (var context = new FaysConceptContext())
             {
@@ -59,8 +62,7 @@ namespace FaysConcept.BackOffice
 
         private void RibbonForm1_Load(object sender, EventArgs e)
         {
-
-            FrmAnaMenuBilgi form = new FrmAnaMenuBilgi();
+                       FrmAnaMenuBilgi form = new FrmAnaMenuBilgi();
             form.MdiParent = this;
             form.Show();
             //FaysConceptContext context = new FaysConceptContext();
@@ -134,6 +136,11 @@ namespace FaysConcept.BackOffice
             FrmFisIslem form = new FrmFisIslem();
             form.MdiParent = this;
             form.Show();
+        }
+
+        private void btnKullaniciYetki_ItemClick(object sender, ItemClickEventArgs e)
+        {
+           
         }
     }
 }

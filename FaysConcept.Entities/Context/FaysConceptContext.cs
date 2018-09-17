@@ -20,6 +20,9 @@ namespace FaysConcept.Entities.Context
         public DbSet<Kasa> Kasalar { get; set; }
         public DbSet<OdemeTuru> OdemeTurleri { get; set; }
         public DbSet<Tanim> Tanimlar { get; set; }
+        public DbSet<Kullanici> Kullanicilar { get; set; }
+        public DbSet<KullaniciRol> KullaniciRolleri { get; set; }
+        public DbSet<KodUret> Kodlar  { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -34,6 +37,9 @@ namespace FaysConcept.Entities.Context
             modelBuilder.Configurations.Add(new StokHareketMap());
             modelBuilder.Configurations.Add(new StokMap());
             modelBuilder.Configurations.Add(new TanimMap());
+            modelBuilder.Configurations.Add(new KullaniciMap());
+            modelBuilder.Configurations.Add(new KullaniciRolMap());
+            modelBuilder.Configurations.Add(new KodUretMap());
 
         }
 

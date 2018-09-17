@@ -231,3 +231,4 @@ C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csproj.C
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csproj.CopyComplete
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.exe
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.pdb
+C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csprojAssemblyReference.cache

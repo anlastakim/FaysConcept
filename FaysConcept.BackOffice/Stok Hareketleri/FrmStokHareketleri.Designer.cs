@@ -30,10 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStokHareketleri));
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.grpMenu = new DevExpress.XtraEditors.GroupControl();
             this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
+            this.imgmenu = new System.Windows.Forms.ImageList(this.components);
             this.btnara = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDetayGor = new DevExpress.XtraEditors.SimpleButton();
             this.btnguncelle = new DevExpress.XtraEditors.SimpleButton();
             this.gridcontstokhareket = new DevExpress.XtraGrid.GridControl();
             this.gridstokhareket = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -54,12 +57,10 @@
             this.colDepoKodu = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDepoAdi = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colSeriNo = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repoSeriNo = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.colTarih = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colSaat = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAciklama = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.imgmenu = new System.Windows.Forms.ImageList(this.components);
-            this.btnDetayGor = new DevExpress.XtraEditors.SimpleButton();
-            this.repoSeriNo = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).BeginInit();
             this.grpMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridcontstokhareket)).BeginInit();
@@ -112,6 +113,15 @@
             this.btnkapat.Text = "Kapat";
             this.btnkapat.Click += new System.EventHandler(this.btnkapat_Click);
             // 
+            // imgmenu
+            // 
+            this.imgmenu.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgmenu.ImageStream")));
+            this.imgmenu.TransparentColor = System.Drawing.Color.Transparent;
+            this.imgmenu.Images.SetKeyName(0, "folder_out.png");
+            this.imgmenu.Images.SetKeyName(1, "refresh.png");
+            this.imgmenu.Images.SetKeyName(2, "view.png");
+            this.imgmenu.Images.SetKeyName(3, "note_information.png");
+            // 
             // btnara
             // 
             this.btnara.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -123,6 +133,19 @@
             this.btnara.Size = new System.Drawing.Size(102, 59);
             this.btnara.TabIndex = 3;
             this.btnara.Text = "Ara";
+            // 
+            // btnDetayGor
+            // 
+            this.btnDetayGor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnDetayGor.ImageOptions.ImageIndex = 3;
+            this.btnDetayGor.ImageOptions.ImageList = this.imgmenu;
+            this.btnDetayGor.Location = new System.Drawing.Point(12, 25);
+            this.btnDetayGor.Name = "btnDetayGor";
+            this.btnDetayGor.Size = new System.Drawing.Size(102, 59);
+            this.btnDetayGor.TabIndex = 2;
+            this.btnDetayGor.Text = "Detay Gör";
+            this.btnDetayGor.Click += new System.EventHandler(this.btnDetayGor_Click);
             // 
             // btnguncelle
             // 
@@ -191,6 +214,7 @@
             this.colFisKodu.OptionsColumn.AllowEdit = false;
             this.colFisKodu.Visible = true;
             this.colFisKodu.VisibleIndex = 0;
+            this.colFisKodu.Width = 84;
             // 
             // colHareket
             // 
@@ -198,7 +222,8 @@
             this.colHareket.Name = "colHareket";
             this.colHareket.OptionsColumn.AllowEdit = false;
             this.colHareket.Visible = true;
-            this.colHareket.VisibleIndex = 3;
+            this.colHareket.VisibleIndex = 7;
+            this.colHareket.Width = 84;
             // 
             // colStokKodu
             // 
@@ -207,7 +232,8 @@
             this.colStokKodu.OptionsColumn.AllowEdit = false;
             this.colStokKodu.OptionsColumn.ShowInCustomizationForm = false;
             this.colStokKodu.Visible = true;
-            this.colStokKodu.VisibleIndex = 7;
+            this.colStokKodu.VisibleIndex = 1;
+            this.colStokKodu.Width = 84;
             // 
             // colStokAdi
             // 
@@ -216,7 +242,8 @@
             this.colStokAdi.OptionsColumn.AllowEdit = false;
             this.colStokAdi.OptionsColumn.ShowInCustomizationForm = false;
             this.colStokAdi.Visible = true;
-            this.colStokAdi.VisibleIndex = 9;
+            this.colStokAdi.VisibleIndex = 2;
+            this.colStokAdi.Width = 80;
             // 
             // colBarkodTuru
             // 
@@ -224,6 +251,8 @@
             this.colBarkodTuru.Name = "colBarkodTuru";
             this.colBarkodTuru.OptionsColumn.AllowEdit = false;
             this.colBarkodTuru.OptionsColumn.ShowInCustomizationForm = false;
+            this.colBarkodTuru.Visible = true;
+            this.colBarkodTuru.VisibleIndex = 4;
             // 
             // colBarkod
             // 
@@ -231,6 +260,8 @@
             this.colBarkod.Name = "colBarkod";
             this.colBarkod.OptionsColumn.AllowEdit = false;
             this.colBarkod.OptionsColumn.ShowInCustomizationForm = false;
+            this.colBarkod.Visible = true;
+            this.colBarkod.VisibleIndex = 3;
             // 
             // colBirimi
             // 
@@ -238,7 +269,8 @@
             this.colBirimi.Name = "colBirimi";
             this.colBirimi.OptionsColumn.AllowEdit = false;
             this.colBirimi.Visible = true;
-            this.colBirimi.VisibleIndex = 4;
+            this.colBirimi.VisibleIndex = 8;
+            this.colBirimi.Width = 84;
             // 
             // colMiktar
             // 
@@ -246,7 +278,8 @@
             this.colMiktar.Name = "colMiktar";
             this.colMiktar.OptionsColumn.AllowEdit = false;
             this.colMiktar.Visible = true;
-            this.colMiktar.VisibleIndex = 10;
+            this.colMiktar.VisibleIndex = 12;
+            this.colMiktar.Width = 80;
             // 
             // colKdv
             // 
@@ -257,7 +290,8 @@
             this.colKdv.Name = "colKdv";
             this.colKdv.OptionsColumn.AllowEdit = false;
             this.colKdv.Visible = true;
-            this.colKdv.VisibleIndex = 14;
+            this.colKdv.VisibleIndex = 16;
+            this.colKdv.Width = 80;
             // 
             // colBirimFiyat
             // 
@@ -267,7 +301,8 @@
             this.colBirimFiyat.Name = "colBirimFiyat";
             this.colBirimFiyat.OptionsColumn.AllowEdit = false;
             this.colBirimFiyat.Visible = true;
-            this.colBirimFiyat.VisibleIndex = 11;
+            this.colBirimFiyat.VisibleIndex = 13;
+            this.colBirimFiyat.Width = 80;
             // 
             // colIndirimOrani
             // 
@@ -277,27 +312,34 @@
             this.colIndirimOrani.Name = "colIndirimOrani";
             this.colIndirimOrani.OptionsColumn.AllowEdit = false;
             this.colIndirimOrani.Visible = true;
-            this.colIndirimOrani.VisibleIndex = 12;
+            this.colIndirimOrani.VisibleIndex = 14;
+            this.colIndirimOrani.Width = 80;
             // 
             // colIndirimTutari
             // 
             this.colIndirimTutari.DisplayFormat.FormatString = "C2";
             this.colIndirimTutari.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.colIndirimTutari.FieldName = "IndirimTutari";
+            this.colIndirimTutari.GroupFormat.FormatString = "C2";
+            this.colIndirimTutari.GroupFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.colIndirimTutari.Name = "colIndirimTutari";
             this.colIndirimTutari.OptionsColumn.AllowEdit = false;
             this.colIndirimTutari.Visible = true;
-            this.colIndirimTutari.VisibleIndex = 13;
+            this.colIndirimTutari.VisibleIndex = 15;
+            this.colIndirimTutari.Width = 80;
             // 
             // colToplamTutar
             // 
             this.colToplamTutar.DisplayFormat.FormatString = "C2";
             this.colToplamTutar.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.colToplamTutar.FieldName = "ToplamTutar";
+            this.colToplamTutar.GroupFormat.FormatString = "C2";
+            this.colToplamTutar.GroupFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.colToplamTutar.Name = "colToplamTutar";
             this.colToplamTutar.OptionsColumn.AllowEdit = false;
             this.colToplamTutar.Visible = true;
-            this.colToplamTutar.VisibleIndex = 15;
+            this.colToplamTutar.VisibleIndex = 17;
+            this.colToplamTutar.Width = 80;
             // 
             // colDepoKodu
             // 
@@ -305,7 +347,8 @@
             this.colDepoKodu.Name = "colDepoKodu";
             this.colDepoKodu.OptionsColumn.AllowEdit = false;
             this.colDepoKodu.Visible = true;
-            this.colDepoKodu.VisibleIndex = 1;
+            this.colDepoKodu.VisibleIndex = 5;
+            this.colDepoKodu.Width = 84;
             // 
             // colDepoAdi
             // 
@@ -313,17 +356,30 @@
             this.colDepoAdi.Name = "colDepoAdi";
             this.colDepoAdi.OptionsColumn.AllowEdit = false;
             this.colDepoAdi.Visible = true;
-            this.colDepoAdi.VisibleIndex = 2;
+            this.colDepoAdi.VisibleIndex = 6;
+            this.colDepoAdi.Width = 84;
             // 
             // colSeriNo
             // 
             this.colSeriNo.ColumnEdit = this.repoSeriNo;
             this.colSeriNo.FieldName = "SeriNo";
             this.colSeriNo.Name = "colSeriNo";
-            this.colSeriNo.OptionsColumn.AllowEdit = false;
             this.colSeriNo.ShowButtonMode = DevExpress.XtraGrid.Views.Base.ShowButtonModeEnum.ShowAlways;
             this.colSeriNo.Visible = true;
-            this.colSeriNo.VisibleIndex = 8;
+            this.colSeriNo.VisibleIndex = 11;
+            this.colSeriNo.Width = 107;
+            // 
+            // repoSeriNo
+            // 
+            this.repoSeriNo.AutoHeight = false;
+            editorButtonImageOptions3.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions3.Image")));
+            editorButtonImageOptions3.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            editorButtonImageOptions3.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
+            this.repoSeriNo.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seri No", -1, true, true, true, editorButtonImageOptions3)});
+            this.repoSeriNo.Name = "repoSeriNo";
+            this.repoSeriNo.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.repoSeriNo.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.repoSeriNo_ButtonClick);
             // 
             // colTarih
             // 
@@ -335,7 +391,8 @@
             this.colTarih.Name = "colTarih";
             this.colTarih.OptionsColumn.AllowEdit = false;
             this.colTarih.Visible = true;
-            this.colTarih.VisibleIndex = 5;
+            this.colTarih.VisibleIndex = 9;
+            this.colTarih.Width = 84;
             // 
             // colSaat
             // 
@@ -348,44 +405,15 @@
             this.colSaat.Name = "colSaat";
             this.colSaat.OptionsColumn.AllowEdit = false;
             this.colSaat.Visible = true;
-            this.colSaat.VisibleIndex = 6;
+            this.colSaat.VisibleIndex = 10;
+            this.colSaat.Width = 84;
             // 
             // colAciklama
             // 
             this.colAciklama.FieldName = "Aciklama";
             this.colAciklama.Name = "colAciklama";
             this.colAciklama.OptionsColumn.AllowEdit = false;
-            this.colAciklama.Visible = true;
-            this.colAciklama.VisibleIndex = 16;
-            // 
-            // imgmenu
-            // 
-            this.imgmenu.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgmenu.ImageStream")));
-            this.imgmenu.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgmenu.Images.SetKeyName(0, "folder_out.png");
-            this.imgmenu.Images.SetKeyName(1, "refresh.png");
-            this.imgmenu.Images.SetKeyName(2, "view.png");
-            this.imgmenu.Images.SetKeyName(3, "note_information.png");
-            // 
-            // btnDetayGor
-            // 
-            this.btnDetayGor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDetayGor.ImageOptions.ImageIndex = 3;
-            this.btnDetayGor.ImageOptions.ImageList = this.imgmenu;
-            this.btnDetayGor.Location = new System.Drawing.Point(12, 25);
-            this.btnDetayGor.Name = "btnDetayGor";
-            this.btnDetayGor.Size = new System.Drawing.Size(102, 59);
-            this.btnDetayGor.TabIndex = 2;
-            this.btnDetayGor.Text = "Detay Gör";
-            // 
-            // repoSeriNo
-            // 
-            this.repoSeriNo.AutoHeight = false;
-            this.repoSeriNo.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.repoSeriNo.Name = "repoSeriNo";
-            this.repoSeriNo.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.repoSeriNo_ButtonClick);
+            this.colAciklama.Width = 99;
             // 
             // FrmStokHareketleri
             // 

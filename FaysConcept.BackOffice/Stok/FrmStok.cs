@@ -18,13 +18,13 @@ namespace FaysConcept.BackOffice.Stok
     public partial class FrmStok : DevExpress.XtraEditors.XtraForm
     {
         StokDAL stokDal = new StokDAL();
-        FaysConceptContext context=new  FaysConceptContext();
-        private string secilen=null;
+        FaysConceptContext context = new FaysConceptContext();
+        private string secilen = null;
 
 
         public FrmStok()
         {
-            
+
             InitializeComponent();
         }
 
@@ -33,10 +33,10 @@ namespace FaysConcept.BackOffice.Stok
             listele();
 
         }
-       
+
         public void listele()
         {
-            gridControl1.DataSource= stokDal.GetStoklar(context);
+            gridControl1.DataSource = stokDal.GetStoklar(context);
         }
 
         private void btnkapat_Click(object sender, EventArgs e)
@@ -72,34 +72,34 @@ namespace FaysConcept.BackOffice.Stok
 
         private void btnsil_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Seçili olan veriyi silmek istediğinize emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo)==DialogResult.Yes)
+            if (MessageBox.Show("Seçili olan veriyi silmek istediğinize emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                string secilen  = gridView1.GetFocusedRowCellValue(colStokKodu).ToString();
+                string secilen = gridView1.GetFocusedRowCellValue(colStokKodu).ToString();
                 Entities.Tables.Stok stokEntity = new Entities.Tables.Stok();
                 stokDal.Delete(context, c => c.StokKodu == secilen);
                 stokEntity.RefNo = -1;
                 stokDal.Save(context);
                 listele();
             }
-          
+
         }
 
         private void btnekle_Click(object sender, EventArgs e)
         {
-            FrmStokIslem form=new FrmStokIslem(new Entities.Tables.Stok());
+            FrmStokIslem form = new FrmStokIslem(new Entities.Tables.Stok());
             form.ShowDialog();
             if (form.saved)
             {
                 listele();
 
             }
-       
+
         }
 
         private void btnduzenle_Click(object sender, EventArgs e)
         {
             secilen = gridView1.GetFocusedRowCellValue(colStokKodu).ToString();
-            FrmStokIslem form = new FrmStokIslem(stokDal.GetByFilter(context,c=>c.StokKodu==secilen));
+            FrmStokIslem form = new FrmStokIslem(stokDal.GetByFilter(context, c => c.StokKodu == secilen));
             form.ShowDialog();
             if (form.saved)
             {
@@ -111,8 +111,8 @@ namespace FaysConcept.BackOffice.Stok
         private void btnkopyala_Click(object sender, EventArgs e)
         {
             secilen = gridView1.GetFocusedRowCellValue(colStokKodu).ToString();
-            Entities.Tables.Stok stokEntity=new Entities.Tables.Stok();
-            stokEntity= stokDal.GetByFilter(context, c => c.StokKodu == secilen);
+            Entities.Tables.Stok stokEntity = new Entities.Tables.Stok();
+            stokEntity = stokDal.GetByFilter(context, c => c.StokKodu == secilen);
             stokEntity.RefNo = -1;
             stokEntity.StokKodu = null;
             //stokkodunun benzersiz olması için null olarak gönderiliyor.
@@ -130,12 +130,12 @@ namespace FaysConcept.BackOffice.Stok
             secilen = gridView1.GetFocusedRowCellValue(colStokKodu).ToString();
             // odaklanan seçilen verinin stok kodunu alma
             string secilenad = gridView1.GetFocusedRowCellValue(colStokAdi).ToString();
-            
-            FrmStokHareket form=new FrmStokHareket(secilen,secilenad);
+
+            FrmStokHareket form = new FrmStokHareket(secilen, secilenad);
             form.ShowDialog();
-            
+
         }
 
-    
+
     }
 }

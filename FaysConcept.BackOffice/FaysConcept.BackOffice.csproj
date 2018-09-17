@@ -161,6 +161,12 @@
     <Compile Include="Kasalar\FrmKasaSec.Designer.cs">
       <DependentUpon>FrmKasaSec.cs</DependentUpon>
     </Compile>
+    <Compile Include="KodUretme\FrmKodUretme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KodUretme\FrmKodUretme.Designer.cs">
+      <DependentUpon>FrmKodUretme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ana Menu\FrmAnaMenu.cs">
@@ -271,6 +277,9 @@
     <EmbeddedResource Include="Kasalar\FrmKasaSec.resx">
       <DependentUpon>FrmKasaSec.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KodUretme\FrmKodUretme.resx">
+      <DependentUpon>FrmKodUretme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -339,6 +348,10 @@
     <ProjectReference Include="..\FaysConcept.FrontOffice\FaysConcept.FrontOffice.csproj">
       <Project>{25430E6A-2BA0-4ABB-BEDE-886AB0E5B719}</Project>
       <Name>FaysConcept.FrontOffice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FrmKullanicilar\FaysConcept.Admin.csproj">
+      <Project>{1e27bae1-30c2-4a96-90ba-bc1f59e28b23}</Project>
+      <Name>FaysConcept.Admin</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

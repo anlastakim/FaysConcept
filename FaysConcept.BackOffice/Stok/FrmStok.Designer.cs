@@ -30,18 +30,17 @@ namespace FaysConcept.BackOffice.Stok
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStok));
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.grpMenu = new DevExpress.XtraEditors.GroupControl();
             this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
-            this.imgmenu = new System.Windows.Forms.ImageList(this.components);
-            this.btnguncelle = new DevExpress.XtraEditors.SimpleButton();
-            this.btnstokhareket = new DevExpress.XtraEditors.SimpleButton();
-            this.btnkopyala = new DevExpress.XtraEditors.SimpleButton();
-            this.btnsil = new DevExpress.XtraEditors.SimpleButton();
-            this.btnduzenle = new DevExpress.XtraEditors.SimpleButton();
-            this.btnekle = new DevExpress.XtraEditors.SimpleButton();
+            this.imgmenu = new System.Windows.Forms.ImageList();
+            this.btnGuncelle = new DevExpress.XtraEditors.SimpleButton();
+            this.btnHareket = new DevExpress.XtraEditors.SimpleButton();
+            this.btnKopyala = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSil = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDuzenle = new DevExpress.XtraEditors.SimpleButton();
+            this.btnEkle = new DevExpress.XtraEditors.SimpleButton();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -106,14 +105,14 @@ namespace FaysConcept.BackOffice.Stok
             // grpMenu
             // 
             this.grpMenu.Controls.Add(this.btnkapat);
-            this.grpMenu.Controls.Add(this.btnguncelle);
-            this.grpMenu.Controls.Add(this.btnstokhareket);
-            this.grpMenu.Controls.Add(this.btnkopyala);
-            this.grpMenu.Controls.Add(this.btnsil);
-            this.grpMenu.Controls.Add(this.btnduzenle);
-            this.grpMenu.Controls.Add(this.btnekle);
+            this.grpMenu.Controls.Add(this.btnGuncelle);
+            this.grpMenu.Controls.Add(this.btnHareket);
+            this.grpMenu.Controls.Add(this.btnKopyala);
+            this.grpMenu.Controls.Add(this.btnSil);
+            this.grpMenu.Controls.Add(this.btnDuzenle);
+            this.grpMenu.Controls.Add(this.btnEkle);
             this.grpMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpMenu.Location = new System.Drawing.Point(0, 615);
+            this.grpMenu.Location = new System.Drawing.Point(0, 660);
             this.grpMenu.Name = "grpMenu";
             this.grpMenu.Size = new System.Drawing.Size(1370, 69);
             this.grpMenu.TabIndex = 1;
@@ -147,83 +146,83 @@ namespace FaysConcept.BackOffice.Stok
             this.imgmenu.Images.SetKeyName(8, "funnel_delete.png");
             this.imgmenu.Images.SetKeyName(9, "StokHareket.png");
             // 
-            // btnguncelle
+            // btnGuncelle
             // 
-            this.btnguncelle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnGuncelle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnguncelle.ImageOptions.ImageIndex = 0;
-            this.btnguncelle.ImageOptions.ImageList = this.imgmenu;
-            this.btnguncelle.Location = new System.Drawing.Point(492, 23);
-            this.btnguncelle.Name = "btnguncelle";
-            this.btnguncelle.Size = new System.Drawing.Size(87, 42);
-            this.btnguncelle.TabIndex = 4;
-            this.btnguncelle.Text = "Güncelle";
-            this.btnguncelle.Click += new System.EventHandler(this.btnguncelle_Click);
+            this.btnGuncelle.ImageOptions.ImageIndex = 0;
+            this.btnGuncelle.ImageOptions.ImageList = this.imgmenu;
+            this.btnGuncelle.Location = new System.Drawing.Point(492, 23);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(87, 42);
+            this.btnGuncelle.TabIndex = 4;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.Click += new System.EventHandler(this.btnguncelle_Click);
             // 
-            // btnstokhareket
+            // btnHareket
             // 
-            this.btnstokhareket.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnHareket.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnstokhareket.ImageOptions.ImageIndex = 9;
-            this.btnstokhareket.ImageOptions.ImageList = this.imgmenu;
-            this.btnstokhareket.Location = new System.Drawing.Point(384, 23);
-            this.btnstokhareket.Name = "btnstokhareket";
-            this.btnstokhareket.Size = new System.Drawing.Size(102, 42);
-            this.btnstokhareket.TabIndex = 4;
-            this.btnstokhareket.Text = "Stok Durum";
-            this.btnstokhareket.Click += new System.EventHandler(this.btnstokhareket_Click);
+            this.btnHareket.ImageOptions.ImageIndex = 9;
+            this.btnHareket.ImageOptions.ImageList = this.imgmenu;
+            this.btnHareket.Location = new System.Drawing.Point(384, 23);
+            this.btnHareket.Name = "btnHareket";
+            this.btnHareket.Size = new System.Drawing.Size(102, 42);
+            this.btnHareket.TabIndex = 4;
+            this.btnHareket.Text = "Stok Durum";
+            this.btnHareket.Click += new System.EventHandler(this.btnstokhareket_Click);
             // 
-            // btnkopyala
+            // btnKopyala
             // 
-            this.btnkopyala.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnKopyala.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnkopyala.ImageOptions.ImageIndex = 3;
-            this.btnkopyala.ImageOptions.ImageList = this.imgmenu;
-            this.btnkopyala.Location = new System.Drawing.Point(291, 23);
-            this.btnkopyala.Name = "btnkopyala";
-            this.btnkopyala.Size = new System.Drawing.Size(87, 42);
-            this.btnkopyala.TabIndex = 4;
-            this.btnkopyala.Text = "Kopyala";
-            this.btnkopyala.Click += new System.EventHandler(this.btnkopyala_Click);
+            this.btnKopyala.ImageOptions.ImageIndex = 3;
+            this.btnKopyala.ImageOptions.ImageList = this.imgmenu;
+            this.btnKopyala.Location = new System.Drawing.Point(291, 23);
+            this.btnKopyala.Name = "btnKopyala";
+            this.btnKopyala.Size = new System.Drawing.Size(87, 42);
+            this.btnKopyala.TabIndex = 4;
+            this.btnKopyala.Text = "Kopyala";
+            this.btnKopyala.Click += new System.EventHandler(this.btnkopyala_Click);
             // 
-            // btnsil
+            // btnSil
             // 
-            this.btnsil.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnSil.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnsil.ImageOptions.ImageIndex = 4;
-            this.btnsil.ImageOptions.ImageList = this.imgmenu;
-            this.btnsil.Location = new System.Drawing.Point(198, 23);
-            this.btnsil.Name = "btnsil";
-            this.btnsil.Size = new System.Drawing.Size(87, 42);
-            this.btnsil.TabIndex = 4;
-            this.btnsil.Text = "Sil";
-            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
+            this.btnSil.ImageOptions.ImageIndex = 4;
+            this.btnSil.ImageOptions.ImageList = this.imgmenu;
+            this.btnSil.Location = new System.Drawing.Point(198, 23);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(87, 42);
+            this.btnSil.TabIndex = 4;
+            this.btnSil.Text = "Sil";
+            this.btnSil.Click += new System.EventHandler(this.btnsil_Click);
             // 
-            // btnduzenle
+            // btnDuzenle
             // 
-            this.btnduzenle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnDuzenle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnduzenle.ImageOptions.ImageIndex = 1;
-            this.btnduzenle.ImageOptions.ImageList = this.imgmenu;
-            this.btnduzenle.Location = new System.Drawing.Point(105, 23);
-            this.btnduzenle.Name = "btnduzenle";
-            this.btnduzenle.Size = new System.Drawing.Size(87, 42);
-            this.btnduzenle.TabIndex = 3;
-            this.btnduzenle.Text = "Düzenle";
-            this.btnduzenle.Click += new System.EventHandler(this.btnduzenle_Click);
+            this.btnDuzenle.ImageOptions.ImageIndex = 1;
+            this.btnDuzenle.ImageOptions.ImageList = this.imgmenu;
+            this.btnDuzenle.Location = new System.Drawing.Point(105, 23);
+            this.btnDuzenle.Name = "btnDuzenle";
+            this.btnDuzenle.Size = new System.Drawing.Size(87, 42);
+            this.btnDuzenle.TabIndex = 3;
+            this.btnDuzenle.Text = "Düzenle";
+            this.btnDuzenle.Click += new System.EventHandler(this.btnduzenle_Click);
             // 
-            // btnekle
+            // btnEkle
             // 
-            this.btnekle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnEkle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnekle.ImageOptions.ImageIndex = 2;
-            this.btnekle.ImageOptions.ImageList = this.imgmenu;
-            this.btnekle.Location = new System.Drawing.Point(12, 23);
-            this.btnekle.Name = "btnekle";
-            this.btnekle.Size = new System.Drawing.Size(87, 42);
-            this.btnekle.TabIndex = 2;
-            this.btnekle.Text = "Ekle";
-            this.btnekle.Click += new System.EventHandler(this.btnekle_Click);
+            this.btnEkle.ImageOptions.ImageIndex = 2;
+            this.btnEkle.ImageOptions.ImageList = this.imgmenu;
+            this.btnEkle.Location = new System.Drawing.Point(12, 23);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(87, 42);
+            this.btnEkle.TabIndex = 2;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.Click += new System.EventHandler(this.btnekle_Click);
             // 
             // splitContainerControl1
             // 
@@ -234,7 +233,7 @@ namespace FaysConcept.BackOffice.Stok
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1370, 565);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1370, 610);
             this.splitContainerControl1.SplitterPosition = 0;
             this.splitContainerControl1.TabIndex = 2;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -245,7 +244,7 @@ namespace FaysConcept.BackOffice.Stok
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1370, 560);
+            this.gridControl1.Size = new System.Drawing.Size(1370, 605);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -568,10 +567,11 @@ namespace FaysConcept.BackOffice.Stok
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 684);
+            this.ClientSize = new System.Drawing.Size(1370, 729);
             this.Controls.Add(this.splitContainerControl1);
             this.Controls.Add(this.grpMenu);
             this.Controls.Add(this.lblBaslik);
+            this.MinimumSize = new System.Drawing.Size(1024, 768);
             this.Name = "FrmStok";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stok Kartları Bölümü";
@@ -592,11 +592,11 @@ namespace FaysConcept.BackOffice.Stok
 
         private DevExpress.XtraEditors.LabelControl lblBaslik;
         private DevExpress.XtraEditors.GroupControl grpMenu;
-        private DevExpress.XtraEditors.SimpleButton btnguncelle;
-        private DevExpress.XtraEditors.SimpleButton btnkopyala;
-        private DevExpress.XtraEditors.SimpleButton btnsil;
-        private DevExpress.XtraEditors.SimpleButton btnduzenle;
-        private DevExpress.XtraEditors.SimpleButton btnekle;
+        private DevExpress.XtraEditors.SimpleButton btnGuncelle;
+        private DevExpress.XtraEditors.SimpleButton btnKopyala;
+        private DevExpress.XtraEditors.SimpleButton btnSil;
+        private DevExpress.XtraEditors.SimpleButton btnDuzenle;
+        private DevExpress.XtraEditors.SimpleButton btnEkle;
         public System.Windows.Forms.ImageList imgmenu;
         private DevExpress.XtraEditors.SimpleButton btnkapat;
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
@@ -633,6 +633,6 @@ namespace FaysConcept.BackOffice.Stok
         private DevExpress.XtraGrid.Columns.GridColumn StokGiris;
         private DevExpress.XtraGrid.Columns.GridColumn StokCikis;
         private DevExpress.XtraGrid.Columns.GridColumn MevcutStok;
-        private DevExpress.XtraEditors.SimpleButton btnstokhareket;
+        private DevExpress.XtraEditors.SimpleButton btnHareket;
     }
 }

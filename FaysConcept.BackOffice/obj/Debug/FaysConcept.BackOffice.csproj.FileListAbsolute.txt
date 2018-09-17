@@ -871,3 +871,8 @@ C:\Git\GitHub\FaysConcept.BackOffice\obj\Debug\FaysConcept.BackOffice.exe
 C:\Git\GitHub\FaysConcept.BackOffice\obj\Debug\FaysConcept.BackOffice.pdb
 C:\Git\GitHub\FaysConcept.BackOffice\obj\Debug\FaysConcept.BackOffice.Tanım.FrmTanim.resources
 C:\Git\GitHub\FaysConcept.BackOffice\obj\Debug\FaysConcept.BackOffice.Fisler.FrmSeriNo.resources
+C:\Git\GitHub\FaysConcept.BackOffice\obj\Debug\FaysConcept.BackOffice.Stok_Hareketleri.FrmStokHareketleri.resources
+C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FrmKullanicilar.exe
+C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FrmKullanicilar.pdb
+C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FrmKullanicilar.exe.config
+C:\Git\GitHub\FaysConcept.BackOffice\obj\Debug\FaysConcept.BackOffice.KodUretme.FrmKodUretme.resources

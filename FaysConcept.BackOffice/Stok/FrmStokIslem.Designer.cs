@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStokIslem));
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
@@ -48,11 +47,11 @@
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions16 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions17 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions18 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.ımageList1 = new System.Windows.Forms.ImageList();
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.grpMenu = new DevExpress.XtraEditors.GroupControl();
             this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
-            this.imgmenu = new System.Windows.Forms.ImageList(this.components);
+            this.imgmenu = new System.Windows.Forms.ImageList();
             this.btnkaydet = new DevExpress.XtraEditors.SimpleButton();
             this.grupgenel = new DevExpress.XtraEditors.GroupControl();
             this.txtaciklama = new DevExpress.XtraEditors.MemoEdit();
@@ -173,7 +172,7 @@
             this.lblBaslik.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblBaslik.Location = new System.Drawing.Point(0, 0);
             this.lblBaslik.Name = "lblBaslik";
-            this.lblBaslik.Size = new System.Drawing.Size(714, 50);
+            this.lblBaslik.Size = new System.Drawing.Size(717, 50);
             this.lblBaslik.TabIndex = 1;
             this.lblBaslik.Text = "Stok Kartı İşlemleri";
             // 
@@ -182,9 +181,9 @@
             this.grpMenu.Controls.Add(this.btnkapat);
             this.grpMenu.Controls.Add(this.btnkaydet);
             this.grpMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpMenu.Location = new System.Drawing.Point(0, 580);
+            this.grpMenu.Location = new System.Drawing.Point(0, 574);
             this.grpMenu.Name = "grpMenu";
-            this.grpMenu.Size = new System.Drawing.Size(714, 86);
+            this.grpMenu.Size = new System.Drawing.Size(717, 86);
             this.grpMenu.TabIndex = 2;
             this.grpMenu.Text = "Menü";
             // 
@@ -194,7 +193,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnkapat.ImageOptions.ImageIndex = 1;
             this.btnkapat.ImageOptions.ImageList = this.imgmenu;
-            this.btnkapat.Location = new System.Drawing.Point(622, 25);
+            this.btnkapat.Location = new System.Drawing.Point(625, 25);
             this.btnkapat.Name = "btnkapat";
             this.btnkapat.Size = new System.Drawing.Size(87, 56);
             this.btnkapat.TabIndex = 4;
@@ -214,7 +213,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnkaydet.ImageOptions.ImageIndex = 0;
             this.btnkaydet.ImageOptions.ImageList = this.imgmenu;
-            this.btnkaydet.Location = new System.Drawing.Point(529, 25);
+            this.btnkaydet.Location = new System.Drawing.Point(532, 25);
             this.btnkaydet.Name = "btnkaydet";
             this.btnkaydet.Size = new System.Drawing.Size(87, 56);
             this.btnkaydet.TabIndex = 4;
@@ -248,7 +247,7 @@
             this.grupgenel.Dock = System.Windows.Forms.DockStyle.Top;
             this.grupgenel.Location = new System.Drawing.Point(0, 50);
             this.grupgenel.Name = "grupgenel";
-            this.grupgenel.Size = new System.Drawing.Size(714, 239);
+            this.grupgenel.Size = new System.Drawing.Size(717, 239);
             this.grupgenel.TabIndex = 3;
             this.grupgenel.Text = "Genel Bilgiler";
             // 
@@ -257,7 +256,7 @@
             this.txtaciklama.Location = new System.Drawing.Point(459, 131);
             this.txtaciklama.Name = "txtaciklama";
             this.txtaciklama.Size = new System.Drawing.Size(250, 75);
-            this.txtaciklama.TabIndex = 5;
+            this.txtaciklama.TabIndex = 9;
             // 
             // cmbbarkodturu
             // 
@@ -276,7 +275,7 @@
             this.calcmaxstokmiktari.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcmaxstokmiktari.Size = new System.Drawing.Size(250, 20);
-            this.calcmaxstokmiktari.TabIndex = 3;
+            this.calcmaxstokmiktari.TabIndex = 10;
             // 
             // calcminstokmiktari
             // 
@@ -285,28 +284,28 @@
             this.calcminstokmiktari.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcminstokmiktari.Size = new System.Drawing.Size(250, 20);
-            this.calcminstokmiktari.TabIndex = 3;
+            this.calcminstokmiktari.TabIndex = 8;
             // 
             // txtgarantisuresi
             // 
             this.txtgarantisuresi.Location = new System.Drawing.Point(104, 186);
             this.txtgarantisuresi.Name = "txtgarantisuresi";
             this.txtgarantisuresi.Size = new System.Drawing.Size(250, 20);
-            this.txtgarantisuresi.TabIndex = 2;
+            this.txtgarantisuresi.TabIndex = 7;
             // 
             // txtureticikodu
             // 
             this.txtureticikodu.Location = new System.Drawing.Point(104, 158);
             this.txtureticikodu.Name = "txtureticikodu";
             this.txtureticikodu.Size = new System.Drawing.Size(250, 20);
-            this.txtureticikodu.TabIndex = 2;
+            this.txtureticikodu.TabIndex = 6;
             // 
             // txtbarkod
             // 
             this.txtbarkod.Location = new System.Drawing.Point(104, 105);
             this.txtbarkod.Name = "txtbarkod";
             this.txtbarkod.Size = new System.Drawing.Size(250, 20);
-            this.txtbarkod.TabIndex = 2;
+            this.txtbarkod.TabIndex = 3;
             // 
             // btnbirimi
             // 
@@ -321,14 +320,14 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions2, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnbirimi.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnbirimi.Size = new System.Drawing.Size(250, 22);
-            this.btnbirimi.TabIndex = 1;
+            this.btnbirimi.TabIndex = 5;
             // 
             // txtstokadi
             // 
             this.txtstokadi.Location = new System.Drawing.Point(104, 78);
             this.txtstokadi.Name = "txtstokadi";
             this.txtstokadi.Size = new System.Drawing.Size(605, 20);
-            this.txtstokadi.TabIndex = 2;
+            this.txtstokadi.TabIndex = 3;
             // 
             // txtstokkodu
             // 
@@ -340,8 +339,10 @@
             // toggledurumu
             // 
             this.toggledurumu.EditValue = true;
+            this.toggledurumu.EnterMoveNextControl = true;
             this.toggledurumu.Location = new System.Drawing.Point(105, 23);
             this.toggledurumu.Name = "toggledurumu";
+            this.toggledurumu.Properties.EditValueChangedDelay = 1;
             this.toggledurumu.Properties.OffText = "Pasif";
             this.toggledurumu.Properties.OnText = "Aktif";
             this.toggledurumu.Size = new System.Drawing.Size(95, 24);
@@ -544,7 +545,7 @@
             this.grupgruplar.Dock = System.Windows.Forms.DockStyle.Top;
             this.grupgruplar.Location = new System.Drawing.Point(0, 289);
             this.grupgruplar.Name = "grupgruplar";
-            this.grupgruplar.Size = new System.Drawing.Size(714, 131);
+            this.grupgruplar.Size = new System.Drawing.Size(717, 131);
             this.grupgruplar.TabIndex = 4;
             this.grupgruplar.Text = "Gruplar";
             // 
@@ -561,7 +562,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions4, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnozelkod3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnozelkod3.Size = new System.Drawing.Size(250, 22);
-            this.btnozelkod3.TabIndex = 1;
+            this.btnozelkod3.TabIndex = 17;
             // 
             // btnozelkod1
             // 
@@ -576,7 +577,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions6, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnozelkod1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnozelkod1.Size = new System.Drawing.Size(250, 22);
-            this.btnozelkod1.TabIndex = 1;
+            this.btnozelkod1.TabIndex = 15;
             // 
             // btnmarka
             // 
@@ -591,7 +592,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions8, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnmarka.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnmarka.Size = new System.Drawing.Size(250, 22);
-            this.btnmarka.TabIndex = 1;
+            this.btnmarka.TabIndex = 13;
             // 
             // btnozelkod4
             // 
@@ -606,7 +607,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions10, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnozelkod4.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnozelkod4.Size = new System.Drawing.Size(250, 22);
-            this.btnozelkod4.TabIndex = 1;
+            this.btnozelkod4.TabIndex = 18;
             // 
             // btnozelkod2
             // 
@@ -621,7 +622,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions12, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnozelkod2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnozelkod2.Size = new System.Drawing.Size(250, 22);
-            this.btnozelkod2.TabIndex = 1;
+            this.btnozelkod2.TabIndex = 16;
             // 
             // btnmodel
             // 
@@ -636,7 +637,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions14, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnmodel.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnmodel.Size = new System.Drawing.Size(250, 22);
-            this.btnmodel.TabIndex = 1;
+            this.btnmodel.TabIndex = 14;
             // 
             // btnstokaltgrubu
             // 
@@ -651,7 +652,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions16, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnstokaltgrubu.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnstokaltgrubu.Size = new System.Drawing.Size(250, 22);
-            this.btnstokaltgrubu.TabIndex = 1;
+            this.btnstokaltgrubu.TabIndex = 12;
             // 
             // btnstokgrubu
             // 
@@ -666,7 +667,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions18, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnstokgrubu.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnstokgrubu.Size = new System.Drawing.Size(250, 22);
-            this.btnstokgrubu.TabIndex = 1;
+            this.btnstokgrubu.TabIndex = 11;
             // 
             // labelControl13
             // 
@@ -805,7 +806,7 @@
             this.grupkdvoranlari.Dock = System.Windows.Forms.DockStyle.Top;
             this.grupkdvoranlari.Location = new System.Drawing.Point(0, 420);
             this.grupkdvoranlari.Name = "grupkdvoranlari";
-            this.grupkdvoranlari.Size = new System.Drawing.Size(714, 50);
+            this.grupkdvoranlari.Size = new System.Drawing.Size(717, 50);
             this.grupkdvoranlari.TabIndex = 5;
             this.grupkdvoranlari.Text = "KDV Oranları";
             // 
@@ -832,7 +833,7 @@
             this.calcsatiskdv.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcsatiskdv.Size = new System.Drawing.Size(250, 20);
-            this.calcsatiskdv.TabIndex = 3;
+            this.calcsatiskdv.TabIndex = 20;
             // 
             // labelControl20
             // 
@@ -857,7 +858,7 @@
             this.calcaliskdv.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcaliskdv.Size = new System.Drawing.Size(250, 20);
-            this.calcaliskdv.TabIndex = 3;
+            this.calcaliskdv.TabIndex = 19;
             // 
             // grupfiyatlar
             // 
@@ -873,10 +874,10 @@
             this.grupfiyatlar.Controls.Add(this.calcsatisfiyati1);
             this.grupfiyatlar.Controls.Add(this.labelControl22);
             this.grupfiyatlar.Controls.Add(this.calcalisfiyati1);
-            this.grupfiyatlar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grupfiyatlar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grupfiyatlar.Location = new System.Drawing.Point(0, 470);
             this.grupfiyatlar.Name = "grupfiyatlar";
-            this.grupfiyatlar.Size = new System.Drawing.Size(714, 111);
+            this.grupfiyatlar.Size = new System.Drawing.Size(717, 104);
             this.grupfiyatlar.TabIndex = 6;
             this.grupfiyatlar.Text = "Fiyatlar";
             // 
@@ -919,7 +920,7 @@
             this.calcsatisfiyati3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcsatisfiyati3.Size = new System.Drawing.Size(250, 20);
-            this.calcsatisfiyati3.TabIndex = 3;
+            this.calcsatisfiyati3.TabIndex = 26;
             // 
             // calcalisfiyati3
             // 
@@ -928,7 +929,7 @@
             this.calcalisfiyati3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcalisfiyati3.Size = new System.Drawing.Size(250, 20);
-            this.calcalisfiyati3.TabIndex = 3;
+            this.calcalisfiyati3.TabIndex = 25;
             // 
             // labelControl26
             // 
@@ -969,7 +970,7 @@
             this.calcsatisfiyati2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcsatisfiyati2.Size = new System.Drawing.Size(250, 20);
-            this.calcsatisfiyati2.TabIndex = 3;
+            this.calcsatisfiyati2.TabIndex = 24;
             // 
             // calcalisfiyati2
             // 
@@ -978,7 +979,7 @@
             this.calcalisfiyati2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcalisfiyati2.Size = new System.Drawing.Size(250, 20);
-            this.calcalisfiyati2.TabIndex = 3;
+            this.calcalisfiyati2.TabIndex = 23;
             // 
             // labelControl25
             // 
@@ -1003,7 +1004,7 @@
             this.calcsatisfiyati1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcsatisfiyati1.Size = new System.Drawing.Size(250, 20);
-            this.calcsatisfiyati1.TabIndex = 3;
+            this.calcsatisfiyati1.TabIndex = 22;
             // 
             // labelControl22
             // 
@@ -1028,13 +1029,13 @@
             this.calcalisfiyati1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcalisfiyati1.Size = new System.Drawing.Size(250, 20);
-            this.calcalisfiyati1.TabIndex = 3;
+            this.calcalisfiyati1.TabIndex = 21;
             // 
             // FrmStokIslem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(714, 666);
+            this.ClientSize = new System.Drawing.Size(717, 660);
             this.Controls.Add(this.grupfiyatlar);
             this.Controls.Add(this.grupkdvoranlari);
             this.Controls.Add(this.grupgruplar);
