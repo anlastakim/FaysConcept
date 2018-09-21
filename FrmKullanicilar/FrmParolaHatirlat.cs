@@ -43,5 +43,10 @@ namespace FrmKullanicilar
                 this.Close();
             }
         }
+
+        private void btnkapat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

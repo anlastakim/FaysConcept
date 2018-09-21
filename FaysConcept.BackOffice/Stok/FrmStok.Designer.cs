@@ -30,11 +30,12 @@ namespace FaysConcept.BackOffice.Stok
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStok));
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.grpMenu = new DevExpress.XtraEditors.GroupControl();
             this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
-            this.imgmenu = new System.Windows.Forms.ImageList();
+            this.imgmenu = new System.Windows.Forms.ImageList(this.components);
             this.btnGuncelle = new DevExpress.XtraEditors.SimpleButton();
             this.btnHareket = new DevExpress.XtraEditors.SimpleButton();
             this.btnKopyala = new DevExpress.XtraEditors.SimpleButton();
@@ -248,6 +249,7 @@ namespace FaysConcept.BackOffice.Stok
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
+            //this.gridControl1.DoubleClick += new System.EventHandler(this.gridControl1_DoubleClick);
             // 
             // gridView1
             // 
@@ -303,7 +305,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colDurumu.OptionsColumn.AllowEdit = false;
             this.colDurumu.Visible = true;
             this.colDurumu.VisibleIndex = 0;
-            this.colDurumu.Width = 60;
+            this.colDurumu.Width = 52;
             // 
             // colStokKodu
             // 
@@ -313,7 +315,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colStokKodu.OptionsColumn.AllowEdit = false;
             this.colStokKodu.Visible = true;
             this.colStokKodu.VisibleIndex = 1;
-            this.colStokKodu.Width = 129;
+            this.colStokKodu.Width = 112;
             // 
             // colStokAdi
             // 
@@ -323,7 +325,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colStokAdi.OptionsColumn.AllowEdit = false;
             this.colStokAdi.Visible = true;
             this.colStokAdi.VisibleIndex = 3;
-            this.colStokAdi.Width = 238;
+            this.colStokAdi.Width = 207;
             // 
             // colBarkodNo
             // 
@@ -333,7 +335,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colBarkodNo.OptionsColumn.AllowEdit = false;
             this.colBarkodNo.Visible = true;
             this.colBarkodNo.VisibleIndex = 2;
-            this.colBarkodNo.Width = 112;
+            this.colBarkodNo.Width = 97;
             // 
             // colBarkodTuru
             // 
@@ -343,7 +345,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colBarkodTuru.OptionsColumn.AllowEdit = false;
             this.colBarkodTuru.Visible = true;
             this.colBarkodTuru.VisibleIndex = 4;
-            this.colBarkodTuru.Width = 91;
+            this.colBarkodTuru.Width = 79;
             // 
             // colBirimi
             // 
@@ -353,7 +355,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colBirimi.OptionsColumn.AllowEdit = false;
             this.colBirimi.Visible = true;
             this.colBirimi.VisibleIndex = 5;
-            this.colBirimi.Width = 37;
+            this.colBirimi.Width = 44;
             // 
             // colStokGrubu
             // 
@@ -363,7 +365,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colStokGrubu.OptionsColumn.AllowEdit = false;
             this.colStokGrubu.Visible = true;
             this.colStokGrubu.VisibleIndex = 6;
-            this.colStokGrubu.Width = 74;
+            this.colStokGrubu.Width = 63;
             // 
             // colStokAltGrubu
             // 
@@ -511,7 +513,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colMinStokMiktar.OptionsColumn.AllowEdit = false;
             this.colMinStokMiktar.Visible = true;
             this.colMinStokMiktar.VisibleIndex = 8;
-            this.colMinStokMiktar.Width = 104;
+            this.colMinStokMiktar.Width = 84;
             // 
             // colMaxStokMiktar
             // 
@@ -521,7 +523,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colMaxStokMiktar.OptionsColumn.AllowEdit = false;
             this.colMaxStokMiktar.Visible = true;
             this.colMaxStokMiktar.VisibleIndex = 9;
-            this.colMaxStokMiktar.Width = 88;
+            this.colMaxStokMiktar.Width = 94;
             // 
             // colAciklama
             // 
@@ -531,7 +533,7 @@ namespace FaysConcept.BackOffice.Stok
             this.colAciklama.OptionsColumn.AllowEdit = false;
             this.colAciklama.Visible = true;
             this.colAciklama.VisibleIndex = 10;
-            this.colAciklama.Width = 257;
+            this.colAciklama.Width = 184;
             // 
             // StokGiris
             // 
@@ -541,7 +543,7 @@ namespace FaysConcept.BackOffice.Stok
             this.StokGiris.OptionsColumn.AllowEdit = false;
             this.StokGiris.Visible = true;
             this.StokGiris.VisibleIndex = 11;
-            this.StokGiris.Width = 60;
+            this.StokGiris.Width = 67;
             // 
             // StokCikis
             // 
@@ -551,7 +553,7 @@ namespace FaysConcept.BackOffice.Stok
             this.StokCikis.OptionsColumn.AllowEdit = false;
             this.StokCikis.Visible = true;
             this.StokCikis.VisibleIndex = 12;
-            this.StokCikis.Width = 59;
+            this.StokCikis.Width = 83;
             // 
             // MevcutStok
             // 
@@ -561,7 +563,7 @@ namespace FaysConcept.BackOffice.Stok
             this.MevcutStok.OptionsColumn.AllowEdit = false;
             this.MevcutStok.Visible = true;
             this.MevcutStok.VisibleIndex = 13;
-            this.MevcutStok.Width = 156;
+            this.MevcutStok.Width = 101;
             // 
             // FrmStok
             // 

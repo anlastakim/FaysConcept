@@ -386,7 +386,7 @@
             this.treeList1.BeginUnboundLoad();
             this.treeList1.AppendNode(new object[] {
             "Stoklar",
-            "FrmStoklar"}, -1, 0, 0, 5);
+            "FrmStok"}, -1, 0, 0, 5);
             this.treeList1.AppendNode(new object[] {
             "Göster",
             "btnStok"}, 0);

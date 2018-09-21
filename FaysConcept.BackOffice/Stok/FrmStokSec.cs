@@ -34,7 +34,7 @@ namespace FaysConcept.BackOffice.Stok
 
         private void FrmStokSec_Load(object sender, EventArgs e)
         {
-           gridControlStokSec.DataSource = stokDal.GetStoklar(context);
+           gridControlStokSec.DataSource = stokDal.StokListele(context);
           
 
         }

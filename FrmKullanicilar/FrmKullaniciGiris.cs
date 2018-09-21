@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using FaysConcept.Entities.Context;
+using FaysConcept.Entities.Tools;
 
 namespace FrmKullanicilar
 {
@@ -20,13 +21,17 @@ namespace FrmKullanicilar
         public FrmKullaniciGiris()
         {
             InitializeComponent();
+            txtKullaniciAdi.Text = SettingsTool.AyarOku(SettingsTool.Ayarlar.FrmKullaniciGiris_VarsayılanKullanici);
         }
 
         private void btnGiris_Click(object sender, EventArgs e)
         {
+
             if (context.Kullanicilar.Any(c=>c.KullaniciAdi==txtKullaniciAdi.Text && c.Parola==txtParola.Text))
             {
                 girisBasarili = true;
+                // Giriş başarılı ise kullanıcı adını kullanicientity e gönderdik.
+                RoleTool.KullaniciEntity = context.Kullanicilar.SingleOrDefault(c => c.KullaniciAdi == txtKullaniciAdi.Text);
                 this.Close();
             }
             else
@@ -67,7 +72,32 @@ namespace FrmKullanicilar
 
         private void FrmKullaniciGiris_Load(object sender, EventArgs e)
         {
+         
+        }
 
+        private void txtParola_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (context.Kullanicilar.Any(c => c.KullaniciAdi == txtKullaniciAdi.Text && c.Parola == txtParola.Text))
+                {
+                    girisBasarili = true;
+                    // Giriş başarılı ise kullanıcı adını kullanicientity e gönderdik.
+                    RoleTool.KullaniciEntity = context.Kullanicilar.SingleOrDefault(c => c.KullaniciAdi == txtKullaniciAdi.Text);
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Girmiş olduğunuz kullanıcı adı veya şifre yanlış");
+                    // txtKullaniciAdi.Text = null;
+                    txtParola.Text = null;
+                }
+            }
+        }
+
+        private void FrmKullaniciGiris_Shown(object sender, EventArgs e)
+        {
+            txtParola.Focus();
         }
     }
 }

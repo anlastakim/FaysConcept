@@ -160,6 +160,7 @@
             this.btnkapat.Size = new System.Drawing.Size(87, 46);
             this.btnkapat.TabIndex = 4;
             this.btnkapat.Text = "Kapat";
+            this.btnkapat.Click += new System.EventHandler(this.btnkapat_Click);
             // 
             // btnDegistir
             // 

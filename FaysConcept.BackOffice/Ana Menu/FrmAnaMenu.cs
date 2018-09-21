@@ -6,6 +6,8 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Linq;
+using System.Net;
+using System.Reflection;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
@@ -22,7 +24,14 @@ using FaysConcept.BackOffice.Tanım;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
 using FaysConcept.Entities.Tables;
+using FaysConcept.BackOffice.Raporlar;
+using FaysConcept.Reports.Stok;
+using FaysConcept.BackOffice.KodUretme;
+using FaysConcept.Entities.Tools;
 using FrmKullanicilar;
+using FaysConcept.BackOffice.Kasa_Hareketleri;
+using FaysConcept.BackOffice.Ayarlar;
+using FaysConcept.Backup;
 
 namespace FaysConcept.BackOffice
 {
@@ -31,10 +40,11 @@ namespace FaysConcept.BackOffice
         public RibbonForm1()
         {
 
-       
+
             InitializeComponent();
             FrmKullaniciGiris girisForm = new FrmKullaniciGiris();
             girisForm.ShowDialog();
+            barKullaniciAdi.Caption = RoleTool.KullaniciEntity.KullaniciAdi;
 
             using (var context = new FaysConceptContext())
             {
@@ -47,24 +57,27 @@ namespace FaysConcept.BackOffice
                 {
                     MessageBox.Show(e.Message);
                 }
-                   
-               
-              
+
+
+
 
             }
         }
 
         private void ribbon_Click(object sender, EventArgs e)
         {
-          
+
 
         }
 
         private void RibbonForm1_Load(object sender, EventArgs e)
         {
-                       FrmAnaMenuBilgi form = new FrmAnaMenuBilgi();
+            FrmAnaMenuBilgi form = new FrmAnaMenuBilgi();
             form.MdiParent = this;
             form.Show();
+
+            RoleTool.RolleriYukle(ribbon);
+
             //FaysConceptContext context = new FaysConceptContext();
             //CariDAL cariDal = new CariDAL();
             //Cari entity = new Cari
@@ -80,7 +93,7 @@ namespace FaysConcept.BackOffice
 
         private void barButtonItem1_ItemClick(object sender, ItemClickEventArgs e)
         {
-            FrmStok form=new FrmStok();
+            FrmStok form = new FrmStok();
             form.MdiParent = this;
             form.Show();
 
@@ -114,11 +127,6 @@ namespace FaysConcept.BackOffice
             form.Show();
         }
 
-        private void barButtonItem6_ItemClick(object sender, ItemClickEventArgs e)
-        {
-       
-        }
-
         private void barButtonItem13_ItemClick(object sender, ItemClickEventArgs e)
         {
             FrmKasa form = new FrmKasa();
@@ -126,11 +134,7 @@ namespace FaysConcept.BackOffice
             form.Show();
         }
 
-        private void barButtonItem21_ItemClick(object sender, ItemClickEventArgs e)
-        {
-           
-        }
-
+   
         private void barButtonItem3_ItemClick_1(object sender, ItemClickEventArgs e)
         {
             FrmFisIslem form = new FrmFisIslem();
@@ -140,7 +144,42 @@ namespace FaysConcept.BackOffice
 
         private void btnKullaniciYetki_ItemClick(object sender, ItemClickEventArgs e)
         {
-           
+
+        }
+
+        private void btnAnaRaporlar_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            rptStokDurumu report = new rptStokDurumu();
+            FrmRaporGoruntule form = new FrmRaporGoruntule(report);
+            form.WindowState = FormWindowState.Maximized;
+            form.Show();
+
+        }
+
+        private void barButtonItem15_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            FrmKodUretme form = new FrmKodUretme("");
+            form.ShowDialog();
+
+        }
+
+        private void btnKasaHareketleri_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            FrmKasaHareketleri form = new FrmKasaHareketleri();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void btnAyarlar_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            FrmAyarlar form = new FrmAyarlar();
+            form.ShowDialog();
+        }
+
+        private void btnYedekleme_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            FrmBackup form = new FrmBackup();
+            form.ShowDialog();
         }
     }
 }

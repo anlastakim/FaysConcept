@@ -12,6 +12,7 @@ using DevExpress.XtraEditors;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
 using FaysConcept.Entities.Tables;
+using FaysConcept.Entities.Tools;
 
 namespace FaysConcept.BackOffice.Stok
 {
@@ -26,6 +27,8 @@ namespace FaysConcept.BackOffice.Stok
         {
 
             InitializeComponent();
+           // yetkileri yükleme
+            RoleTool.RolleriYukle(this);
         }
 
         private void FrmStok_Load(object sender, EventArgs e)
@@ -36,7 +39,7 @@ namespace FaysConcept.BackOffice.Stok
 
         public void listele()
         {
-            gridControl1.DataSource = stokDal.GetStoklar(context);
+            gridControl1.DataSource = stokDal.StokListele(context);
         }
 
         private void btnkapat_Click(object sender, EventArgs e)
@@ -136,6 +139,13 @@ namespace FaysConcept.BackOffice.Stok
 
         }
 
+        //private void gridControl1_DoubleClick(object sender, EventArgs e)
+        //{
+        //    if (RoleTool.RolleriYukle(this, btnDuzenle.Name))
+        //    {
 
+        //    }     
+
+        //}
     }
 }

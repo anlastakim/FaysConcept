@@ -15,7 +15,7 @@ namespace FaysConcept.Entities.DataAccess
   public  class StokDAL : EntityRepositoryBase<FaysConceptContext, Stok,StokValidator>
     {
       // StokDAL stokDal = new StokDAL();
-        public  object GetStoklar(FaysConceptContext context)
+        public  object StokListele(FaysConceptContext context)
         {
             var tablo = context.Stoklar.GroupJoin(context.StokHareketleri, c => c.StokKodu, c => c.StokKodu,
                 (Stoklar, StokHareketleri) =>

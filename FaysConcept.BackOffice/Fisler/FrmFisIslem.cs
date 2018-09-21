@@ -17,7 +17,7 @@ using FaysConcept.BackOffice.Stok;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
 using FaysConcept.Entities.Tables;
-
+using FaysConcept.Entities.Tools;
 
 namespace FaysConcept.BackOffice.Fisler
 {
@@ -140,6 +140,9 @@ namespace FaysConcept.BackOffice.Fisler
             stokHareket.StokAdi = entity.StokAdi;
             stokHareket.Barkod = entity.BarkodNo;
             stokHareket.BarkodTuru = entity.BarkodTuru;
+            stokHareket.DepoKodu = SettingsTool.AyarOku(SettingsTool.Ayarlar.FrmFisIslem_VarsayılanDepo);
+            // settings üzerinden okunan depo kodunun depo adını getirme
+            stokHareket.DepoAdi = context.Depolar.SingleOrDefault(c => c.DepoKodu == stokHareket.DepoKodu).DepoAdi;
             stokHareket.BirimFiyat = textFisTuru.Text == "Alış Faturası" ? entity.AlisFiyat1 : entity.SatisFiyat1;
             stokHareket.Birimi = entity.Birimi;
             stokHareket.Miktar = textMiktar.Value;

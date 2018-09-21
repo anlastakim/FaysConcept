@@ -203,6 +203,8 @@
             this.colTutar});
             this.gridKasaHareket.GridControl = this.gridcontKasaHareket;
             this.gridKasaHareket.Name = "gridKasaHareket";
+            this.gridKasaHareket.OptionsView.ShowAutoFilterRow = true;
+            this.gridKasaHareket.OptionsView.ShowGroupPanel = false;
             // 
             // colId
             // 

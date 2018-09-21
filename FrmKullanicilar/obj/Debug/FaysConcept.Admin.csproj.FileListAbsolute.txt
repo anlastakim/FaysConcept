@@ -101,3 +101,16 @@ C:\Git\GitHub\FrmKullanicilar\bin\Debug\EntityFramework.SqlServer.dll
 C:\Git\GitHub\FrmKullanicilar\bin\Debug\EntityFramework.SqlServer.xml
 C:\Git\GitHub\FrmKullanicilar\obj\Debug\FrmKullanicilar.FrmKullaniciGiris.resources
 C:\Git\GitHub\FrmKullanicilar\obj\Debug\FrmKullanicilar.FrmParolaHatirlat.resources
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\Microsoft.CSharp.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.Data.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.Deployment.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.Drawing.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.Windows.Forms.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.Xml.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\System.Xml.Linq.dll
+C:\Git\GitHub\FrmKullanicilar\obj\Debug\FrmKullanicilar.FrmBaglantiAyarlari.resources
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\INIFileParser.dll
+C:\Git\GitHub\FrmKullanicilar\bin\Debug\INIFileParser.xml

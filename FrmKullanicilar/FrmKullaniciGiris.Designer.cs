@@ -28,12 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmKullaniciGiris));
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.grpMenu = new DevExpress.XtraEditors.GroupControl();
             this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.ımageList1 = new System.Windows.Forms.ImageList();
             this.btnGiris = new DevExpress.XtraEditors.SimpleButton();
             this.btnParolaSıfırla = new DevExpress.XtraEditors.SimpleButton();
             this.txtParola = new DevExpress.XtraEditors.TextEdit();
@@ -140,6 +139,7 @@
             this.txtParola.Properties.PasswordChar = '*';
             this.txtParola.Size = new System.Drawing.Size(381, 36);
             this.txtParola.TabIndex = 10;
+            this.txtParola.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtParola_KeyDown);
             // 
             // txtKullaniciAdi
             // 
@@ -185,6 +185,7 @@
             this.Text = "Kullanıcı Giriş Ekranı";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmKullaniciGiris_FormClosed);
             this.Load += new System.EventHandler(this.FrmKullaniciGiris_Load);
+            this.Shown += new System.EventHandler(this.FrmKullaniciGiris_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).EndInit();
             this.grpMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtParola.Properties)).EndInit();

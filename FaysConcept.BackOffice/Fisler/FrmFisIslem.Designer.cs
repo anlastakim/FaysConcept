@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions16 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions8 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions9 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
@@ -57,7 +58,7 @@
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.textBelgeNo = new DevExpress.XtraEditors.TextEdit();
             this.CmbTarih = new DevExpress.XtraEditors.DateEdit();
-            this.barManager1 = new DevExpress.XtraBars.BarManager();
+            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -98,7 +99,7 @@
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
-            this.ımageList1 = new System.Windows.Forms.ImageList();
+            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btnkaydet = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.calcGenelToplam = new DevExpress.XtraEditors.CalcEdit();
@@ -165,7 +166,7 @@
             this.colKasaHareketSil = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repoKHSil = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.flowOdemeTurleri = new System.Windows.Forms.FlowLayoutPanel();
-            this.radialFiyat = new DevExpress.XtraBars.Ribbon.RadialMenu();
+            this.radialFiyat = new DevExpress.XtraBars.Ribbon.RadialMenu(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
             this.navFisBilgi.SuspendLayout();
