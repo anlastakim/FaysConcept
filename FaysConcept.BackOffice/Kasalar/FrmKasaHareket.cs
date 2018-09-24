@@ -27,7 +27,7 @@ namespace FaysConcept.BackOffice.Kasalar
 
         private void FrmKasaHareket_Load(object sender, EventArgs e)
         {
-
+            //FaysConcept.Admin
         }
 
         public void Guncelle()

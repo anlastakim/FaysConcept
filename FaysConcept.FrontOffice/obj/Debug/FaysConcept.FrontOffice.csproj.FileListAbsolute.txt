@@ -193,6 +193,15 @@ C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\DevExpress.Printing.v17.1.Core.d
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\DevExpress.Utils.v17.1.dll
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\Microsoft.CSharp.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Data.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Deployment.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Drawing.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Windows.Forms.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Xml.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Xml.Linq.dll
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\DevExpress.Data.v17.1.xml
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\DevExpress.Utils.v17.1.xml
@@ -224,6 +233,7 @@ C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\de\DevExpress.Pdf.v17.1.Core.res
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csprojAssemblyReference.cache
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.Form1.resources
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.Properties.Resources.resources
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csproj.GenerateResource.cache
@@ -231,13 +241,3 @@ C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csproj.C
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csproj.CopyComplete
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.exe
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.pdb
-C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csprojAssemblyReference.cache
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\Microsoft.CSharp.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Data.DataSetExtensions.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Data.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Deployment.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Drawing.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Windows.Forms.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Xml.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\System.Xml.Linq.dll

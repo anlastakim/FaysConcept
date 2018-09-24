@@ -28,10 +28,11 @@ using FaysConcept.BackOffice.Raporlar;
 using FaysConcept.Reports.Stok;
 using FaysConcept.BackOffice.KodUretme;
 using FaysConcept.Entities.Tools;
-using FrmKullanicilar;
 using FaysConcept.BackOffice.Kasa_Hareketleri;
 using FaysConcept.BackOffice.Ayarlar;
 using FaysConcept.Backup;
+using FaysConcept.Admin;
+
 
 namespace FaysConcept.BackOffice
 {
@@ -44,7 +45,7 @@ namespace FaysConcept.BackOffice
             InitializeComponent();
             FrmKullaniciGiris girisForm = new FrmKullaniciGiris();
             girisForm.ShowDialog();
-            barKullaniciAdi.Caption = RoleTool.KullaniciEntity.KullaniciAdi;
+            barKullaniciAdi.Caption = $"Giriş Yapan Kullanıcı :  {RoleTool.KullaniciEntity.KullaniciAdi}";
 
             using (var context = new FaysConceptContext())
             {
@@ -67,7 +68,7 @@ namespace FaysConcept.BackOffice
         private void ribbon_Click(object sender, EventArgs e)
         {
 
-
+            
         }
 
         private void RibbonForm1_Load(object sender, EventArgs e)
@@ -144,7 +145,10 @@ namespace FaysConcept.BackOffice
 
         private void btnKullaniciYetki_ItemClick(object sender, ItemClickEventArgs e)
         {
-
+            FrmKullanicilar form = new FrmKullanicilar();
+            form.MdiParent = this;
+            form.Show();
+            //FrmKullanicilar form=new
         }
 
         private void btnAnaRaporlar_ItemClick(object sender, ItemClickEventArgs e)

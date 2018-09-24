@@ -404,6 +404,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FaysConcept.AnaGiris\FaysConcept.Admin.csproj">
+      <Project>{1e27bae1-30c2-4a96-90ba-bc1f59e28b23}</Project>
+      <Name>FaysConcept.Admin</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FaysConcept.Backup\FaysConcept.Backup.csproj">
       <Project>{ff39a585-16bb-46ab-bb02-5c27f34cfd1f}</Project>
       <Name>FaysConcept.Backup</Name>
@@ -419,10 +423,6 @@
     <ProjectReference Include="..\FaysConcept.Reports\FaysConcept.Reports.csproj">
       <Project>{51295ea4-e328-4af5-98f8-f7ac6f35c977}</Project>
       <Name>FaysConcept.Reports</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FrmKullanicilar\FaysConcept.Admin.csproj">
-      <Project>{1e27bae1-30c2-4a96-90ba-bc1f59e28b23}</Project>
-      <Name>FaysConcept.Admin</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
