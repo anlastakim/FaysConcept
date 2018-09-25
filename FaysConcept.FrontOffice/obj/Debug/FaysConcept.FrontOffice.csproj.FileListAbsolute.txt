@@ -233,7 +233,6 @@ C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\de\DevExpress.Pdf.v17.1.Core.res
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
 C:\Git\GitHub\FaysConcept.FrontOffice\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
-C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csprojAssemblyReference.cache
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.Form1.resources
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.Properties.Resources.resources
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csproj.GenerateResource.cache
@@ -241,3 +240,4 @@ C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csproj.C
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csproj.CopyComplete
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.exe
 C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.pdb
+C:\Git\GitHub\FaysConcept.FrontOffice\obj\Debug\FaysConcept.FrontOffice.csprojAssemblyReference.cache

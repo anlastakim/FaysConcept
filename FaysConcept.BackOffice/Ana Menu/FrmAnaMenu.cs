@@ -33,7 +33,6 @@ using FaysConcept.BackOffice.Ayarlar;
 using FaysConcept.Backup;
 using FaysConcept.Admin;
 
-
 namespace FaysConcept.BackOffice
 {
     public partial class RibbonForm1 : DevExpress.XtraBars.Ribbon.RibbonForm
@@ -185,6 +184,7 @@ namespace FaysConcept.BackOffice
             FrmBackup form = new FrmBackup();
             form.ShowDialog();
         }
+
     }
 }
 

@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaysConcept.Reports", "Fays
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaysConcept.Backup", "FaysConcept.Backup\FaysConcept.Backup.csproj", "{FF39A585-16BB-46AB-BB02-5C27F34CFD1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaysConcept.Admin", "FaysConcept.AnaGiris\FaysConcept.Admin.csproj", "{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaysConcept.Mobile", "FaysConcept.Mobile\FaysConcept.Mobile.csproj", "{09F11EEC-FA2A-45F1-8CFB-210CA08C5994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaysConcept.Admin", "FaysConcept.Admin\FaysConcept.Admin.csproj", "{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{FF39A585-16BB-46AB-BB02-5C27F34CFD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF39A585-16BB-46AB-BB02-5C27F34CFD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF39A585-16BB-46AB-BB02-5C27F34CFD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F11EEC-FA2A-45F1-8CFB-210CA08C5994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F11EEC-FA2A-45F1-8CFB-210CA08C5994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F11EEC-FA2A-45F1-8CFB-210CA08C5994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F11EEC-FA2A-45F1-8CFB-210CA08C5994}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}.Release|Any CPU.ActiveCfg = Release|Any CPU

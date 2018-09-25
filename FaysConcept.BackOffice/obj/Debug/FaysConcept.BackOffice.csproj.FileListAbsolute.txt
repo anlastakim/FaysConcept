@@ -763,7 +763,7 @@ C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\DevExpress.XtraReports.v17.1.dll
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\DevExpress.XtraWizard.v17.1.dll
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\EntityFramework.dll
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\EntityFramework.SqlServer.dll
-C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.AnaGiris.exe
+C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.Admin.exe
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.Backup.exe
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.Entities.dll
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.FrontOffice.exe
@@ -793,8 +793,8 @@ C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\DevExpress.XtraGauges.v17.1.Core.
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\DevExpress.Xpo.v17.1.dll
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\DevExpress.CodeParser.v17.1.dll
-C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.AnaGiris.pdb
-C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.AnaGiris.exe.config
+C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.Admin.pdb
+C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.Admin.exe.config
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.Backup.pdb
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.Backup.exe.config
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\FaysConcept.Entities.pdb

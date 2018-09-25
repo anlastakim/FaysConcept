@@ -6,11 +6,18 @@ using System.Text;
 using System.Threading.Tasks;
 using FaysConcept.Entities.Tables;
 using FaysConcept.Entities.Mapping;
+using FaysConcept.Entities.Tools;
 
 namespace FaysConcept.Entities.Context
 {
-    public class FaysConceptContext:DbContext
+    public class FaysConceptContext : DbContext
     {
+        public FaysConceptContext():base(SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi)?? "Bağlantı Yok")
+        {
+
+        }
+        
+
         public DbSet<Stok> Stoklar { get; set; }
         public DbSet<Cari> Cariler { get; set; }
         public DbSet<Fis> Fisler { get; set; }

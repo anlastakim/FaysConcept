@@ -42,7 +42,8 @@ namespace FaysConcept.Entities.Tools
             SmsAyarları_Parola,
             FrmFisIslem_VarsayılanDepo,
             FrmKullaniciGiris_VarsayılanKullanici,
-            FrmBackup_YedeklemeKonumu
+            FrmBackup_YedeklemeKonumu,
+            DatabaseAyarlari_BaglantiCumlesi
         }
 
         public static void AyarDegistir(Ayarlar ayar, string value)

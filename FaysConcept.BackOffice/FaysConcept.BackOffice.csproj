@@ -35,6 +35,9 @@
   <PropertyGroup>
     <StartupObject>FaysConcept.BackOffice.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>if_diagram_v2-28_37148.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v17.1" />
     <Reference Include="DevExpress.Data.v17.1" />
@@ -404,8 +407,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FaysConcept.AnaGiris\FaysConcept.Admin.csproj">
-      <Project>{1e27bae1-30c2-4a96-90ba-bc1f59e28b23}</Project>
+    <ProjectReference Include="..\FaysConcept.Admin\FaysConcept.Admin.csproj">
+      <Project>{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}</Project>
       <Name>FaysConcept.Admin</Name>
     </ProjectReference>
     <ProjectReference Include="..\FaysConcept.Backup\FaysConcept.Backup.csproj">
@@ -425,7 +428,9 @@
       <Name>FaysConcept.Reports</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="if_diagram_v2-28_37148.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
