@@ -27,6 +27,7 @@ namespace FaysConcept.BackOffice.Ayarlar
             lookupDepo.EditValue = SettingsTool.AyarOku(SettingsTool.Ayarlar.FrmFisIslem_VarsayılanDepo);
             lookUpKullanici.Properties.DataSource = kullaniciDAL.GetAll(context);
             lookUpKullanici.EditValue = SettingsTool.AyarOku(SettingsTool.Ayarlar.FrmKullaniciGiris_VarsayılanKullanici);
+            toggleGuncelle.IsOn = Convert.ToBoolean(SettingsTool.AyarOku(SettingsTool.Ayarlar.GenelAyarlar_GuncellemeKontrolu));
         }
 
         private void FrmAyarlar_Load(object sender, EventArgs e)
@@ -43,6 +44,7 @@ namespace FaysConcept.BackOffice.Ayarlar
         {
             SettingsTool.AyarDegistir(SettingsTool.Ayarlar.FrmFisIslem_VarsayılanDepo, lookupDepo.EditValue.ToString());
             SettingsTool.AyarDegistir(SettingsTool.Ayarlar.FrmKullaniciGiris_VarsayılanKullanici, lookUpKullanici.EditValue.ToString());
+            SettingsTool.AyarDegistir(SettingsTool.Ayarlar.GenelAyarlar_GuncellemeKontrolu, toggleGuncelle.IsOn.ToString());
             SettingsTool.Save();
         }
     }

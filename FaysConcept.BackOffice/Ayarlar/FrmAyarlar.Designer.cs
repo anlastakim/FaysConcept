@@ -1,4 +1,6 @@
-﻿namespace FaysConcept.BackOffice.Ayarlar
+﻿using DevExpress.XtraEditors;
+
+namespace FaysConcept.BackOffice.Ayarlar
 {
     partial class FrmAyarlar
     {
@@ -37,30 +39,33 @@
             this.btnkaydet = new DevExpress.XtraEditors.SimpleButton();
             this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.lookupDepo = new DevExpress.XtraEditors.GridLookUpEdit();
-            this.gridLookUpEdit1View = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.navigationPage2 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.lookUpKullanici = new DevExpress.XtraEditors.GridLookUpEdit();
+            this.kullaniciBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colKullaniciAdi = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.kullaniciBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.lookupDepo = new DevExpress.XtraEditors.GridLookUpEdit();
+            this.gridLookUpEdit1View = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colDepoKodu = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDepoAdi = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colYetkiliKodu = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colYetkiliAdi = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAciklama = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.navigationPage2 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.toggleGuncelle = new DevExpress.XtraEditors.ToggleSwitch();
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).BeginInit();
             this.grpMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
             this.navigationPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpKullanici.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kullaniciBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookupDepo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridLookUpEdit1View)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpKullanici.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kullaniciBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleGuncelle.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBaslik
@@ -145,12 +150,50 @@
             // navigationPage1
             // 
             this.navigationPage1.Caption = "Genel Ayarlar";
+            this.navigationPage1.Controls.Add(this.toggleGuncelle);
             this.navigationPage1.Controls.Add(this.lookUpKullanici);
             this.navigationPage1.Controls.Add(this.lookupDepo);
             this.navigationPage1.Controls.Add(this.labelControl1);
+            this.navigationPage1.Controls.Add(this.labelControl3);
             this.navigationPage1.Controls.Add(this.labelControl2);
             this.navigationPage1.Name = "navigationPage1";
             this.navigationPage1.Size = new System.Drawing.Size(1045, 395);
+            // 
+            // lookUpKullanici
+            // 
+            this.lookUpKullanici.Location = new System.Drawing.Point(128, 12);
+            this.lookUpKullanici.Name = "lookUpKullanici";
+            this.lookUpKullanici.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lookUpKullanici.Properties.DataSource = this.kullaniciBindingSource;
+            this.lookUpKullanici.Properties.DisplayMember = "KullaniciAdi";
+            this.lookUpKullanici.Properties.NullText = "Kullanıcı Seçiniz";
+            this.lookUpKullanici.Properties.ValueMember = "KullaniciAdi";
+            this.lookUpKullanici.Properties.View = this.gridView1;
+            this.lookUpKullanici.Size = new System.Drawing.Size(254, 20);
+            this.lookUpKullanici.TabIndex = 2;
+            // 
+            // kullaniciBindingSource
+            // 
+            this.kullaniciBindingSource.DataSource = typeof(FaysConcept.Entities.Tables.Kullanici);
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colKullaniciAdi});
+            this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // colKullaniciAdi
+            // 
+            this.colKullaniciAdi.Caption = "Kullanıcı Adı";
+            this.colKullaniciAdi.FieldName = "KullaniciAdi";
+            this.colKullaniciAdi.Name = "colKullaniciAdi";
+            this.colKullaniciAdi.OptionsColumn.AllowEdit = false;
+            this.colKullaniciAdi.Visible = true;
+            this.colKullaniciAdi.VisibleIndex = 0;
             // 
             // lookupDepo
             // 
@@ -177,80 +220,6 @@
             this.gridLookUpEdit1View.Name = "gridLookUpEdit1View";
             this.gridLookUpEdit1View.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridLookUpEdit1View.OptionsView.ShowGroupPanel = false;
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.labelControl2.Appearance.BorderColor = System.Drawing.Color.Silver;
-            this.labelControl2.Appearance.Options.UseBackColor = true;
-            this.labelControl2.Appearance.Options.UseBorderColor = true;
-            this.labelControl2.Appearance.Options.UseTextOptions = true;
-            this.labelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl2.Location = new System.Drawing.Point(17, 38);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(105, 21);
-            this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "Varsayılan Depo :";
-            // 
-            // navigationPage2
-            // 
-            this.navigationPage2.Caption = "Satış Ayarları";
-            this.navigationPage2.Name = "navigationPage2";
-            this.navigationPage2.Size = new System.Drawing.Size(1144, 455);
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.labelControl1.Appearance.BorderColor = System.Drawing.Color.Silver;
-            this.labelControl1.Appearance.Options.UseBackColor = true;
-            this.labelControl1.Appearance.Options.UseBorderColor = true;
-            this.labelControl1.Appearance.Options.UseTextOptions = true;
-            this.labelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl1.Location = new System.Drawing.Point(17, 11);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(105, 21);
-            this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Varsayılan Kullanıcı :";
-            // 
-            // lookUpKullanici
-            // 
-            this.lookUpKullanici.Location = new System.Drawing.Point(128, 12);
-            this.lookUpKullanici.Name = "lookUpKullanici";
-            this.lookUpKullanici.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpKullanici.Properties.DataSource = this.kullaniciBindingSource;
-            this.lookUpKullanici.Properties.DisplayMember = "KullaniciAdi";
-            this.lookUpKullanici.Properties.NullText = "Kullanıcı Seçiniz";
-            this.lookUpKullanici.Properties.ValueMember = "KullaniciAdi";
-            this.lookUpKullanici.Properties.View = this.gridView1;
-            this.lookUpKullanici.Size = new System.Drawing.Size(254, 20);
-            this.lookUpKullanici.TabIndex = 2;
-            // 
-            // gridView1
-            // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colKullaniciAdi});
-            this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.gridView1.OptionsView.ShowGroupPanel = false;
-            // 
-            // colKullaniciAdi
-            // 
-            this.colKullaniciAdi.Caption = "Kullanıcı Adı";
-            this.colKullaniciAdi.FieldName = "KullaniciAdi";
-            this.colKullaniciAdi.Name = "colKullaniciAdi";
-            this.colKullaniciAdi.OptionsColumn.AllowEdit = false;
-            this.colKullaniciAdi.Visible = true;
-            this.colKullaniciAdi.VisibleIndex = 0;
-            // 
-            // kullaniciBindingSource
-            // 
-            this.kullaniciBindingSource.DataSource = typeof(FaysConcept.Entities.Tables.Kullanici);
             // 
             // colDepoKodu
             // 
@@ -287,6 +256,70 @@
             this.colAciklama.Visible = true;
             this.colAciklama.VisibleIndex = 4;
             // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.labelControl1.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.labelControl1.Appearance.Options.UseBackColor = true;
+            this.labelControl1.Appearance.Options.UseBorderColor = true;
+            this.labelControl1.Appearance.Options.UseTextOptions = true;
+            this.labelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.labelControl1.Location = new System.Drawing.Point(17, 11);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(105, 21);
+            this.labelControl1.TabIndex = 1;
+            this.labelControl1.Text = "Varsayılan Kullanıcı :";
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.labelControl2.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.labelControl2.Appearance.Options.UseBackColor = true;
+            this.labelControl2.Appearance.Options.UseBorderColor = true;
+            this.labelControl2.Appearance.Options.UseTextOptions = true;
+            this.labelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.labelControl2.Location = new System.Drawing.Point(17, 38);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(105, 21);
+            this.labelControl2.TabIndex = 1;
+            this.labelControl2.Text = "Varsayılan Depo :";
+            // 
+            // navigationPage2
+            // 
+            this.navigationPage2.Caption = "Satış Ayarları";
+            this.navigationPage2.Name = "navigationPage2";
+            this.navigationPage2.Size = new System.Drawing.Size(1144, 455);
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.labelControl3.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.labelControl3.Appearance.Options.UseBackColor = true;
+            this.labelControl3.Appearance.Options.UseBorderColor = true;
+            this.labelControl3.Appearance.Options.UseTextOptions = true;
+            this.labelControl3.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
+            this.labelControl3.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.labelControl3.Location = new System.Drawing.Point(17, 65);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(106, 32);
+            this.labelControl3.TabIndex = 1;
+            this.labelControl3.Text = "Her Açılışta Güncelleme Kontrolü :";
+            // 
+            // toggleGuncelle
+            // 
+            this.toggleGuncelle.Location = new System.Drawing.Point(128, 65);
+            this.toggleGuncelle.Name = "toggleGuncelle";
+            this.toggleGuncelle.Properties.OffText = "Hayır";
+            this.toggleGuncelle.Properties.OnText = "Evet";
+            this.toggleGuncelle.Size = new System.Drawing.Size(106, 24);
+            this.toggleGuncelle.TabIndex = 3;
+            // 
             // FrmAyarlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -307,11 +340,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpKullanici.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kullaniciBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookupDepo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridLookUpEdit1View)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpKullanici.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kullaniciBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleGuncelle.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -339,5 +373,7 @@
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraGrid.Columns.GridColumn colKullaniciAdi;
+        private ToggleSwitch toggleGuncelle;
+        private LabelControl labelControl3;
     }
 }

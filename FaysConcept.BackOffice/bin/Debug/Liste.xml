@@ -1,0 +1,14 @@
+<Tablo>
+     <Dosya>
+          <DosyaAdi>FaysConcept.BackOffice.exe</DosyaAdi>
+          <YuklenecegiKonum>\FaysConcept.BackOffice.exe</YuklenecegiKonum>
+     </Dosya>
+     <Dosya>
+          <DosyaAdi>FaysConcept.FrontOffice.exe</DosyaAdi>
+          <YuklenecegiKonum>\FaysConcept.FrontOffice.exe</YuklenecegiKonum>
+     </Dosya>
+     <Dosya>
+          <DosyaAdi>FaysConcept.Entities.dll</DosyaAdi>
+          <YuklenecegiKonum>\Raporlar\FaysConcept.Entities.dll</YuklenecegiKonum>
+     </Dosya>
+</Tablo>

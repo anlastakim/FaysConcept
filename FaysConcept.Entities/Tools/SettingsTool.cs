@@ -38,12 +38,11 @@ namespace FaysConcept.Entities.Tools
 
         public enum Ayarlar
         {
-            SmsAyarları_KullanıcıAdı,
-            SmsAyarları_Parola,
             FrmFisIslem_VarsayılanDepo,
             FrmKullaniciGiris_VarsayılanKullanici,
             FrmBackup_YedeklemeKonumu,
-            DatabaseAyarlari_BaglantiCumlesi
+            DatabaseAyarlari_BaglantiCumlesi,
+            GenelAyarlar_GuncellemeKontrolu
         }
 
         public static void AyarDegistir(Ayarlar ayar, string value)

@@ -12,10 +12,10 @@ namespace FaysConcept.Entities.Context
 {
     public class FaysConceptContext : DbContext
     {
-        public FaysConceptContext():base(SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi)?? "Bağlantı Yok")
-        {
+        //public FaysConceptContext():base(SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi)?? "Bağlantı Yok")
+        //{
 
-        }
+        //}
         
 
         public DbSet<Stok> Stoklar { get; set; }
@@ -30,6 +30,8 @@ namespace FaysConcept.Entities.Context
         public DbSet<Kullanici> Kullanicilar { get; set; }
         public DbSet<KullaniciRol> KullaniciRolleri { get; set; }
         public DbSet<KodUret> Kodlar  { get; set; }
+        public DbSet<Personel> Personeller { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -47,6 +49,8 @@ namespace FaysConcept.Entities.Context
             modelBuilder.Configurations.Add(new KullaniciMap());
             modelBuilder.Configurations.Add(new KullaniciRolMap());
             modelBuilder.Configurations.Add(new KodUretMap());
+            modelBuilder.Configurations.Add(new PersonelMap());
+
 
         }
 

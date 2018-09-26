@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RibbonForm1));
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.btnStok = new DevExpress.XtraBars.BarButtonItem();
@@ -58,6 +59,7 @@
             this.barKullaniciAdi = new DevExpress.XtraBars.BarStaticItem();
             this.btnAyarlar = new DevExpress.XtraBars.BarButtonItem();
             this.btnYedekleme = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
             this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -74,12 +76,12 @@
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbnKullaniciYetki = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager();
+            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem23 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnGuncelleme = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -117,9 +119,10 @@
             this.barKullaniciAdi,
             this.btnAyarlar,
             this.btnYedekleme,
-            this.barButtonItem6});
+            this.barButtonItem6,
+            this.btnGuncelleme});
             this.ribbon.Location = new System.Drawing.Point(0, 0);
-            this.ribbon.MaxItemId = 32;
+            this.ribbon.MaxItemId = 33;
             this.ribbon.Name = "ribbon";
             this.ribbon.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.ribbonPageCategory1});
@@ -333,6 +336,13 @@
             this.btnYedekleme.Name = "btnYedekleme";
             this.btnYedekleme.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnYedekleme_ItemClick);
             // 
+            // barButtonItem6
+            // 
+            this.barButtonItem6.Caption = "Veritabanı Ayarları";
+            this.barButtonItem6.Id = 31;
+            this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
+            this.barButtonItem6.Name = "barButtonItem6";
+            // 
             // ribbonPageCategory1
             // 
             this.ribbonPageCategory1.Name = "ribbonPageCategory1";
@@ -446,6 +456,7 @@
             // 
             this.rbnKullaniciYetki.ItemLinks.Add(this.btnAyarlar);
             this.rbnKullaniciYetki.ItemLinks.Add(this.btnYedekleme);
+            this.rbnKullaniciYetki.ItemLinks.Add(this.btnGuncelleme);
             this.rbnKullaniciYetki.ItemLinks.Add(this.btnKullaniciYetki);
             this.rbnKullaniciYetki.ItemLinks.Add(this.barButtonItem15);
             this.rbnKullaniciYetki.Name = "rbnKullaniciYetki";
@@ -491,12 +502,13 @@
             this.barButtonItem23.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem23.ImageOptions.LargeImage")));
             this.barButtonItem23.Name = "barButtonItem23";
             // 
-            // barButtonItem6
+            // btnGuncelleme
             // 
-            this.barButtonItem6.Caption = "Veritabanı Ayarları";
-            this.barButtonItem6.Id = 31;
-            this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
-            this.barButtonItem6.Name = "barButtonItem6";
+            this.btnGuncelleme.Caption = "Güncelleme";
+            this.btnGuncelleme.Id = 32;
+            this.btnGuncelleme.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem24.ImageOptions.LargeImage")));
+            this.btnGuncelleme.Name = "btnGuncelleme";
+            this.btnGuncelleme.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGuncelleme_ItemClick);
             // 
             // RibbonForm1
             // 
@@ -574,5 +586,6 @@
         private DevExpress.XtraBars.BarButtonItem btnAyarlar;
         private DevExpress.XtraBars.BarButtonItem btnYedekleme;
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
+        private DevExpress.XtraBars.BarButtonItem btnGuncelleme;
     }
 }

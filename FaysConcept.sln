@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaysConcept.Mobile", "FaysC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaysConcept.Admin", "FaysConcept.Admin\FaysConcept.Admin.csproj", "{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaysConcept.Update", "FaysConcept.Update\FaysConcept.Update.csproj", "{8042EC19-D6E0-4CBB-8F89-58ABDB11C03F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8042EC19-D6E0-4CBB-8F89-58ABDB11C03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8042EC19-D6E0-4CBB-8F89-58ABDB11C03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8042EC19-D6E0-4CBB-8F89-58ABDB11C03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8042EC19-D6E0-4CBB-8F89-58ABDB11C03F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

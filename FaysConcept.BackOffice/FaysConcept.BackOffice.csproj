@@ -46,7 +46,7 @@
     <Reference Include="DevExpress.Xpf.Ribbon.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v17.1" />
     <Reference Include="DevExpress.Sparkline.v17.1.Core" />
-    <Reference Include="DevExpress.XtraEditors.v17.1" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -67,6 +67,7 @@
     <Reference Include="System.Core">
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Windows.Controls.Ribbon" />
     <Reference Include="System.Xml.Linq">
       <Private>True</Private>
@@ -208,6 +209,12 @@
     <Compile Include="KodUretme\FrmKodUretme.Designer.cs">
       <DependentUpon>FrmKodUretme.cs</DependentUpon>
     </Compile>
+    <Compile Include="Personel\FrmPersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel\FrmPersonel.Designer.cs">
+      <DependentUpon>FrmPersonel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ana Menu\FrmAnaMenu.cs">
@@ -339,6 +346,9 @@
     <EmbeddedResource Include="KodUretme\FrmKodUretme.resx">
       <DependentUpon>FrmKodUretme.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Personel\FrmPersonel.resx">
+      <DependentUpon>FrmPersonel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -407,8 +417,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="if_diagram_v2-28_37148.ico" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\FaysConcept.Admin\FaysConcept.Admin.csproj">
-      <Project>{1E27BAE1-30C2-4A96-90BA-BC1F59E28B23}</Project>
+      <Project>{1e27bae1-30c2-4a96-90ba-bc1f59e28b23}</Project>
       <Name>FaysConcept.Admin</Name>
     </ProjectReference>
     <ProjectReference Include="..\FaysConcept.Backup\FaysConcept.Backup.csproj">
@@ -420,16 +433,17 @@
       <Name>FaysConcept.Entities</Name>
     </ProjectReference>
     <ProjectReference Include="..\FaysConcept.FrontOffice\FaysConcept.FrontOffice.csproj">
-      <Project>{25430E6A-2BA0-4ABB-BEDE-886AB0E5B719}</Project>
+      <Project>{25430e6a-2ba0-4abb-bede-886ab0e5b719}</Project>
       <Name>FaysConcept.FrontOffice</Name>
     </ProjectReference>
     <ProjectReference Include="..\FaysConcept.Reports\FaysConcept.Reports.csproj">
       <Project>{51295ea4-e328-4af5-98f8-f7ac6f35c977}</Project>
       <Name>FaysConcept.Reports</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="if_diagram_v2-28_37148.ico" />
+    <ProjectReference Include="..\FaysConcept.Update\FaysConcept.Update.csproj">
+      <Project>{8042ec19-d6e0-4cbb-8f89-58abdb11c03f}</Project>
+      <Name>FaysConcept.Update</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

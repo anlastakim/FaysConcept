@@ -178,12 +178,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FaysConcept.Entities\FaysConcept.Entities.csproj">
-      <Project>{b2d155b4-65e6-4bba-84d1-26936e7a1413}</Project>
-      <Name>FaysConcept.Entities</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="if_diagram_v2-28_37148.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -197,6 +191,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FaysConcept.Entities\FaysConcept.Entities.csproj">
+      <Project>{b2d155b4-65e6-4bba-84d1-26936e7a1413}</Project>
+      <Name>FaysConcept.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

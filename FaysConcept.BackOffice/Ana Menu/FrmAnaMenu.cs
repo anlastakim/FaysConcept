@@ -32,6 +32,7 @@ using FaysConcept.BackOffice.Kasa_Hareketleri;
 using FaysConcept.BackOffice.Ayarlar;
 using FaysConcept.Backup;
 using FaysConcept.Admin;
+using System.Diagnostics;
 
 namespace FaysConcept.BackOffice
 {
@@ -40,8 +41,25 @@ namespace FaysConcept.BackOffice
         public RibbonForm1()
         {
 
-
             InitializeComponent();
+
+            WebClient indir = new WebClient();
+            string programVersiyon = Assembly.Load("FaysConcept.BackOffice").GetName().Version.ToString();
+            string guncelVersiyon = indir.DownloadString("http://www.fayscrm.com/Download/versiyon.txt");
+            if (programVersiyon != guncelVersiyon)
+            {
+                if (Convert.ToBoolean(SettingsTool.AyarOku(SettingsTool.Ayarlar.GenelAyarlar_GuncellemeKontrolu)))
+                {
+                    if (MessageBox.Show("Yeni bir sürüm yayınlandı.Yüklemek ister misiniz ?", "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    {
+                        Process.Start($"{Application.StartupPath}\\FaysConcept.Update.exe");
+                    }
+
+                }
+
+            }
+       
+            //
             FrmKullaniciGiris girisForm = new FrmKullaniciGiris();
             girisForm.ShowDialog();
             barKullaniciAdi.Caption = $"Giriş Yapan Kullanıcı :  {RoleTool.KullaniciEntity.KullaniciAdi}";
@@ -67,7 +85,7 @@ namespace FaysConcept.BackOffice
         private void ribbon_Click(object sender, EventArgs e)
         {
 
-            
+
         }
 
         private void RibbonForm1_Load(object sender, EventArgs e)
@@ -99,12 +117,6 @@ namespace FaysConcept.BackOffice
 
         }
 
-        private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            FrmCariKart form = new FrmCariKart();
-            form.MdiParent = this;
-            form.Show();
-        }
 
         private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
         {
@@ -134,7 +146,7 @@ namespace FaysConcept.BackOffice
             form.Show();
         }
 
-   
+
         private void barButtonItem3_ItemClick_1(object sender, ItemClickEventArgs e)
         {
             FrmFisIslem form = new FrmFisIslem();
@@ -185,6 +197,21 @@ namespace FaysConcept.BackOffice
             form.ShowDialog();
         }
 
+        private void btnGuncelleme_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            WebClient indir = new WebClient();
+
+            string programVersiyon = Assembly.Load("FaysConcept.BackOffice").GetName().Version.ToString();
+            string guncelVersiyon = indir.DownloadString("http://www.fayscrm.com/Download/versiyon.txt");
+            if (programVersiyon != guncelVersiyon)
+            {
+                Process.Start($"{Application.StartupPath}\\FaysConcept.Update.exe");
+            }
+            else
+            {
+                MessageBox.Show("Programınız güncel durumdadır.");
+            }
+        }
     }
 }
 
