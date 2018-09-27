@@ -10,6 +10,9 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using FaysConcept.Entities.Context;
 using FaysConcept.Entities.Tools;
+using System.Security.AccessControl;
+using System.IO;
+using System.Security.Principal;
 
 namespace FaysConcept.Admin
 {
@@ -21,6 +24,8 @@ namespace FaysConcept.Admin
         public FrmKullaniciGiris()
         {
             InitializeComponent();
+            
+            KlasoreIzinVer();
             //Kullanıcı giriş formu oluşturulurken bağlantı kontrolü ve kayıt
             if (!ConnectionTool.CheckConnection(SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi)))
             {
@@ -30,6 +35,18 @@ namespace FaysConcept.Admin
             context = new FaysConceptContext();
             txtKullaniciAdi.Text = SettingsTool.AyarOku(SettingsTool.Ayarlar.FrmKullaniciGiris_VarsayılanKullanici);
         }
+
+        // program setup sonrası kurulumlarda yetkiler
+        private void KlasoreIzinVer()
+        {     // programın çalışacağı klasöre izin ver.
+            DirectorySecurity izin = Directory.GetAccessControl(Application.StartupPath);
+            //everyone a denk gelen tüm windows dillerinde yetki vermek için SecurityIdentifier  domain sid null değeri verildi.
+            SecurityIdentifier everyone = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
+            izin.AddAccessRule(new FileSystemAccessRule(everyone, FileSystemRights.FullControl, AccessControlType.Allow));
+            // izin verme tamamlandı.
+            Directory.SetAccessControl(Application.StartupPath, izin);
+        }
+
 
         private void btnGiris_Click(object sender, EventArgs e)
         {

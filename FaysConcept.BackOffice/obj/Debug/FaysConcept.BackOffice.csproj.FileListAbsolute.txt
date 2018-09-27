@@ -1205,3 +1205,5 @@ C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\de\DevExpress.Sparkline.v18.1.Cor
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
 C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\System.Data.Linq.dll
+C:\Git\GitHub\FaysConcept.BackOffice\bin\Debug\System.Windows.Controls.Ribbon.dll

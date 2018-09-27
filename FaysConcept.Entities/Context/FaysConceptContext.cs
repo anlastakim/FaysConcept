@@ -12,11 +12,11 @@ namespace FaysConcept.Entities.Context
 {
     public class FaysConceptContext : DbContext
     {
-        //public FaysConceptContext():base(SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi)?? "Bağlantı Yok")
-        //{
+        public FaysConceptContext() : base(SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi) ?? "Bağlantı Yok")
+        {
 
-        //}
-        
+        }
+
 
         public DbSet<Stok> Stoklar { get; set; }
         public DbSet<Cari> Cariler { get; set; }

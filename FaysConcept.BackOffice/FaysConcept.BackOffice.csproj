@@ -38,6 +38,9 @@
   <PropertyGroup>
     <ApplicationIcon>if_diagram_v2-28_37148.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v17.1" />
     <Reference Include="DevExpress.Data.v17.1" />
@@ -67,8 +70,12 @@
     <Reference Include="System.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Data.Linq" />
-    <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="System.Data.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Ribbon">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq">
       <Private>True</Private>
     </Reference>
@@ -396,6 +403,7 @@
       <DependentUpon>FrmOdemeTuruHareket.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\FaysConcept.Entities.Tables.Cari.datasource" />
     <None Include="Properties\DataSources\FaysConcept.Entities.Tables.Depo.datasource" />

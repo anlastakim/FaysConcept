@@ -46,3 +46,13 @@ C:\Git\GitHub\FaysConcept.Update\obj\Debug\FaysConcept.Update.csproj.CopyComplet
 C:\Git\GitHub\FaysConcept.Update\obj\Debug\FaysConcept.Update.exe
 C:\Git\GitHub\FaysConcept.Update\obj\Debug\FaysConcept.Update.pdb
 C:\Git\GitHub\FaysConcept.Update\obj\Debug\FaysConcept.Update.exe.licenses
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\Microsoft.CSharp.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.Data.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.Deployment.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.Drawing.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.IO.Compression.FileSystem.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.Windows.Forms.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.Xml.dll
+C:\Git\GitHub\FaysConcept.Update\bin\Debug\System.Xml.Linq.dll

@@ -1,0 +1,8 @@
+ <connectionStrings>
+    <add name="FaysConceptContext" connectionString="Data Source=SERCANASUS\SQLEXPRESS;Initial Catalog=FaysYeni;Integrated Security=true" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+
+ <connectionStrings>
+    <add name="FaysConceptContext" connectionString="Data Source=SERCANASUS\SQLEXPRESS;Initial Catalog=FaysYeni;Integrated Security=true" providerName="System.Data.SqlClient" />
+  </connectionStrings>

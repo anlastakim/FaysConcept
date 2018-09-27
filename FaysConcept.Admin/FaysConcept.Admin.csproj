@@ -53,6 +53,9 @@
   <PropertyGroup>
     <ApplicationIcon>if_diagram_v2-28_37148.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v17.1" />
     <Reference Include="DevExpress.Data.v17.1" />
@@ -164,6 +167,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="App.config" />
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\FaysConcept.Entities.Tables.Kullanici.datasource" />
     <None Include="Properties\DataSources\FaysConcept.Entities.Tables.KullaniciRol.datasource" />
