@@ -17,6 +17,7 @@ namespace FaysConcept.Entities.DataAccess
 {
     public class CariDAL : EntityRepositoryBase<FaysConceptContext, Cari, CariValidator>
     {
+        #region Carileri Listele
         public object GetCariler(FaysConceptContext context)
         {
             var result = context.Cariler.GroupJoin(context.Fisler, c => c.CariKodu, c => c.CariKodu,
@@ -92,7 +93,9 @@ namespace FaysConcept.Entities.DataAccess
                 }).ToList();
             return result;
         }
+        #endregion
 
+        #region Cari Fiş Ayrıntı
         public object CariFisAyrinti(FaysConceptContext context, string cariKodu)
         {
             var result = context.Fisler.Where(c => c.CariKodu == cariKodu).GroupJoin
@@ -110,13 +113,15 @@ namespace FaysConcept.Entities.DataAccess
                     fisler.IskontoTutar,
                     fisler.Aciklama,
                     fisler.ToplamTutar,
-                    Odenen = context.KasaHareketleri.Where(c=>c.FisKodu==fisler.FisKodu).Sum(c => c.Tutar) ?? 0,
+                    Odenen = context.KasaHareketleri.Where(c => c.FisKodu == fisler.FisKodu).Sum(c => c.Tutar) ?? 0,
                     KalanOdeme = fisler.ToplamTutar - context.KasaHareketleri.Where(c => c.FisKodu == fisler.FisKodu).Sum(c => c.Tutar) ?? 0
 
                 }).ToList();
             return result;
-        }
+        } 
+        #endregion
 
+        #region Fis Genel Toplam
         public object CariFisGenelToplam(FaysConceptContext context, string cariKodu)
         {
             var result = (from c in context.Fisler.Where(c => c.CariKodu == cariKodu)
@@ -130,8 +135,10 @@ namespace FaysConcept.Entities.DataAccess
 
                           }).ToList();
             return result;
-        }
+        } 
+        #endregion
 
+        #region Cari Genel Toplamlar
         public object CariGenelToplam(FaysConceptContext context, string cariKodu)
         {
             decimal alacak =
@@ -170,8 +177,10 @@ namespace FaysConcept.Entities.DataAccess
             };
             return genelToplamlar;
 
-        }
+        } 
+        #endregion
 
+        #region Cari Bakiye Bölümü
         public CariBakiye CariBakiyesi(FaysConceptContext context, string cariKodu)
         {
             decimal alacak =
@@ -184,16 +193,20 @@ namespace FaysConcept.Entities.DataAccess
                      .Sum(c => c.ToplamTutar) ?? 0) +
                 (context.KasaHareketleri.Where(c => c.CariKodu == cariKodu && c.Hareket == "Kasa Çıkış")
                      .Sum(c => c.Tutar) ?? 0);
-            CariBakiye entityCariBakiye=new CariBakiye
+
+
+
+            CariBakiye entityCariBakiye = new CariBakiye
             {
-                CariKodu=cariKodu,
+                CariKodu = cariKodu,
                 RiskLimiti = Convert.ToDecimal(context.Cariler.Where(c => c.CariKodu == cariKodu).SingleOrDefault().RiskLimiti),
                 Alacak = alacak,
                 Borc = borc,
-                Bakiye = alacak-borc
+                Bakiye = alacak - borc
             }
             ;
             return entityCariBakiye;
-        }
+        } 
+        #endregion
     }
 }

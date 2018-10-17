@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -31,7 +32,12 @@ namespace FaysConcept.Backup
         {
             try
             {
-                string sqlCumle = $"USE FaysYeni;BACKUP DATABASE FaysYeni TO DISK='{txtYedekKonumu.Text + "\\FaysYeni_" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".BAK"}' WITH NOFORMAT,  INIT";
+                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi));
+                //MessageBox.Show(string.Format("{0}{1}", builder.InitialCatalog,""));
+
+               // string sqlCumle = string.Format("USE {0} ;BACKUP DATABASE FaysYeni TO DISK='{{1}\\{0}{2}.BAK}' WITH NOFORMAT,  INIT",builder.InitialCatalog, txtYedekKonumu.Text, DateTime.Now.ToString("yyyyMMddHHmmss"));
+
+                string sqlCumle = $"USE " + builder.InitialCatalog + " ;BACKUP DATABASE " + builder.InitialCatalog + " TO DISK='" + txtYedekKonumu.Text + "\\" + builder.InitialCatalog + "" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".BAK' WITH NOFORMAT,  INIT";
                 context.Database.ExecuteSqlCommand(TransactionalBehavior.DoNotEnsureTransaction, sqlCumle);
                 MessageBox.Show("Veritabanı yedekleme işlemi tamamlandı.");
             }
@@ -63,9 +69,10 @@ namespace FaysConcept.Backup
             {
                 try
                 {
-                    string sqlCumle = $"USE master;ALTER DATABASE FaysYeni SET SINGLE_USER WITH ROLLBACK IMMEDIATE;" +
-                                    $"ALTER DATABASE FaysYeni SET READ_ONLY;RESTORE DATABASE FaysYeni FROM DISK='{dialog.FileName}';" +
-                                    $"ALTER DATABASE FaysYeni SET MULTI_USER;";
+                     SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi));
+                    string sqlCumle = $"USE master;ALTER DATABASE " + builder.InitialCatalog + " SET SINGLE_USER WITH ROLLBACK IMMEDIATE;" +
+                                    $"ALTER DATABASE " + builder.InitialCatalog + " SET READ_ONLY;RESTORE DATABASE " + builder.InitialCatalog + " FROM DISK='" + dialog.FileName + "';" +
+                                    $"ALTER DATABASE " + builder.InitialCatalog + " SET MULTI_USER;";
                     context.Database.ExecuteSqlCommand(TransactionalBehavior.DoNotEnsureTransaction, sqlCumle);
                     MessageBox.Show("Veritabanı geri yükleme işlemi tamamlandı.");
                 }

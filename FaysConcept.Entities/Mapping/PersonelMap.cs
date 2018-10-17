@@ -20,6 +20,7 @@ namespace FaysConcept.Entities.Mapping
             this.Property(p => p.PersonelKodu).HasMaxLength(12);
             this.Property(p => p.PersonelAdi).HasMaxLength(50);
             this.Property(p => p.TcKimlikNo).HasMaxLength(11);
+            this.Property(p => p.CepTelefonu).HasMaxLength(20);
             this.Property(p => p.Telefon).HasMaxLength(20);
             this.Property(p => p.Fax).HasMaxLength(20);
             this.Property(p => p.Email).HasMaxLength(50);

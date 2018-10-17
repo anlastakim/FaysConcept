@@ -123,11 +123,11 @@
   <data name="grValueSettings.Text" xml:space="preserve">
     <value>Değer özellikleri</value>
   </data>
-  <assembly alias="DevExpress.XtraEditors.v17.1" name="DevExpress.XtraEditors.v17.1, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.XtraEditors.v18.1" name="DevExpress.XtraEditors.v18.1, Culture=neutral"></assembly>
   <data name="lblSummaryFunction.Text" xml:space="preserve">
     <value>Özet işlevi:</value>
   </data>
-  <assembly alias="DevExpress.Utils.v17.1" name="DevExpress.Utils.v17.1, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.Utils.v18.1" name="DevExpress.Utils.v18.1, Culture=neutral"></assembly>
   <data name="lblValue4.Text" xml:space="preserve">
     <value>Değer:</value>
   </data>

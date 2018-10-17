@@ -33,22 +33,25 @@
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.imgmenu = new System.Windows.Forms.ImageList(this.components);
             this.grpMenu = new DevExpress.XtraEditors.GroupControl();
-            this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
-            this.btnguncelle = new DevExpress.XtraEditors.SimpleButton();
-            this.btncarihareket = new DevExpress.XtraEditors.SimpleButton();
-            this.btnsil = new DevExpress.XtraEditors.SimpleButton();
-            this.btnduzenle = new DevExpress.XtraEditors.SimpleButton();
-            this.btnekle = new DevExpress.XtraEditors.SimpleButton();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.btnKapat = new DevExpress.XtraEditors.SimpleButton();
+            this.btnGuncelle = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPersonelHareket = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSil = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDuzenle = new DevExpress.XtraEditors.SimpleButton();
+            this.btnEkle = new DevExpress.XtraEditors.SimpleButton();
+            this.gridContPersonel = new DevExpress.XtraGrid.GridControl();
+            this.gridViewPersonel = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colId = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colDurumu = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colCariTuru = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colCariKodu = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colCariAdi = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colYetkili = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colFaturaUnvani = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colCepTelefon = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCalisiyor = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colUnvani = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colPersonelKodu = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colPersonelAdi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTcKimlikNo = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIseGirisTarihi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIstenCikisTarihi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colVergiDairesi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colVergiNo = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCepTelefonu = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTelefon = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colFax = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colEmail = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -57,26 +60,15 @@
             this.colIlce = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colSemt = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAdres = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colCariGrubu = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colCariAltGrubu = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colOzelKod1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colOzelKod2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colOzelKod3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colOzelKod4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colVergiDairesi = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colVergiNo = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIskontoOrani = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colRiskLimiti = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colAlisOzelFiyat = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colSatisOzelFiyat = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colPrimOrani = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colAylikMaas = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAciklama = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colAlacak = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colBorc = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colBakiye = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colToplamSatis = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colPrimTutar = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).BeginInit();
             this.grpMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridContPersonel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewPersonel)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBaslik
@@ -120,12 +112,12 @@
             // 
             // grpMenu
             // 
-            this.grpMenu.Controls.Add(this.btnkapat);
-            this.grpMenu.Controls.Add(this.btnguncelle);
-            this.grpMenu.Controls.Add(this.btncarihareket);
-            this.grpMenu.Controls.Add(this.btnsil);
-            this.grpMenu.Controls.Add(this.btnduzenle);
-            this.grpMenu.Controls.Add(this.btnekle);
+            this.grpMenu.Controls.Add(this.btnKapat);
+            this.grpMenu.Controls.Add(this.btnGuncelle);
+            this.grpMenu.Controls.Add(this.btnPersonelHareket);
+            this.grpMenu.Controls.Add(this.btnSil);
+            this.grpMenu.Controls.Add(this.btnDuzenle);
+            this.grpMenu.Controls.Add(this.btnEkle);
             this.grpMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.grpMenu.Location = new System.Drawing.Point(0, 634);
             this.grpMenu.Name = "grpMenu";
@@ -133,102 +125,111 @@
             this.grpMenu.TabIndex = 3;
             this.grpMenu.Text = "Menü";
             // 
-            // btnkapat
+            // btnKapat
             // 
-            this.btnkapat.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnKapat.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnkapat.ImageOptions.ImageIndex = 6;
-            this.btnkapat.ImageOptions.ImageList = this.imgmenu;
-            this.btnkapat.Location = new System.Drawing.Point(1257, 22);
-            this.btnkapat.Name = "btnkapat";
-            this.btnkapat.Size = new System.Drawing.Size(87, 42);
-            this.btnkapat.TabIndex = 4;
-            this.btnkapat.Text = "Kapat";
+            this.btnKapat.ImageOptions.ImageIndex = 6;
+            this.btnKapat.ImageOptions.ImageList = this.imgmenu;
+            this.btnKapat.Location = new System.Drawing.Point(1257, 22);
+            this.btnKapat.Name = "btnKapat";
+            this.btnKapat.Size = new System.Drawing.Size(87, 42);
+            this.btnKapat.TabIndex = 4;
+            this.btnKapat.Text = "Kapat";
+            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
             // 
-            // btnguncelle
+            // btnGuncelle
             // 
-            this.btnguncelle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnGuncelle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnguncelle.ImageOptions.ImageIndex = 11;
-            this.btnguncelle.ImageOptions.ImageList = this.imgmenu;
-            this.btnguncelle.Location = new System.Drawing.Point(399, 23);
-            this.btnguncelle.Name = "btnguncelle";
-            this.btnguncelle.Size = new System.Drawing.Size(87, 42);
-            this.btnguncelle.TabIndex = 4;
-            this.btnguncelle.Text = "Güncelle";
+            this.btnGuncelle.ImageOptions.ImageIndex = 11;
+            this.btnGuncelle.ImageOptions.ImageList = this.imgmenu;
+            this.btnGuncelle.Location = new System.Drawing.Point(399, 23);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(87, 42);
+            this.btnGuncelle.TabIndex = 4;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
-            // btncarihareket
+            // btnPersonelHareket
             // 
-            this.btncarihareket.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnPersonelHareket.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btncarihareket.Appearance.Options.UseTextOptions = true;
-            this.btncarihareket.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btncarihareket.ImageOptions.ImageIndex = 3;
-            this.btncarihareket.ImageOptions.ImageList = this.imgmenu;
-            this.btncarihareket.Location = new System.Drawing.Point(291, 23);
-            this.btncarihareket.Name = "btncarihareket";
-            this.btncarihareket.Size = new System.Drawing.Size(102, 42);
-            this.btncarihareket.TabIndex = 4;
-            this.btncarihareket.Text = "Personel Hareketleri";
+            this.btnPersonelHareket.Appearance.Options.UseTextOptions = true;
+            this.btnPersonelHareket.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.btnPersonelHareket.ImageOptions.ImageIndex = 3;
+            this.btnPersonelHareket.ImageOptions.ImageList = this.imgmenu;
+            this.btnPersonelHareket.Location = new System.Drawing.Point(291, 23);
+            this.btnPersonelHareket.Name = "btnPersonelHareket";
+            this.btnPersonelHareket.Size = new System.Drawing.Size(102, 42);
+            this.btnPersonelHareket.TabIndex = 4;
+            this.btnPersonelHareket.Text = "Personel Hareketleri";
+            this.btnPersonelHareket.Click += new System.EventHandler(this.btnPersonelHareket_Click);
             // 
-            // btnsil
+            // btnSil
             // 
-            this.btnsil.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnSil.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnsil.ImageOptions.ImageIndex = 5;
-            this.btnsil.ImageOptions.ImageList = this.imgmenu;
-            this.btnsil.Location = new System.Drawing.Point(198, 23);
-            this.btnsil.Name = "btnsil";
-            this.btnsil.Size = new System.Drawing.Size(87, 42);
-            this.btnsil.TabIndex = 4;
-            this.btnsil.Text = "Sil";
+            this.btnSil.ImageOptions.ImageIndex = 5;
+            this.btnSil.ImageOptions.ImageList = this.imgmenu;
+            this.btnSil.Location = new System.Drawing.Point(198, 23);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(87, 42);
+            this.btnSil.TabIndex = 4;
+            this.btnSil.Text = "Sil";
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
-            // btnduzenle
+            // btnDuzenle
             // 
-            this.btnduzenle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnDuzenle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnduzenle.ImageOptions.ImageIndex = 1;
-            this.btnduzenle.ImageOptions.ImageList = this.imgmenu;
-            this.btnduzenle.Location = new System.Drawing.Point(105, 23);
-            this.btnduzenle.Name = "btnduzenle";
-            this.btnduzenle.Size = new System.Drawing.Size(87, 42);
-            this.btnduzenle.TabIndex = 3;
-            this.btnduzenle.Text = "Düzenle";
+            this.btnDuzenle.ImageOptions.ImageIndex = 1;
+            this.btnDuzenle.ImageOptions.ImageList = this.imgmenu;
+            this.btnDuzenle.Location = new System.Drawing.Point(105, 23);
+            this.btnDuzenle.Name = "btnDuzenle";
+            this.btnDuzenle.Size = new System.Drawing.Size(87, 42);
+            this.btnDuzenle.TabIndex = 3;
+            this.btnDuzenle.Text = "Düzenle";
+            this.btnDuzenle.Click += new System.EventHandler(this.btnDuzenle_Click);
             // 
-            // btnekle
+            // btnEkle
             // 
-            this.btnekle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnEkle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnekle.ImageOptions.ImageIndex = 2;
-            this.btnekle.ImageOptions.ImageList = this.imgmenu;
-            this.btnekle.Location = new System.Drawing.Point(12, 23);
-            this.btnekle.Name = "btnekle";
-            this.btnekle.Size = new System.Drawing.Size(87, 42);
-            this.btnekle.TabIndex = 2;
-            this.btnekle.Text = "Ekle";
+            this.btnEkle.ImageOptions.ImageIndex = 2;
+            this.btnEkle.ImageOptions.ImageList = this.imgmenu;
+            this.btnEkle.Location = new System.Drawing.Point(12, 23);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(87, 42);
+            this.btnEkle.TabIndex = 2;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
-            // gridControl1
+            // gridContPersonel
             // 
-            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(0, 59);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1356, 575);
-            this.gridControl1.TabIndex = 4;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.gridContPersonel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridContPersonel.Location = new System.Drawing.Point(0, 59);
+            this.gridContPersonel.MainView = this.gridViewPersonel;
+            this.gridContPersonel.Name = "gridContPersonel";
+            this.gridContPersonel.Size = new System.Drawing.Size(1356, 575);
+            this.gridContPersonel.TabIndex = 4;
+            this.gridContPersonel.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridViewPersonel});
             // 
-            // gridView1
+            // gridViewPersonel
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridViewPersonel.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colId,
-            this.colDurumu,
-            this.colCariTuru,
-            this.colCariKodu,
-            this.colCariAdi,
-            this.colYetkili,
-            this.colFaturaUnvani,
-            this.colCepTelefon,
+            this.colCalisiyor,
+            this.colUnvani,
+            this.colPersonelKodu,
+            this.colPersonelAdi,
+            this.colTcKimlikNo,
+            this.colIseGirisTarihi,
+            this.colIstenCikisTarihi,
+            this.colVergiDairesi,
+            this.colVergiNo,
+            this.colCepTelefonu,
             this.colTelefon,
             this.colFax,
             this.colEmail,
@@ -237,26 +238,16 @@
             this.colIlce,
             this.colSemt,
             this.colAdres,
-            this.colCariGrubu,
-            this.colCariAltGrubu,
-            this.colOzelKod1,
-            this.colOzelKod2,
-            this.colOzelKod3,
-            this.colOzelKod4,
-            this.colVergiDairesi,
-            this.colVergiNo,
-            this.colIskontoOrani,
-            this.colRiskLimiti,
-            this.colAlisOzelFiyat,
-            this.colSatisOzelFiyat,
+            this.colPrimOrani,
+            this.colAylikMaas,
             this.colAciklama,
-            this.colAlacak,
-            this.colBorc,
-            this.colBakiye});
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowAutoFilterRow = true;
-            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.colToplamSatis,
+            this.colPrimTutar});
+            this.gridViewPersonel.CustomizationFormBounds = new System.Drawing.Rectangle(746, 327, 210, 172);
+            this.gridViewPersonel.GridControl = this.gridContPersonel;
+            this.gridViewPersonel.Name = "gridViewPersonel";
+            this.gridViewPersonel.OptionsView.ShowAutoFilterRow = true;
+            this.gridViewPersonel.OptionsView.ShowGroupPanel = false;
             // 
             // colId
             // 
@@ -265,235 +256,207 @@
             this.colId.OptionsColumn.AllowEdit = false;
             this.colId.OptionsColumn.ShowInCustomizationForm = false;
             // 
-            // colDurumu
+            // colCalisiyor
             // 
-            this.colDurumu.FieldName = "Durumu";
-            this.colDurumu.Name = "colDurumu";
-            this.colDurumu.OptionsColumn.AllowEdit = false;
-            this.colDurumu.Visible = true;
-            this.colDurumu.VisibleIndex = 0;
-            this.colDurumu.Width = 55;
+            this.colCalisiyor.Caption = "Çalışıyor";
+            this.colCalisiyor.FieldName = "Calisiyor";
+            this.colCalisiyor.Name = "colCalisiyor";
+            this.colCalisiyor.OptionsColumn.AllowEdit = false;
+            this.colCalisiyor.Visible = true;
+            this.colCalisiyor.VisibleIndex = 0;
             // 
-            // colCariTuru
+            // colUnvani
             // 
-            this.colCariTuru.FieldName = "CariTuru";
-            this.colCariTuru.Name = "colCariTuru";
-            this.colCariTuru.OptionsColumn.AllowEdit = false;
-            this.colCariTuru.Visible = true;
-            this.colCariTuru.VisibleIndex = 1;
-            this.colCariTuru.Width = 71;
+            this.colUnvani.Caption = "Ünvanı";
+            this.colUnvani.FieldName = "Unvani";
+            this.colUnvani.Name = "colUnvani";
+            this.colUnvani.OptionsColumn.AllowEdit = false;
+            this.colUnvani.Visible = true;
+            this.colUnvani.VisibleIndex = 1;
             // 
-            // colCariKodu
+            // colPersonelKodu
             // 
-            this.colCariKodu.FieldName = "CariKodu";
-            this.colCariKodu.Name = "colCariKodu";
-            this.colCariKodu.OptionsColumn.AllowEdit = false;
-            this.colCariKodu.Visible = true;
-            this.colCariKodu.VisibleIndex = 2;
-            this.colCariKodu.Width = 206;
+            this.colPersonelKodu.Caption = "Personel Kodu";
+            this.colPersonelKodu.FieldName = "PersonelKodu";
+            this.colPersonelKodu.Name = "colPersonelKodu";
+            this.colPersonelKodu.OptionsColumn.AllowEdit = false;
+            this.colPersonelKodu.Visible = true;
+            this.colPersonelKodu.VisibleIndex = 2;
             // 
-            // colCariAdi
+            // colPersonelAdi
             // 
-            this.colCariAdi.FieldName = "CariAdi";
-            this.colCariAdi.Name = "colCariAdi";
-            this.colCariAdi.OptionsColumn.AllowEdit = false;
-            this.colCariAdi.Visible = true;
-            this.colCariAdi.VisibleIndex = 3;
-            this.colCariAdi.Width = 396;
+            this.colPersonelAdi.Caption = "Personel Adı";
+            this.colPersonelAdi.FieldName = "PersonelAdi";
+            this.colPersonelAdi.Name = "colPersonelAdi";
+            this.colPersonelAdi.OptionsColumn.AllowEdit = false;
+            this.colPersonelAdi.Visible = true;
+            this.colPersonelAdi.VisibleIndex = 3;
             // 
-            // colYetkili
+            // colTcKimlikNo
             // 
-            this.colYetkili.FieldName = "Yetkili";
-            this.colYetkili.Name = "colYetkili";
-            this.colYetkili.OptionsColumn.AllowEdit = false;
+            this.colTcKimlikNo.Caption = "TC Kimlik No";
+            this.colTcKimlikNo.FieldName = "TcKimlikNo";
+            this.colTcKimlikNo.Name = "colTcKimlikNo";
+            this.colTcKimlikNo.OptionsColumn.AllowEdit = false;
+            this.colTcKimlikNo.Visible = true;
+            this.colTcKimlikNo.VisibleIndex = 4;
             // 
-            // colFaturaUnvani
+            // colIseGirisTarihi
             // 
-            this.colFaturaUnvani.FieldName = "FaturaUnvani";
-            this.colFaturaUnvani.Name = "colFaturaUnvani";
-            this.colFaturaUnvani.OptionsColumn.AllowEdit = false;
+            this.colIseGirisTarihi.Caption = "Giriş Tarihi";
+            this.colIseGirisTarihi.FieldName = "IseGirisTarihi";
+            this.colIseGirisTarihi.Name = "colIseGirisTarihi";
+            this.colIseGirisTarihi.OptionsColumn.AllowEdit = false;
+            this.colIseGirisTarihi.Visible = true;
+            this.colIseGirisTarihi.VisibleIndex = 5;
             // 
-            // colCepTelefon
+            // colIstenCikisTarihi
             // 
-            this.colCepTelefon.FieldName = "CepTelefon";
-            this.colCepTelefon.Name = "colCepTelefon";
-            this.colCepTelefon.OptionsColumn.AllowEdit = false;
+            this.colIstenCikisTarihi.Caption = "Çıkış Tarihi";
+            this.colIstenCikisTarihi.FieldName = "IstenCikisTarihi";
+            this.colIstenCikisTarihi.Name = "colIstenCikisTarihi";
+            this.colIstenCikisTarihi.OptionsColumn.AllowEdit = false;
+            this.colIstenCikisTarihi.Visible = true;
+            this.colIstenCikisTarihi.VisibleIndex = 6;
+            // 
+            // colVergiDairesi
+            // 
+            this.colVergiDairesi.Caption = "V.D";
+            this.colVergiDairesi.FieldName = "VergiDairesi";
+            this.colVergiDairesi.Name = "colVergiDairesi";
+            this.colVergiDairesi.OptionsColumn.AllowEdit = false;
+            // 
+            // colVergiNo
+            // 
+            this.colVergiNo.Caption = "V.N";
+            this.colVergiNo.FieldName = "VergiNo";
+            this.colVergiNo.Name = "colVergiNo";
+            this.colVergiNo.OptionsColumn.AllowEdit = false;
+            // 
+            // colCepTelefonu
+            // 
+            this.colCepTelefonu.Caption = "GSM No";
+            this.colCepTelefonu.FieldName = "CepTelefonu";
+            this.colCepTelefonu.Name = "colCepTelefonu";
+            this.colCepTelefonu.OptionsColumn.AllowEdit = false;
+            this.colCepTelefonu.Visible = true;
+            this.colCepTelefonu.VisibleIndex = 7;
             // 
             // colTelefon
             // 
+            this.colTelefon.Caption = "Telefon";
             this.colTelefon.FieldName = "Telefon";
             this.colTelefon.Name = "colTelefon";
             this.colTelefon.OptionsColumn.AllowEdit = false;
             // 
             // colFax
             // 
+            this.colFax.Caption = "Fax";
             this.colFax.FieldName = "Fax";
             this.colFax.Name = "colFax";
             this.colFax.OptionsColumn.AllowEdit = false;
             // 
             // colEmail
             // 
+            this.colEmail.Caption = "Mail";
             this.colEmail.FieldName = "Email";
             this.colEmail.Name = "colEmail";
             this.colEmail.OptionsColumn.AllowEdit = false;
+            this.colEmail.Visible = true;
+            this.colEmail.VisibleIndex = 8;
             // 
             // colWeb
             // 
+            this.colWeb.Caption = "Web";
             this.colWeb.FieldName = "Web";
             this.colWeb.Name = "colWeb";
             this.colWeb.OptionsColumn.AllowEdit = false;
             // 
             // colIl
             // 
+            this.colIl.Caption = "İl";
             this.colIl.FieldName = "Il";
             this.colIl.Name = "colIl";
             this.colIl.OptionsColumn.AllowEdit = false;
             // 
             // colIlce
             // 
+            this.colIlce.Caption = "İlçe";
             this.colIlce.FieldName = "Ilce";
             this.colIlce.Name = "colIlce";
             this.colIlce.OptionsColumn.AllowEdit = false;
             // 
             // colSemt
             // 
+            this.colSemt.Caption = "Semt";
             this.colSemt.FieldName = "Semt";
             this.colSemt.Name = "colSemt";
             this.colSemt.OptionsColumn.AllowEdit = false;
             // 
             // colAdres
             // 
+            this.colAdres.Caption = "Adres";
             this.colAdres.FieldName = "Adres";
             this.colAdres.Name = "colAdres";
             this.colAdres.OptionsColumn.AllowEdit = false;
             // 
-            // colCariGrubu
+            // colPrimOrani
             // 
-            this.colCariGrubu.FieldName = "CariGrubu";
-            this.colCariGrubu.Name = "colCariGrubu";
-            this.colCariGrubu.OptionsColumn.AllowEdit = false;
+            this.colPrimOrani.Caption = "Prim Oranı (%)";
+            this.colPrimOrani.DisplayFormat.FormatString = "\'%\'0";
+            this.colPrimOrani.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colPrimOrani.FieldName = "PrimOrani";
+            this.colPrimOrani.Name = "colPrimOrani";
+            this.colPrimOrani.OptionsColumn.AllowEdit = false;
+            this.colPrimOrani.Visible = true;
+            this.colPrimOrani.VisibleIndex = 10;
             // 
-            // colCariAltGrubu
+            // colAylikMaas
             // 
-            this.colCariAltGrubu.FieldName = "CariAltGrubu";
-            this.colCariAltGrubu.Name = "colCariAltGrubu";
-            this.colCariAltGrubu.OptionsColumn.AllowEdit = false;
-            // 
-            // colOzelKod1
-            // 
-            this.colOzelKod1.FieldName = "OzelKod1";
-            this.colOzelKod1.Name = "colOzelKod1";
-            this.colOzelKod1.OptionsColumn.AllowEdit = false;
-            // 
-            // colOzelKod2
-            // 
-            this.colOzelKod2.FieldName = "OzelKod2";
-            this.colOzelKod2.Name = "colOzelKod2";
-            this.colOzelKod2.OptionsColumn.AllowEdit = false;
-            // 
-            // colOzelKod3
-            // 
-            this.colOzelKod3.FieldName = "OzelKod3";
-            this.colOzelKod3.Name = "colOzelKod3";
-            this.colOzelKod3.OptionsColumn.AllowEdit = false;
-            // 
-            // colOzelKod4
-            // 
-            this.colOzelKod4.FieldName = "OzelKod4";
-            this.colOzelKod4.Name = "colOzelKod4";
-            this.colOzelKod4.OptionsColumn.AllowEdit = false;
-            // 
-            // colVergiDairesi
-            // 
-            this.colVergiDairesi.FieldName = "VergiDairesi";
-            this.colVergiDairesi.Name = "colVergiDairesi";
-            this.colVergiDairesi.OptionsColumn.AllowEdit = false;
-            this.colVergiDairesi.Visible = true;
-            this.colVergiDairesi.VisibleIndex = 4;
-            this.colVergiDairesi.Width = 93;
-            // 
-            // colVergiNo
-            // 
-            this.colVergiNo.FieldName = "VergiNo";
-            this.colVergiNo.Name = "colVergiNo";
-            this.colVergiNo.OptionsColumn.AllowEdit = false;
-            this.colVergiNo.Visible = true;
-            this.colVergiNo.VisibleIndex = 5;
-            this.colVergiNo.Width = 54;
-            // 
-            // colIskontoOrani
-            // 
-            this.colIskontoOrani.FieldName = "IskontoOrani";
-            this.colIskontoOrani.Name = "colIskontoOrani";
-            this.colIskontoOrani.OptionsColumn.AllowEdit = false;
-            this.colIskontoOrani.Visible = true;
-            this.colIskontoOrani.VisibleIndex = 6;
-            this.colIskontoOrani.Width = 77;
-            // 
-            // colRiskLimiti
-            // 
-            this.colRiskLimiti.FieldName = "RiskLimiti";
-            this.colRiskLimiti.Name = "colRiskLimiti";
-            this.colRiskLimiti.OptionsColumn.AllowEdit = false;
-            // 
-            // colAlisOzelFiyat
-            // 
-            this.colAlisOzelFiyat.FieldName = "AlisOzelFiyat";
-            this.colAlisOzelFiyat.Name = "colAlisOzelFiyat";
-            this.colAlisOzelFiyat.OptionsColumn.AllowEdit = false;
-            // 
-            // colSatisOzelFiyat
-            // 
-            this.colSatisOzelFiyat.FieldName = "SatisOzelFiyat";
-            this.colSatisOzelFiyat.Name = "colSatisOzelFiyat";
-            this.colSatisOzelFiyat.OptionsColumn.AllowEdit = false;
-            this.colSatisOzelFiyat.Width = 114;
+            this.colAylikMaas.Caption = "Aylık Maaş";
+            this.colAylikMaas.DisplayFormat.FormatString = "C2";
+            this.colAylikMaas.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colAylikMaas.FieldName = "AylikMaas";
+            this.colAylikMaas.Name = "colAylikMaas";
+            this.colAylikMaas.OptionsColumn.AllowEdit = false;
+            this.colAylikMaas.Visible = true;
+            this.colAylikMaas.VisibleIndex = 9;
             // 
             // colAciklama
             // 
+            this.colAciklama.Caption = "Açıklama";
             this.colAciklama.FieldName = "Aciklama";
             this.colAciklama.Name = "colAciklama";
             this.colAciklama.OptionsColumn.AllowEdit = false;
-            this.colAciklama.Visible = true;
-            this.colAciklama.VisibleIndex = 7;
-            this.colAciklama.Width = 295;
             // 
-            // colAlacak
+            // colToplamSatis
             // 
-            this.colAlacak.Caption = "Alacak";
-            this.colAlacak.FieldName = "Alacak";
-            this.colAlacak.Name = "colAlacak";
-            this.colAlacak.OptionsColumn.AllowEdit = false;
-            this.colAlacak.Visible = true;
-            this.colAlacak.VisibleIndex = 8;
-            this.colAlacak.Width = 54;
+            this.colToplamSatis.Caption = "Toplam Satışı";
+            this.colToplamSatis.DisplayFormat.FormatString = "C2";
+            this.colToplamSatis.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colToplamSatis.FieldName = "ToplamSatis";
+            this.colToplamSatis.Name = "colToplamSatis";
+            this.colToplamSatis.OptionsColumn.AllowEdit = false;
+            this.colToplamSatis.Visible = true;
+            this.colToplamSatis.VisibleIndex = 11;
             // 
-            // colBorc
+            // colPrimTutar
             // 
-            this.colBorc.Caption = "Borç";
-            this.colBorc.FieldName = "Borc";
-            this.colBorc.Name = "colBorc";
-            this.colBorc.OptionsColumn.AllowEdit = false;
-            this.colBorc.Visible = true;
-            this.colBorc.VisibleIndex = 9;
-            this.colBorc.Width = 54;
-            // 
-            // colBakiye
-            // 
-            this.colBakiye.Caption = "Bakiye";
-            this.colBakiye.FieldName = "Bakiye";
-            this.colBakiye.Name = "colBakiye";
-            this.colBakiye.OptionsColumn.AllowEdit = false;
-            this.colBakiye.Visible = true;
-            this.colBakiye.VisibleIndex = 10;
-            this.colBakiye.Width = 70;
+            this.colPrimTutar.Caption = "Prim Tutarı";
+            this.colPrimTutar.DisplayFormat.FormatString = "C2";
+            this.colPrimTutar.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colPrimTutar.FieldName = "PrimTutari";
+            this.colPrimTutar.Name = "colPrimTutar";
+            this.colPrimTutar.OptionsColumn.AllowEdit = false;
+            this.colPrimTutar.Visible = true;
+            this.colPrimTutar.VisibleIndex = 12;
             // 
             // FrmPersonel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1356, 703);
-            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.gridContPersonel);
             this.Controls.Add(this.grpMenu);
             this.Controls.Add(this.lblBaslik);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -502,10 +465,11 @@
             this.Name = "FrmPersonel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPersonel";
+            this.Load += new System.EventHandler(this.FrmPersonel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).EndInit();
             this.grpMenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridContPersonel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewPersonel)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -515,22 +479,25 @@
         private DevExpress.XtraEditors.LabelControl lblBaslik;
         public System.Windows.Forms.ImageList imgmenu;
         private DevExpress.XtraEditors.GroupControl grpMenu;
-        private DevExpress.XtraEditors.SimpleButton btnkapat;
-        private DevExpress.XtraEditors.SimpleButton btnguncelle;
-        private DevExpress.XtraEditors.SimpleButton btncarihareket;
-        private DevExpress.XtraEditors.SimpleButton btnsil;
-        private DevExpress.XtraEditors.SimpleButton btnduzenle;
-        private DevExpress.XtraEditors.SimpleButton btnekle;
-        private DevExpress.XtraGrid.GridControl gridControl1;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraEditors.SimpleButton btnKapat;
+        private DevExpress.XtraEditors.SimpleButton btnGuncelle;
+        private DevExpress.XtraEditors.SimpleButton btnPersonelHareket;
+        private DevExpress.XtraEditors.SimpleButton btnSil;
+        private DevExpress.XtraEditors.SimpleButton btnDuzenle;
+        private DevExpress.XtraEditors.SimpleButton btnEkle;
+        private DevExpress.XtraGrid.GridControl gridContPersonel;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridViewPersonel;
         private DevExpress.XtraGrid.Columns.GridColumn colId;
-        private DevExpress.XtraGrid.Columns.GridColumn colDurumu;
-        private DevExpress.XtraGrid.Columns.GridColumn colCariTuru;
-        private DevExpress.XtraGrid.Columns.GridColumn colCariKodu;
-        private DevExpress.XtraGrid.Columns.GridColumn colCariAdi;
-        private DevExpress.XtraGrid.Columns.GridColumn colYetkili;
-        private DevExpress.XtraGrid.Columns.GridColumn colFaturaUnvani;
-        private DevExpress.XtraGrid.Columns.GridColumn colCepTelefon;
+        private DevExpress.XtraGrid.Columns.GridColumn colCalisiyor;
+        private DevExpress.XtraGrid.Columns.GridColumn colUnvani;
+        private DevExpress.XtraGrid.Columns.GridColumn colPersonelKodu;
+        private DevExpress.XtraGrid.Columns.GridColumn colPersonelAdi;
+        private DevExpress.XtraGrid.Columns.GridColumn colTcKimlikNo;
+        private DevExpress.XtraGrid.Columns.GridColumn colIseGirisTarihi;
+        private DevExpress.XtraGrid.Columns.GridColumn colIstenCikisTarihi;
+        private DevExpress.XtraGrid.Columns.GridColumn colVergiDairesi;
+        private DevExpress.XtraGrid.Columns.GridColumn colVergiNo;
+        private DevExpress.XtraGrid.Columns.GridColumn colCepTelefonu;
         private DevExpress.XtraGrid.Columns.GridColumn colTelefon;
         private DevExpress.XtraGrid.Columns.GridColumn colFax;
         private DevExpress.XtraGrid.Columns.GridColumn colEmail;
@@ -539,21 +506,10 @@
         private DevExpress.XtraGrid.Columns.GridColumn colIlce;
         private DevExpress.XtraGrid.Columns.GridColumn colSemt;
         private DevExpress.XtraGrid.Columns.GridColumn colAdres;
-        private DevExpress.XtraGrid.Columns.GridColumn colCariGrubu;
-        private DevExpress.XtraGrid.Columns.GridColumn colCariAltGrubu;
-        private DevExpress.XtraGrid.Columns.GridColumn colOzelKod1;
-        private DevExpress.XtraGrid.Columns.GridColumn colOzelKod2;
-        private DevExpress.XtraGrid.Columns.GridColumn colOzelKod3;
-        private DevExpress.XtraGrid.Columns.GridColumn colOzelKod4;
-        private DevExpress.XtraGrid.Columns.GridColumn colVergiDairesi;
-        private DevExpress.XtraGrid.Columns.GridColumn colVergiNo;
-        private DevExpress.XtraGrid.Columns.GridColumn colIskontoOrani;
-        private DevExpress.XtraGrid.Columns.GridColumn colRiskLimiti;
-        private DevExpress.XtraGrid.Columns.GridColumn colAlisOzelFiyat;
-        private DevExpress.XtraGrid.Columns.GridColumn colSatisOzelFiyat;
+        private DevExpress.XtraGrid.Columns.GridColumn colPrimOrani;
+        private DevExpress.XtraGrid.Columns.GridColumn colAylikMaas;
         private DevExpress.XtraGrid.Columns.GridColumn colAciklama;
-        private DevExpress.XtraGrid.Columns.GridColumn colAlacak;
-        private DevExpress.XtraGrid.Columns.GridColumn colBorc;
-        private DevExpress.XtraGrid.Columns.GridColumn colBakiye;
+        private DevExpress.XtraGrid.Columns.GridColumn colToplamSatis;
+        private DevExpress.XtraGrid.Columns.GridColumn colPrimTutar;
     }
 }

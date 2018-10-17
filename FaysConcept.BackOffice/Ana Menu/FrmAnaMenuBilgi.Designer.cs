@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAnaMenuBilgi));
             DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
@@ -110,6 +111,7 @@
             this.tileItem22 = new DevExpress.XtraEditors.TileItem();
             this.tileItem24 = new DevExpress.XtraEditors.TileItem();
             this.tileItem26 = new DevExpress.XtraEditors.TileItem();
+            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.SuspendLayout();
             // 
             // tileControl1
@@ -780,5 +782,6 @@
         private DevExpress.XtraEditors.TileItem tileItem22;
         private DevExpress.XtraEditors.TileItem tileItem24;
         private DevExpress.XtraEditors.TileItem tileItem26;
+        private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
     }
 }

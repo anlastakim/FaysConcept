@@ -184,7 +184,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kullanıcı Giriş Ekranı";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmKullaniciGiris_FormClosed);
-            this.Load += new System.EventHandler(this.FrmKullaniciGiris_Load);
             this.Shown += new System.EventHandler(this.FrmKullaniciGiris_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).EndInit();
             this.grpMenu.ResumeLayout(false);

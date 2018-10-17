@@ -136,7 +136,7 @@
     <value>separator</value>
   </data>
   <data name="&gt;&gt;separator.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;separator.Parent" xml:space="preserve">
     <value>$this</value>
@@ -169,7 +169,7 @@
     <value>btnApply</value>
   </data>
   <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
     <value>buttonsPanel</value>
@@ -196,7 +196,7 @@
     <value>btnOK</value>
   </data>
   <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
     <value>buttonsPanel</value>
@@ -223,7 +223,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>buttonsPanel</value>
@@ -244,7 +244,7 @@
     <value>buttonsPanel</value>
   </data>
   <data name="&gt;&gt;buttonsPanel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;buttonsPanel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -268,7 +268,7 @@
     <value>cbDimension</value>
   </data>
   <data name="&gt;&gt;cbDimension.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbDimension.Parent" xml:space="preserve">
     <value>$this</value>
@@ -292,7 +292,7 @@
     <value>treeFilter</value>
   </data>
   <data name="&gt;&gt;treeFilter.Type" xml:space="preserve">
-    <value>DevExpress.DashboardWin.Native.CheckedListTreeViewControl, DevExpress.Dashboard.v17.1.Win, Culture=neutral</value>
+    <value>DevExpress.DashboardWin.Native.CheckedListTreeViewControl, DevExpress.Dashboard.v18.1.Win, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;treeFilter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -325,6 +325,6 @@
     <value>OlapFilterForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.DashboardWin.Native.DashboardForm, DevExpress.Dashboard.v17.1.Win, Culture=neutral</value>
+    <value>DevExpress.DashboardWin.Native.DashboardForm, DevExpress.Dashboard.v18.1.Win, Culture=neutral</value>
   </data>
 </root>

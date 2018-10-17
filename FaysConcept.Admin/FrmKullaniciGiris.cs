@@ -19,7 +19,7 @@ namespace FaysConcept.Admin
     public partial class FrmKullaniciGiris : DevExpress.XtraEditors.XtraForm
     {   
         private FaysConceptContext context;
-        private bool girisBasarili = false;
+        public bool girisBasarili = false;
         
         public FrmKullaniciGiris()
         {
@@ -71,14 +71,22 @@ namespace FaysConcept.Admin
             if (!girisBasarili)
            
             {
-                Application.Exit();
+                //FormCollection frm = Application.OpenForms;
+
+                //foreach (Form f in frm)
+                //{
+                //    if (f.Name == "RibbonForm1")
+                //    {
+                //        this.Close();
+                //        this.Dispose();
+                //        break;
+                //    }
+                //}
+                    Environment.Exit(0);
+           
             }
         }
 
-        private void btnkapat_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
         private void btnParolaSıfırla_Click(object sender, EventArgs e)
         {
@@ -94,10 +102,7 @@ namespace FaysConcept.Admin
             }
         }
 
-        private void FrmKullaniciGiris_Load(object sender, EventArgs e)
-        {
-         
-        }
+
 
         private void txtParola_KeyDown(object sender, KeyEventArgs e)
         {
@@ -122,6 +127,28 @@ namespace FaysConcept.Admin
         private void FrmKullaniciGiris_Shown(object sender, EventArgs e)
         {
             txtParola.Focus();
+        }
+
+
+        private void btnkapat_Click(object sender, EventArgs e)
+        {
+            if (!girisBasarili)
+            {
+                //FormCollection frm = Application.OpenForms;
+
+                //foreach (Form f in frm)
+                //{
+                //    if (f.Name == "RibbonForm1")
+                //    {
+                        
+                //        this.Close();
+                //        this.Dispose();
+                //        break;
+                //    }
+                //}
+                Environment.Exit(0);
+            }
+
         }
     }
 }

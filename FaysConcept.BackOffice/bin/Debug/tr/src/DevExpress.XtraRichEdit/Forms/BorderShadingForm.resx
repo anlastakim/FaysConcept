@@ -154,19 +154,19 @@
     <value>2</value>
   </data>
   <data name="&gt;&gt;borderShadingTypeLineUserControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.BorderShadingTypeLineUserControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.BorderShadingTypeLineUserControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;xtraScrollableControl1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pageShading.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl4.Text" xml:space="preserve">
     <value>All</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlBordersBox.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="columnsPresetControlBordersAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 134</value>
@@ -226,16 +226,16 @@
     <value>Top, Bottom, Left</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlBordersGrid.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl4.Name" xml:space="preserve">
     <value>labelControl4</value>
   </data>
   <data name="&gt;&gt;borderUserControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.BorderShadingUserControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.BorderShadingUserControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl10.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -256,7 +256,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;labelControl10.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="shadingUserControl.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -292,7 +292,7 @@
     <value>pageBorders</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlBordersAll.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="columnsPresetControlBordersCustom.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -382,7 +382,7 @@
     <value>columnsPresetControlBordersGrid</value>
   </data>
   <data name="&gt;&gt;labelControl7.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="xtraTabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -391,7 +391,7 @@
     <value>pageBorders</value>
   </data>
   <data name="&gt;&gt;labelControl6.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl7.Size" type="System.Drawing.Size, System.Drawing">
     <value>8, 320</value>
@@ -436,7 +436,7 @@
     <value>pageBorders</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;colorEdit.Parent" xml:space="preserve">
     <value>pageShading</value>
@@ -466,7 +466,7 @@
     <value></value>
   </data>
   <data name="&gt;&gt;labelControl9.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl5.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -475,7 +475,7 @@
     <value>pageBorders</value>
   </data>
   <data name="&gt;&gt;labelControl5.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -484,16 +484,16 @@
     <value>0, 0</value>
   </data>
   <data name="&gt;&gt;labelControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;colorEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ColorEdit, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ColorEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="columnsPresetControlBordersNone.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 20</value>
   </data>
   <data name="&gt;&gt;labelControl3.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl5.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 13</value>
@@ -529,7 +529,7 @@
     <value>Top, Bottom, Left</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlBordersCustom.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="colorEdit.Properties.NullValuePrompt" xml:space="preserve">
     <value></value>
@@ -547,7 +547,7 @@
     <value>pageBorders</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="xtraScrollableControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -559,7 +559,7 @@
     <value>10, 191</value>
   </data>
   <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;shadingUserControl.Name" xml:space="preserve">
     <value>shadingUserControl</value>
@@ -568,7 +568,7 @@
     <value>None</value>
   </data>
   <data name="&gt;&gt;xtraTabControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;pageBorders.Parent" xml:space="preserve">
     <value>xtraTabControl1</value>
@@ -583,7 +583,7 @@
     <value>Top, Bottom, Left</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlBordersNone.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="colorEdit.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -604,7 +604,7 @@
     <value>45, 45</value>
   </data>
   <data name="&gt;&gt;shadingUserControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.BorderShadingUserControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.BorderShadingUserControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl4.Size" type="System.Drawing.Size, System.Drawing">
     <value>11, 13</value>
@@ -613,7 +613,7 @@
     <value>261, 17</value>
   </data>
   <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="colorEdit.Properties.Mask.EditMask" xml:space="preserve">
     <value></value>
@@ -625,7 +625,7 @@
     <value>labelControl7</value>
   </data>
   <data name="&gt;&gt;labelControl8.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
@@ -640,7 +640,7 @@
     <value>9</value>
   </data>
   <data name="&gt;&gt;pageBorders.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl6.Location" type="System.Drawing.Point, System.Drawing">
     <value>62, 263</value>

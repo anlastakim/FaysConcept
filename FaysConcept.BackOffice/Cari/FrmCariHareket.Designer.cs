@@ -63,8 +63,8 @@
             this.colFisTuruKayitSayisi = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colFisTuruToplamTutar = new DevExpress.XtraGrid.Columns.GridColumn();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.gridcontBakiye = new DevExpress.XtraGrid.GridControl();
-            this.gridBakiye = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridcontEkstre = new DevExpress.XtraGrid.GridControl();
+            this.gridViewEkstre = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colgenelbilgi = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colgeneltoplam = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).BeginInit();
@@ -81,8 +81,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridFisToplam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridcontBakiye)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridBakiye)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridcontEkstre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewEkstre)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBaslik
@@ -207,6 +207,8 @@
             this.colKalanTutar});
             this.gridCariHareket.GridControl = this.gridcontCariHareket;
             this.gridCariHareket.Name = "gridCariHareket";
+            this.gridCariHareket.OptionsView.ShowAutoFilterRow = true;
+            this.gridCariHareket.OptionsView.ShowGroupPanel = false;
             // 
             // colId
             // 
@@ -446,7 +448,7 @@
             // 
             // groupControl2
             // 
-            this.groupControl2.Controls.Add(this.gridcontBakiye);
+            this.groupControl2.Controls.Add(this.gridcontEkstre);
             this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl2.Location = new System.Drawing.Point(0, 0);
             this.groupControl2.Name = "groupControl2";
@@ -454,25 +456,25 @@
             this.groupControl2.TabIndex = 2;
             this.groupControl2.Text = "Cari Ekstresi";
             // 
-            // gridcontBakiye
+            // gridcontEkstre
             // 
-            this.gridcontBakiye.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridcontBakiye.Location = new System.Drawing.Point(2, 20);
-            this.gridcontBakiye.MainView = this.gridBakiye;
-            this.gridcontBakiye.Name = "gridcontBakiye";
-            this.gridcontBakiye.Size = new System.Drawing.Size(527, 321);
-            this.gridcontBakiye.TabIndex = 2;
-            this.gridcontBakiye.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridBakiye});
+            this.gridcontEkstre.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridcontEkstre.Location = new System.Drawing.Point(2, 20);
+            this.gridcontEkstre.MainView = this.gridViewEkstre;
+            this.gridcontEkstre.Name = "gridcontEkstre";
+            this.gridcontEkstre.Size = new System.Drawing.Size(527, 321);
+            this.gridcontEkstre.TabIndex = 2;
+            this.gridcontEkstre.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridViewEkstre});
             // 
-            // gridBakiye
+            // gridViewEkstre
             // 
-            this.gridBakiye.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridViewEkstre.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colgenelbilgi,
             this.colgeneltoplam});
-            this.gridBakiye.GridControl = this.gridcontBakiye;
-            this.gridBakiye.Name = "gridBakiye";
-            this.gridBakiye.OptionsView.ShowGroupPanel = false;
+            this.gridViewEkstre.GridControl = this.gridcontEkstre;
+            this.gridViewEkstre.Name = "gridViewEkstre";
+            this.gridViewEkstre.OptionsView.ShowGroupPanel = false;
             // 
             // colgenelbilgi
             // 
@@ -521,8 +523,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridFisToplam)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridcontBakiye)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridBakiye)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridcontEkstre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewEkstre)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -562,8 +564,8 @@
         private DevExpress.XtraGrid.Columns.GridColumn colFisTuruKayitSayisi;
         private DevExpress.XtraGrid.Columns.GridColumn colFisTuruToplamTutar;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraGrid.GridControl gridcontBakiye;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridBakiye;
+        private DevExpress.XtraGrid.GridControl gridcontEkstre;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridViewEkstre;
         private DevExpress.XtraGrid.Columns.GridColumn colgenelbilgi;
         private DevExpress.XtraGrid.Columns.GridColumn colgeneltoplam;
     }

@@ -175,19 +175,19 @@
     <value>btnCustomize</value>
   </data>
   <data name="&gt;&gt;tabBulleted.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="tabOutlineNumbered.Text" xml:space="preserve">
     <value>O&amp;utline Numbered</value>
   </data>
   <data name="&gt;&gt;numberedListBox.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.NumberingListBox, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.NumberingListBox, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;continuePreviousListCheckEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabNumbered.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
     <value>tabControl</value>
@@ -196,13 +196,13 @@
     <value>1</value>
   </data>
   <data name="&gt;&gt;btnCustomize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tabOutlineNumbered.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="continuePreviousListCheckEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 19</value>
@@ -226,7 +226,7 @@
     <value>bulletedListBox</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;numberedListBox.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -235,7 +235,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
     <value>562, 288</value>
@@ -244,7 +244,7 @@
     <value>tabBulleted</value>
   </data>
   <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="restartNumberingCheckEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 19</value>
@@ -256,16 +256,16 @@
     <value></value>
   </data>
   <data name="&gt;&gt;restartNumberingCheckEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="btnCustomize.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
   </data>
   <data name="&gt;&gt;outlineNumberedListBox.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.NumberingListBox, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.NumberingListBox, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;bulletedListBox.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.NumberingListBox, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.NumberingListBox, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabNumbered.Name" xml:space="preserve">
     <value>tabNumbered</value>
@@ -415,7 +415,7 @@
     <value>586, 342</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;outlineNumberedListBox.Name" xml:space="preserve">
     <value>outlineNumberedListBox</value>

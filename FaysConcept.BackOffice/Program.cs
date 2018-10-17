@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using DevExpress.UserSkins;
 using DevExpress.Skins;
 using FaysConcept.FrontOffice;
+using FaysConcept.BackOffice.Ana_Menu;
 
 namespace FaysConcept.BackOffice
 {
@@ -22,6 +23,7 @@ namespace FaysConcept.BackOffice
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
             Application.Run(new RibbonForm1());
+            //Application.Run(new FrmAnaMenuFluent()); 
         }
     }
 }

@@ -33,6 +33,7 @@ using FaysConcept.BackOffice.Ayarlar;
 using FaysConcept.Backup;
 using FaysConcept.Admin;
 using System.Diagnostics;
+using FaysConcept.BackOffice.Personel;
 
 namespace FaysConcept.BackOffice
 {
@@ -43,26 +44,35 @@ namespace FaysConcept.BackOffice
 
             InitializeComponent();
 
-            WebClient indir = new WebClient();
-            string programVersiyon = Assembly.Load("FaysConcept.BackOffice").GetName().Version.ToString();
-            string guncelVersiyon = indir.DownloadString("http://www.fayscrm.com/Download/versiyon.txt");
-            if (programVersiyon != guncelVersiyon)
+            if (Convert.ToBoolean(SettingsTool.AyarOku(SettingsTool.Ayarlar.GenelAyarlar_GuncellemeKontrolu)))
             {
-                if (Convert.ToBoolean(SettingsTool.AyarOku(SettingsTool.Ayarlar.GenelAyarlar_GuncellemeKontrolu)))
+                if (CheckForInternetConnection())
                 {
-                    if (MessageBox.Show("Yeni bir sürüm yayınlandı.Yüklemek ister misiniz ?", "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    WebClient indir = new WebClient();
+                    string programVersiyon = Assembly.Load("FaysConcept.BackOffice").GetName().Version.ToString();
+                    string guncelVersiyon = indir.DownloadString("http://www.fayscrm.com/Download/versiyon.txt");
+                    if (programVersiyon != guncelVersiyon)
                     {
-                        Process.Start($"{Application.StartupPath}\\FaysConcept.Update.exe");
+
+                        if (MessageBox.Show("Yeni bir sürüm yayınlandı.Yüklemek ister misiniz ?", "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            Process.Start($"{Application.StartupPath}\\FaysConcept.Update.exe");
+                        }
+
                     }
 
                 }
+                else
+                {
+                    MessageBox.Show("İnternet bağlantınız olmadığı için yeni versiyon kontrol edilemedi.");
+                }
 
             }
-       
+
             //
             FrmKullaniciGiris girisForm = new FrmKullaniciGiris();
             girisForm.ShowDialog();
-            barKullaniciAdi.Caption = $"Giriş Yapan Kullanıcı :  {RoleTool.KullaniciEntity.KullaniciAdi}";
+
 
             using (var context = new FaysConceptContext())
             {
@@ -81,7 +91,24 @@ namespace FaysConcept.BackOffice
 
             }
         }
+        public static bool CheckForInternetConnection()
+        {
+            try
+            {
+                using (var client = new WebClient())
+                {
+                    using (client.OpenRead("http://www.fayscrm.com/Download/versiyon.txt"))
+                    {
+                        return true;
+                    }
+                }
+        }
+            catch
+            {
 
+                return false;
+            }
+        }
         private void ribbon_Click(object sender, EventArgs e)
         {
 
@@ -94,7 +121,9 @@ namespace FaysConcept.BackOffice
             form.MdiParent = this;
             form.Show();
 
+
             RoleTool.RolleriYukle(ribbon);
+            barKullaniciAdi.Caption = $"Giriş Yapan Kullanıcı :  {RoleTool.KullaniciEntity.KullaniciAdi}";
 
             //FaysConceptContext context = new FaysConceptContext();
             //CariDAL cariDal = new CariDAL();
@@ -147,12 +176,7 @@ namespace FaysConcept.BackOffice
         }
 
 
-        private void barButtonItem3_ItemClick_1(object sender, ItemClickEventArgs e)
-        {
-            FrmFisIslem form = new FrmFisIslem();
-            form.MdiParent = this;
-            form.Show();
-        }
+
 
         private void btnKullaniciYetki_ItemClick(object sender, ItemClickEventArgs e)
         {
@@ -211,6 +235,43 @@ namespace FaysConcept.BackOffice
             {
                 MessageBox.Show("Programınız güncel durumdadır.");
             }
+        }
+
+        private void btnPersonel_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            FrmPersonel form = new FrmPersonel();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        // fisislem butonları için tek tek her butona kod yazmadan aşağıdaki işlem ile diğer butonların event click özelliğinden seçilebilir.
+        // private void FisIslem_Click(object sender, ItemClickEventArgs e)
+        //{
+        //    FrmFisIslem form = new FrmFisIslem(null,e.Item.Caption);
+        //           form.MdiParent = this.MdiParent;      
+        // form.MdiParent = this;
+        //    form.Show();
+        //}
+
+        private void btnFisHareket_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            FrmFis form = new FrmFis();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void btnRaporOlustur_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            FrmRaporDuzenle form = new FrmRaporDuzenle();
+            //form.MdiParent = this;
+            form.WindowState = FormWindowState.Maximized;
+            form.Show();
+        }
+
+        private void btnEtiketOlustur_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            FrmEtiketOlustur form = new FrmEtiketOlustur();
+            form.ShowDialog();
         }
     }
 }

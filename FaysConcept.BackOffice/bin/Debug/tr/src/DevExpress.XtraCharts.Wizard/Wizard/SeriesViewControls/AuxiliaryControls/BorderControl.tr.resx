@@ -123,11 +123,11 @@
   <data name="chVisible.Properties.Caption" xml:space="preserve">
     <value>Görünür</value>
   </data>
-  <assembly alias="DevExpress.XtraEditors.v17.1" name="DevExpress.XtraEditors.v17.1, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.XtraEditors.v18.1" name="DevExpress.XtraEditors.v18.1, Culture=neutral"></assembly>
   <data name="chartLabelControl1.Text" xml:space="preserve">
     <value>Kalınlık:</value>
   </data>
-  <assembly alias="DevExpress.Utils.v17.1" name="DevExpress.Utils.v17.1, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.Utils.v18.1" name="DevExpress.Utils.v18.1, Culture=neutral"></assembly>
   <data name="chartLabelControl3.Text" xml:space="preserve">
     <value>Renk:</value>
   </data>

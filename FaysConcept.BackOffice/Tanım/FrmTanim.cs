@@ -16,8 +16,8 @@ namespace FaysConcept.BackOffice.Tanım
 {
     public partial class FrmTanim : DevExpress.XtraEditors.XtraForm
     {
-        FaysConceptContext context=new FaysConceptContext();
-        TanimDAL tanimDal=new TanimDAL();
+        FaysConceptContext context = new FaysConceptContext();
+        TanimDAL tanimDal = new TanimDAL();
         private TanimTuru _tanimTuru;
         public Tanim _entity;
         public bool secildi = false;
@@ -26,9 +26,8 @@ namespace FaysConcept.BackOffice.Tanım
         {
             InitializeComponent();
             _tanimTuru = tanimTuru;
-
         }
-        
+
         public enum TanimTuru
         {
             CariGrubu,
@@ -36,14 +35,29 @@ namespace FaysConcept.BackOffice.Tanım
             CariOzelKod1,
             CariOzelKod2,
             CariOzelKod3,
-            CariOzelKod4
+            CariOzelKod4,
+            PersonelUnvan
         }
 
         private void FrmTanim_Load(object sender, EventArgs e)
         {
             listele();
-        }
 
+            if (gridView1Tanim.RowCount == 0)
+            {
+                btnSec.Enabled = false;
+                btnDuzenle.Enabled = false;
+                btnSil.Enabled = false;
+            }
+
+            else
+            {
+                btnSec.Enabled = true;
+                btnDuzenle.Enabled = true;
+                btnSil.Enabled = true;
+            }
+
+        }
         void KayitAc()
         {
             btnSec.Enabled = false;
@@ -72,26 +86,25 @@ namespace FaysConcept.BackOffice.Tanım
 
         void listele()
         {
-            gridControl1Tanim.DataSource = tanimDal.GetAll(context,c=>c.Turu==_tanimTuru.ToString()); // tanim türlerine göre listeleme
+            gridControl1Tanim.DataSource = tanimDal.GetAll(context, c => c.Turu == _tanimTuru.ToString()); // tanim türlerine göre listeleme
         }
 
         private void btnKapat_Click(object sender, EventArgs e)
         {
             this.Close();
-       
+
         }
 
         private void btnEkle_Click(object sender, EventArgs e)
         {
-            
-            _entity=new Tanim();
+            _entity = new Tanim();
             KayitAc();
         }
 
         private void btnDuzenle_Click(object sender, EventArgs e)
         {
-            
-            int secilen=Convert.ToInt32(gridView1Tanim.GetFocusedRowCellValue(colId));
+
+            int secilen = Convert.ToInt32(gridView1Tanim.GetFocusedRowCellValue(colId));
             _entity = context.Tanimlar.Where(c => c.Id == secilen).SingleOrDefault();
             KayitAc();
         }
@@ -113,7 +126,7 @@ namespace FaysConcept.BackOffice.Tanım
 
             if (tanimDal.AddOrUpdate(context, _entity))
             {
-                
+
                 tanimDal.Save(context);
                 KayitKapat();
                 listele();
@@ -127,10 +140,14 @@ namespace FaysConcept.BackOffice.Tanım
 
         private void btnSec_Click(object sender, EventArgs e)
         {
-            int secilen = Convert.ToInt32(gridView1Tanim.GetFocusedRowCellValue(colId));
-            _entity = context.Tanimlar.Where(c => c.Id == secilen).SingleOrDefault();
-            secildi = true;
-            this.Close();
+            if (gridView1Tanim.SelectedRowsCount > 0)
+            {
+                int secilen = Convert.ToInt32(gridView1Tanim.GetFocusedRowCellValue(colId));
+                _entity = context.Tanimlar.Where(c => c.Id == secilen).SingleOrDefault();
+                secildi = true;
+                this.Close();  
+            }
+
         }
     }
 }

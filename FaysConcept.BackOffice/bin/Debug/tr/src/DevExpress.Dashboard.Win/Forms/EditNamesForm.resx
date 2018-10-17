@@ -136,7 +136,7 @@
     <value>dashboardItemNameTextEdit</value>
   </data>
   <data name="&gt;&gt;dashboardItemNameTextEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;dashboardItemNameTextEdit.Parent" xml:space="preserve">
     <value>$this</value>
@@ -163,7 +163,7 @@
     <value>dashboardItemNamelabel</value>
   </data>
   <data name="&gt;&gt;dashboardItemNamelabel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;dashboardItemNamelabel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -196,7 +196,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>buttonsPanel</value>
@@ -223,7 +223,7 @@
     <value>btnOK</value>
   </data>
   <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
     <value>buttonsPanel</value>
@@ -247,7 +247,7 @@
     <value>scrollableControl</value>
   </data>
   <data name="&gt;&gt;scrollableControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraScrollableControl, DevExpress.Utils.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraScrollableControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;scrollableControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -274,7 +274,7 @@
     <value>separator</value>
   </data>
   <data name="&gt;&gt;separator.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;separator.Parent" xml:space="preserve">
     <value>$this</value>
@@ -298,7 +298,7 @@
     <value>buttonsPanel</value>
   </data>
   <data name="&gt;&gt;buttonsPanel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;buttonsPanel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -334,12 +334,12 @@
     <value>toolTipController</value>
   </data>
   <data name="&gt;&gt;toolTipController.Type" xml:space="preserve">
-    <value>DevExpress.Utils.ToolTipController, DevExpress.Utils.v17.1, Culture=neutral</value>
+    <value>DevExpress.Utils.ToolTipController, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>EditNamesForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.DashboardWin.Native.DashboardForm, DevExpress.Dashboard.v17.1.Win, Culture=neutral</value>
+    <value>DevExpress.DashboardWin.Native.DashboardForm, DevExpress.Dashboard.v18.1.Win, Culture=neutral</value>
   </data>
 </root>

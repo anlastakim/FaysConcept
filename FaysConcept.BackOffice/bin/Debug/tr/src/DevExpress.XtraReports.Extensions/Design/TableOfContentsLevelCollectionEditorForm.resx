@@ -131,6 +131,6 @@
     <value>TableOfContentsLevelCollectionEditorForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.Utils.UI.CollectionEditorFormBase, DevExpress.Utils.v17.1.UI, Culture=neutral</value>
+    <value>DevExpress.Utils.UI.CollectionEditorFormBase, DevExpress.Utils.v18.1.UI, Culture=neutral</value>
   </data>
 </root>

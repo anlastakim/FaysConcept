@@ -15,10 +15,11 @@ namespace FaysConcept.BackOffice.Fisler
 {
     public partial class FrmFis : DevExpress.XtraEditors.XtraForm
     {
-        FaysConceptContext context=new FaysConceptContext();
-        FisDAL fisDal=new FisDAL();
-        KasaHareketDAL kasaHareketDal=new KasaHareketDAL();
-        StokHareketDAL stokHareketDal=new StokHareketDAL();
+        FaysConceptContext context = new FaysConceptContext();
+        FisDAL fisDal = new FisDAL();
+        KasaHareketDAL kasaHareketDal = new KasaHareketDAL();
+        StokHareketDAL stokHareketDal = new StokHareketDAL();
+
 
         public FrmFis()
         {
@@ -51,13 +52,33 @@ namespace FaysConcept.BackOffice.Fisler
             {
                 string secilen = gridViewFisler.GetFocusedRowCellValue(colFisKodu).ToString();
                 fisDal.Delete(context, c => c.FisKodu == secilen);
-                kasaHareketDal.Delete(context,c=>c.FisKodu==secilen);
+                kasaHareketDal.Delete(context, c => c.FisKodu == secilen);
                 //bağlı olan hareketleri silme
-                stokHareketDal.Delete(context,c=>c.FisKodu==secilen);
+                stokHareketDal.Delete(context, c => c.FisKodu == secilen);
                 // bağlı olan hareketleri silme
                 fisDal.Save(context);
                 Listele();
             }
+        }
+
+
+ 
+
+        private void FisIslem_Click(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            FrmFisIslem form = new FrmFisIslem(null, e.Item.Caption);
+            //FrmStok form = new FrmStok();
+            form.MdiParent = this.MdiParent;
+            form.Show();
+            
+        }
+
+        private void btnduzenle_Click(object sender, EventArgs e)
+        {
+            string secilen = gridViewFisler.GetFocusedRowCellValue(colFisKodu).ToString();
+            FrmFisIslem form = new FrmFisIslem(secilen);
+            form.ShowDialog();
+          
         }
     }
 }

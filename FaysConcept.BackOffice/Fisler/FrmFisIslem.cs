@@ -18,6 +18,7 @@ using FaysConcept.Entities.Context;
 using FaysConcept.Entities.DataAccess;
 using FaysConcept.Entities.Tables;
 using FaysConcept.Entities.Tools;
+using FaysConcept.Entities.Tables.OtherTables;
 
 namespace FaysConcept.BackOffice.Fisler
 {
@@ -29,11 +30,14 @@ namespace FaysConcept.BackOffice.Fisler
         KasaHareketDAL kasaHareketDal = new KasaHareketDAL();
         CariDAL cariDal = new CariDAL();
 
+        FisAyarlari ayarlar = new FisAyarlari();
+
         Fis _fisentity = new Fis();
         CariBakiye entityCariBakiye = new CariBakiye();
 
 
-        public FrmFisIslem(string fisKodu = null)
+        #region ToBinding ve ödeme türleri buton olarak eklenmesi
+        public FrmFisIslem(string fisKodu = null, string fisTuru = null)
         {
             InitializeComponent();
             // Mevcut fişler üzerinde değişiklik yapma (load yapma)
@@ -42,17 +46,28 @@ namespace FaysConcept.BackOffice.Fisler
                 _fisentity = context.Fisler.Where(c => c.FisKodu == fisKodu).SingleOrDefault();
                 context.StokHareketleri.Where(c => c.FisKodu == fisKodu).Load();
                 context.KasaHareketleri.Where(c => c.FisKodu == fisKodu).Load();
-                entityCariBakiye = this.cariDal.CariBakiyesi(context, _fisentity.CariKodu);
 
-                lblAlacak.Text = entityCariBakiye.Alacak.ToString("C2");
-                lblBorc.Text = entityCariBakiye.Borc.ToString("C2");
-                lblBakiye.Text = entityCariBakiye.Bakiye.ToString("C2");
+                if (_fisentity.CariKodu != null)
+                {
+                    entityCariBakiye = this.cariDal.CariBakiyesi(context, _fisentity.CariKodu);
+
+                    lblAlacak.Text = entityCariBakiye.Alacak.ToString("C2");
+                    lblBorc.Text = entityCariBakiye.Borc.ToString("C2");
+                    lblBakiye.Text = entityCariBakiye.Bakiye.ToString("C2");
+                }
+
+            }
+
+            else
+            {
+                _fisentity.FisTuru = fisTuru;
+                _fisentity.Tarih = DateTime.Now;
             }
 
             // bindings işlemi sıkıntılı olduğunda onproperty  kullanılıyor
             textFisNo.DataBindings.Add("Text", _fisentity, "FisKodu", false, DataSourceUpdateMode.OnPropertyChanged);
             textFisTuru.DataBindings.Add("Text", _fisentity, "FisTuru", false, DataSourceUpdateMode.OnPropertyChanged);
-            CmbTarih.DataBindings.Add("EditValue", _fisentity, "Tarih", false, DataSourceUpdateMode.OnPropertyChanged);
+            CmbTarih.DataBindings.Add("EditValue", _fisentity, "Tarih", true, DataSourceUpdateMode.OnPropertyChanged, null, "F");
             textBelgeNo.DataBindings.Add("Text", _fisentity, "BelgeNo", false, DataSourceUpdateMode.OnPropertyChanged);
             textAciklama.DataBindings.Add("Text", _fisentity, "Aciklama", false, DataSourceUpdateMode.OnPropertyChanged);
             // Fiş Bilgileri binding edildi.
@@ -73,6 +88,7 @@ namespace FaysConcept.BackOffice.Fisler
             // listeleme yapmadık sadece verikaynağını bağladık.
             gridControlOdemeEkrani.DataSource = context.KasaHareketleri.Local.ToBindingList();
 
+            FisAyar();
             Toplamlar();
             OdenenTutarGuncelle();
 
@@ -92,7 +108,11 @@ namespace FaysConcept.BackOffice.Fisler
             }
 
         }
+        #endregion
 
+
+
+        #region Ödeme yapma bölümü
         private void OdemeEkle_Click(object sender, EventArgs e)
         {
             var buton = (sender as SimpleButton);
@@ -123,10 +143,8 @@ namespace FaysConcept.BackOffice.Fisler
             calcOdenmesiGereken.Value = calcGenelToplam.Value - calcOdenenTutar.Value;
         }
 
-        private void btnkapat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        #endregion
+
 
         private void FrmFisIslem_Load(object sender, EventArgs e)
         {
@@ -186,6 +204,7 @@ namespace FaysConcept.BackOffice.Fisler
             }
         }
 
+        #region  Fiş Cari Seçme ve Temizle Bölümü
         private void btnCariSec_Click(object sender, EventArgs e)
         {
             FrmCariSec form = new FrmCariSec();
@@ -228,6 +247,7 @@ namespace FaysConcept.BackOffice.Fisler
             lblBorc.Text = "Görüntülenemiyor";
             lblBakiye.Text = "Görüntülenemiyor";
         }
+        #endregion
 
         private void gridViewSatisEkrani_CellValueChanged(object sender, DevExpress.XtraGrid.Views.Base.CellValueChangedEventArgs e)
         {
@@ -288,6 +308,7 @@ namespace FaysConcept.BackOffice.Fisler
             gridViewSatisEkrani.SetFocusedRowCellValue(colBirimFiyat, Convert.ToDecimal(e.Item.Tag));
         }
 
+        #region SeriNoBilgisi
         private void repoSeriNo_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
         {
             string veri = Convert.ToString(gridViewSatisEkrani.GetFocusedRowCellValue(colSeriNo));
@@ -301,10 +322,13 @@ namespace FaysConcept.BackOffice.Fisler
             if (MessageBox.Show("Seçili olan veriyi silmek istediğinize emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 gridViewSatisEkrani.DeleteSelectedRows();
+                OdenenTutarGuncelle();
                 Toplamlar();
             }
         }
+        #endregion
 
+        #region KasaBilgisi
         private void repoKasa_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
         {
             FrmKasaSec form = new FrmKasaSec();
@@ -321,57 +345,221 @@ namespace FaysConcept.BackOffice.Fisler
             if (MessageBox.Show("Seçili olan veriyi silmek istediğinize emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 gridViewOdemeEkrani.DeleteSelectedRows();
+                Toplamlar();
                 OdenenTutarGuncelle();
+
             }
         }
+        #endregion
 
+        #region Fiş Kaydetmeden önce doldurulması zorunlu olan alanlar
+        private void FisAyar()
+        {
+
+            //fiş türünü yakaladığımız yer ve ayaları
+            switch (_fisentity.FisTuru)
+            {
+                case "Alış Faturası":
+                    ayarlar.StokHareketi = "Stok Giriş";
+                    ayarlar.KasaHareketi = "Kasa Çıkış";
+                    lblBaslik.Appearance.ImageIndex = 0;
+                    ayarlar.OdemeEkrani = true;
+
+                    break;
+                case "Perakende Satış Faturası":
+                    ayarlar.StokHareketi = "Stok Çıkış";
+                    ayarlar.KasaHareketi = "Kasa Giriş";
+                    lblBaslik.Appearance.ImageIndex = 1;
+                    ayarlar.OdemeEkrani = true;
+                    break;
+                case "Toptan Satış Faturası":
+                    ayarlar.StokHareketi = "Stok Çıkış";
+                    ayarlar.KasaHareketi = "Kasa Giriş";
+                    lblBaslik.Appearance.ImageIndex = 2;
+                    ayarlar.OdemeEkrani = true;
+                    break;
+                case "Alış İade Faturası":
+                    ayarlar.StokHareketi = "Stok Çıkış";
+                    ayarlar.KasaHareketi = "Kasa Giriş";
+                    lblBaslik.Appearance.ImageIndex = 3;
+                    ayarlar.OdemeEkrani = true;
+                    break;
+                case "Satış İade Faturası":
+                    ayarlar.StokHareketi = "Stok Giriş";
+                    ayarlar.KasaHareketi = "Kasa Çıkış";
+                    lblBaslik.Appearance.ImageIndex = 4;
+                    ayarlar.OdemeEkrani = true;
+                    break;
+                case "Sayım Fazlası Fişi":
+                    ayarlar.StokHareketi = "Stok Giriş";
+                    navOdemeEkrani.Dispose();
+                    lblBaslik.Appearance.ImageIndex = 5;
+                    panelOdemeBilgi.Visible = false;
+                    ayarlar.OdemeEkrani = false;
+                    navCariBilgi.Dispose();
+                    break;
+                case "Sayım Eksiği Fişi":
+                    ayarlar.StokHareketi = "Stok Çıkış";
+                    navOdemeEkrani.Dispose();
+                    lblBaslik.Appearance.ImageIndex = 6;
+                    panelOdemeBilgi.Visible = false;
+                    ayarlar.OdemeEkrani = false;
+                    navCariBilgi.Dispose();
+                    break;
+                case "Stok Devir Fişi":
+                    ayarlar.StokHareketi = "Stok Giriş";
+                    navOdemeEkrani.Dispose();
+                    lblBaslik.Appearance.ImageIndex = 7;
+                    panelOdemeBilgi.Visible = false;
+                    ayarlar.OdemeEkrani = false;
+                    navCariBilgi.Dispose();
+                    break;
+                case "Tahsilat Fişi":
+                    ayarlar.KasaHareketi = "Kasa Giriş";
+                    ayarlar.OdemeEkrani = true;
+                    ayarlar.SatisEkrani = false;
+                    panelOdemeBilgi.Visible = false;
+                    panelIskonto.Visible = false;
+                    panelKDV.Visible = false;
+                    panelGenelToplam.Top = 25;
+                    grpToplamlar.Height = 65;
+                    navigationPane2.SelectedPage = navOdemeEkrani;
+                    navSatisEkrani.Dispose();
+                    lblBaslik.Appearance.ImageIndex = 8;
+                    break;
+                case "Ödeme Fişi":
+                    ayarlar.KasaHareketi = "Kasa Çıkış";
+                    ayarlar.OdemeEkrani = true;
+                    ayarlar.SatisEkrani = false;
+                    panelOdemeBilgi.Visible = false;
+                    panelIskonto.Visible = false;
+                    panelKDV.Visible = false;
+                    panelGenelToplam.Top = 25;
+                    grpToplamlar.Height = 65;
+                    navigationPane2.SelectedPage = navOdemeEkrani;
+                    navSatisEkrani.Dispose();
+                    lblBaslik.Appearance.ImageIndex = 9;
+                    break;
+
+                    // Bu kısma daha sonra bakılacak.
+                case "Cari Devir Fişi":
+                    ayarlar.KasaHareketi = "Kasa Giriş";
+                    ayarlar.OdemeEkrani = true;
+                    ayarlar.SatisEkrani = false;
+                    panelOdemeBilgi.Visible = false;
+                    panelIskonto.Visible = false;
+                    panelKDV.Visible = false;
+                    panelGenelToplam.Top = 25;
+                    grpToplamlar.Height = 65;
+                    navigationPane2.SelectedPage = navOdemeEkrani;
+                    navSatisEkrani.Dispose();
+                    lblBaslik.Appearance.ImageIndex = 10;
+                    break;
+            }
+        }
+        #endregion
+
+        #region Stok Fiş Kaydet
         private void btnkaydet_Click(object sender, EventArgs e)
-        {      // boş geçilmemesi için kontrol
+        {
             int StokHata = context.StokHareketleri.Local.Where(c => c.DepoKodu == null).Count();
             int KasaHata = context.KasaHareketleri.Local.Where(c => c.KasaKodu == null).Count();
 
-            if (StokHata == 0 && KasaHata == 0)
+            //validator yerine manuel olarak kontrol
+            string message = null;
+            int hata = 0;
+            if (gridViewSatisEkrani.RowCount == 0)
             {
-                foreach (var stokVeri in context.StokHareketleri.Local.ToList())  // local önemli
-                {
-                    stokVeri.Tarih = stokVeri.Tarih == null
-                        ? Convert.ToDateTime(CmbTarih.DateTime)
-                        : Convert.ToDateTime(stokVeri.Tarih);
-                    stokVeri.FisKodu = textFisNo.Text;
-                    stokVeri.Hareket = _fisentity.FisTuru == "Alış Faturası" ? "Stok Giriş" : "Stok Çıkış";
+                message += "Satış ekranında eklenmiş bir ürün bulunamadı" + System.Environment.NewLine;
+                hata++;
+            }
 
-                }
+            if (textFisNo.Text == "")
+            {
+                message += "Fiş Numarası alanı boş geçilemez." + System.Environment.NewLine;
+                // hatayı 1 artır
+                hata++;
+            }
+            //ödenmesi gereken tutar sıfır değil ise ve odeme ekrani açık ise mesaj ver.
+            if (calcOdenmesiGereken.Value != 0 && ayarlar.OdemeEkrani == true)
+            {
+                message += "Ödenmesi gereken tutar ödenmemiş görünüyor." + System.Environment.NewLine;
+                hata++;
+            }
+            if (StokHata != 0)
+            {
+                message += "Satış ekranındaki eklenen ürünlerde depo seçimi yapılmayanlar var." + System.Environment.NewLine;
+                // hatayı 1 artır
+                hata++;
+            }
+            if (KasaHata != 0)
+            {
+                message += "Ödeme ekranında kasa seçilmemiş." + System.Environment.NewLine;
+                hata++;
+            }
+            if (hata != 0)
+            {
+                MessageBox.Show(message);
+                //bundan sonrasına devam etmemek için
+                return;
+            }
+
+            foreach (var stokVeri in context.StokHareketleri.Local.ToList())  // local önemli
+            {
+                //stokVeri.Tarih = stokVeri.Tarih == null
+                //    ? Convert.ToDateTime(CmbTarih.DateTime)
+                //    : Convert.ToDateTime(stokVeri.Tarih);
+                stokVeri.FisKodu = textFisNo.Text;
+                stokVeri.Hareket = ayarlar.StokHareketi;
+
+            }
+
+
+            if (ayarlar.OdemeEkrani)
+            {
                 foreach (var kasaVeri in context.KasaHareketleri.Local.ToList())  // local önemli
                 {
                     kasaVeri.Tarih = kasaVeri.Tarih == null ? Convert.ToDateTime(CmbTarih.DateTime) : Convert.ToDateTime(kasaVeri.Tarih);
                     kasaVeri.FisKodu = textFisNo.Text;
-                    kasaVeri.Hareket = _fisentity.FisTuru == "Alış Faturası" ? "Kasa Çıkış" : "Kasa Giriş";
+                    kasaVeri.Hareket = ayarlar.KasaHareketi;
                     kasaVeri.CariKodu = lblCariKodu.Text;
                     kasaVeri.CariAdi = lblCariAdi.Text;
                 }
-
-                _fisentity.ToplamTutar = calcGenelToplam.Value;
-                _fisentity.IskontoOrani = calcIskontoOrani.Value;
-                _fisentity.IskontoTutar = calcIskontoTutari.Value;
-                fisDal.AddOrUpdate(context, _fisentity);
-                context.SaveChanges();
             }
+
+
+            _fisentity.ToplamTutar = calcGenelToplam.Value;
+            _fisentity.IskontoOrani = calcIskontoOrani.Value;
+            _fisentity.IskontoTutar = calcIskontoTutari.Value;
+            fisDal.AddOrUpdate(context, _fisentity);
+            context.SaveChanges();
+            this.Close();
 
 
 
         }
+        #endregion
 
-        private void CmbTarih_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
-        {
-            if (e.Button.Index == 1)
-            {
-                CmbTarih.DateTime = DateTime.Now;
-            }
-        }
-
-        private void CmbTarih_EditValueChanged(object sender, EventArgs e)
+        private void CmbTarih_Properties_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
         {
             CmbTarih.DateTime = DateTime.Now;
         }
+
+        #region Kapat Butonu
+        private void btnkapat_Click(object sender, EventArgs e)
+        {
+            if (gridViewSatisEkrani.RowCount != 0)
+            {
+                if (MessageBox.Show("Fişte eklenmiş ürünler var.Çıkmak istediğinize emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    this.Close();
+                }
+            }
+            else
+            {
+                this.Close();
+            }
+        }
+        #endregion
     }
 }

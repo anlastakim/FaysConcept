@@ -34,7 +34,7 @@ namespace FaysConcept.BackOffice.Cari
         private void Guncelle()
         {
           gridcontFisToplam.DataSource=  cariDal.CariFisGenelToplam(context, _cariKodu);
-            gridcontBakiye.DataSource= cariDal.CariGenelToplam(context, _cariKodu);
+            gridcontEkstre.DataSource= cariDal.CariGenelToplam(context, _cariKodu);
             gridcontCariHareket.DataSource= cariDal.CariFisAyrinti(context, _cariKodu);
         }
 

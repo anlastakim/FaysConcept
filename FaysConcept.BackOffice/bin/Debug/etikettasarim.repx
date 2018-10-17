@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="17.1.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" SnapGridSize="25" ReportUnit="TenthsOfAMillimeter" Margins="0, 0, 0, 0" PageWidth="2159" PageHeight="2794" Version="17.1" DataSource="#Ref-0" Dpi="254">
+  <Bands>
+    <Item1 Ref="2" ControlType="DetailBand" Name="detailBand1" HeightF="673" Dpi="254">
+      <MultiColumn Ref="3" ColumnWidth="673.1" ColumnSpacing="48.26" Layout="AcrossThenDown" Mode="UseColumnWidth" />
+      <Controls>
+        <Item1 Ref="4" ControlType="XRLabel" Name="label2" Text="label2" SizeF="254,58.42" LocationFloat="92.6041641, 394.123383" Dpi="254" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="5" PropertyName="Text" DataMember="StokAdi" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="6" ControlType="XRLabel" Name="label1" Text="label1" SizeF="254,58.42" LocationFloat="92.6041641, 293.581635" Dpi="254" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="7" PropertyName="Text" DataMember="StokKodu" />
+          </DataBindings>
+        </Item2>
+        <Item3 Ref="8" ControlType="XRBarCode" Name="barCode1" Module="5.08" SizeF="635.000061,193.357452" LocationFloat="25.0000076, 68.6858139" Dpi="254" Padding="10,10,0,0,100">
+          <Symbology Ref="9" Name="Code128" />
+          <DataBindings>
+            <Item1 Ref="10" PropertyName="Text" DataMember="BarkodNo" />
+          </DataBindings>
+        </Item3>
+      </Controls>
+    </Item1>
+    <Item2 Ref="11" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="0" Dpi="254" />
+    <Item3 Ref="12" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="0" Dpi="254" />
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v17.1" Ref="0" Content="~Xtra#NULL" Type="System.Collections.Generic.List`1[[FaysConcept.Entities.Tables.Stok, FaysConcept.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

@@ -219,8 +219,10 @@
             this.Controls.Add(this.grpMenu);
             this.Controls.Add(this.grupbilgi);
             this.Controls.Add(this.lblBaslik);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(486, 596);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(486, 596);
             this.Name = "FrmSeriNo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
