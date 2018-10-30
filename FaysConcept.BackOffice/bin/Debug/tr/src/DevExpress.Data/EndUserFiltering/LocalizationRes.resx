@@ -141,4 +141,25 @@
   <data name="FilteringLocalizerStringId.EmptyName" xml:space="preserve">
     <value>(Empty)</value>
   </data>
+  <data name="FilteringLocalizerStringId.BlanksName" xml:space="preserve">
+    <value>(Blanks)</value>
+  </data>
+  <data name="FilteringLocalizerStringId.NonBlanksName" xml:space="preserve">
+    <value>(Non Blanks)</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuSelectAllName" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuClearSelectionName" xml:space="preserve">
+    <value>Clear Selection</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuInvertSelectionName" xml:space="preserve">
+    <value>Invert Selection</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuResetFilter" xml:space="preserve">
+    <value>Reset Filter</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuResetAllFilters" xml:space="preserve">
+    <value>Reset All Filters</value>
+  </data>
 </root>

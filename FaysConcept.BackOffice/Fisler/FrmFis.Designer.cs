@@ -96,7 +96,7 @@
             this.lblBaslik.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblBaslik.Location = new System.Drawing.Point(0, 0);
             this.lblBaslik.Name = "lblBaslik";
-            this.lblBaslik.Size = new System.Drawing.Size(1154, 59);
+            this.lblBaslik.Size = new System.Drawing.Size(1472, 59);
             this.lblBaslik.TabIndex = 2;
             this.lblBaslik.Text = "Fiş Hareketleri";
             // 
@@ -108,9 +108,9 @@
             this.grpMenu.Controls.Add(this.btnsil);
             this.grpMenu.Controls.Add(this.btnduzenle);
             this.grpMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpMenu.Location = new System.Drawing.Point(0, 531);
+            this.grpMenu.Location = new System.Drawing.Point(0, 591);
             this.grpMenu.Name = "grpMenu";
-            this.grpMenu.Size = new System.Drawing.Size(1154, 69);
+            this.grpMenu.Size = new System.Drawing.Size(1472, 69);
             this.grpMenu.TabIndex = 3;
             this.grpMenu.Text = "Menü";
             // 
@@ -288,15 +288,15 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(1154, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(1472, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 600);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 660);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(1154, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1472, 0);
             // 
             // barDockControlLeft
             // 
@@ -304,15 +304,15 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 600);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 660);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1154, 0);
+            this.barDockControlRight.Location = new System.Drawing.Point(1472, 0);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 600);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 660);
             // 
             // imgmenu
             // 
@@ -352,7 +352,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnkapat.ImageOptions.ImageIndex = 5;
             this.btnkapat.ImageOptions.ImageList = this.imgmenu;
-            this.btnkapat.Location = new System.Drawing.Point(1055, 22);
+            this.btnkapat.Location = new System.Drawing.Point(1373, 22);
             this.btnkapat.Name = "btnkapat";
             this.btnkapat.Size = new System.Drawing.Size(87, 42);
             this.btnkapat.TabIndex = 4;
@@ -404,7 +404,7 @@
             this.gridControlFisler.Location = new System.Drawing.Point(0, 59);
             this.gridControlFisler.MainView = this.gridViewFisler;
             this.gridControlFisler.Name = "gridControlFisler";
-            this.gridControlFisler.Size = new System.Drawing.Size(1154, 472);
+            this.gridControlFisler.Size = new System.Drawing.Size(1472, 532);
             this.gridControlFisler.TabIndex = 4;
             this.gridControlFisler.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewFisler});
@@ -537,7 +537,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1154, 600);
+            this.ClientSize = new System.Drawing.Size(1472, 660);
             this.Controls.Add(this.gridControlFisler);
             this.Controls.Add(this.grpMenu);
             this.Controls.Add(this.lblBaslik);

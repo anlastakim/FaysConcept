@@ -1240,4 +1240,13 @@
   <data name="DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Default" xml:space="preserve">
     <value>Varsayılan</value>
   </data>
+  <data name="DevExpress.XtraPivotGrid.PrefilterBase.NonColumnCriteria" xml:space="preserve">
+    <value>Olmayan sütun ölçüt</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.FilterColumnName" xml:space="preserve">
+    <value>Filtre sütun adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowFilter" xml:space="preserve">
+    <value>Filtrede göster</value>
+  </data>
 </root>

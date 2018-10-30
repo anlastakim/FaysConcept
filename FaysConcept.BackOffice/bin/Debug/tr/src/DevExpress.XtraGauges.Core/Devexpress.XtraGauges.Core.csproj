@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.XtraGauges.Core</RootNamespace>
-    <AssemblyName>DevExpress.XtraGauges.v17.1.Core</AssemblyName>
+    <AssemblyName>DevExpress.XtraGauges.v18.1.Core</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>

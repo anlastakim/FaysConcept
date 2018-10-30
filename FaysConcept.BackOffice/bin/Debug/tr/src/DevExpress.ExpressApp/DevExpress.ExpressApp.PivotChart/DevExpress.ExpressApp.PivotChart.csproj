@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.ExpressApp.PivotChart</RootNamespace>
-    <AssemblyName>DevExpress.ExpressApp.PivotChart.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.ExpressApp.PivotChart.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -54,6 +54,7 @@
     <EmbeddedResource Include="LocalizationResources.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModuleLocalizationResources.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

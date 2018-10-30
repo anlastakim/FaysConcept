@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.ExpressApp.CloneObject</RootNamespace>
-    <AssemblyName>DevExpress.ExpressApp.CloneObject.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.ExpressApp.CloneObject.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -46,6 +46,10 @@
       <Link>AssemblyVersion.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ModuleLocalizationResources.resx" />
+    <EmbeddedResource Include="ModuleLocalizationResources.tr.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

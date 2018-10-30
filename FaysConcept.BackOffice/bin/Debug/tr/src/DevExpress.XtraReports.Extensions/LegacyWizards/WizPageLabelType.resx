@@ -60,61 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace">
-    </xsd:import>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute ref="xml:space">
-              </xsd:attribute>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="name" type="xsd:string">
-              </xsd:attribute>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1">
-                </xsd:element>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1">
-              </xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3">
-              </xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4">
-              </xsd:attribute>
-              <xsd:attribute ref="xml:space">
-              </xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required">
-              </xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -128,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="titleLabel.Text" xml:space="preserve">
     <value>Label Information</value>
@@ -140,7 +124,7 @@
     <value>titleLabel</value>
   </data>
   <data name="&gt;&gt;titleLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;titleLabel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -155,7 +139,7 @@
     <value>subtitleLabel</value>
   </data>
   <data name="&gt;&gt;subtitleLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;subtitleLabel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -167,7 +151,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;headerPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;headerPanel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -179,7 +163,7 @@
     <value>headerPicture</value>
   </data>
   <data name="&gt;&gt;headerPicture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;headerPicture.Parent" xml:space="preserve">
     <value>$this</value>
@@ -191,7 +175,7 @@
     <value>headerSeparator</value>
   </data>
   <data name="&gt;&gt;headerSeparator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;headerSeparator.Parent" xml:space="preserve">
     <value>$this</value>
@@ -199,26 +183,26 @@
   <data name="&gt;&gt;headerSeparator.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-  </assembly>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="preview.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-  </assembly>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
   <data name="preview.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="preview.Size" type="System.Drawing.Size, System.Drawing">
     <value>294, 230</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-  </assembly>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="preview.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;preview.Name" xml:space="preserve">
     <value>preview</value>
+  </data>
+  <data name="&gt;&gt;preview.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.Design.PreviewControl, DevExpress.XtraReports.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;preview.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -239,7 +223,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -269,7 +253,7 @@
     <value>lblLabelProducts</value>
   </data>
   <data name="&gt;&gt;lblLabelProducts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblLabelProducts.Parent" xml:space="preserve">
     <value>$this</value>
@@ -288,6 +272,9 @@
   </data>
   <data name="&gt;&gt;cbLabelProducts.Name" xml:space="preserve">
     <value>cbLabelProducts</value>
+  </data>
+  <data name="&gt;&gt;cbLabelProducts.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbLabelProducts.Parent" xml:space="preserve">
     <value>$this</value>
@@ -317,7 +304,7 @@
     <value>lblProductNumber</value>
   </data>
   <data name="&gt;&gt;lblProductNumber.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblProductNumber.Parent" xml:space="preserve">
     <value>$this</value>
@@ -336,6 +323,9 @@
   </data>
   <data name="&gt;&gt;cbProductNumber.Name" xml:space="preserve">
     <value>cbProductNumber</value>
+  </data>
+  <data name="&gt;&gt;cbProductNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbProductNumber.Parent" xml:space="preserve">
     <value>$this</value>
@@ -365,7 +355,7 @@
     <value>lblPageTypeStatic</value>
   </data>
   <data name="&gt;&gt;lblPageTypeStatic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblPageTypeStatic.Parent" xml:space="preserve">
     <value>grpLabelInfo</value>
@@ -389,7 +379,7 @@
     <value>lblPageType</value>
   </data>
   <data name="&gt;&gt;lblPageType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblPageType.Parent" xml:space="preserve">
     <value>grpLabelInfo</value>
@@ -413,7 +403,7 @@
     <value>lblWidth</value>
   </data>
   <data name="&gt;&gt;lblWidth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblWidth.Parent" xml:space="preserve">
     <value>grpLabelInfo</value>
@@ -437,7 +427,7 @@
     <value>lblHeight</value>
   </data>
   <data name="&gt;&gt;lblHeight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblHeight.Parent" xml:space="preserve">
     <value>grpLabelInfo</value>
@@ -461,7 +451,7 @@
     <value>lblPageSize</value>
   </data>
   <data name="&gt;&gt;lblPageSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblPageSize.Parent" xml:space="preserve">
     <value>grpLabelInfo</value>
@@ -488,7 +478,7 @@
     <value>lblPageSizeStatic</value>
   </data>
   <data name="&gt;&gt;lblPageSizeStatic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblPageSizeStatic.Parent" xml:space="preserve">
     <value>grpLabelInfo</value>
@@ -515,7 +505,7 @@
     <value>lblHeightStatic</value>
   </data>
   <data name="&gt;&gt;lblHeightStatic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblHeightStatic.Parent" xml:space="preserve">
     <value>grpLabelInfo</value>
@@ -542,7 +532,7 @@
     <value>lblWidthStatic</value>
   </data>
   <data name="&gt;&gt;lblWidthStatic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblWidthStatic.Parent" xml:space="preserve">
     <value>grpLabelInfo</value>
@@ -565,16 +555,22 @@
   <data name="&gt;&gt;grpLabelInfo.Name" xml:space="preserve">
     <value>grpLabelInfo</value>
   </data>
+  <data name="&gt;&gt;grpLabelInfo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;grpLabelInfo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpLabelInfo.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>WizPageLabelType</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.Utils.InteriorWizardPage, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

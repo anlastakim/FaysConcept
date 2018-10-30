@@ -72,6 +72,36 @@
   <data name="VGridStringId.MenuRowPropertiesExpressionEditor">
     <value>Expression Editor...</value>
   </data>
+  <data name="VGridStringId.MenuRowCustomization">
+    <value>Row Chooser</value>
+  </data>
+  <data name="VGridStringId.MenuRowBestFit">
+    <value>Best Fit</value>
+  </data>
+  <data name="VGridStringId.MenuRowClearFilter">
+    <value>Clear Filter</value>
+  </data>
+  <data name="VGridStringId.MenuRowFilterEditor">
+    <value>Filter Editor...</value>
+  </data>
+  <data name="VGridStringId.MenuRowFindFilterShow">
+    <value>Show Find Panel</value>
+  </data>
+  <data name="VGridStringId.MenuRowFindFilterHide">
+    <value>Hide Find Panel</value>
+  </data>
+  <data name="VGridStringId.MenuRowExpand">
+    <value>Expand</value>
+  </data>
+  <data name="VGridStringId.MenuRowCollapse">
+    <value>Collapse</value>
+  </data>
+  <data name="VGridStringId.MenuRowExpandAll">
+    <value>Expand All</value>
+  </data>
+  <data name="VGridStringId.MenuRowCollapseAll">
+    <value>Collapse All</value>
+  </data>
   <data name="VGridStringId.FindControlFindButton">
     <value>Find</value>
   </data>
@@ -84,4 +114,32 @@
   <data name="VGridStringId.ExpressionEditorFieldsName">
     <value>Fields</value>
   </data>
+  <data name="VGridStringId.FilterPanelCustomizeButton">
+    <value>Edit Filter</value>
+  </data>
+  <data name="VGridStringId.PopupFilterAll">
+    <value>(All)</value>
+  </data>
+  <data name="VGridStringId.PopupFilterBlanks">
+    <value>(Blanks)</value>
+  </data>
+  <data name="VGridStringId.PopupFilterNonBlanks">
+    <value>(Non blanks)</value>
+  </data>
+  <data name="VGridStringId.FilterEditorOkButton">
+    <value>&amp;OK</value>
+  </data>
+  <data name="VGridStringId.FilterEditorCancelButton">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="VGridStringId.FilterEditorApplyButton">
+    <value>&amp;Apply</value>
+  </data>
+  <data name="VGridStringId.FilterEditorCaption">
+    <value>Filter Editor</value>
+  </data>
+  <data name="VGridStringId.WindowErrorCaption">
+    <value>Error</value>
+  </data>
+
 </root>

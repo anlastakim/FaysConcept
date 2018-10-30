@@ -129,7 +129,28 @@
   <data name="FilteringLocalizerStringId.DefaultName" xml:space="preserve">
     <value>Varsayılan</value>
   </data>
+  <data name="FilteringLocalizerStringId.MenuSelectAllName" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+  <data name="FilteringLocalizerStringId.BlanksName" xml:space="preserve">
+    <value>(Boş olanlar)</value>
+  </data>
   <data name="FilteringLocalizerStringId.EmptyName" xml:space="preserve">
-    <value>Boş</value>
+    <value>(Boş)</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuInvertSelectionName" xml:space="preserve">
+    <value>Seçimi tersine çevir</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuResetAllFilters" xml:space="preserve">
+    <value>Tüm Filtreleri Sıfırla</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuResetFilter" xml:space="preserve">
+    <value>Filtreyi Sıfırla</value>
+  </data>
+  <data name="FilteringLocalizerStringId.NonBlanksName" xml:space="preserve">
+    <value>(Boş Olmayanlar)</value>
+  </data>
+  <data name="FilteringLocalizerStringId.MenuClearSelectionName" xml:space="preserve">
+    <value>Seçimi Temizle</value>
   </data>
 </root>

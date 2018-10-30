@@ -573,9 +573,6 @@
   <data name="DevExpress.XtraCharts.SeriesBase.ColorDataMember" xml:space="preserve">
     <value>Color Data Member</value>
   </data>
-  <data name="DevExpress.XtraCharts.SeriesBase.DataFilters" xml:space="preserve">
-    <value>Data Filters</value>
-  </data>
   <data name="DevExpress.XtraCharts.SeriesBase.ArgumentScaleType" xml:space="preserve">
     <value>Argument Scale Type</value>
   </data>
@@ -878,6 +875,9 @@
   </data>
   <data name="DevExpress.XtraCharts.XYDiagram3DSeriesViewBase.AggregateFunction" xml:space="preserve">
     <value>Aggregate Function</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3DSeriesViewBase.CustomAggregateFunction" xml:space="preserve">
+    <value>Custom Aggregate Function</value>
   </data>
   <data name="DevExpress.XtraCharts.PieSeriesViewBase.ExplodedDistancePercentage" xml:space="preserve">
     <value>Exploded Distance Percentage</value>
@@ -1512,6 +1512,9 @@
   <data name="DevExpress.XtraCharts.SeriesBase.CrosshairHighlightPoints" xml:space="preserve">
     <value>Crosshair Highlight Points</value>
   </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.CrosshairEmptyValueLegendText" xml:space="preserve">
+    <value>Crosshair Empty Value Legend Text</value>
+  </data>
   <data name="DevExpress.XtraCharts.SeriesBase.LegendTextPattern" xml:space="preserve">
     <value>Legend Text Pattern</value>
   </data>
@@ -1598,6 +1601,9 @@
   </data>
   <data name="DevExpress.XtraCharts.RadarSeriesViewBase.AggregateFunction" xml:space="preserve">
     <value>Aggregate Function</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarSeriesViewBase.CustomAggregateFunction" xml:space="preserve">
+    <value>Custom Aggregate Function</value>
   </data>
   <data name="DevExpress.XtraCharts.RadarPointSeriesView.PointMarkerOptions" xml:space="preserve">
     <value>Point Marker Options</value>
@@ -1694,6 +1700,9 @@
   </data>
   <data name="DevExpress.XtraCharts.Series.ToolTipImage" xml:space="preserve">
     <value>Tool Tip Image</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.CrosshairContentShowMode" xml:space="preserve">
+    <value>Crosshair Content Show Mode</value>
   </data>
   <data name="DevExpress.XtraCharts.SideBySideGanttSeriesView.BarDistance" xml:space="preserve">
     <value>Bar Distance</value>
@@ -2487,6 +2496,12 @@
   <data name="DevExpress.XtraCharts.CrosshairOptions.ValueSelectionMode" xml:space="preserve">
     <value>Value Selection Mode</value>
   </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ContentShowMode" xml:space="preserve">
+    <value>Content Show Mode</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.LinesMode" xml:space="preserve">
+    <value>Lines Mode</value>
+  </data>
   <data name="DevExpress.XtraCharts.CrosshairAxisLabelOptions.Visibility" xml:space="preserve">
     <value>Visibility</value>
   </data>
@@ -2904,8 +2919,11 @@
   <data name="DevExpress.XtraCharts.AxisLabel.Border" xml:space="preserve">
     <value>Border</value>
   </data>
-  <data name="DevExpress.XtraCharts.ScaleOptionsBase.AggregateFunction" xml:space="preserve">
+  <data name="DevExpress.XtraCharts.ScaleGridOptionsBase.AggregateFunction" xml:space="preserve">
     <value>Aggregate Function</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleGridOptionsBase.CustomAggregateFunction" xml:space="preserve">
+    <value>Custom Aggregate Function</value>
   </data>
   <data name="DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode" xml:space="preserve">
     <value>Scale Mode</value>
@@ -2924,6 +2942,9 @@
   </data>
   <data name="DevExpress.XtraCharts.DateTimeScaleOptions.MeasureUnit" xml:space="preserve">
     <value>Measure Unit</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeScaleOptions.MeasureUnitMultiplier" xml:space="preserve">
+    <value>Measure Unit Multiplier</value>
   </data>
   <data name="DevExpress.XtraCharts.DateTimeScaleOptions.WorkdaysOnly" xml:space="preserve">
     <value>Workdays Only</value>
@@ -2964,6 +2985,9 @@
   <data name="DevExpress.XtraCharts.AggregateFunction.Count" xml:space="preserve">
     <value>Count</value>
   </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
   <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Default" xml:space="preserve">
     <value>Default</value>
   </data>
@@ -2987,6 +3011,9 @@
   </data>
   <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Count" xml:space="preserve">
     <value>Count</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Custom" xml:space="preserve">
+    <value>Custom</value>
   </data>
   <data name="DevExpress.XtraCharts.ScaleMode.Automatic" xml:space="preserve">
     <value>Automatic</value>
@@ -3669,6 +3696,9 @@
   <data name="DevExpress.XtraCharts.XYDiagramPaneBase.ZoomRectangle" xml:space="preserve">
     <value>Zoom Rectangle</value>
   </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.SelectionRectangle" xml:space="preserve">
+    <value>Selection Rectangle</value>
+  </data>
   <data name="DevExpress.XtraCharts.ZoomRectangle.Color" xml:space="preserve">
     <value>Color</value>
   </data>
@@ -3762,6 +3792,15 @@
   <data name="DevExpress.XtraCharts.CrosshairLabelMode.ShowCommonForAllSeries" xml:space="preserve">
     <value>Show Common for All Series</value>
   </data>
+  <data name="DevExpress.XtraCharts.CrosshairContentShowMode.Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairContentShowMode.Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairContentShowMode.Legend" xml:space="preserve">
+    <value>Legend</value>
+  </data>
   <data name="DevExpress.XtraCharts.CrosshairValueSelectionMode.Default" xml:space="preserve">
     <value>Default</value>
   </data>
@@ -3770,6 +3809,12 @@
   </data>
   <data name="DevExpress.XtraCharts.CrosshairValueSelectionMode.ValueRange" xml:space="preserve">
     <value>Value Range</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairLinesMode.Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairLinesMode.Free" xml:space="preserve">
+    <value>Free</value>
   </data>
   <data name="DevExpress.XtraCharts.ValueLevel.Weight" xml:space="preserve">
     <value>Weight</value>
@@ -3791,6 +3836,9 @@
   </data>
   <data name="DevExpress.XtraCharts.XYDiagram2DSeriesViewBase.AggregateFunction" xml:space="preserve">
     <value>Aggregate Function</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram2DSeriesViewBase.CustomAggregateFunction" xml:space="preserve">
+    <value>Custom Aggregate Function</value>
   </data>
   <data name="DevExpress.XtraCharts.CircularSeriesLinearUnwindAnimation" xml:space="preserve">
     <value>Linear Unwind</value>
@@ -4635,6 +4683,9 @@
   <data name="DevExpress.XtraCharts.Printing.ChartOptionsPrint.SizeMode" xml:space="preserve">
     <value>Size Mode</value>
   </data>
+  <data name="DevExpress.XtraCharts.Printing.ChartOptionsPrint.PrintCrosshair" xml:space="preserve">
+    <value>Print Crosshair</value>
+  </data>
   <data name="DevExpress.XtraCharts.Printing.ChartOptionsPrint.ImageFormat" xml:space="preserve">
     <value>Image Format</value>
   </data>
@@ -4716,6 +4767,12 @@
   <data name="DevExpress.XtraCharts.Legend.MarkerMode" xml:space="preserve">
     <value>Marker Mode</value>
   </data>
+  <data name="DevExpress.XtraCharts.Legend.MaxCrosshairContentWidth" xml:space="preserve">
+    <value>Max Crosshair Content Width</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.MaxCrosshairContentHeight" xml:space="preserve">
+    <value>Max Crosshair Content Height</value>
+  </data>
   <data name="DevExpress.XtraCharts.LegendMarkerMode.Marker" xml:space="preserve">
     <value>Marker</value>
   </data>
@@ -4734,6 +4791,9 @@
   <data name="DevExpress.XtraCharts.Legend.MarkerOffset" xml:space="preserve">
     <value>Marker Offset</value>
   </data>
+  <data name="DevExpress.XtraCharts.Legend.CrosshairContentOffset" xml:space="preserve">
+    <value>Crosshair Content Offset</value>
+  </data>
   <data name="DevExpress.XtraCharts.AxisXBase.QualitativeScaleOptions" xml:space="preserve">
     <value>Qualitative Scale Options</value>
   </data>
@@ -4742,5 +4802,137 @@
   </data>
   <data name="DevExpress.XtraCharts.RadarAxisX.QualitativeScaleOptions" xml:space="preserve">
     <value>Qualitative Scale Options</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.Animation" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorAnimationUnwrapDirection.Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorAnimationUnwrapDirection.Vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorUnwindAnimation" xml:space="preserve">
+    <value>Unwind</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorStretchAnimation" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorSlideAnimation" xml:space="preserve">
+    <value>Slide</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorBlowUpAnimation" xml:space="preserve">
+    <value>Blow Up</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorUnwrapAnimation" xml:space="preserve">
+    <value>Unwrap</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorDirectedAnimationBase.Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorUnwrapAnimation.Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieTotalLabel" xml:space="preserve">
+    <value>Pie Total Label</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.TextColor" xml:space="preserve">
+    <value>Text Color</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.BackColor" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.Shadow" xml:space="preserve">
+    <value>Shadow</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.Border" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.FillStyle" xml:space="preserve">
+    <value>Fill Style</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.EnableAntialiasing" xml:space="preserve">
+    <value>Enable Antialiasing</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.MaxWidth" xml:space="preserve">
+    <value>Max Width</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.MaxLineCount" xml:space="preserve">
+    <value>Max Line Count</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.TextAlignment" xml:space="preserve">
+    <value>Text Alignment</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.TextPattern" xml:space="preserve">
+    <value>Text Pattern</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.ResolveOverlappingMode" xml:space="preserve">
+    <value>Resolve Overlapping Mode</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.ResolveOverlappingMinIndent" xml:space="preserve">
+    <value>Resolve Overlapping Min Indent</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel" xml:space="preserve">
+    <value>Stacked Bar Total Label</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.StackedBarTotalLabel" xml:space="preserve">
+    <value>Stacked Bar Total Label</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.TotalLabel" xml:space="preserve">
+    <value>Total Label</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.ShowConnector" xml:space="preserve">
+    <value>Show Connector</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.Indent" xml:space="preserve">
+    <value>Indent</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.ConnectorLineStyle" xml:space="preserve">
+    <value>Connector Line Style</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.FilterCriteria" xml:space="preserve">
+    <value>Filter Criteria</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.DataFilters" xml:space="preserve">
+    <value>Data Filters</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesKeyColorColorizer" xml:space="preserve">
+    <value>Series Key-Color Colorizer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesDataSourceColorizer" xml:space="preserve">
+    <value>Series Data Source Colorizer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesTemplate" xml:space="preserve">
+    <value>Series Template</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesTemplate.SeriesColorizer" xml:space="preserve">
+    <value>Series Colorizer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesTemplate.SeriesDataMember" xml:space="preserve">
+    <value>Series Data Member</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesKeyColorColorizer.Keys" xml:space="preserve">
+    <value>Keys</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesKeyColorColorizer.PaletteName" xml:space="preserve">
+    <value>Palette Name</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesDataSourceColorizer.DataSource" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesDataSourceColorizer.SeriesKeyMember" xml:space="preserve">
+    <value>Series Key Member</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesDataSourceColorizer.SeriesColorMember" xml:space="preserve">
+    <value>Series Color Member</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.LegendText" xml:space="preserve">
+    <value>Legend Text</value>
   </data>
 </root>

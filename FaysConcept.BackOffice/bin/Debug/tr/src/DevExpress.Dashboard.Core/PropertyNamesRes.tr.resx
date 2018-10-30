@@ -144,4 +144,10 @@
   <data name="DevExpress.DashboardCommon.DynamicListLookUpSettings.SortOrder" xml:space="preserve">
     <value>Sıralama düzeni</value>
   </data>
+  <data name="DevExpress.DashboardCommon.DimensionSortOrder.Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="DevExpress.DashboardCommon.DimensionSortOrder.Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
 </root>

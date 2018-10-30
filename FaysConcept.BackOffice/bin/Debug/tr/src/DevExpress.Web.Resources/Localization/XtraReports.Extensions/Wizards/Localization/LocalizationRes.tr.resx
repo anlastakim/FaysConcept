@@ -58,37 +58,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ReportBoxDesignerStringId.Wizard_WindowTitleDatasource" xml:space="preserve">
-    <value>Veri kaynağı Sihirbazı</value>
-  </data>
-  <data name="ReportBoxDesignerStringId.Wizard_WindowTitleReport" xml:space="preserve">
-    <value>Rapor Sihirbazı</value>
-  </data>
-  <data name="ReportBoxDesignerStringId.Wizard_ChooseDSType_Description" xml:space="preserve">
-    <value>Veri kaynağı türünü seçin.</value>
-  </data>
-  <data name="ReportBoxDesignerStringId.Wizard_ChooseReportType_Description" xml:space="preserve">
-    <value>Oluşturmak istediğiniz rapor türünü seçin.</value>
-  </data>
   <data name="ReportBoxDesignerStringId.Wizard_LabelInformation_Description" xml:space="preserve">
     <value>Ürün ve onun kimliğini belirterek önceden tanımlanmış etiketlerden birini seçin</value>
   </data>
-  <data name="ReportBoxDesignerStringId.Wizard_Layout_Outline1" xml:space="preserve">
-    <value>Anahat 1</value>
+  <data name="ReportBoxDesignerStringId.Wizard_MasterDetailChooseSummaryOptions_Description" xml:space="preserve">
+    <value>Raporlarında hesaplamak için özet işlevleri seçin.</value>
   </data>
-  <data name="ReportBoxDesignerStringId.Wizard_Layout_Outline2" xml:space="preserve">
-    <value>Anahat 2</value>
-  </data>
-  <data name="ReportBoxDesignerStringId.Wizard_Layout_Tabular" xml:space="preserve">
-    <value>Sekmeli</value>
-  </data>
-  <data name="ReportBoxDesignerStringId.Wizard_Layout_Stepped" xml:space="preserve">
-    <value>Adımlı</value>
-  </data>
-  <data name="ReportBoxDesignerStringId.Wizard_Layout_Columnar" xml:space="preserve">
-    <value>Tek Sıra Halinde</value>
-  </data>
-  <data name="ReportBoxDesignerStringId.Wizard_ChooseColumns_Description" xml:space="preserve">
-    <value>Raporda görüntülemek istediğiniz sütunları seçin.</value>
+  <data name="ReportBoxDesignerStringId.Wizard_MasterDetailAddGroupingLevel_Description" xml:space="preserve">
+    <value>Seçili raporlarındaki verileri gruplandırma. Her grup için bir veya daha fazla alan belirtebilirsiniz.</value>
   </data>
 </root>

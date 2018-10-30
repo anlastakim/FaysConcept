@@ -142,6 +142,12 @@
   <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintHeadersOnEveryPage" xml:space="preserve">
     <value>Print Headers on Every Page</value>
   </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintColumnAreaOnEveryPage" xml:space="preserve">
+    <value>Print Column Area on Every Page</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintRowAreaOnEveryPage" xml:space="preserve">
+    <value>Print Row Area on Every Page</value>
+  </data>
   <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.UsePrintAppearance" xml:space="preserve">
     <value>Use Print Appearance</value>
   </data>
@@ -162,6 +168,9 @@
   </data>
   <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.FilterSeparatorBarPadding" xml:space="preserve">
     <value>Filter Separator Bar Padding</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.ColumnHeaderPaddingBottom" xml:space="preserve">
+    <value>Column Header Padding Bottom</value>
   </data>
   <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PageSettings" xml:space="preserve">
     <value>Page Settings</value>
@@ -580,6 +589,9 @@
   <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.PrefilterColumnName" xml:space="preserve">
     <value>Prefilter Column Name</value>
   </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.FilterColumnName" xml:space="preserve">
+    <value>Filter Column Name</value>
+  </data>
   <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.ShowNewValues" xml:space="preserve">
     <value>Show New Values</value>
   </data>
@@ -598,6 +610,13 @@
 	</data>
 	<data name="DevExpress.XtraPivotGrid.Prefilter.Criteria" xml:space="preserve">
     <value>Criteria</value>
+  </data>
+
+  <data name="DevExpress.XtraPivotGrid.PrefilterBase.NonColumnCriteriaString" xml:space="preserve">
+    <value>Non Column Criteria As String</value>
+	</data>
+  <data name="DevExpress.XtraPivotGrid.PrefilterBase.NonColumnCriteria" xml:space="preserve">
+    <value>Non Column Criteria</value>
   </data>
 
 	<data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.Area" xml:space="preserve">
@@ -890,6 +909,9 @@
 	</data>
   <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowInPrefilter" xml:space="preserve">
 		 <value>Show In Prefilter</value>
+	</data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowFilter" xml:space="preserve">
+		 <value>Show In Filter</value>
 	</data>
   <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowInExpressionEditor" xml:space="preserve">
 		 <value>Show In Expression Editor</value>
@@ -1330,6 +1352,9 @@
   </data>
   <data name="DevExpress.XtraPivotGrid.PivotDataProcessingEngine.LegacyOptimized" xml:space="preserve">
     <value>Legacy Optimized</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Fast" xml:space="preserve">
+    <value>Fast</value>
   </data>
   <data name="DevExpress.PivotGrid.Printing.PrintAppearance.Cell" xml:space="preserve">
     <value>Cell</value>

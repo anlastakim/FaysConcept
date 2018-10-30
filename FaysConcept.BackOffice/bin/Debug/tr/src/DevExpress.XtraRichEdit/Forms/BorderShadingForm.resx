@@ -234,8 +234,8 @@
   <data name="&gt;&gt;borderUserControl.Type" xml:space="preserve">
     <value>DevExpress.XtraRichEdit.Forms.Design.BorderShadingUserControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
-  <data name="&gt;&gt;labelControl10.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  <data name="&gt;&gt;xtraScrollableControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraScrollableControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>

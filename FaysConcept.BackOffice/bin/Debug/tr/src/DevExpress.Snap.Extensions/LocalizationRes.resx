@@ -282,6 +282,9 @@
   <data name="SnapExtensionsStringId.ConfigureConnection" xml:space="preserve">
     <value>Configure Connection...</value>
   </data>    
+  <data name="SnapExtensionsStringId.ConfigureConnectionParameters" xml:space="preserve">
+    <value>Configure Connection Parameters...</value>
+  </data>    
   <data name="SnapExtensionsStringId.ManageRelations" xml:space="preserve">
     <value>Manage Relations...</value>
   </data>    
@@ -299,6 +302,27 @@
   </data>    
   <data name="SnapExtensionsStringId.Configure" xml:space="preserve">
     <value>Configure Data Source...</value>
+  </data>    
+  <data name="SnapExtensionsStringId.AddQuery" xml:space="preserve">
+    <value>Add Query...</value>
+  </data>    
+  <data name="SnapExtensionsStringId.UpdateSchema" xml:space="preserve">
+    <value>Update Schema...</value>
+  </data>    
+  <data name="SnapExtensionsStringId.EditConstructor" xml:space="preserve">
+    <value>Edit Constructor...</value>
+  </data>    
+  <data name="SnapExtensionsStringId.EditDataMember" xml:space="preserve">
+    <value>Edit Data Member...</value>
+  </data>    
+  <data name="SnapExtensionsStringId.EditConnection" xml:space="preserve">
+    <value>Edit Connection...</value>
+  </data>    
+  <data name="SnapExtensionsStringId.EditFilters" xml:space="preserve">
+    <value>Edit Filters...</value>
+  </data>    
+  <data name="SnapExtensionsStringId.EditParameters" xml:space="preserve">
+    <value>Edit Parameters...</value>
   </data>    
   <data name="SnapExtensionsStringId.SortingCollectionEditor_SortBy" xml:space="preserve">
     <value>Sort by</value>
@@ -344,6 +368,18 @@
   </data>    
   <data name="SnapExtensionsStringId.ParametersErrorDialogTextIdenticalNames" xml:space="preserve">
     <value>Cannot create parameters with identical names: </value>
+  </data>    
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_PreviousButtonTooltip" xml:space="preserve">
+    <value>Previous</value>
+  </data>    
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_NextButtonTooltip" xml:space="preserve">
+    <value>Next</value>
+  </data>    
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_FirstButtonTooltip" xml:space="preserve">
+    <value>First</value>
+  </data>    
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_LastButtonTooltip" xml:space="preserve">
+    <value>Last</value>
   </data>    
   <data name="SnapExtensionsStringId.FinishAndMergePageGroup_DefaultText" xml:space="preserve">
     <value>Publish</value>

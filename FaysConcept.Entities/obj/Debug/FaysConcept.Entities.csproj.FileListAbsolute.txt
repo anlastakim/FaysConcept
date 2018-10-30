@@ -326,7 +326,6 @@ C:\Git\GitHub\FaysConcept.Entities\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.
 C:\Git\GitHub\FaysConcept.Entities\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
 C:\Git\GitHub\FaysConcept.Entities\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
 C:\Git\GitHub\FaysConcept.Entities\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
-C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csprojAssemblyReference.cache
 C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CoreCompileInputs.cache
 C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.csproj.CopyComplete
 C:\Git\GitHub\FaysConcept.Entities\obj\Debug\FaysConcept.Entities.dll

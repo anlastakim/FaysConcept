@@ -30,7 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStokHareketleri));
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
             this.grpMenu = new DevExpress.XtraEditors.GroupControl();
             this.btnkapat = new DevExpress.XtraEditors.SimpleButton();
@@ -94,9 +98,9 @@
             this.grpMenu.Controls.Add(this.btnDetayGor);
             this.grpMenu.Controls.Add(this.btnguncelle);
             this.grpMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpMenu.Location = new System.Drawing.Point(0, 644);
+            this.grpMenu.Location = new System.Drawing.Point(0, 629);
             this.grpMenu.Name = "grpMenu";
-            this.grpMenu.Size = new System.Drawing.Size(1456, 89);
+            this.grpMenu.Size = new System.Drawing.Size(1456, 104);
             this.grpMenu.TabIndex = 3;
             this.grpMenu.Text = "Menü";
             // 
@@ -106,9 +110,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnkapat.ImageOptions.ImageIndex = 0;
             this.btnkapat.ImageOptions.ImageList = this.imgmenu;
-            this.btnkapat.Location = new System.Drawing.Point(1357, 25);
+            this.btnkapat.Location = new System.Drawing.Point(1304, 25);
             this.btnkapat.Name = "btnkapat";
-            this.btnkapat.Size = new System.Drawing.Size(87, 59);
+            this.btnkapat.Size = new System.Drawing.Size(140, 74);
             this.btnkapat.TabIndex = 4;
             this.btnkapat.Text = "Kapat";
             this.btnkapat.Click += new System.EventHandler(this.btnkapat_Click);
@@ -130,7 +134,7 @@
             this.btnara.ImageOptions.ImageList = this.imgmenu;
             this.btnara.Location = new System.Drawing.Point(228, 25);
             this.btnara.Name = "btnara";
-            this.btnara.Size = new System.Drawing.Size(102, 59);
+            this.btnara.Size = new System.Drawing.Size(102, 74);
             this.btnara.TabIndex = 3;
             this.btnara.Text = "Ara";
             // 
@@ -142,7 +146,7 @@
             this.btnDetayGor.ImageOptions.ImageList = this.imgmenu;
             this.btnDetayGor.Location = new System.Drawing.Point(12, 25);
             this.btnDetayGor.Name = "btnDetayGor";
-            this.btnDetayGor.Size = new System.Drawing.Size(102, 59);
+            this.btnDetayGor.Size = new System.Drawing.Size(102, 74);
             this.btnDetayGor.TabIndex = 2;
             this.btnDetayGor.Text = "Detay Gör";
             this.btnDetayGor.Click += new System.EventHandler(this.btnDetayGor_Click);
@@ -155,7 +159,7 @@
             this.btnguncelle.ImageOptions.ImageList = this.imgmenu;
             this.btnguncelle.Location = new System.Drawing.Point(120, 25);
             this.btnguncelle.Name = "btnguncelle";
-            this.btnguncelle.Size = new System.Drawing.Size(102, 59);
+            this.btnguncelle.Size = new System.Drawing.Size(102, 74);
             this.btnguncelle.TabIndex = 2;
             this.btnguncelle.Text = "Güncelle";
             this.btnguncelle.Click += new System.EventHandler(this.btnguncelle_Click);
@@ -168,7 +172,7 @@
             this.gridcontstokhareket.Name = "gridcontstokhareket";
             this.gridcontstokhareket.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repoSeriNo});
-            this.gridcontstokhareket.Size = new System.Drawing.Size(1456, 573);
+            this.gridcontstokhareket.Size = new System.Drawing.Size(1456, 558);
             this.gridcontstokhareket.TabIndex = 4;
             this.gridcontstokhareket.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridstokhareket});
@@ -372,11 +376,11 @@
             // repoSeriNo
             // 
             this.repoSeriNo.AutoHeight = false;
-            editorButtonImageOptions3.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions3.Image")));
-            editorButtonImageOptions3.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            editorButtonImageOptions3.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
+            editorButtonImageOptions1.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions1.Image")));
+            editorButtonImageOptions1.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            editorButtonImageOptions1.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.repoSeriNo.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seri No", -1, true, true, true, editorButtonImageOptions3)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seri No", -1, true, true, true, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.repoSeriNo.Name = "repoSeriNo";
             this.repoSeriNo.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.repoSeriNo.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.repoSeriNo_ButtonClick);

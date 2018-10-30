@@ -795,9 +795,6 @@
   <data name="DashboardWebStringId.Chart.Position.Outside" xml:space="preserve">
     <value>Dışarıda</value>
   </data>
-  <data name="DashboardWebStringId.Chart.SeriesName" xml:space="preserve">
-    <value>Seri adı</value>
-  </data>
   <data name="DashboardWebStringId.DashboardMenuSave" xml:space="preserve">
     <value>Kaydet</value>
   </data>
@@ -894,44 +891,8 @@
   <data name="DashboardWebStringId.Chart.AlwaysShowZeroLevel" xml:space="preserve">
     <value>Her zaman sıfır düzeyini göster</value>
   </data>
-  <data name="DashboardWebStringId.PivotGrid.ColumnTotalsPositionFar" xml:space="preserve">
-    <value>İleri</value>
-  </data>
-  <data name="DashboardWebStringId.PivotGrid.ColumnTotalsPositionNear" xml:space="preserve">
-    <value>Yakın</value>
-  </data>
-  <data name="DashboardWebStringId.PivotGrid.RowTotalsPositionBottom" xml:space="preserve">
-    <value>Alt</value>
-  </data>
-  <data name="DashboardWebStringId.PivotGrid.RowTotalsPositionTop" xml:space="preserve">
-    <value>Üst</value>
-  </data>
-  <data name="DashboardWebStringId.PivotGrid.LayoutType" xml:space="preserve">
-    <value>Düzen</value>
-  </data>
-  <data name="DashboardWebStringId.Remove" xml:space="preserve">
-    <value>Kaldır</value>
-  </data>
-  <data name="DashboardWebStringId.PivotGrid.ValuesPositionColumns" xml:space="preserve">
-    <value>Sütunlar</value>
-  </data>
-  <data name="DashboardWebStringId.PivotGrid.ValuesPositionRows" xml:space="preserve">
-    <value>Satırlar</value>
-  </data>
-  <data name="DashboardWebStringId.PivotGrid.LayoutTypeTabular" xml:space="preserve">
-    <value>Sekmeli</value>
-  </data>
-  <data name="DashboardWebStringId.CardLayout.MaxWidth" xml:space="preserve">
-    <value>En fazla genişlik</value>
-  </data>
   <data name="DashboardWebStringId.Chart.VisiblePointsCount" xml:space="preserve">
     <value>Görünür puan saymak</value>
-  </data>
-  <data name="DashboardWebStringId.CardLayout.ResetTemplate" xml:space="preserve">
-    <value>Sıfırla</value>
-  </data>
-  <data name="DashboardWebStringId.Title.ImageNone" xml:space="preserve">
-    <value>Hiçbiri</value>
   </data>
   <data name="DashboardWebStringId.Calculations.PreviousValuesCount" xml:space="preserve">
     <value>Mahsup başlatmak</value>
@@ -941,9 +902,6 @@
   </data>
   <data name="DashboardWebStringId.Calculations.RankType" xml:space="preserve">
     <value>Türü rütbe</value>
-  </data>
-  <data name="DashboardWebStringId.Chart.ArgumentAndValue" xml:space="preserve">
-    <value>Bağımsız değişken ve değer</value>
   </data>
   <data name="DashboardWebStringId.Binding.TooltipMeasures" xml:space="preserve">
     <value>Araç ipucu önlemler</value>
@@ -1389,16 +1347,67 @@
   <data name="DashboardWebStringId.Map.UseBindingAttribute" xml:space="preserve">
     <value>Kullanım bağlayıcı nitelik</value>
   </data>
+  <data name="DashboardWebStringId.PivotGrid.ColumnTotalsPositionFar" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="DashboardWebStringId.PivotGrid.ColumnTotalsPositionNear" xml:space="preserve">
+    <value>Yakın</value>
+  </data>
+  <data name="DashboardWebStringId.CardLayout.ResetTemplate" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="DashboardWebStringId.PivotGrid.RowTotalsPositionBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DashboardWebStringId.PivotGrid.RowTotalsPositionTop" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DashboardWebStringId.Title.ImageNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWebStringId.PivotGrid.LayoutType" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
   <data name="DashboardWebStringId.Map.CustomMapOptionsFile" xml:space="preserve">
     <value>Dosya</value>
+  </data>
+  <data name="DashboardWebStringId.Remove" xml:space="preserve">
+    <value>Kaldır</value>
   </data>
   <data name="DashboardWebStringId.ConditionalFormatting.Below" xml:space="preserve">
     <value>Aşağıda</value>
   </data>
+  <data name="DashboardWebStringId.Dialog.ButtonYes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="DashboardWebStringId.PivotGrid.ValuesPositionColumns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="DashboardWebStringId.Grid.Hyperlink" xml:space="preserve">
+    <value>Köprü</value>
+  </data>
+  <data name="DashboardWebStringId.PivotGrid.ValuesPositionRows" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DashboardWebStringId.PivotGrid.LayoutTypeTabular" xml:space="preserve">
+    <value>Sekmeli</value>
+  </data>
   <data name="DashboardWebStringId.Calculations.Expression" xml:space="preserve">
     <value>Hesaplama</value>
   </data>
-  <data name="DashboardWebStringId.Dialog.ButtonYes" xml:space="preserve">
-    <value>Evet</value>
+  <data name="DashboardWebStringId.CardLayout.MaxWidth" xml:space="preserve">
+    <value>En fazla genişlik</value>
+  </data>
+  <data name="DashboardWebStringId.MobileLayout.Back" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="DashboardWebStringId.RangeFilter.EndIntervalAndOffset" xml:space="preserve">
+    <value>Son Aralık ve uzaklık</value>
+  </data>
+  <data name="DashboardWebStringId.Colorization.MeasureNames" xml:space="preserve">
+    <value>Ölçü adları</value>
+  </data>
+  <data name="DashboardWebStringId.New.DashboardName" xml:space="preserve">
+    <value>Pano adı:</value>
   </data>
 </root>

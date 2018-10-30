@@ -264,7 +264,14 @@
   <data name="GridControlStringId.ExcelColumnFilterPopupSelectDate" xml:space="preserve">
     <value>Select a date...</value>
   </data>
-  
+
+  <data name="GridControlStringId.ExtendedColumnChooserSearchColumns" xml:space="preserve">
+    <value>Search Columns...</value>
+  </data>
+  <data name="GridControlStringId.ExtendedColumnChooserSearchColumnsAndBands" xml:space="preserve">
+    <value>Search Columns and Bands...</value>
+  </data>
+
   <data name="GridControlStringId.MenuGroupPanelFullCollapse" xml:space="preserve">
     <value>Full Collapse</value>
   </data>
@@ -1413,5 +1420,35 @@
   </data>
   <data name="GridControlStringId.MenuRowFixedBottom" xml:space="preserve">
     <value>Bottom</value>
+  </data>
+  <data name="GridControlStringId.MenuCompactModeShowInGroups" xml:space="preserve">
+    <value>Show in Groups</value>
+  </data>
+  <data name="GridControlStringId.CompactModeNoneColumn" xml:space="preserve">
+    <value>None</value>
+  </data> 
+  <data name="GridControlStringId.CompactModeAscendingOrder" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="GridControlStringId.CompactModeDescendingOrder" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="GridControlStringId.CompactModeBy" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="GridControlStringId.CompactModeFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="GridControlStringId.MenuCompactModeArrangeBy" xml:space="preserve">
+    <value>Arrange By</value>
+  </data> 
+  <data name="GridControlStringId.MenuCompactModeReverseSort" xml:space="preserve">
+    <value>Reverse Sort</value>
+  </data>
+  <data name="GridControlStringId.LoadingRowRetry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="GridControlStringId.LoadingRowLoadMore" xml:space="preserve">
+    <value>Load More</value>
   </data>
 </root>

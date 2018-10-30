@@ -67,4 +67,7 @@
   <data name="buttonFinish.Text" xml:space="preserve">
     <value>Bitir</value>
   </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
 </root>

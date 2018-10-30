@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Developer Express Inc.")]
 [assembly: AssemblyProduct("XtraSpreadsheet(tm) SUITE SOFTWARE COMPONENT PRODUCT")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2017 Developer Express Inc.")]
+[assembly: AssemblyCopyright("Copyright (c) 2000-2018 Developer Express Inc.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: CLSCompliant(true)]

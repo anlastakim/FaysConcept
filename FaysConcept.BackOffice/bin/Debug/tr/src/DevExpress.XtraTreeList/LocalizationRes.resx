@@ -270,4 +270,10 @@
   <data name="TreeListStringId.SearchForBand" xml:space="preserve">
     <value>Search for a band...</value>
   </data>
+  <data name="TreeListStringId.MenuColumnFooterHide" xml:space="preserve">
+    <value>Hide Footer</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnFooterShow" xml:space="preserve">
+    <value>Show Footer</value>
+  </data>
 </root>

@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -81,6 +140,9 @@
   <data name="&gt;&gt;lblAxisSettings.Name" xml:space="preserve">
     <value>lblAxisSettings</value>
   </data>
+  <data name="&gt;&gt;lblAxisSettings.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblAxisSettings.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -107,6 +169,9 @@
   </data>
   <data name="&gt;&gt;lblSelectAxisPosition.Name" xml:space="preserve">
     <value>lblSelectAxisPosition</value>
+  </data>
+  <data name="&gt;&gt;lblSelectAxisPosition.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSelectAxisPosition.Parent" xml:space="preserve">
     <value>$this</value>
@@ -135,6 +200,9 @@
   <data name="&gt;&gt;lblAxisColor.Name" xml:space="preserve">
     <value>lblAxisColor</value>
   </data>
+  <data name="&gt;&gt;lblAxisColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblAxisColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -159,6 +227,9 @@
   <data name="&gt;&gt;lblNegativeBarFillColor.Name" xml:space="preserve">
     <value>lblNegativeBarFillColor</value>
   </data>
+  <data name="&gt;&gt;lblNegativeBarFillColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblNegativeBarFillColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -182,6 +253,9 @@
   </data>
   <data name="&gt;&gt;lblNegativeBarBorderColor.Name" xml:space="preserve">
     <value>lblNegativeBarBorderColor</value>
+  </data>
+  <data name="&gt;&gt;lblNegativeBarBorderColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblNegativeBarBorderColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -222,6 +296,9 @@
   <data name="&gt;&gt;rgrpFillColor.Name" xml:space="preserve">
     <value>rgrpFillColor</value>
   </data>
+  <data name="&gt;&gt;rgrpFillColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;rgrpFillColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -261,6 +338,9 @@
   <data name="&gt;&gt;rgrpBorderColor.Name" xml:space="preserve">
     <value>rgrpBorderColor</value>
   </data>
+  <data name="&gt;&gt;rgrpBorderColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;rgrpBorderColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -284,6 +364,9 @@
   </data>
   <data name="&gt;&gt;edtFillColor.Name" xml:space="preserve">
     <value>edtFillColor</value>
+  </data>
+  <data name="&gt;&gt;edtFillColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFillColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -309,6 +392,9 @@
   <data name="&gt;&gt;edtBorderColor.Name" xml:space="preserve">
     <value>edtBorderColor</value>
   </data>
+  <data name="&gt;&gt;edtBorderColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtBorderColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -332,6 +418,9 @@
   </data>
   <data name="&gt;&gt;edtAxisColor.Name" xml:space="preserve">
     <value>edtAxisColor</value>
+  </data>
+  <data name="&gt;&gt;edtAxisColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtAxisColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -361,6 +450,9 @@
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
   </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -388,6 +480,9 @@
   <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
     <value>btnOk</value>
   </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -411,6 +506,9 @@
   </data>
   <data name="&gt;&gt;chkAutomatic.Name" xml:space="preserve">
     <value>chkAutomatic</value>
+  </data>
+  <data name="&gt;&gt;chkAutomatic.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkAutomatic.Parent" xml:space="preserve">
     <value>$this</value>
@@ -436,6 +534,9 @@
   <data name="&gt;&gt;chkCellMidpoint.Name" xml:space="preserve">
     <value>chkCellMidpoint</value>
   </data>
+  <data name="&gt;&gt;chkCellMidpoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkCellMidpoint.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -460,6 +561,9 @@
   <data name="&gt;&gt;chkNone.Name" xml:space="preserve">
     <value>chkNone</value>
   </data>
+  <data name="&gt;&gt;chkNone.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkNone.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -483,5 +587,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ConditionalFormattingDataBarNegativeValueAndAxisForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

@@ -112,12 +112,186 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="gcTreeListContainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="gcTreeListContainer.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gcProgress.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gcProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="gcProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 480</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="gcProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;gcProgress.Name" xml:space="preserve">
+    <value>gcProgress</value>
+  </data>
+  <data name="&gt;&gt;gcProgress.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.Native.Templates.ProgressUserControl, DevExpress.XtraReports.v18.1.Extensions, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;gcProgress.Parent" xml:space="preserve">
+    <value>gcTreeListContainer</value>
+  </data>
+  <data name="&gt;&gt;gcProgress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="galleryControlClient1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="galleryControlClient1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 478</value>
+  </data>
+  <data name="&gt;&gt;galleryControlClient1.Name" xml:space="preserve">
+    <value>galleryControlClient1</value>
+  </data>
+  <data name="&gt;&gt;galleryControlClient1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.GalleryControlClient, DevExpress.XtraBars.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;galleryControlClient1.Parent" xml:space="preserve">
+    <value>galleryControl1</value>
+  </data>
+  <data name="&gt;&gt;galleryControlClient1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="galleryControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="galleryControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="galleryControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="galleryControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 480</value>
+  </data>
+  <data name="galleryControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="galleryControl1.Text" xml:space="preserve">
+    <value>galleryControl1</value>
+  </data>
+  <data name="&gt;&gt;galleryControl1.Name" xml:space="preserve">
+    <value>galleryControl1</value>
+  </data>
+  <data name="&gt;&gt;galleryControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.GalleryControl, DevExpress.XtraBars.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;galleryControl1.Parent" xml:space="preserve">
+    <value>gcTreeListContainer</value>
+  </data>
+  <data name="&gt;&gt;galleryControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gcNoData.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gcNoData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="gcNoData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 480</value>
+  </data>
+  <data name="gcNoData.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;gcNoData.Name" xml:space="preserve">
+    <value>gcNoData</value>
+  </data>
+  <data name="&gt;&gt;gcNoData.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.Native.Templates.NoDataUserControl, DevExpress.XtraReports.v18.1.Extensions, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;gcNoData.Parent" xml:space="preserve">
+    <value>gcTreeListContainer</value>
+  </data>
+  <data name="&gt;&gt;gcNoData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gcTreeListContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <data name="gcTreeListContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 484</value>
+  </data>
+  <data name="gcTreeListContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="gcTreeListContainer.Text" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;gcTreeListContainer.Name" xml:space="preserve">
+    <value>gcTreeListContainer</value>
+  </data>
+  <data name="&gt;&gt;gcTreeListContainer.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;gcTreeListContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gcTreeListContainer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="teSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="teSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
   <data name="teSearch.Properties.NullValuePrompt" xml:space="preserve">
     <value>Search for template</value>
+  </data>
+  <data name="teSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 20</value>
+  </data>
+  <data name="teSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;teSearch.Name" xml:space="preserve">
+    <value>teSearch</value>
+  </data>
+  <data name="&gt;&gt;teSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;teSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 510</value>
+  </data>
+  <data name="&gt;&gt;galleryControlGallery1.Name" xml:space="preserve">
+    <value>galleryControlGallery1</value>
+  </data>
+  <data name="&gt;&gt;galleryControlGallery1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.Gallery.GalleryControlGallery, DevExpress.XtraBars.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GalleryUserControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

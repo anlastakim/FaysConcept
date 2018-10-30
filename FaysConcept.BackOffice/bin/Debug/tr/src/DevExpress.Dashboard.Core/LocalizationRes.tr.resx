@@ -341,9 +341,6 @@
   <data name="DashboardStringId.SeriesTypeLine" xml:space="preserve">
     <value>Çizgi</value>
   </data>
-  <data name="DashboardStringId.SeriesTypeOpenHighLowClose" xml:space="preserve">
-    <value>Açılış-en yüksek-en düşük-kapanış</value>
-  </data>
   <data name="DashboardStringId.SeriesTypeSideBySideFullStackedBar" xml:space="preserve">
     <value>Tam yığılmış çubuk yan yana</value>
   </data>
@@ -1006,19 +1003,53 @@ Web uygulama sunucusu aşağıdaki veri bağlantısı kurulamadı:
   <data name="DashboardStringId.PeriodThisMonth" xml:space="preserve">
     <value>Bu ay</value>
   </data>
-  <data name="DashboardStringId.ExportParameters" xml:space="preserve">
-    <value>Değişkenler</value>
-  </data>
-  <data name="DashboardStringId.ExportFilters" xml:space="preserve">
-    <value>Filtreler</value>
-  </data>
-  <data name="DashboardStringId.DashboardStatePosition" xml:space="preserve">
-    <value>Pozisyon</value>
-  </data>
   <data name="DashboardStringId.ParameterNullExportValue" xml:space="preserve">
     <value>NULL</value>
   </data>
   <data name="DashboardStringId.DefaultNameTreemapItem" xml:space="preserve">
     <value>Ağaç Harita</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypePercent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeValue" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardStringId.ExportParameters" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="DashboardStringId.SearchNullValuePrompt" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+  <data name="DashboardStringId.ExportFilters" xml:space="preserve">
+    <value>Filtreler</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeArgument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardStringId.DashboardStatePosition" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeSeriesName" xml:space="preserve">
+    <value>Seri adı</value>
+  </data>
+  <data name="DashboardStringId.ChartTotalValue" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="DashboardStringId.GeoPointMapTooltipPointCount" xml:space="preserve">
+    <value>{0} puan</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardStringId.AggregateExFunctionDescriptionMode" xml:space="preserve">
+    <value>Mode(value)
+Değerleri modu. Bir mod daha başka bir daha sık tekrarlanan değerdir.</value>
+  </data>
+  <data name="DashboardStringId.AggrInMasterFilterDimensionError" xml:space="preserve">
+    <value>Filtreleme Master Aggr işlevini içeren ifade kullanılarak oluşturulan boyut değerleri tarafından uygulanamaz.</value>
+  </data>
+  <data name="DashboardStringId.DefaultPeriodName" xml:space="preserve">
+    <value>Dönem</value>
   </data>
 </root>

@@ -100,6 +100,9 @@
   <data name="SpreadsheetControlStringId.Caption_BorderStyleThin" xml:space="preserve">
     <value>Thin</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_ChangeChartTypeFormTitle" xml:space="preserve">
+    <value>Change Chart Type</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_ChangeDataSourcePivotTableFormTitle" xml:space="preserve">
     <value>Change PivotTable Data Source</value>
   </data>
@@ -115,11 +118,17 @@
   <data name="SpreadsheetControlStringId.Caption_ChartSelectDataFormTitle" xml:space="preserve">
     <value>Select Data Source</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_Chartsheet" xml:space="preserve">
+    <value>_Chart</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_ChartTitleFormTitle" xml:space="preserve">
     <value>Change Chart Title</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_ChartVerticalAxisTitleFormTitle" xml:space="preserve">
     <value>Change Vertical Axis Title</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ColumnHeaderItem" xml:space="preserve">
+    <value>Column</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_ColumnWidthFormTitle" xml:space="preserve">
     <value>Column Width</value>
@@ -139,11 +148,29 @@
   <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMaximum" xml:space="preserve">
     <value>Maximum</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMaximumColor" xml:space="preserve">
+    <value>Maximum color</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMaximumValue" xml:space="preserve">
+    <value>Maximum value</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMidpoint" xml:space="preserve">
     <value>Midpoint</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMidpointColor" xml:space="preserve">
+    <value>Midpoint color</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMidpointValue" xml:space="preserve">
+    <value>Midpoint value</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMinimum" xml:space="preserve">
     <value>Minimum</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMinimumColor" xml:space="preserve">
+    <value>Minimum color</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMinimumValue" xml:space="preserve">
+    <value>Minimum value</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlPreview" xml:space="preserve">
     <value>Preview:</value>
@@ -234,6 +261,9 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingFormatCellsClear" xml:space="preserve">
     <value>Clear</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingIconSetsComparison" xml:space="preserve">
+    <value>Comparison</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingIconSetsCustom" xml:space="preserve">
     <value>Custom</value>
@@ -505,6 +535,9 @@
   <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormLastSavedBy" xml:space="preserve">
     <value>Last saved by:</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormLinkToContent" xml:space="preserve">
+    <value>Link to content</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormManager" xml:space="preserve">
     <value>Manager:</value>
   </data>
@@ -525,6 +558,9 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormPropertyName" xml:space="preserve">
     <value>Name:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormPropertySource" xml:space="preserve">
+    <value>Source:</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormPropertyType" xml:space="preserve">
     <value>Type:</value>
@@ -625,6 +661,45 @@
   <data name="SpreadsheetControlStringId.Caption_FieldSettingsPivotTableTabSubtotalsAndFilters" xml:space="preserve">
     <value>Subtotals &amp; Filters</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsColors" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsDiagonalDown" xml:space="preserve">
+    <value>Diagonal down</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsDiagonalUp" xml:space="preserve">
+    <value>Diagonal up</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsFirstColor" xml:space="preserve">
+    <value>Color 1:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsFormTitle" xml:space="preserve">
+    <value>Fill Effects</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsFromCenter" xml:space="preserve">
+    <value>From center</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsFromCorner" xml:space="preserve">
+    <value>From corner</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsHorizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsSample" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsSecondColor" xml:space="preserve">
+    <value>Color 2:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsShadingStyles" xml:space="preserve">
+    <value>Shading styles</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsVariants" xml:space="preserve">
+    <value>Variants</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsVertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_FindReplaceFormFindButton" xml:space="preserve">
     <value>_Find Next</value>
   </data>
@@ -660,6 +735,33 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_FindReplaceFormTitle" xml:space="preserve">
     <value>Find and Replace</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlBottom" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlDiagonalDown" xml:space="preserve">
+    <value>Diagonal Down</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlDiagonalUp" xml:space="preserve">
+    <value>Diagonal Up</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlHorizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlLeft" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlRight" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlTop" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlVertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderPreviewControl" xml:space="preserve">
+    <value>Border Preview</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentDegrees" xml:space="preserve">
     <value>Degrees</value>
@@ -715,8 +817,17 @@
   <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderDescription" xml:space="preserve">
     <value>The selected border style can be applied by clicking the presets, preview diagram or the buttons above.</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderInside" xml:space="preserve">
+    <value>Inside</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderLine" xml:space="preserve">
     <value>Line</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderOutline" xml:space="preserve">
+    <value>Outline</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderPresets" xml:space="preserve">
     <value>Presets</value>
@@ -726,6 +837,9 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFillBackgroundColor" xml:space="preserve">
     <value>Background Color:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFillEffects" xml:space="preserve">
+    <value>F_ill Effects...</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFillNoColor" xml:space="preserve">
     <value>No Color</value>
@@ -850,6 +964,48 @@
   <data name="SpreadsheetControlStringId.Caption_FormatPictureContrast" xml:space="preserve">
     <value>Contrast:</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlBrightnessThumbDescription" xml:space="preserve">
+    <value>Indicates the current brightness, and can be dragged to change it directly</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlContrastThumbDescription" xml:space="preserve">
+    <value>Indicates the current contrast, and can be dragged to change it directly</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseBrightnessButtonDescription" xml:space="preserve">
+    <value>Decrease brightness by 5 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseBrightnessEdgeButtonDescription" xml:space="preserve">
+    <value>Decrease brightness by 1 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseButton" xml:space="preserve">
+    <value>Decrease by 5 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseContrastButtonDescription" xml:space="preserve">
+    <value>Decrease contrast by 5 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseContrastEdgeButtonDescription" xml:space="preserve">
+    <value>Decrease contrast by 1 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseEdgeButton" xml:space="preserve">
+    <value>Decrease by 1 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseBrightnessButtonDescription" xml:space="preserve">
+    <value>Increase brightness by 5 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseBrightnessEdgeButtonDescription" xml:space="preserve">
+    <value>Increase brightness by 1 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseButton" xml:space="preserve">
+    <value>Increase by 5 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseContrastButtonDescription" xml:space="preserve">
+    <value>Increase contrast by 5 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseContrastEdgeButtonDescription" xml:space="preserve">
+    <value>Increase contrast by 1 percent</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseEdgeButton" xml:space="preserve">
+    <value>Increase by 1 percent</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_FormatPictureCrop" xml:space="preserve">
     <value>Crop from</value>
   </data>
@@ -909,6 +1065,9 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_FormatPictureWidth" xml:space="preserve">
     <value>Width:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatToApply" xml:space="preserve">
+    <value>Format to apply</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_FormatTopBottomRankedValuesControlFormatValuesThatRankInThe" xml:space="preserve">
     <value>Format values that rank in the:</value>
@@ -1102,6 +1261,9 @@
   <data name="SpreadsheetControlStringId.Caption_InsertPivotTableFormTitle" xml:space="preserve">
     <value>Create PivotTable</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_InsertSheetFormTitle" xml:space="preserve">
+    <value>Insert</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_InsertSymbolFormFindButton" xml:space="preserve">
     <value>Insert</value>
   </data>
@@ -1116,6 +1278,24 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_KeepButton" xml:space="preserve">
     <value>Keep</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveChartFormDescription" xml:space="preserve">
+    <value>Choose where you want the chart to be placed:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveChartFormNewSheet" xml:space="preserve">
+    <value>New _sheet:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveChartFormNewSheetAutomationName" xml:space="preserve">
+    <value>Name of new sheet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveChartFormObjectIn" xml:space="preserve">
+    <value>_Object in:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveChartFormObjectInAutomationName" xml:space="preserve">
+    <value>Sheets in Workbook</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveChartFormTitle" xml:space="preserve">
+    <value>Move Chart</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_MoveOrCopySheetCreateCopy" xml:space="preserve">
     <value>Create a copy</value>
@@ -1411,6 +1591,9 @@
   <data name="SpreadsheetControlStringId.Caption_OutlineSubtotalFormUseFunction" xml:space="preserve">
     <value>Use function:</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_PageMarginsDrawingControl" xml:space="preserve">
+    <value>Margin sample</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_PageSetupFormHeaderFooterAlignWithPageMargins" xml:space="preserve">
     <value>Align with page margins</value>
   </data>
@@ -1578,60 +1761,6 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_PasteSpecialLocalFormPaste" xml:space="preserve">
     <value>Paste</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleDarkDown" xml:space="preserve">
-    <value>Dark Down</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleDarkGray" xml:space="preserve">
-    <value>Dark Gray</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleDarkHorizontal" xml:space="preserve">
-    <value>Dark Horizontal</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleDarkTrellis" xml:space="preserve">
-    <value>Dark Trellis</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleDarkUp" xml:space="preserve">
-    <value>Dark Up</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleDarkVertical" xml:space="preserve">
-    <value>Dark Vertical</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleGray0625" xml:space="preserve">
-    <value>Gray0625</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleGray125" xml:space="preserve">
-    <value>Gray125</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleLightDown" xml:space="preserve">
-    <value>Light Down</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleLightGray" xml:space="preserve">
-    <value>Light Gray</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleLightGrid" xml:space="preserve">
-    <value>Light Grid</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleLightHorizontal" xml:space="preserve">
-    <value>Light Horizontal</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleLightTrellis" xml:space="preserve">
-    <value>Light Trellis</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleLightUp" xml:space="preserve">
-    <value>Light Up</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleLightVertical" xml:space="preserve">
-    <value>Light Vertical</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleMediumGray" xml:space="preserve">
-    <value>Medium Gray</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleNone" xml:space="preserve">
-    <value>None</value>
-  </data>
-  <data name="SpreadsheetControlStringId.Caption_PatternStyleSolid" xml:space="preserve">
-    <value>Solid</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_PivotTableCalculatedFieldItemAdd" xml:space="preserve">
     <value>_Add</value>
@@ -1807,6 +1936,21 @@
   <data name="SpreadsheetControlStringId.Caption_PivotTableValueFilterFormTitle" xml:space="preserve">
     <value>Value Filter</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectChartsheetFormContents" xml:space="preserve">
+    <value>_Contents</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectChartsheetFormDescription" xml:space="preserve">
+    <value>Protect worksheet for</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectChartsheetFormObjects" xml:space="preserve">
+    <value>_Objects</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectChartsheetFormPassword" xml:space="preserve">
+    <value>Password (optional):</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectChartsheetFormTitle" xml:space="preserve">
+    <value>Protect Sheet</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_ProtectedRangeFormName" xml:space="preserve">
     <value>Title:</value>
   </data>
@@ -1885,11 +2029,56 @@
   <data name="SpreadsheetControlStringId.Caption_ReplaceButton" xml:space="preserve">
     <value>Replace</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_RowHeaderItem" xml:space="preserve">
+    <value>Row</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_RowHeightFormTitle" xml:space="preserve">
     <value>Row Height</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_RowHeightFormValue" xml:space="preserve">
     <value>Row height:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetActivationFormActivate" xml:space="preserve">
+    <value>Activate:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetActivationFormTitle" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabDescription" xml:space="preserve">
+    <value>The Sheet Tab represents a single sheet in the book</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabNewWorksheet" xml:space="preserve">
+    <value>New worksheet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToFirst" xml:space="preserve">
+    <value>Scroll To First Worksheet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToFirstDescription" xml:space="preserve">
+    <value>Scroll the Sheet Tab list so that the first sheet is visible</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToLast" xml:space="preserve">
+    <value>Scroll To Last Worksheet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToLastDescription" xml:space="preserve">
+    <value>Scroll the Sheet Tab list so that the last sheet is visible</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToNext" xml:space="preserve">
+    <value>Scroll To Next Worksheet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToNextDescription" xml:space="preserve">
+    <value>Scroll the Sheet Tab list forward one sheet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToPrevious" xml:space="preserve">
+    <value>Scroll To Previous Worksheet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToPreviousDescription" xml:space="preserve">
+    <value>Scroll the Sheet Tab list backward one sheet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabSelector" xml:space="preserve">
+    <value>Sheet Navigation Bar</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabSelectorDescription" xml:space="preserve">
+    <value>The sheet navigation bar contains controls to view the sheets in a book and switch between them</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_SimpleFilterCheckAll" xml:space="preserve">
     <value>Check All</value>
@@ -1920,6 +2109,69 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_SortWarningWhatToDo" xml:space="preserve">
     <value>What do you want to do?</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetSpinEditLess" xml:space="preserve">
+    <value>Less</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetSpinEditMore" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarDownButton" xml:space="preserve">
+    <value>Page down</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarDownButtonDescription" xml:space="preserve">
+    <value>Moves the vertical position down a couple of lines</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarDownEdgeButton" xml:space="preserve">
+    <value>Line down</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarDownEdgeButtonDescription" xml:space="preserve">
+    <value>Moves the vertical position down one line</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarLeftButton" xml:space="preserve">
+    <value>Page left</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarLeftButtonDescription" xml:space="preserve">
+    <value>Moves the horizontal position left a couple of columns</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarLeftEdgeButton" xml:space="preserve">
+    <value>Column left</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarLeftEdgeButtonDescription" xml:space="preserve">
+    <value>Moves the horizontal position left one column</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarRightButton" xml:space="preserve">
+    <value>Page right</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarRightButtonDescription" xml:space="preserve">
+    <value>Moves the horizontal position right a couple of columns</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarRightEdgeButton" xml:space="preserve">
+    <value>Column right</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarRightEdgeButtonDescription" xml:space="preserve">
+    <value>Moves the horizontal position right one column</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarThumb" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarThumbHorizontalDescription" xml:space="preserve">
+    <value>Indicates the current horizontal position, and can be dragged to change it directly</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarThumbVerticalDescription" xml:space="preserve">
+    <value>Indicates the current vertical position, and can be dragged to change it directly</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarUpButton" xml:space="preserve">
+    <value>Page up</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarUpButtonDescription" xml:space="preserve">
+    <value>Moves the vertical position up a couple of lines</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarUpEdgeButton" xml:space="preserve">
+    <value>Line up</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarUpEdgeButtonDescription" xml:space="preserve">
+    <value>Moves the vertical position up one line</value>
   </data>
   <data name="SpreadsheetControlStringId.Caption_Top10FilterFormShow" xml:space="preserve">
     <value>Show</value>
@@ -1954,6 +2206,9 @@
   <data name="SpreadsheetControlStringId.Caption_UnprotectWorkbookFormTitle" xml:space="preserve">
     <value>Unprotect Workbook</value>
   </data>
+  <data name="SpreadsheetControlStringId.Caption_UnsupportedChart" xml:space="preserve">
+    <value>This chart isn't available in Spreadsheet.</value>
+  </data>
   <data name="SpreadsheetControlStringId.Caption_ViewZoom100Percent" xml:space="preserve">
     <value>_100%</value>
   </data>
@@ -1980,6 +2235,9 @@
   </data>
   <data name="SpreadsheetControlStringId.Caption_ViewZoomPercent" xml:space="preserve">
     <value>%</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_Worksheet" xml:space="preserve">
+    <value>_Worksheet</value>
   </data>
   <data name="SpreadsheetControlStringId.Msg_ErrorEmptySimpleFilter" xml:space="preserve">
     <value>Cannot apply an empty filter. Check any item in the list.</value>

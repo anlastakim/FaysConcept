@@ -60,61 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace">
-    </xsd:import>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute ref="xml:space">
-              </xsd:attribute>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="name" type="xsd:string">
-              </xsd:attribute>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1">
-                </xsd:element>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1">
-              </xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3">
-              </xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4">
-              </xsd:attribute>
-              <xsd:attribute ref="xml:space">
-              </xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required">
-              </xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -128,21 +112,19 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-  </assembly>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
   <data name="lblDefaultCellMargins.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 12</value>
   </data>
   <data name="lblDefaultCellMargins.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 13</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-  </assembly>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="lblDefaultCellMargins.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -151,6 +133,9 @@
   </data>
   <data name="&gt;&gt;lblDefaultCellMargins.Name" xml:space="preserve">
     <value>lblDefaultCellMargins</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultCellMargins.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblDefaultCellMargins.Parent" xml:space="preserve">
     <value>$this</value>
@@ -173,6 +158,9 @@
   <data name="&gt;&gt;lblTop.Name" xml:space="preserve">
     <value>lblTop</value>
   </data>
+  <data name="&gt;&gt;lblTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblTop.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -193,6 +181,9 @@
   </data>
   <data name="&gt;&gt;lblBottom.Name" xml:space="preserve">
     <value>lblBottom</value>
+  </data>
+  <data name="&gt;&gt;lblBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBottom.Parent" xml:space="preserve">
     <value>$this</value>
@@ -215,6 +206,9 @@
   <data name="&gt;&gt;lblLeft.Name" xml:space="preserve">
     <value>lblLeft</value>
   </data>
+  <data name="&gt;&gt;lblLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblLeft.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -235,6 +229,9 @@
   </data>
   <data name="&gt;&gt;lblRight.Name" xml:space="preserve">
     <value>lblRight</value>
+  </data>
+  <data name="&gt;&gt;lblRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRight.Parent" xml:space="preserve">
     <value>$this</value>
@@ -260,6 +257,9 @@
   <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
     <value>btnOk</value>
   </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -284,6 +284,9 @@
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
   </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -305,6 +308,9 @@
   <data name="&gt;&gt;lblDefaultCellSpacing.Name" xml:space="preserve">
     <value>lblDefaultCellSpacing</value>
   </data>
+  <data name="&gt;&gt;lblDefaultCellSpacing.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblDefaultCellSpacing.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -314,8 +320,7 @@
   <data name="cbAllowCellSpacing.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 107</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-  </assembly>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="cbAllowCellSpacing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
@@ -330,6 +335,9 @@
   </data>
   <data name="&gt;&gt;cbAllowCellSpacing.Name" xml:space="preserve">
     <value>cbAllowCellSpacing</value>
+  </data>
+  <data name="&gt;&gt;cbAllowCellSpacing.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbAllowCellSpacing.Parent" xml:space="preserve">
     <value>$this</value>
@@ -351,6 +359,9 @@
   </data>
   <data name="&gt;&gt;lblOptions.Name" xml:space="preserve">
     <value>lblOptions</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblOptions.Parent" xml:space="preserve">
     <value>$this</value>
@@ -376,6 +387,9 @@
   <data name="&gt;&gt;chkResizeToFitContent.Name" xml:space="preserve">
     <value>chkResizeToFitContent</value>
   </data>
+  <data name="&gt;&gt;chkResizeToFitContent.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkResizeToFitContent.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -393,6 +407,9 @@
   </data>
   <data name="&gt;&gt;spnSpacingBetweenCells.Name" xml:space="preserve">
     <value>spnSpacingBetweenCells</value>
+  </data>
+  <data name="&gt;&gt;spnSpacingBetweenCells.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnSpacingBetweenCells.Parent" xml:space="preserve">
     <value>$this</value>
@@ -412,6 +429,9 @@
   <data name="&gt;&gt;spnRightMargin.Name" xml:space="preserve">
     <value>spnRightMargin</value>
   </data>
+  <data name="&gt;&gt;spnRightMargin.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;spnRightMargin.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -429,6 +449,9 @@
   </data>
   <data name="&gt;&gt;spnLeftMargin.Name" xml:space="preserve">
     <value>spnLeftMargin</value>
+  </data>
+  <data name="&gt;&gt;spnLeftMargin.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnLeftMargin.Parent" xml:space="preserve">
     <value>$this</value>
@@ -448,6 +471,9 @@
   <data name="&gt;&gt;spnBottomMargin.Name" xml:space="preserve">
     <value>spnBottomMargin</value>
   </data>
+  <data name="&gt;&gt;spnBottomMargin.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;spnBottomMargin.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -466,13 +492,16 @@
   <data name="&gt;&gt;spnTopMargin.Name" xml:space="preserve">
     <value>spnTopMargin</value>
   </data>
+  <data name="&gt;&gt;spnTopMargin.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;spnTopMargin.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;spnTopMargin.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -489,5 +518,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>TableOptionsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

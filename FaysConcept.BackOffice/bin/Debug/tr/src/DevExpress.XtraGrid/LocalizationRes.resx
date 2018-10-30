@@ -686,4 +686,10 @@ To search for rows, type a search string and press ENTER or click Find.</value>
   <data name="GridStringId.SearchForBand" xml:space="preserve">
     <value>Search for a band...</value>
   </data>
+  <data name="GridStringId.MenuFooterShow" xml:space="preserve">
+    <value>Show Footer</value>
+  </data>
+  <data name="GridStringId.MenuFooterHide" xml:space="preserve">
+    <value>Hide Footer</value>
+  </data>
 </root>

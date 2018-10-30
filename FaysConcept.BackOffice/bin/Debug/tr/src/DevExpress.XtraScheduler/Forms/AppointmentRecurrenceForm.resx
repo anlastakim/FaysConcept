@@ -579,10 +579,10 @@
     <value>Transparent</value>
   </data>
   <data name="weeklyRecurrenceControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 28</value>
+    <value>110, 38</value>
   </data>
   <data name="weeklyRecurrenceControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>388, 108</value>
+    <value>388, 97</value>
   </data>
   <data name="weeklyRecurrenceControl1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>

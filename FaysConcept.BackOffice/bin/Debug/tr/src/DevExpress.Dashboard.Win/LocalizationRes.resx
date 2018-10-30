@@ -836,6 +836,12 @@ Click an element within the dashboard item to display detailed data related to t
   <data name="DashboardWinStringId.CommandExportToPdf" xml:space="preserve">
     <value>Export To PDF</value>
   </data>
+  <data name="DashboardWinStringId.CommandFilterElementEnableSearchCaption" xml:space="preserve">
+    <value>Enable Search</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFilterElementEnableSearchDescription" xml:space="preserve">
+    <value>Enable the search capability in a filter element.</value>
+  </data>
   <data name="DashboardWinStringId.CommandFilterElementShowAllValueCaption" xml:space="preserve">
     <value>Show 'All' Value</value>
   </data>
@@ -3316,6 +3322,12 @@ Database credentials will not be saved after closing this dialog window.</value>
   <data name="DashboardWinStringId.HistoryItemFilterDataSource" xml:space="preserve">
     <value>Filter data source '{0}'</value>
   </data>
+  <data name="DashboardWinStringId.HistoryItemFilterElementEnableSearchChanged" xml:space="preserve">
+    <value>Change search settings for '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemFilterElementShowAllValueChanged" xml:space="preserve">
+    <value>Change the 'All' value visibility for '{0}'</value>
+  </data>
   <data name="DashboardWinStringId.HistoryItemFormatRuleClear" xml:space="preserve">
     <value>Clear format rules calculated by '{0}' for the '{1}'</value>
   </data>
@@ -4649,6 +4661,9 @@ into the specified number of ranges</value>
   <data name="DashboardWinStringId.RibbonTileTreemapLabelsCaption" xml:space="preserve">
     <value>Tile Labels</value>
   </data>
+  <data name="DashboardWinStringId.ScatterCalculationAlongArguments" xml:space="preserve">
+    <value>Arguments</value>
+  </data>
   <data name="DashboardWinStringId.SecondsLabelCaption" xml:space="preserve">
     <value>seconds</value>
   </data>
@@ -4708,6 +4723,9 @@ into the specified number of ranges</value>
   </data>
   <data name="DashboardWinStringId.TooltipChangeDashboardItemDataBinding" xml:space="preserve">
     <value>Change the data source for the {0}</value>
+  </data>
+  <data name="DashboardWinStringId.TooltipChangeDataBinding" xml:space="preserve">
+    <value>Change the data source for the dashboard item</value>
   </data>
   <data name="DashboardWinStringId.TooltipGroupByType" xml:space="preserve">
     <value>Group Fields by Type</value>

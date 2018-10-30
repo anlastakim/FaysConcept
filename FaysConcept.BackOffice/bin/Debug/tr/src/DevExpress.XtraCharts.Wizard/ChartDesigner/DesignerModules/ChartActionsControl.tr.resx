@@ -165,4 +165,7 @@
   <data name="bbiAddPane.Caption" xml:space="preserve">
     <value>Bölme</value>
   </data>
+  <data name="bbiAddConstantLine.Caption" xml:space="preserve">
+    <value>Sabit hat</value>
+  </data>
 </root>

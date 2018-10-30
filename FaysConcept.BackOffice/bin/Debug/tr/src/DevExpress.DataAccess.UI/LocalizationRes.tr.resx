@@ -560,16 +560,19 @@ Lütfen gerekli sorgu parametreleri bildirmek ve sonuçlar görmek için sonraki
   <data name="DataAccessUIStringId.RebuildResultSchemaCaption" xml:space="preserve">
     <value>Sonuç şema yeniden</value>
   </data>
-  <data name="DataAccessUIStringId.QueryFilter_BindTo" xml:space="preserve">
-    <value>Bağla</value>
-  </data>
   <data name="DataAccessUIStringId.PasswordRequest_Password" xml:space="preserve">
     <value>&amp;Parola:</value>
   </data>
   <data name="DataAccessUIStringId.QueryBuilder_DeleteCondition" xml:space="preserve">
     <value>Koşulu Sil</value>
   </data>
+  <data name="DataAccessUIStringId.QueryFilter_BindTo" xml:space="preserve">
+    <value>Bağla</value>
+  </data>
   <data name="DataAccessUIStringId.QueryBuilderColumns_SortOrder" xml:space="preserve">
     <value>Sıralama düzeni</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureEFFilters" xml:space="preserve">
+    <value>Ekle filtre ölçütü veri için kaynak tablo ve/veya Gösterim.</value>
   </data>
 </root>

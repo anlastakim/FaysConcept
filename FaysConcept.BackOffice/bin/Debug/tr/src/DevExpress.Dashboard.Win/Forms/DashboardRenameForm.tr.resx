@@ -126,4 +126,7 @@
   <data name="lblDataSourceName.AccessibleName" xml:space="preserve">
     <value>Sayfa adı</value>
   </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
 </root>

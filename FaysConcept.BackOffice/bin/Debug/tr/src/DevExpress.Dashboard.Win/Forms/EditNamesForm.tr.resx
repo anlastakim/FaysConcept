@@ -129,4 +129,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Adlarını düzenleme</value>
   </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
 </root>

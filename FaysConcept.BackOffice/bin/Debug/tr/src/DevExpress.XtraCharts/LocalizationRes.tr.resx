@@ -2947,4 +2947,13 @@ Sütun grafikler, kategoriler arasında değerleri karşılaştırmak için kull
   <data name="ChartStringId.SvnPolarRangeArea" xml:space="preserve">
     <value>Kutup aralığı alan</value>
   </data>
+  <data name="ChartStringId.WizAggregateFunctionCustom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="ChartStringId.TotalSeriesLabelHeader" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMarkerOffset" xml:space="preserve">
+    <value>Efsane marker uzaklığı sıfırdan büyük veya eşit 0 ve az 1.000 olmalıdır.</value>
+  </data>
 </root>

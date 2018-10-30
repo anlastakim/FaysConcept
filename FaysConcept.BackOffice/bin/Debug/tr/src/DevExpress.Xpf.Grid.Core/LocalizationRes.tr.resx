@@ -1080,16 +1080,40 @@
   <data name="GridControlStringId.MenuRowFixedTop" xml:space="preserve">
     <value>Üst</value>
   </data>
+  <data name="GridControlStringId.CompactModeNoneColumn" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
   <data name="GridControlStringId.ExcelColumnFilterPopupSearchScopeAll" xml:space="preserve">
     <value>Tüm</value>
   </data>
   <data name="GridControlStringId.ExcelColumnFilterPopupSearchScopeDay" xml:space="preserve">
     <value>Tarih</value>
   </data>
+  <data name="GridControlStringId.CompactModeFilter" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="GridControlStringId.CompactModeAscendingOrder" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="GridControlStringId.CompactModeDescendingOrder" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
   <data name="GridControlStringId.ExcelColumnFilterPopupSearchScopeMonth" xml:space="preserve">
     <value>Ay</value>
   </data>
   <data name="GridControlStringId.ExcelColumnFilterPopupSearchScopeYear" xml:space="preserve">
     <value>Yıl</value>
+  </data>
+  <data name="GridControlStringId.ExcelColumnFilterPopupSelectDate" xml:space="preserve">
+    <value>Bir tarih seçin</value>
+  </data>
+  <data name="GridControlStringId.ExcelColumnFilterPopupSelectValue" xml:space="preserve">
+    <value>Bir değer seçin</value>
+  </data>
+  <data name="GridControlStringId.ExcelColumnFilterPopupFilterBetweenTo" xml:space="preserve">
+    <value>Buraya:</value>
+  </data>
+  <data name="GridControlStringId.MenuCompactModeReverseSort" xml:space="preserve">
+    <value>Sıralama ters</value>
   </data>
 </root>

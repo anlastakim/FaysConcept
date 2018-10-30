@@ -351,4 +351,13 @@
   <data name="PdfCoreStringId.MsgIncorrectAcroFormExportValue" xml:space="preserve">
     <value>Dışa aktarma değeri null veya boş bir dize olamaz.</value>
   </data>
+  <data name="PdfCoreStringId.TextUnderlineDefaultSubject" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedAnnotationType" xml:space="preserve">
+    <value>Metin Vurgu ek açıklaması bir PDF/a-1 belgesinde desteklenmiyor.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectOpacity" xml:space="preserve">
+    <value>Opaklık değeri sıfırdan büyük veya eşit 0 olmalıdır ve 1 küçük veya eşit.</value>
+  </data>
 </root>

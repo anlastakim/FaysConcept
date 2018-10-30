@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -78,6 +137,9 @@
   <data name="&gt;&gt;edtLeft.Name" xml:space="preserve">
     <value>edtLeft</value>
   </data>
+  <data name="&gt;&gt;edtLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtLeft.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -101,6 +163,9 @@
   </data>
   <data name="&gt;&gt;lblLeft.Name" xml:space="preserve">
     <value>lblLeft</value>
+  </data>
+  <data name="&gt;&gt;lblLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblLeft.Parent" xml:space="preserve">
     <value>$this</value>
@@ -126,6 +191,9 @@
   <data name="&gt;&gt;edtBottom.Name" xml:space="preserve">
     <value>edtBottom</value>
   </data>
+  <data name="&gt;&gt;edtBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtBottom.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -149,6 +217,9 @@
   </data>
   <data name="&gt;&gt;lblBottom.Name" xml:space="preserve">
     <value>lblBottom</value>
+  </data>
+  <data name="&gt;&gt;lblBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBottom.Parent" xml:space="preserve">
     <value>$this</value>
@@ -174,6 +245,9 @@
   <data name="&gt;&gt;edtFooter.Name" xml:space="preserve">
     <value>edtFooter</value>
   </data>
+  <data name="&gt;&gt;edtFooter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtFooter.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -197,6 +271,9 @@
   </data>
   <data name="&gt;&gt;lblFooterMargins.Name" xml:space="preserve">
     <value>lblFooterMargins</value>
+  </data>
+  <data name="&gt;&gt;lblFooterMargins.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFooterMargins.Parent" xml:space="preserve">
     <value>$this</value>
@@ -222,6 +299,9 @@
   <data name="&gt;&gt;edtRight.Name" xml:space="preserve">
     <value>edtRight</value>
   </data>
+  <data name="&gt;&gt;edtRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtRight.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -245,6 +325,9 @@
   </data>
   <data name="&gt;&gt;lblRight.Name" xml:space="preserve">
     <value>lblRight</value>
+  </data>
+  <data name="&gt;&gt;lblRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRight.Parent" xml:space="preserve">
     <value>$this</value>
@@ -270,6 +353,9 @@
   <data name="&gt;&gt;edtHeader.Name" xml:space="preserve">
     <value>edtHeader</value>
   </data>
+  <data name="&gt;&gt;edtHeader.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtHeader.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -293,6 +379,9 @@
   </data>
   <data name="&gt;&gt;lblHeaderMargins.Name" xml:space="preserve">
     <value>lblHeaderMargins</value>
+  </data>
+  <data name="&gt;&gt;lblHeaderMargins.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblHeaderMargins.Parent" xml:space="preserve">
     <value>$this</value>
@@ -318,6 +407,9 @@
   <data name="&gt;&gt;edtTop.Name" xml:space="preserve">
     <value>edtTop</value>
   </data>
+  <data name="&gt;&gt;edtTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtTop.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -341,6 +433,9 @@
   </data>
   <data name="&gt;&gt;lblTop.Name" xml:space="preserve">
     <value>lblTop</value>
+  </data>
+  <data name="&gt;&gt;lblTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblTop.Parent" xml:space="preserve">
     <value>$this</value>
@@ -366,6 +461,9 @@
   <data name="&gt;&gt;drawPanelPortraitOrientation.Name" xml:space="preserve">
     <value>drawPanelPortraitOrientation</value>
   </data>
+  <data name="&gt;&gt;drawPanelPortraitOrientation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;drawPanelPortraitOrientation.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -390,6 +488,9 @@
   <data name="&gt;&gt;chkVertically.Name" xml:space="preserve">
     <value>chkVertically</value>
   </data>
+  <data name="&gt;&gt;chkVertically.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkVertically.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -413,6 +514,9 @@
   </data>
   <data name="&gt;&gt;chkHorizontally.Name" xml:space="preserve">
     <value>chkHorizontally</value>
+  </data>
+  <data name="&gt;&gt;chkHorizontally.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkHorizontally.Parent" xml:space="preserve">
     <value>$this</value>
@@ -442,6 +546,9 @@
   <data name="&gt;&gt;lblCenterOnPage.Name" xml:space="preserve">
     <value>lblCenterOnPage</value>
   </data>
+  <data name="&gt;&gt;lblCenterOnPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblCenterOnPage.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -463,6 +570,9 @@
   <data name="&gt;&gt;drawPanelLandscapeOrientation.Name" xml:space="preserve">
     <value>drawPanelLandscapeOrientation</value>
   </data>
+  <data name="&gt;&gt;drawPanelLandscapeOrientation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;drawPanelLandscapeOrientation.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -480,5 +590,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageMarginsPreviewControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

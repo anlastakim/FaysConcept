@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
             this.Girişler = new DevExpress.XtraEditors.TileControl();
             this.tileGroup1 = new DevExpress.XtraEditors.TileGroup();
             this.tileItem1 = new DevExpress.XtraEditors.TileItem();
@@ -60,14 +60,14 @@
             this.Girişler.Groups.Add(this.tileGroup3);
             this.Girişler.Groups.Add(this.tileGroup4);
             this.Girişler.Location = new System.Drawing.Point(0, 0);
-            this.Girişler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Girişler.Margin = new System.Windows.Forms.Padding(2);
             this.Girişler.MaxId = 11;
             this.Girişler.Name = "Girişler";
             this.Girişler.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.Girişler.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
             this.Girişler.ScrollMode = DevExpress.XtraEditors.TileControlScrollMode.ScrollBar;
             this.Girişler.SelectionColor = System.Drawing.Color.Silver;
-            this.Girişler.Size = new System.Drawing.Size(268, 360);
+            this.Girişler.Size = new System.Drawing.Size(587, 465);
             this.Girişler.TabIndex = 0;
             this.Girişler.Text = "Fays Mobil";
             this.Girişler.VerticalContentAlignment = DevExpress.Utils.VertAlignment.Top;
@@ -82,8 +82,8 @@
             // 
             // tileItem1
             // 
-            tileItemElement7.Text = "Manuel Giriş";
-            this.tileItem1.Elements.Add(tileItemElement7);
+            tileItemElement1.Text = "Manuel Giriş";
+            this.tileItem1.Elements.Add(tileItemElement1);
             this.tileItem1.Id = 0;
             this.tileItem1.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItem1.Name = "tileItem1";
@@ -91,9 +91,9 @@
             // 
             // tileItem2
             // 
-            tileItemElement8.Text = "Siparişten Giriş";
-            tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItem2.Elements.Add(tileItemElement8);
+            tileItemElement2.Text = "Siparişten Giriş";
+            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItem2.Elements.Add(tileItemElement2);
             this.tileItem2.Id = 1;
             this.tileItem2.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItem2.Name = "tileItem2";
@@ -107,18 +107,18 @@
             // 
             // tileItem3
             // 
-            tileItemElement9.Text = "Manuel Çıkış";
-            tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItem3.Elements.Add(tileItemElement9);
+            tileItemElement3.Text = "Manuel Çıkış";
+            tileItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItem3.Elements.Add(tileItemElement3);
             this.tileItem3.Id = 6;
             this.tileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem3.Name = "tileItem3";
             // 
             // tileItem4
             // 
-            tileItemElement10.Text = "Siparişten Çıkış";
-            tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItem4.Elements.Add(tileItemElement10);
+            tileItemElement4.Text = "Siparişten Çıkış";
+            tileItemElement4.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItem4.Elements.Add(tileItemElement4);
             this.tileItem4.Id = 7;
             this.tileItem4.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem4.Name = "tileItem4";
@@ -132,18 +132,18 @@
             // 
             // tileItem5
             // 
-            tileItemElement11.Text = "Raf Transferi";
-            tileItemElement11.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItem5.Elements.Add(tileItemElement11);
+            tileItemElement5.Text = "Raf Transferi";
+            tileItemElement5.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItem5.Elements.Add(tileItemElement5);
             this.tileItem5.Id = 8;
             this.tileItem5.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem5.Name = "tileItem5";
             // 
             // tileItem6
             // 
-            tileItemElement12.Text = "Depo Transferi";
-            tileItemElement12.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItem6.Elements.Add(tileItemElement12);
+            tileItemElement6.Text = "Depo Transferi";
+            tileItemElement6.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItem6.Elements.Add(tileItemElement6);
             this.tileItem6.Id = 9;
             this.tileItem6.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem6.Name = "tileItem6";
@@ -152,10 +152,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(268, 360);
+            this.ClientSize = new System.Drawing.Size(587, 465);
             this.Controls.Add(this.Girişler);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmYeniMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmYeniMenu";

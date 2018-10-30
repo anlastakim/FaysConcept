@@ -292,7 +292,7 @@ Exception details:
     <value>There are no tables containing column [{0}], which is used in the filter string.</value>
   </data>
   <data name="DataAccessStringId.FilterByMissingInSchemaColumnValidationException" xml:space="preserve">
-    <value>Column [{0}].[{1}] is used in the filter string, but is missing in database schema.</value>
+    <value>Column [{0}].[{1}] is used in the filter string, but is missing in DBSchema.</value>
   </data>
   <data name="DataAccessStringId.FilterByAmbiguousColumnValidationException" xml:space="preserve">
     <value>The column name [{0}], which is used in the filter string, is ambiguous. Columns with this name exist in the following tables: {1}.</value>
@@ -301,7 +301,7 @@ Exception details:
     <value>There are no tables containing column [{0}], which is used in the custom expression.</value>
   </data>
   <data name="DataAccessStringId.CustomExpressionWithMissingInSchemaColumnValidationException" xml:space="preserve">
-    <value>Column [{0}].[{1}] is used in the custom expression, but is missing in database schema.</value>
+    <value>Column [{0}].[{1}] is used in the custom expression, but is missing in DBSchema.</value>
   </data>
   <data name="DataAccessStringId.CustomExpressionWithAmbiguousColumnValidationException" xml:space="preserve">
     <value>The column name [{0}], which is used in the custom expression, is ambiguous. Columns with this name exist in the following tables: {1}.</value>
@@ -314,6 +314,9 @@ Exception details:
   </data>
   <data name="DataAccessStringId.SkipWithoutSortingValidationException" xml:space="preserve">
     <value>The SKIP setting is set while records are not sorted. Please apply sorting to be able to skip the first N records or reset the SKIP setting in the Filter Editor dialog.</value>
+  </data>
+  <data name="DataAccessStringId.SkipWithoutSortingWebValidationException" xml:space="preserve">
+    <value>The Offset setting is set while records are not sorted. Please apply sorting to be able to skip the first N records.</value>
   </data>
   <data name="DataAccessStringId.TableNotSelectedValidationException" xml:space="preserve">
     <value>The following table is not in tables list, but its column is used: "{0}".</value>
@@ -591,6 +594,9 @@ To proceed, remove these features from the query or switch to the use of another
   <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Parameters" xml:space="preserve">
     <value>Parameters</value>
   </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
   <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_DateTime" xml:space="preserve">
     <value>DateTime</value>
   </data>
@@ -611,6 +617,9 @@ To proceed, remove these features from the query or switch to the use of another
   </data>
   <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_ColumnDescriptionFormat" xml:space="preserve">
     <value>Type: {0}</value>
+  </data>
+  <data name="DataAccessStringId.FilterEditor_TreeCreationError" xml:space="preserve">
+    <value>Cannot create a tree for this expression</value>
   </data>
   <data name="DataAccessStringId.UnknownType" xml:space="preserve">
     <value>Unknown</value>
@@ -648,5 +657,17 @@ To learn about the error details, click Manage Relations.</value>
 
 Click 'Yes' to load the data source content as is.
 Click 'No' to load only trusted data source content.</value>
+  </data>
+  <data name="DataAccessStringId.EFFilterControl_EmptyFilterString" xml:space="preserve">
+    <value>A filter string cannot be null.</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotOpenDatabase" xml:space="preserve">
+    <value>Unable to open a database.</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotCreateSelectStatement" xml:space="preserve">
+    <value>Select statement creation failed.</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotRebuildSchema" xml:space="preserve">
+    <value>An error occurred while rebuilding a data source schema.</value>
   </data>
 </root>

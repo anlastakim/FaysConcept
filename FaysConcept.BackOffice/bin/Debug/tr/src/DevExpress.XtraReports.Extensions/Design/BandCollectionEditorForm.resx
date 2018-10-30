@@ -117,14 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
-  <data name="buttonDown.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-      iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-      JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAP0lEQVQ4T2MY5uDAgQP/YRgqRDyAaoJj
-      kg0Zogaga8KF8RpGyBCKXEKUZhhAN4QkzTAAM4QszTBAkWY6AAYGAGP1bEaqeEO6AAAAAElFTkSuQmCC
-    </value>
-  </data>
   <data name="buttonDown.Location" type="System.Drawing.Point, System.Drawing">
     <value>220, 314</value>
   </data>
@@ -145,16 +137,14 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;buttonDown.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="buttonAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-      R0lGODlhCQAFAIEBAAAAAAEBAQAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAABACwAAAAACQAF
-      AAAIFgABCBw4MADBggEMEkzIECHDhAAeBgQAOw==
-    </value>
+    <value>3</value>
   </data>
   <data name="buttonAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 314</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="buttonAdd.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
   </data>
   <data name="buttonAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 22</value>
@@ -175,7 +165,7 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;buttonAdd.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="buttonRemove.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 314</value>
@@ -199,15 +189,7 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;buttonRemove.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="buttonUp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-      iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-      JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAQ0lEQVQ4T2MY/ODAgQP/oUzSAVTzf7IM
-      gWmGYZIMQdcMw0QZgkszDOM1hJBmGCbLJURpQgbDwAAQAGmCYajQ8AMMDABmM2xG494eXQAAAABJRU5E
-      rkJggg==
-    </value>
+    <value>5</value>
   </data>
   <data name="buttonUp.Location" type="System.Drawing.Point, System.Drawing">
     <value>186, 314</value>
@@ -228,13 +210,13 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;buttonUp.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="propertyGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 12</value>
+    <value>255, 12</value>
   </data>
   <data name="propertyGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 324</value>
+    <value>308, 324</value>
   </data>
   <data name="propertyGrid.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -249,28 +231,28 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;propertyGrid.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
-  <data name="tv.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="treeList.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
-  <data name="tv.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="treeList.Size" type="System.Drawing.Size, System.Drawing">
     <value>234, 293</value>
   </data>
-  <data name="tv.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="treeList.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;tv.Name" xml:space="preserve">
-    <value>tv</value>
+  <data name="&gt;&gt;treeList.Name" xml:space="preserve">
+    <value>treeList</value>
   </data>
-  <data name="&gt;&gt;tv.Type" xml:space="preserve">
-    <value>DevExpress.XtraTreeList.Native.XtraTreeView, DevExpress.XtraTreeList.v18.1, Culture=neutral</value>
+  <data name="&gt;&gt;treeList.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v18.1, Culture=neutral</value>
   </data>
-  <data name="&gt;&gt;tv.Parent" xml:space="preserve">
+  <data name="&gt;&gt;treeList.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
-  <data name="&gt;&gt;tv.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;treeList.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>483, 353</value>
@@ -294,7 +276,7 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="bottomLine.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 338</value>
@@ -315,9 +297,8 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;bottomLine.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -354,6 +335,9 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>575, 385</value>
   </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>591, 224</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>
   </data>
@@ -384,11 +368,11 @@
   <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
-    <value>layoutControlItem4</value>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
     <value>layoutControlGroup3</value>
@@ -437,6 +421,18 @@
   </data>
   <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;splitterItem1.Name" xml:space="preserve">
+    <value>splitterItem1</value>
+  </data>
+  <data name="&gt;&gt;splitterItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SplitterItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>BandCollectionEditorForm</value>

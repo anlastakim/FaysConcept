@@ -329,5 +329,20 @@
   </data>
   <data name="LayoutStringId.AddItem" xml:space="preserve">
     <value>Add Item</value>
+  </data>  
+  <data name="LayoutStringId.GroupStyleMenuText" xml:space="preserve">
+    <value>Group Style</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleInherited" xml:space="preserve">
+    <value>Inherited</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleCard" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleLight" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleTitle" xml:space="preserve">
+    <value>Title</value>
   </data>
 </root>

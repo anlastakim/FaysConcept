@@ -216,4 +216,22 @@
   <data name="ChartDesignerStringId.Tree_StripCollection" xml:space="preserve">
     <value>Şeritler</value>
   </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_BarSeriesGroup" xml:space="preserve">
+    <value>Bar serisi</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_ConstantLineCollection" xml:space="preserve">
+    <value>Sabit Çizgiler</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_IndicatorCollection" xml:space="preserve">
+    <value>Göstergeler</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_PolarDiagram" xml:space="preserve">
+    <value>Kutup diyagramı</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Tickmarks" xml:space="preserve">
+    <value>TickMarks</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_StackedBarTotalLabel" xml:space="preserve">
+    <value>Toplam etiket yığılmış</value>
+  </data>
 </root>

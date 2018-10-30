@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="layoutControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
   <data name="lblUriPattern.Location" type="System.Drawing.Point, System.Drawing">
     <value>57, 92</value>
@@ -65,7 +69,6 @@
   <data name="lblUriPattern.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 24</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="lblUriPattern.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
@@ -82,10 +85,13 @@
     <value>4</value>
   </data>
   <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 207</value>
+    <value>370, 207</value>
+  </data>
+  <data name="btnApply.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>75, 0</value>
   </data>
   <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
+    <value>75, 22</value>
   </data>
   <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -103,10 +109,13 @@
     <value>5</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>307, 207</value>
+    <value>291, 207</value>
+  </data>
+  <data name="btnCancel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>75, 0</value>
   </data>
   <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
+    <value>75, 22</value>
   </data>
   <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -128,10 +137,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 207</value>
+    <value>210, 207</value>
+  </data>
+  <data name="btnOk.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>75, 0</value>
   </data>
   <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
+    <value>75, 22</value>
   </data>
   <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -235,6 +247,9 @@
   <data name="layoutControl.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="layoutControl.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>457, 242</value>
+  </data>
   <data name="lciUriPattern.Text" xml:space="preserve">
     <value>URI Pattern:</value>
   </data>
@@ -262,8 +277,17 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>457, 242</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>473, 281</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Image Binding Options</value>

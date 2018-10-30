@@ -1207,4 +1207,55 @@
   <data name="RichEditControlStringId.Caption_FloatingObjectLayoutFormTabSizeWidthAbsoluteLabel" xml:space="preserve">
     <value>Mutlak</value>
   </data>
+  <data name="RichEditControlStringId.ButtonCaption_Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="RichEditControlStringId.ButtonCaption_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_BulletsAndNumbering_Customize" xml:space="preserve">
+    <value>Özelleştir...</value>
+  </data>
+  <data name="RichEditControlStringId.ButtonCaption_OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_TableStyleForm_Properties" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="RichEditControlStringId.ButtonCaption_Redo" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="RichEditControlStringId.ButtonCaption_Undo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="RichEditControlStringId.ButtonCaption_Next" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_TableStyleForm_Format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_TableStyleForm_Name" xml:space="preserve">
+    <value>Adı:</value>
+  </data>
+  <data name="RichEditControlStringId.ButtonCaption_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="RichEditControlStringId.ButtonCaption_Previous" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_BulletsAndNumbering_Bulleted_TextPositionSection" xml:space="preserve">
+    <value>Metin konumu</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_TableStyleForm_Formatting" xml:space="preserve">
+    <value>Biçimlendirme</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_LanguageFormTitle" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_TOC_PrintPreview" xml:space="preserve">
+    <value>Baskı Önizleme</value>
+  </data>
+  <data name="RichEditControlStringId.Caption_BulletsAndNumbering_Numbered_Level" xml:space="preserve">
+    <value>Seviye</value>
+  </data>
 </root>

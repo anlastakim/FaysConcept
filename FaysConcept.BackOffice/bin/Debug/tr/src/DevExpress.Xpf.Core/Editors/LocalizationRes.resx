@@ -1160,6 +1160,21 @@ Disable Caps Lock before entering your password.</value>
   <data name="EditorStringId.Of" xml:space="preserve">
     <value>of {0}</value>
   </data>
+  <data name="EditorStringId.RefreshPage" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="EditorStringId.FirstPage" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="EditorStringId.LastPage" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="EditorStringId.NextPage" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="EditorStringId.PrevPage" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
   <data name="EditorStringId.WaitIndicatorText" xml:space="preserve">
     <value>Loading...</value>
   </data>
@@ -1175,10 +1190,10 @@ Disable Caps Lock before entering your password.</value>
   <data name="EditorStringId.LookUpAddNew" xml:space="preserve">
     <value>Add New</value>
   </data>
-   <data name="EditorStringId.LookUpNext" xml:space="preserve">
+  <data name="EditorStringId.LookUpNext" xml:space="preserve">
     <value>Next</value>
   </data>
-   <data name="EditorStringId.LookUpPrevious" xml:space="preserve">
+  <data name="EditorStringId.LookUpPrevious" xml:space="preserve">
     <value>Previous</value>
   </data>
   <data name="EditorStringId.SetNullValue" xml:space="preserve">
@@ -1269,7 +1284,7 @@ Returns a single object from the collection.</value>
   <data name="EditorStringId.ExpressionEditor_RowCount_Description" xml:space="preserve">
     <value>Returns the total amount of data rows in a datasource.</value>
   </data>
-    <data name="EditorStringId.ExpressionEditor_CurrentRowIndex_Description" xml:space="preserve">
+  <data name="EditorStringId.ExpressionEditor_CurrentRowIndex_Description" xml:space="preserve">
     <value>Returns the index of the current data row in a datasource. Note that this index is zero-based.</value>
   </data>
   <data name="EditorStringId.InvalidValueConversion" xml:space="preserve">
@@ -1434,26 +1449,11 @@ Returns a single object from the collection.</value>
   <data name="EditorStringId.BrushEditMappingModeDescription" xml:space="preserve">
     <value>Gets or sets a value that specifies whether the gradient brush positioning coordinates are absolute or relative to the output area.</value>
   </data>
-  <data name="EditorStringId.BrushEditMappingModeAbsolute" xml:space="preserve">
-    <value>Absolute</value>
-  </data>
-  <data name="EditorStringId.BrushEditMappingModeRelativeToBoundingBox" xml:space="preserve">
-    <value>RelativeToBoundingBox</value>
-  </data>
   <data name="EditorStringId.BrushEditSpreadMethod" xml:space="preserve">
     <value>SpreadMethod</value>
   </data>
   <data name="EditorStringId.BrushEditSpreadMethodDescription" xml:space="preserve">
     <value>Gets or sets the type of spread method that specifies how to draw a gradient that starts or ends inside the bounds of the object to be painted.</value>
-  </data>
-  <data name="EditorStringId.BrushEditSpreadMethodPad" xml:space="preserve">
-    <value>Pad</value>
-  </data>
-  <data name="EditorStringId.BrushEditSpreadMethodReflect" xml:space="preserve">
-    <value>Reflect</value>
-  </data>
-  <data name="EditorStringId.BrushEditSpreadMethodRepeat" xml:space="preserve">
-    <value>Repeat</value>
   </data>
   <data name="EditorStringId.BrushEditGradientOrigin" xml:space="preserve">
     <value>GradientOrigin</value>
@@ -1495,7 +1495,7 @@ Returns a single object from the collection.</value>
     <value>Contrast:</value>
   </data>
   <data name="EditorStringId.CameraDesaturateCaption" xml:space="preserve">
-    <value>Desaturate</value>
+    <value>Desaturate:</value>
   </data>
   <data name="EditorStringId.CameraDeviceCaption" xml:space="preserve">
     <value>Device:</value>
@@ -1711,5 +1711,29 @@ Returns True if the specified date falls within the year-to-date period (startin
   <data name="EditorStringId.ExpressionEditor_IsSameDay_Description" xml:space="preserve">
     <value>IsSameDay(DateTime, DateTime)
 Returns True if the specified date-time values fall within the same day.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionsSearch_NullText" xml:space="preserve">
+    <value>Enter text to search...</value>
+  </data>
+  <data name="EditorStringId.DragDropAddRecords" xml:space="preserve">
+    <value>Add records</value>
+  </data>
+  <data name="EditorStringId.DragDropCannotDrop" xml:space="preserve">
+    <value>Cannot drop here</value>
+  </data>
+  <data name="EditorStringId.DragDropInsertAfter" xml:space="preserve">
+    <value>Insert after record:</value>
+  </data>
+  <data name="EditorStringId.DragDropInsertBefore" xml:space="preserve">
+    <value>Insert before record:</value>
+  </data>
+  <data name="EditorStringId.DragDropMoveToChildren" xml:space="preserve">
+    <value>Move to children collection:</value>
+  </data>
+  <data name="EditorStringId.DragDropMultipleRecords" xml:space="preserve">
+    <value>Dragging {0} records</value>
+  </data>
+  <data name="EditorStringId.DragDropOneRecord" xml:space="preserve">
+    <value>Dragging 1 record:</value>
   </data>
 </root>

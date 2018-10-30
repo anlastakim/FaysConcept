@@ -199,4 +199,7 @@
   <data name="TreeListStringId.SearchForBand" xml:space="preserve">
     <value>Bir grup için arama...</value>
   </data>
+  <data name="TreeListStringId.MenuColumnFooterShow" xml:space="preserve">
+    <value>Altbilgiyi göster</value>
+  </data>
 </root>

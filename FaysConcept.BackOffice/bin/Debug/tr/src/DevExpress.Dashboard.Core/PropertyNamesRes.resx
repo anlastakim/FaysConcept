@@ -156,4 +156,10 @@
   <data name="DevExpress.DashboardCommon.DashboardParameter.SelectAllValues" xml:space="preserve">
     <value>Select All Values</value>
   </data>
+  <data name="DevExpress.DashboardCommon.DimensionSortOrder.Ascending" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="DevExpress.DashboardCommon.DimensionSortOrder.Descending" xml:space="preserve">
+    <value>Descending</value>
+  </data>
 </root>

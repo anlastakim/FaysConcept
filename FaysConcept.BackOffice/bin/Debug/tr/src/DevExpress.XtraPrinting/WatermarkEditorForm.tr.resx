@@ -145,4 +145,16 @@
   <data name="rbPages.Properties.Caption" xml:space="preserve">
     <value>&amp;Sayfalar:</value>
   </data>
+  <data name="lkpImageHAlign.Properties.Columns" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="lkpImageVAlign.Properties.Columns" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="lkpImageView.Properties.Columns" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="lkpTextDirection.Properties.Columns" xml:space="preserve">
+    <value>Metin</value>
+  </data>
 </root>

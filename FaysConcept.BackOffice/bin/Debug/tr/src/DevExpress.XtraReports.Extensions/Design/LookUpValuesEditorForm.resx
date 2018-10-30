@@ -134,6 +134,9 @@
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
   </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -154,6 +157,9 @@
   </data>
   <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
     <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -179,6 +185,9 @@
   </data>
   <data name="&gt;&gt;dataNavigator1.Name" xml:space="preserve">
     <value>dataNavigator1</value>
+  </data>
+  <data name="&gt;&gt;dataNavigator1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DataNavigator, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;dataNavigator1.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -216,6 +225,9 @@
   <data name="&gt;&gt;treeList1.Name" xml:space="preserve">
     <value>treeList1</value>
   </data>
+  <data name="&gt;&gt;treeList1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;treeList1.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -236,6 +248,9 @@
   </data>
   <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
     <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -261,28 +276,55 @@
   <data name="&gt;&gt;columnValue.Name" xml:space="preserve">
     <value>columnValue</value>
   </data>
+  <data name="&gt;&gt;columnValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;columnDescription.Name" xml:space="preserve">
     <value>columnDescription</value>
+  </data>
+  <data name="&gt;&gt;columnDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
     <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;grpButtons.Name" xml:space="preserve">
     <value>grpButtons</value>
+  </data>
+  <data name="&gt;&gt;grpButtons.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItemCancel.Name" xml:space="preserve">
     <value>layoutControlItemCancel</value>
   </data>
+  <data name="&gt;&gt;layoutControlItemCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;layoutControlItemOK.Name" xml:space="preserve">
     <value>layoutControlItemOK</value>
   </data>
+  <data name="&gt;&gt;layoutControlItemOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>LookUpValuesEditorForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.Design.ReportsEditorFormBase, DevExpress.Utils.v18.1.UI, Culture=neutral</value>
   </data>
 </root>

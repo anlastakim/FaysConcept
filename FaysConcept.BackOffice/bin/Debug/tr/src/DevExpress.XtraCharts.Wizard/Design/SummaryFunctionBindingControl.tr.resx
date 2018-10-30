@@ -119,11 +119,11 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
-  <data name="columnArgumentName.Text" xml:space="preserve">
+  <data name="treeListColumn1.Caption" xml:space="preserve">
     <value>SütunBaşlığı</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
-  <data name="columnBoundValue.Text" xml:space="preserve">
+  <data name="treeListColumn2.Caption" xml:space="preserve">
     <value>SütunBaşlığı</value>
   </data>
   <data name="btnRemoveParameter.Text" xml:space="preserve">

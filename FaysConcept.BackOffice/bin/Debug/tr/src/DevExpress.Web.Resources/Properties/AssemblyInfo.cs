@@ -9,7 +9,7 @@ using DevExpress.Internal;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Developer Express Inc.")]
 [assembly: AssemblyProduct("DevExpress ASP.NET resources")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2017 Developer Express Inc.")]
+[assembly: AssemblyCopyright("Copyright (c) 2000-2018 Developer Express Inc.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 // Setting ComVisible to false makes the types in this assembly not visible 

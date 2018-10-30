@@ -58,6 +58,60 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="PdfViewerStringId.AnnotationPropertiesCancelCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesCaption" xml:space="preserve">
+    <value>Annotation Properties</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesHighlightMarkupType" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesOkCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesSetAsDefaultCaption" xml:space="preserve">
+    <value>Set As Default</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesSquigglyMarkupType" xml:space="preserve">
+    <value>Squiggly Underline</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesStrikeOutMarkupType" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesUnderlineMarkupType" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyAppearanceGroupCaption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyAuthor" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyGeneralGroupCaption" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyMarkupType" xml:space="preserve">
+    <value>Markup type</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyModified" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyOpacity" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertySubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
   <data name="PdfViewerStringId.AttachmentsViewerDescriptionHeader" xml:space="preserve">
     <value>Description</value>
   </data>
@@ -87,6 +141,9 @@
   </data>
   <data name="PdfViewerStringId.BarCaption" xml:space="preserve">
     <value>PDF Viewer</value>
+  </data>
+  <data name="PdfViewerStringId.BarCommentCaption" xml:space="preserve">
+    <value>Comment</value>
   </data>
   <data name="PdfViewerStringId.BarFormDataCaption" xml:space="preserve">
     <value>Form Data</value>
@@ -118,11 +175,35 @@
   <data name="PdfViewerStringId.CommandCursorModeSelectToolCaption" xml:space="preserve">
     <value>Select tool</value>
   </data>
+  <data name="PdfViewerStringId.CommandCursorModeTextHighlightCaption" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="PdfViewerStringId.CommandCursorModeTextHighlightDescription" xml:space="preserve">
+    <value>Highlight text</value>
+  </data>
+  <data name="PdfViewerStringId.CommandCursorModeTextStrikethroughCaption" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="PdfViewerStringId.CommandCursorModeTextStrikethroughDescription" xml:space="preserve">
+    <value>Strikethrough text</value>
+  </data>
+  <data name="PdfViewerStringId.CommandCursorModeTextUnderlineCaption" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="PdfViewerStringId.CommandCursorModeTextUnderlineDescription" xml:space="preserve">
+    <value>Underline text</value>
+  </data>
+  <data name="PdfViewerStringId.CommandDeleteAnnotationCaption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
   <data name="PdfViewerStringId.CommandExportCaption" xml:space="preserve">
     <value>Export</value>
   </data>
   <data name="PdfViewerStringId.CommandExportDescription" xml:space="preserve">
     <value>Export form data to a file.</value>
+  </data>
+  <data name="PdfViewerStringId.CommandHighlightSelectedTextCaption" xml:space="preserve">
+    <value>Highlight text</value>
   </data>
   <data name="PdfViewerStringId.CommandImportCaption" xml:space="preserve">
     <value>Import</value>
@@ -193,6 +274,9 @@
   <data name="PdfViewerStringId.CommandSetPageLevelZoomModeCaption" xml:space="preserve">
     <value>Zoom to Page Level</value>
   </data>
+  <data name="PdfViewerStringId.CommandShowAnnotationPropertiesCaption" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
   <data name="PdfViewerStringId.CommandShowCoverPage" xml:space="preserve">
     <value>Show Cover Page</value>
   </data>
@@ -202,11 +286,17 @@
   <data name="PdfViewerStringId.CommandSinglePageView" xml:space="preserve">
     <value>Single Page View</value>
   </data>
+  <data name="PdfViewerStringId.CommandStrikethroughSelectedTextCaption" xml:space="preserve">
+    <value>Strikethrough text</value>
+  </data>
   <data name="PdfViewerStringId.CommandTwoColumnView" xml:space="preserve">
     <value>Two Page Scrolling</value>
   </data>
   <data name="PdfViewerStringId.CommandTwoPageView" xml:space="preserve">
     <value>Two Page View</value>
+  </data>
+  <data name="PdfViewerStringId.CommandUnderlineSelectedTextCaption" xml:space="preserve">
+    <value>Underline text</value>
   </data>
   <data name="PdfViewerStringId.CommandViewCursorModeListGroupCaption" xml:space="preserve">
     <value>Cursor mode</value>
@@ -264,6 +354,9 @@
   </data>
   <data name="PdfViewerStringId.CommandZoomOutShortcutCaption" xml:space="preserve">
     <value> (Ctrl + Minus)</value>
+  </data>
+  <data name="PdfViewerStringId.CommentTextRibbonGroupCaption" xml:space="preserve">
+    <value>Text</value>
   </data>
   <data name="PdfViewerStringId.FileRibbonGroupCaption" xml:space="preserve">
     <value>File</value>

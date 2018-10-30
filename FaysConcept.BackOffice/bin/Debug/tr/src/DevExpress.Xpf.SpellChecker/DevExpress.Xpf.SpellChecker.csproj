@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.Xpf.SpellChecker</RootNamespace>
-    <AssemblyName>DevExpress.Xpf.SpellChecker.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.Xpf.SpellChecker.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

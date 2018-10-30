@@ -939,6 +939,15 @@
   <data name="ASPxRichEditStringId.Hidden" xml:space="preserve">
     <value>Gizli</value>
   </data>
+  <data name="ASPxRichEditStringId.CreateDateFieldDescription" xml:space="preserve">
+    <value>Geçerli tarih ve saati ekler.</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreateEmptyDocVariableField" xml:space="preserve">
+    <value>DOCVARIABLE</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_LeftOnly" xml:space="preserve">
+    <value>Sadece sol</value>
+  </data>
   <data name="ASPxRichEditStringId.LayoutOptions_Reset" xml:space="preserve">
     <value>Sıfırla</value>
   </data>
@@ -969,6 +978,9 @@
   <data name="ASPxRichEditStringId.LayoutOptions_HorizontalPositionAlignmentInside" xml:space="preserve">
     <value>İçinde</value>
   </data>
+  <data name="ASPxRichEditStringId.Special" xml:space="preserve">
+    <value>Özel</value>
+  </data>
   <data name="ASPxRichEditStringId.LayoutOptions_Scale" xml:space="preserve">
     <value>Ölçek</value>
   </data>
@@ -984,19 +996,67 @@
   <data name="ASPxRichEditStringId.FindReplace_MatchCase" xml:space="preserve">
     <value>Harf eşleştir</value>
   </data>
-  <data name="ASPxRichEditStringId.Special" xml:space="preserve">
-    <value>Özel</value>
-  </data>
   <data name="ASPxRichEditStringId.LayoutOptions_Absolute" xml:space="preserve">
     <value>Mutlak</value>
   </data>
-  <data name="ASPxRichEditStringId.CreateDateFieldDescription" xml:space="preserve">
-    <value>Geçerli tarih ve saati ekler.</value>
+  <data name="ASPxRichEditStringId.CreatePageFieldDescription" xml:space="preserve">
+    <value>Alanın bulunduğu sayfa numarasını ekler.</value>
   </data>
-  <data name="ASPxRichEditStringId.CreateEmptyDocVariableField" xml:space="preserve">
-    <value>DOCVARIABLE</value>
+  <data name="ASPxRichEditStringId.CreateTimeField" xml:space="preserve">
+    <value>Zaman</value>
   </data>
-  <data name="ASPxRichEditStringId.LayoutOptions_LeftOnly" xml:space="preserve">
-    <value>Sadece sol</value>
+  <data name="ASPxRichEditStringId.CreateTimeFieldDescription" xml:space="preserve">
+    <value>Geçerli saati ekler.</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreateEmptyMergeField" xml:space="preserve">
+    <value>Birleştirme alanı</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreatePageCountField" xml:space="preserve">
+    <value>NUMPAGES</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreatePageCountFieldDescription" xml:space="preserve">
+    <value>Toplam sayfa sayısını ekler.</value>
+  </data>
+  <data name="ASPxRichEditStringId.FileManager_OpenedFileMoveErrorText" xml:space="preserve">
+    <value>Dosya taşınamaz. Başka bir kullanıcının önceden açtığı.</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFloatingObjectsShapeStyles" xml:space="preserve">
+    <value>Şekil stilleri</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_AbsolutePosition" xml:space="preserve">
+    <value>Mutlak konum</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Below" xml:space="preserve">
+    <value>aşağıda</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_DistanceFromText" xml:space="preserve">
+    <value>Metinden Uzaklık</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Inline" xml:space="preserve">
+    <value>Metinle aynı hizaya</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_LargestOnly" xml:space="preserve">
+    <value>Yalnızca büyükten</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_LockAnchor" xml:space="preserve">
+    <value>Tutturucuyu kilitle</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_LockAspectRatio" xml:space="preserve">
+    <value>En boy oranını kilitle</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_OriginalSize" xml:space="preserve">
+    <value>Orijinal boyutu</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Relative" xml:space="preserve">
+    <value>Göreli</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_RelativePosition" xml:space="preserve">
+    <value>Göreli konumu</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_RelativeTo" xml:space="preserve">
+    <value>göreli olarak</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_RightOnly" xml:space="preserve">
+    <value>Sadece sağ</value>
   </data>
 </root>

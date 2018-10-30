@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -75,6 +134,9 @@
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
   </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -95,6 +157,9 @@
   </data>
   <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
     <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -127,6 +192,9 @@
   <data name="&gt;&gt;cbMarginsApplyTo.Name" xml:space="preserve">
     <value>cbMarginsApplyTo</value>
   </data>
+  <data name="&gt;&gt;cbMarginsApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbMarginsApplyTo.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
   </data>
@@ -150,6 +218,9 @@
   </data>
   <data name="&gt;&gt;lblMarginsApplyTo.Name" xml:space="preserve">
     <value>lblMarginsApplyTo</value>
+  </data>
+  <data name="&gt;&gt;lblMarginsApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblMarginsApplyTo.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
@@ -175,6 +246,9 @@
   <data name="&gt;&gt;chkLandscape.Name" xml:space="preserve">
     <value>chkLandscape</value>
   </data>
+  <data name="&gt;&gt;chkLandscape.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkLandscape.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
   </data>
@@ -198,6 +272,9 @@
   </data>
   <data name="&gt;&gt;chkPortrait.Name" xml:space="preserve">
     <value>chkPortrait</value>
+  </data>
+  <data name="&gt;&gt;chkPortrait.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkPortrait.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
@@ -223,6 +300,9 @@
   <data name="&gt;&gt;lblOrientation.Name" xml:space="preserve">
     <value>lblOrientation</value>
   </data>
+  <data name="&gt;&gt;lblOrientation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblOrientation.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
   </data>
@@ -240,6 +320,9 @@
   </data>
   <data name="&gt;&gt;edtMarginRight.Name" xml:space="preserve">
     <value>edtMarginRight</value>
+  </data>
+  <data name="&gt;&gt;edtMarginRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtMarginRight.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
@@ -262,6 +345,9 @@
   <data name="&gt;&gt;lblMarginRIght.Name" xml:space="preserve">
     <value>lblMarginRIght</value>
   </data>
+  <data name="&gt;&gt;lblMarginRIght.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblMarginRIght.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
   </data>
@@ -279,6 +365,9 @@
   </data>
   <data name="&gt;&gt;edtMarginBottom.Name" xml:space="preserve">
     <value>edtMarginBottom</value>
+  </data>
+  <data name="&gt;&gt;edtMarginBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtMarginBottom.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
@@ -301,6 +390,9 @@
   <data name="&gt;&gt;lblMarginBottom.Name" xml:space="preserve">
     <value>lblMarginBottom</value>
   </data>
+  <data name="&gt;&gt;lblMarginBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblMarginBottom.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
   </data>
@@ -319,6 +411,9 @@
   <data name="&gt;&gt;edtMarginLeft.Name" xml:space="preserve">
     <value>edtMarginLeft</value>
   </data>
+  <data name="&gt;&gt;edtMarginLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtMarginLeft.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
   </data>
@@ -336,6 +431,9 @@
   </data>
   <data name="&gt;&gt;edtMarginTop.Name" xml:space="preserve">
     <value>edtMarginTop</value>
+  </data>
+  <data name="&gt;&gt;edtMarginTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtMarginTop.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
@@ -358,6 +456,9 @@
   <data name="&gt;&gt;lblMarginLeft.Name" xml:space="preserve">
     <value>lblMarginLeft</value>
   </data>
+  <data name="&gt;&gt;lblMarginLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblMarginLeft.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
   </data>
@@ -378,6 +479,9 @@
   </data>
   <data name="&gt;&gt;lblMarginTop.Name" xml:space="preserve">
     <value>lblMarginTop</value>
+  </data>
+  <data name="&gt;&gt;lblMarginTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblMarginTop.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
@@ -403,6 +507,9 @@
   <data name="&gt;&gt;lblMargins.Name" xml:space="preserve">
     <value>lblMargins</value>
   </data>
+  <data name="&gt;&gt;lblMargins.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblMargins.Parent" xml:space="preserve">
     <value>tabPageMargins</value>
   </data>
@@ -417,6 +524,9 @@
   </data>
   <data name="&gt;&gt;tabPageMargins.Name" xml:space="preserve">
     <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;tabPageMargins.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabPageMargins.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -451,6 +561,9 @@
   <data name="&gt;&gt;cbPaperApplyTo.Name" xml:space="preserve">
     <value>cbPaperApplyTo</value>
   </data>
+  <data name="&gt;&gt;cbPaperApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbPaperApplyTo.Parent" xml:space="preserve">
     <value>tabPagePaper</value>
   </data>
@@ -474,6 +587,9 @@
   </data>
   <data name="&gt;&gt;lblPaperApplyTo.Name" xml:space="preserve">
     <value>lblPaperApplyTo</value>
+  </data>
+  <data name="&gt;&gt;lblPaperApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblPaperApplyTo.Parent" xml:space="preserve">
     <value>tabPagePaper</value>
@@ -499,6 +615,9 @@
   <data name="&gt;&gt;cbPaperSize.Name" xml:space="preserve">
     <value>cbPaperSize</value>
   </data>
+  <data name="&gt;&gt;cbPaperSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbPaperSize.Parent" xml:space="preserve">
     <value>tabPagePaper</value>
   </data>
@@ -517,6 +636,9 @@
   <data name="&gt;&gt;edtPaperHeight.Name" xml:space="preserve">
     <value>edtPaperHeight</value>
   </data>
+  <data name="&gt;&gt;edtPaperHeight.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtPaperHeight.Parent" xml:space="preserve">
     <value>tabPagePaper</value>
   </data>
@@ -534,6 +656,9 @@
   </data>
   <data name="&gt;&gt;edtPaperWidth.Name" xml:space="preserve">
     <value>edtPaperWidth</value>
+  </data>
+  <data name="&gt;&gt;edtPaperWidth.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtPaperWidth.Parent" xml:space="preserve">
     <value>tabPagePaper</value>
@@ -556,6 +681,9 @@
   <data name="&gt;&gt;lblPaperHeight.Name" xml:space="preserve">
     <value>lblPaperHeight</value>
   </data>
+  <data name="&gt;&gt;lblPaperHeight.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblPaperHeight.Parent" xml:space="preserve">
     <value>tabPagePaper</value>
   </data>
@@ -576,6 +704,9 @@
   </data>
   <data name="&gt;&gt;lblPaperWidth.Name" xml:space="preserve">
     <value>lblPaperWidth</value>
+  </data>
+  <data name="&gt;&gt;lblPaperWidth.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblPaperWidth.Parent" xml:space="preserve">
     <value>tabPagePaper</value>
@@ -601,6 +732,9 @@
   <data name="&gt;&gt;lblPaperSize.Name" xml:space="preserve">
     <value>lblPaperSize</value>
   </data>
+  <data name="&gt;&gt;lblPaperSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblPaperSize.Parent" xml:space="preserve">
     <value>tabPagePaper</value>
   </data>
@@ -615,6 +749,9 @@
   </data>
   <data name="&gt;&gt;tabPagePaper.Name" xml:space="preserve">
     <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;tabPagePaper.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabPagePaper.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -637,6 +774,9 @@
   <data name="&gt;&gt;lblFooter.Name" xml:space="preserve">
     <value>lblFooter</value>
   </data>
+  <data name="&gt;&gt;lblFooter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFooter.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -657,6 +797,9 @@
   </data>
   <data name="&gt;&gt;lblHeader.Name" xml:space="preserve">
     <value>lblHeader</value>
+  </data>
+  <data name="&gt;&gt;lblHeader.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblHeader.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
@@ -679,6 +822,9 @@
   <data name="&gt;&gt;lblFromEdge.Name" xml:space="preserve">
     <value>lblFromEdge</value>
   </data>
+  <data name="&gt;&gt;lblFromEdge.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFromEdge.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -697,6 +843,9 @@
   <data name="&gt;&gt;edtFooter.Name" xml:space="preserve">
     <value>edtFooter</value>
   </data>
+  <data name="&gt;&gt;edtFooter.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtFooter.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -714,6 +863,9 @@
   </data>
   <data name="&gt;&gt;edtHeader.Name" xml:space="preserve">
     <value>edtHeader</value>
+  </data>
+  <data name="&gt;&gt;edtHeader.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtHeader.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
@@ -742,6 +894,9 @@
   <data name="&gt;&gt;cbLayoutApplyTo.Name" xml:space="preserve">
     <value>cbLayoutApplyTo</value>
   </data>
+  <data name="&gt;&gt;cbLayoutApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbLayoutApplyTo.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -765,6 +920,9 @@
   </data>
   <data name="&gt;&gt;lblLayoutApplyTo.Name" xml:space="preserve">
     <value>lblLayoutApplyTo</value>
+  </data>
+  <data name="&gt;&gt;lblLayoutApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblLayoutApplyTo.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
@@ -793,6 +951,9 @@
   <data name="&gt;&gt;chkDifferentFirstPage.Name" xml:space="preserve">
     <value>chkDifferentFirstPage</value>
   </data>
+  <data name="&gt;&gt;chkDifferentFirstPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkDifferentFirstPage.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -820,6 +981,9 @@
   <data name="&gt;&gt;chkDifferentOddAndEvenPage.Name" xml:space="preserve">
     <value>chkDifferentOddAndEvenPage</value>
   </data>
+  <data name="&gt;&gt;chkDifferentOddAndEvenPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkDifferentOddAndEvenPage.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -844,6 +1008,9 @@
   <data name="&gt;&gt;lblHeadersAndFooters.Name" xml:space="preserve">
     <value>lblHeadersAndFooters</value>
   </data>
+  <data name="&gt;&gt;lblHeadersAndFooters.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblHeadersAndFooters.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -864,6 +1031,9 @@
   </data>
   <data name="&gt;&gt;lblSectionStart.Name" xml:space="preserve">
     <value>lblSectionStart</value>
+  </data>
+  <data name="&gt;&gt;lblSectionStart.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSectionStart.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
@@ -889,6 +1059,9 @@
   <data name="&gt;&gt;cbSectionStart.Name" xml:space="preserve">
     <value>cbSectionStart</value>
   </data>
+  <data name="&gt;&gt;cbSectionStart.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbSectionStart.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -913,6 +1086,9 @@
   <data name="&gt;&gt;lblSection.Name" xml:space="preserve">
     <value>lblSection</value>
   </data>
+  <data name="&gt;&gt;lblSection.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblSection.Parent" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
@@ -928,6 +1104,9 @@
   <data name="&gt;&gt;tabPageLayout.Name" xml:space="preserve">
     <value>tabPageLayout</value>
   </data>
+  <data name="&gt;&gt;tabPageLayout.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;tabPageLayout.Parent" xml:space="preserve">
     <value>tabControl</value>
   </data>
@@ -936,6 +1115,9 @@
   </data>
   <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
     <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -960,5 +1142,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageSetupForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

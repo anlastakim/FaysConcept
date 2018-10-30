@@ -88,7 +88,4 @@
   <data name="ReportBoxDesignerStringId.Wizard_Layout_Columnar" xml:space="preserve">
     <value>Tek Sıra Halinde</value>
   </data>
-  <data name="ReportBoxDesignerStringId.Wizard_ChooseColumns_Description" xml:space="preserve">
-    <value>Raporda görüntülemek istediğiniz sütunları seçin.</value>
-  </data>
 </root>

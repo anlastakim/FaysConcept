@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -78,6 +137,9 @@
   <data name="&gt;&gt;lblType.Name" xml:space="preserve">
     <value>lblType</value>
   </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -102,6 +164,9 @@
   <data name="&gt;&gt;lblValue.Name" xml:space="preserve">
     <value>lblValue</value>
   </data>
+  <data name="&gt;&gt;lblValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblValue.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -125,6 +190,9 @@
   </data>
   <data name="&gt;&gt;lblColor.Name" xml:space="preserve">
     <value>lblColor</value>
+  </data>
+  <data name="&gt;&gt;lblColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -153,6 +221,9 @@
   <data name="&gt;&gt;lblPreview.Name" xml:space="preserve">
     <value>lblPreview</value>
   </data>
+  <data name="&gt;&gt;lblPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblPreview.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -177,6 +248,9 @@
   <data name="&gt;&gt;lblMinimum.Name" xml:space="preserve">
     <value>lblMinimum</value>
   </data>
+  <data name="&gt;&gt;lblMinimum.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblMinimum.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -198,8 +272,14 @@
   <data name="lblMidpoint.Text" xml:space="preserve">
     <value>Midpoint</value>
   </data>
+  <data name="lblMidpoint.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;lblMidpoint.Name" xml:space="preserve">
     <value>lblMidpoint</value>
+  </data>
+  <data name="&gt;&gt;lblMidpoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblMidpoint.Parent" xml:space="preserve">
     <value>$this</value>
@@ -225,6 +305,9 @@
   <data name="&gt;&gt;lblMaximum.Name" xml:space="preserve">
     <value>lblMaximum</value>
   </data>
+  <data name="&gt;&gt;lblMaximum.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblMaximum.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -246,6 +329,9 @@
   <data name="&gt;&gt;edtLowPointValueType.Name" xml:space="preserve">
     <value>edtLowPointValueType</value>
   </data>
+  <data name="&gt;&gt;edtLowPointValueType.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtLowPointValueType.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -264,8 +350,14 @@
   <data name="edtMiddlePointValueType.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
+  <data name="edtMiddlePointValueType.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;edtMiddlePointValueType.Name" xml:space="preserve">
     <value>edtMiddlePointValueType</value>
+  </data>
+  <data name="&gt;&gt;edtMiddlePointValueType.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtMiddlePointValueType.Parent" xml:space="preserve">
     <value>$this</value>
@@ -288,6 +380,9 @@
   <data name="&gt;&gt;edtHighPointValueType.Name" xml:space="preserve">
     <value>edtHighPointValueType</value>
   </data>
+  <data name="&gt;&gt;edtHighPointValueType.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtHighPointValueType.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -309,6 +404,9 @@
   <data name="&gt;&gt;edtLowPointValue.Name" xml:space="preserve">
     <value>edtLowPointValue</value>
   </data>
+  <data name="&gt;&gt;edtLowPointValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtLowPointValue.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -327,8 +425,14 @@
   <data name="edtMiddlePointValue.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
+  <data name="edtMiddlePointValue.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;edtMiddlePointValue.Name" xml:space="preserve">
     <value>edtMiddlePointValue</value>
+  </data>
+  <data name="&gt;&gt;edtMiddlePointValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtMiddlePointValue.Parent" xml:space="preserve">
     <value>$this</value>
@@ -350,6 +454,9 @@
   </data>
   <data name="&gt;&gt;edtHighPointValue.Name" xml:space="preserve">
     <value>edtHighPointValue</value>
+  </data>
+  <data name="&gt;&gt;edtHighPointValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtHighPointValue.Parent" xml:space="preserve">
     <value>$this</value>
@@ -375,6 +482,9 @@
   <data name="&gt;&gt;edtLowPointColor.Name" xml:space="preserve">
     <value>edtLowPointColor</value>
   </data>
+  <data name="&gt;&gt;edtLowPointColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtLowPointColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -396,8 +506,14 @@
   <data name="edtMiddlePointColor.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
+  <data name="edtMiddlePointColor.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;edtMiddlePointColor.Name" xml:space="preserve">
     <value>edtMiddlePointColor</value>
+  </data>
+  <data name="&gt;&gt;edtMiddlePointColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtMiddlePointColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -423,6 +539,9 @@
   <data name="&gt;&gt;edtHighPointColor.Name" xml:space="preserve">
     <value>edtHighPointColor</value>
   </data>
+  <data name="&gt;&gt;edtHighPointColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtHighPointColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -444,6 +563,9 @@
   <data name="&gt;&gt;drawPanel.Name" xml:space="preserve">
     <value>drawPanel</value>
   </data>
+  <data name="&gt;&gt;drawPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;drawPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -464,6 +586,9 @@
   </data>
   <data name="&gt;&gt;edtFormatStyle.Name" xml:space="preserve">
     <value>edtFormatStyle</value>
+  </data>
+  <data name="&gt;&gt;edtFormatStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFormatStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -488,6 +613,9 @@
   </data>
   <data name="&gt;&gt;lblFormatStyle.Name" xml:space="preserve">
     <value>lblFormatStyle</value>
+  </data>
+  <data name="&gt;&gt;lblFormatStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFormatStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -516,6 +644,9 @@
   <data name="&gt;&gt;lblFormatAllCellsBasedOnValues.Name" xml:space="preserve">
     <value>lblFormatAllCellsBasedOnValues</value>
   </data>
+  <data name="&gt;&gt;lblFormatAllCellsBasedOnValues.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFormatAllCellsBasedOnValues.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -533,5 +664,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ConditionalFormattingColorScaleControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

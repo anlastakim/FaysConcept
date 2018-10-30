@@ -165,12 +165,6 @@
   <data name="cbOverlappingMode.Properties.Items1" xml:space="preserve">
     <value>Hiçbiri</value>
   </data>
-  <data name="cbContentType.Properties.Items" xml:space="preserve">
-    <value>Değer</value>
-  </data>
-  <data name="cbContentType.Properties.Items1" xml:space="preserve">
-    <value>Sav</value>
-  </data>
   <data name="cbPosition.Properties.Items" xml:space="preserve">
     <value>Dışarıda</value>
   </data>
@@ -243,14 +237,8 @@
   <data name="cbOverlappingMode.Properties.Items2" xml:space="preserve">
     <value>Çakışan etiketleri gizle</value>
   </data>
-  <data name="cbContentType.Properties.Items2" xml:space="preserve">
-    <value>Seri adı</value>
-  </data>
   <data name="ceShowPointMarkers.Properties.Caption" xml:space="preserve">
     <value>Gösteri noktasının işaretleyicileri</value>
-  </data>
-  <data name="cbContentType.Properties.Items3" xml:space="preserve">
-    <value>Bağımsız değişken ve değer</value>
   </data>
   <data name="lcgCommonOptions.CustomizationFormText" xml:space="preserve">
     <value>Sık kullanılan seçenekler</value>
@@ -308,9 +296,6 @@
   </data>
   <data name="tabbedControlGroup.Text" xml:space="preserve">
     <value>tabbedControlGroup3</value>
-  </data>
-  <data name="lciShowPointLabels.Text" xml:space="preserve">
-    <value>Noktası etiketlerini göster:</value>
   </data>
   <data name="lciPointLabelOverlappingMode.CustomizationFormText" xml:space="preserve">
     <value>Overlappint modu</value>

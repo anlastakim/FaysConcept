@@ -1329,7 +1329,7 @@ Bu örnek, belirtilen konumda başlayan tüm karakterleri siler.</value>
     <value>Kontrast:</value>
   </data>
   <data name="EditorStringId.CameraDesaturateCaption" xml:space="preserve">
-    <value>Desaturate</value>
+    <value>Desaturate:</value>
   </data>
   <data name="EditorStringId.CameraDeviceCaption" xml:space="preserve">
     <value>Aygıt:</value>
@@ -1388,10 +1388,25 @@ Bu örnek, belirtilen konumda başlayan tüm karakterleri siler.</value>
   <data name="EditorStringId.FilterClauseLocalDateTimeLastWeek" xml:space="preserve">
     <value>Geçen hafta</value>
   </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionsSearch_NullText" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
   <data name="EditorStringId.FilterClauseLocalDateTimeNow" xml:space="preserve">
     <value>Şimdi</value>
   </data>
-  <data name="EditorStringId.BrushEditMappingModeAbsolute" xml:space="preserve">
-    <value>Mutlak</value>
+  <data name="EditorStringId.RefreshPage" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="EditorStringId.FirstPage" xml:space="preserve">
+    <value>İlk Sayfa</value>
+  </data>
+  <data name="EditorStringId.LastPage" xml:space="preserve">
+    <value>Son sayfa</value>
+  </data>
+  <data name="EditorStringId.NextPage" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="EditorStringId.PrevPage" xml:space="preserve">
+    <value>Önceki Sayfa</value>
   </data>
 </root>

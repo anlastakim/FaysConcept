@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -75,6 +134,9 @@
   <data name="&gt;&gt;edtFormatStyle.Name" xml:space="preserve">
     <value>edtFormatStyle</value>
   </data>
+  <data name="&gt;&gt;edtFormatStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtFormatStyle.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -98,6 +160,9 @@
   </data>
   <data name="&gt;&gt;lblFormatStyle.Name" xml:space="preserve">
     <value>lblFormatStyle</value>
+  </data>
+  <data name="&gt;&gt;lblFormatStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFormatStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -126,6 +191,9 @@
   <data name="&gt;&gt;lblFormatAllCellsBasedOnValues.Name" xml:space="preserve">
     <value>lblFormatAllCellsBasedOnValues</value>
   </data>
+  <data name="&gt;&gt;lblFormatAllCellsBasedOnValues.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFormatAllCellsBasedOnValues.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -142,13 +210,16 @@
     <value>Show &amp;Bar Only</value>
   </data>
   <data name="chkShowBarOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 19</value>
+    <value>92, 19</value>
   </data>
   <data name="chkShowBarOnly.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;chkShowBarOnly.Name" xml:space="preserve">
     <value>chkShowBarOnly</value>
+  </data>
+  <data name="&gt;&gt;chkShowBarOnly.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkShowBarOnly.Parent" xml:space="preserve">
     <value>$this</value>
@@ -174,6 +245,9 @@
   <data name="&gt;&gt;lblMinimum.Name" xml:space="preserve">
     <value>lblMinimum</value>
   </data>
+  <data name="&gt;&gt;lblMinimum.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblMinimum.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -197,6 +271,9 @@
   </data>
   <data name="&gt;&gt;lblMaximum.Name" xml:space="preserve">
     <value>lblMaximum</value>
+  </data>
+  <data name="&gt;&gt;lblMaximum.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblMaximum.Parent" xml:space="preserve">
     <value>$this</value>
@@ -222,6 +299,9 @@
   <data name="&gt;&gt;lblType.Name" xml:space="preserve">
     <value>lblType</value>
   </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -243,6 +323,9 @@
   <data name="&gt;&gt;edtLowBoundValueType.Name" xml:space="preserve">
     <value>edtLowBoundValueType</value>
   </data>
+  <data name="&gt;&gt;edtLowBoundValueType.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtLowBoundValueType.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -263,6 +346,9 @@
   </data>
   <data name="&gt;&gt;edtHighBoundValueType.Name" xml:space="preserve">
     <value>edtHighBoundValueType</value>
+  </data>
+  <data name="&gt;&gt;edtHighBoundValueType.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtHighBoundValueType.Parent" xml:space="preserve">
     <value>$this</value>
@@ -288,6 +374,9 @@
   <data name="&gt;&gt;lblValue.Name" xml:space="preserve">
     <value>lblValue</value>
   </data>
+  <data name="&gt;&gt;lblValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblValue.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -309,6 +398,9 @@
   <data name="&gt;&gt;edtLowBoundValue.Name" xml:space="preserve">
     <value>edtLowBoundValue</value>
   </data>
+  <data name="&gt;&gt;edtLowBoundValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtLowBoundValue.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -329,6 +421,9 @@
   </data>
   <data name="&gt;&gt;edtHighBoundValue.Name" xml:space="preserve">
     <value>edtHighBoundValue</value>
+  </data>
+  <data name="&gt;&gt;edtHighBoundValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtHighBoundValue.Parent" xml:space="preserve">
     <value>$this</value>
@@ -357,6 +452,9 @@
   <data name="&gt;&gt;lblBarAppearance.Name" xml:space="preserve">
     <value>lblBarAppearance</value>
   </data>
+  <data name="&gt;&gt;lblBarAppearance.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblBarAppearance.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -381,6 +479,9 @@
   <data name="&gt;&gt;lblFill.Name" xml:space="preserve">
     <value>lblFill</value>
   </data>
+  <data name="&gt;&gt;lblFill.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFill.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -401,6 +502,9 @@
   </data>
   <data name="&gt;&gt;edtFill.Name" xml:space="preserve">
     <value>edtFill</value>
+  </data>
+  <data name="&gt;&gt;edtFill.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFill.Parent" xml:space="preserve">
     <value>$this</value>
@@ -426,6 +530,9 @@
   <data name="&gt;&gt;lblFillColor.Name" xml:space="preserve">
     <value>lblFillColor</value>
   </data>
+  <data name="&gt;&gt;lblFillColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFillColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -449,6 +556,9 @@
   </data>
   <data name="&gt;&gt;edtFillColor.Name" xml:space="preserve">
     <value>edtFillColor</value>
+  </data>
+  <data name="&gt;&gt;edtFillColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFillColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -474,6 +584,9 @@
   <data name="&gt;&gt;lblBorder.Name" xml:space="preserve">
     <value>lblBorder</value>
   </data>
+  <data name="&gt;&gt;lblBorder.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblBorder.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -494,6 +607,9 @@
   </data>
   <data name="&gt;&gt;edtBorder.Name" xml:space="preserve">
     <value>edtBorder</value>
+  </data>
+  <data name="&gt;&gt;edtBorder.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtBorder.Parent" xml:space="preserve">
     <value>$this</value>
@@ -519,6 +635,9 @@
   <data name="&gt;&gt;lblBorderColor.Name" xml:space="preserve">
     <value>lblBorderColor</value>
   </data>
+  <data name="&gt;&gt;lblBorderColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblBorderColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -542,6 +661,9 @@
   </data>
   <data name="&gt;&gt;edtBorderColor.Name" xml:space="preserve">
     <value>edtBorderColor</value>
+  </data>
+  <data name="&gt;&gt;edtBorderColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtBorderColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -567,6 +689,9 @@
   <data name="&gt;&gt;btnNegativeValueAndAxis.Name" xml:space="preserve">
     <value>btnNegativeValueAndAxis</value>
   </data>
+  <data name="&gt;&gt;btnNegativeValueAndAxis.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnNegativeValueAndAxis.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -591,6 +716,9 @@
   <data name="&gt;&gt;lblBarDirection.Name" xml:space="preserve">
     <value>lblBarDirection</value>
   </data>
+  <data name="&gt;&gt;lblBarDirection.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblBarDirection.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -611,6 +739,9 @@
   </data>
   <data name="&gt;&gt;edtBarDirection.Name" xml:space="preserve">
     <value>edtBarDirection</value>
+  </data>
+  <data name="&gt;&gt;edtBarDirection.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtBarDirection.Parent" xml:space="preserve">
     <value>$this</value>
@@ -639,6 +770,9 @@
   <data name="&gt;&gt;lblPreview.Name" xml:space="preserve">
     <value>lblPreview</value>
   </data>
+  <data name="&gt;&gt;lblPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblPreview.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -660,6 +794,9 @@
   <data name="&gt;&gt;drawPanel.Name" xml:space="preserve">
     <value>drawPanel</value>
   </data>
+  <data name="&gt;&gt;drawPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;drawPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -677,5 +814,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ConditionalFormattingDataBarControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

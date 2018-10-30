@@ -10,7 +10,7 @@ namespace FaysConcept.Entities.Tables
     public class Stok:IEntity
     {
         public int RefNo { get; set; }
-        public bool Durumu { get; set; }
+        public bool Durumu { get; set; } = true;
         public string StokKodu { get; set; }
         public string StokAdi { get; set; }
         public string BarkodNo { get; set; }

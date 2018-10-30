@@ -414,4 +414,16 @@
   <data name="SnapExtensionsStringId.ListHeaderAndFooterRibbonPageGroup_Text" xml:space="preserve">
     <value>Düzen</value>
   </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_FirstButtonTooltip" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_LastButtonTooltip" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_NextButtonTooltip" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_PreviousButtonTooltip" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
 </root>

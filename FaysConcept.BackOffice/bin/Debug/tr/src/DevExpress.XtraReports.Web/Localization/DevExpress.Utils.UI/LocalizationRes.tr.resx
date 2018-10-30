@@ -117,33 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="UtilsUIStringId.Cmd_ClearParameters" xml:space="preserve">
-    <value>Parametreleri Kaldır</value>
-  </data>
-  <data name="UtilsUIStringId.Cmd_DeleteParameter" xml:space="preserve">
-    <value>Sil</value>
-  </data>
-  <data name="UtilsUIStringId.Cmd_ClearCalculatedFields" xml:space="preserve">
-    <value>Hesaplanış alanları Kaldır</value>
-  </data>
-  <data name="UtilsUIStringId.Cmd_EditParameters" xml:space="preserve">
-    <value>Parametreleri Düzenle</value>
-  </data>
-  <data name="UtilsUIStringId.Cmd_AddCalculatedField" xml:space="preserve">
-    <value>Hesaplanmış alan ekle</value>
-  </data>
-  <data name="UtilsUIStringId.Cmd_AddParameter" xml:space="preserve">
-    <value>Parametre ekle</value>
-  </data>
-  <data name="UtilsUIStringId.Cmd_DeleteCalculatedField" xml:space="preserve">
-    <value>Sil</value>
-  </data>
-  <data name="UtilsUIStringId.Cmd_EditExpression" xml:space="preserve">
-    <value>İfadeleri Düzenle...</value>
-  </data>
-  <data name="UtilsUIStringId.Cmd_EditCalculatedFields" xml:space="preserve">
-    <value>Hesaplanmış alanları düzenle...</value>
-  </data>
   <data name="UtilsUIStringId.Parameter_Type_Double" xml:space="preserve">
     <value>Çift</value>
   </data>
@@ -159,56 +132,11 @@
   <data name="UtilsUIStringId.Parameter_Type_Decimal" xml:space="preserve">
     <value>Ondalık</value>
   </data>
-  <data name="UtilsUIStringId.Msg_ErrorTitle" xml:space="preserve">
-    <value>Hata</value>
-  </data>
-  <data name="UtilsUIStringId.FSForm_Cat_DateTime" xml:space="preserve">
-    <value>Tarih/Saat</value>
-  </data>
-  <data name="UtilsUIStringId.FSForm_Cat_Percent" xml:space="preserve">
-    <value>Yüzde</value>
-  </data>
-  <data name="UtilsUIStringId.FSForm_Msg_BadSymbol" xml:space="preserve">
-    <value>Hata: Geçersiz sembol(ler)</value>
-  </data>
-  <data name="UtilsUIStringId.PropGrid_TTip_Alphabetical" xml:space="preserve">
-    <value>Alfabetik</value>
-  </data>
-  <data name="UtilsUIStringId.FSForm_Cat_Currency" xml:space="preserve">
-    <value>Para</value>
-  </data>
-  <data name="UtilsUIStringId.PropGrid_TTip_Categorized" xml:space="preserve">
-    <value>Kategorilenmiş</value>
-  </data>
-  <data name="UtilsUIStringId.FSForm_Cat_Special" xml:space="preserve">
-    <value>Özel</value>
-  </data>
-  <data name="UtilsUIStringId.FSForm_Cat_Number" xml:space="preserve">
-    <value>Sayı</value>
-  </data>
-  <data name="UtilsUIStringId.NonePickerNodeText" xml:space="preserve">
-    <value>Hiçbiri</value>
-  </data>
-  <data name="UtilsUIStringId.Msg_ContainsIllegalSymbols" xml:space="preserve">
-    <value>Giriş biçimlendirme kalıbı geçersiz karakterler içeriyor</value>
-  </data>
-  <data name="UtilsUIStringId.FSForm_Cat_General" xml:space="preserve">
-    <value>Genel</value>
-  </data>
-  <data name="UtilsUIStringId.FSForm_Cat_Int32" xml:space="preserve">
-    <value>Int32</value>
-  </data>
   <data name="UtilsUIStringId.Parameter_Type_Int16" xml:space="preserve">
     <value>Sayı (16 bit tamsayı)</value>
   </data>
   <data name="UtilsUIStringId.Parameter_Type_Int32" xml:space="preserve">
     <value>Sayı (32 bit tamsayı)</value>
-  </data>
-  <data name="UtilsUIStringId.ParameterCollectionEditor_Title" xml:space="preserve">
-    <value>Değişkenler</value>
-  </data>
-  <data name="UtilsUIStringId.CollectionEditor_Cancel" xml:space="preserve">
-    <value>{0} Nesnesi eklemek veya kaldırmak</value>
   </data>
   <data name="UtilsUIStringId.Parameter_Type_Boolean" xml:space="preserve">
     <value>Boole</value>
@@ -218,8 +146,5 @@
   </data>
   <data name="UtilsUIStringId.Parameter_Type_Int64" xml:space="preserve">
     <value>Sayı (64-bit tamsayı)</value>
-  </data>
-  <data name="UtilsUIStringId.Msg_FormatStringNotFound" xml:space="preserve">
-    <value>Biçim dizesi standart kategorilerin hiçbirinde yer almıyor.</value>
   </data>
 </root>

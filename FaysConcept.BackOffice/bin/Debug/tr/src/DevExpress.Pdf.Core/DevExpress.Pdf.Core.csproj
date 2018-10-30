@@ -8,7 +8,7 @@
     <ProjectGuid>{C7E6058D-1C1E-437B-AAA7-C973F09814A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>DevExpress.Pdf</RootNamespace>
-    <AssemblyName>DevExpress.Pdf.v17.1.Core</AssemblyName>
+    <AssemblyName>DevExpress.Pdf.v18.1.Core</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>

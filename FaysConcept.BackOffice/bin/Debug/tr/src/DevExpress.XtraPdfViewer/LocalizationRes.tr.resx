@@ -401,4 +401,19 @@ Lütfen uygulama bu dosyaya erişebilir ve geçerli olduğundan emin olun veya f
   <data name="XtraPdfViewerStringId.CommandSetPageNumberLabelFormat" xml:space="preserve">
     <value>of {0}</value>
   </data>
+  <data name="XtraPdfViewerStringId.DeleteAnnotationCommandCaption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextStrikethroughCommandCaption" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextUnderlineCommandCaption" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextCommentRibbonPageGroupCaption" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommentBarCaption" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
 </root>

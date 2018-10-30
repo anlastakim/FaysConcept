@@ -3832,6 +3832,117 @@ The selected row will become the first row of the new table.</value>
   <data name="XtraRichEditStringId.Caption_MainDocumentComments" xml:space="preserve">
     <value>Ana belge açıklamaları</value>
   </data>
+  <data name="XtraRichEditStringId.Msg_UseInvalidCustomProperties" xml:space="preserve">
+    <value>Hata: Bu özel özellikler artık geçerli değil</value>
+  </data>
+  <data name="XtraRichEditStringId.DefaultStyleName_ArticleSection" xml:space="preserve">
+    <value>Makale / Bölüm</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_ShowDocumentPropertiesDescription" xml:space="preserve">
+    <value>Özellikler iletişim kutusunu gösterin.</value>
+  </data>
+  <data name="XtraRichEditStringId.DefaultStyleName_CommentReference" xml:space="preserve">
+    <value>Yorum başvurusu</value>
+  </data>
+  <data name="XtraRichEditStringId.DefaultStyleName_CommentSubject" xml:space="preserve">
+    <value>Yorum konusu</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupHeaderFooterToolsDesignClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupHeaderFooterToolsDesignOptions" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_PageLayout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_PageView" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupZoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_PageFile" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupFont" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_PageFloatingObjectPictureToolsFormat" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_PageHome" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupText" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupDocumentComment" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_Formatting" xml:space="preserve">
+    <value>Biçimlendirme</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_PageInsert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupDocumentLanguage" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupPageSetup" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupParagraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupShow" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupStyles" xml:space="preserve">
+    <value>Stiller</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupPageBackground" xml:space="preserve">
+    <value>Arkaplan</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupCommon" xml:space="preserve">
+    <value>Ortak</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_PageHeaderFooterToolsDesign" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupFloatingPictureToolsArrange" xml:space="preserve">
+    <value>Yerleştir</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupClipboard" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupHeaderFooterToolsDesignNavigation" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupSymbols" xml:space="preserve">
+    <value>Semboller</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupEditing" xml:space="preserve">
+    <value>Düzenleme</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupLinks" xml:space="preserve">
+    <value>Linkler</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupTables" xml:space="preserve">
+    <value>Tablolar</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupIllustrations" xml:space="preserve">
+    <value>Çizimler</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_GroupPages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_BulletsAndNumbering_SpaceCharacter" xml:space="preserve">
+    <value>Boşluk</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_BulletsAndNumbering_Nothing" xml:space="preserve">
+    <value>Hiçbir şey</value>
+  </data>
   <data name="RichEditExtensionsStringId.Caption_Formatting" xml:space="preserve">
     <value>Biçimlendirme</value>
   </data>
@@ -3976,10 +4087,70 @@ The selected row will become the first row of the new table.</value>
   <data name="RichEditExtensionsStringId.Caption_GroupDocumentLanguage" xml:space="preserve">
     <value>Dil</value>
   </data>
-  <data name="XtraRichEditStringId.Caption_BulletsAndNumbering_SpaceCharacter" xml:space="preserve">
-    <value>Boşluk</value>
+  <data name="RichEditExtensionsStringId.Caption_GroupDocumentTracking" xml:space="preserve">
+    <value>İzleme</value>
   </data>
-  <data name="XtraRichEditStringId.Caption_BulletsAndNumbering_Nothing" xml:space="preserve">
-    <value>Hiçbir şey</value>
+  <data name="RichEditExtensionsStringId.Caption_GroupInfo" xml:space="preserve">
+    <value>Bilgi:</value>
+  </data>
+  <data name="XtraRichEditStringId.Msg_UseInvalidCompatibilitySettings" xml:space="preserve">
+    <value>Hatası: Bu uyumluluk ayarları artık geçerli değil</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading1Level" xml:space="preserve">
+    <value>Seviye 1</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading1LevelDescription" xml:space="preserve">
+    <value>Seviye 1</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading2Level" xml:space="preserve">
+    <value>Seviye 2</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading2LevelDescription" xml:space="preserve">
+    <value>Seviye 2</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading3Level" xml:space="preserve">
+    <value>Seviye 3</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading3LevelDescription" xml:space="preserve">
+    <value>Seviye 3</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading4Level" xml:space="preserve">
+    <value>Seviye 4</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading4LevelDescription" xml:space="preserve">
+    <value>Seviye 4</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading5Level" xml:space="preserve">
+    <value>Seviye 5</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading5LevelDescription" xml:space="preserve">
+    <value>Seviye 5</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading6Level" xml:space="preserve">
+    <value>Seviye 6</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading6LevelDescription" xml:space="preserve">
+    <value>Seviye 6</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading7Level" xml:space="preserve">
+    <value>Seviye 7</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading7LevelDescription" xml:space="preserve">
+    <value>Seviye 7</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading8LevelDescription" xml:space="preserve">
+    <value>Seviye 8</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading9Level" xml:space="preserve">
+    <value>Seviye 9</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading9LevelDescription" xml:space="preserve">
+    <value>Seviye 9</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_CustomPropertyStatus" xml:space="preserve">
+    <value>Durumu</value>
+  </data>
+  <data name="XtraRichEditStringId.Caption_CustomPropertyOwner" xml:space="preserve">
+    <value>Sahibi</value>
   </data>
 </root>

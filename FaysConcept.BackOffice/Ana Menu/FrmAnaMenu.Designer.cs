@@ -61,6 +61,7 @@
             this.btnYedekleme = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.btnGuncelleme = new DevExpress.XtraBars.BarButtonItem();
+            this.btnRaf = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
             this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -121,17 +122,28 @@
             this.btnAyarlar,
             this.btnYedekleme,
             this.barButtonItem6,
-            this.btnGuncelleme});
+            this.btnGuncelleme,
+            this.btnRaf});
             this.ribbon.Location = new System.Drawing.Point(0, 0);
-            this.ribbon.MaxItemId = 33;
+            this.ribbon.MaxItemId = 34;
             this.ribbon.Name = "ribbon";
             this.ribbon.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.ribbonPageCategory1});
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
             this.ribbonPage5});
-            this.ribbon.Size = new System.Drawing.Size(1419, 144);
+            this.ribbon.RibbonCaptionAlignment = DevExpress.XtraBars.Ribbon.RibbonCaptionAlignment.Center;
+            this.ribbon.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbon.ShowCategoryInCaption = false;
+            this.ribbon.ShowDisplayOptionsMenuButton = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbon.ShowExpandCollapseButton = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbon.ShowPageHeadersInFormCaption = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbon.ShowPageHeadersMode = DevExpress.XtraBars.Ribbon.ShowPageHeadersMode.Show;
+            this.ribbon.ShowQatLocationSelector = false;
+            this.ribbon.ShowToolbarCustomizeItem = false;
+            this.ribbon.Size = new System.Drawing.Size(1566, 143);
             this.ribbon.StatusBar = this.ribbonStatusBar;
+            this.ribbon.Toolbar.ShowCustomizeItem = false;
             this.ribbon.Click += new System.EventHandler(this.ribbon_Click);
             // 
             // btnStok
@@ -172,6 +184,7 @@
             this.btnKasaHareketleri.Id = 7;
             this.btnKasaHareketleri.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnKasaHareketleri.ImageOptions.LargeImage")));
             this.btnKasaHareketleri.Name = "btnKasaHareketleri";
+            this.btnKasaHareketleri.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.btnKasaHareketleri.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnKasaHareketleri_ItemClick);
             // 
             // barButtonItem7
@@ -201,6 +214,7 @@
             this.barButtonItem10.Id = 11;
             this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
             this.barButtonItem10.Name = "barButtonItem10";
+            this.barButtonItem10.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // btnPersonel
             // 
@@ -232,6 +246,7 @@
             this.barButtonItem14.Id = 15;
             this.barButtonItem14.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem14.ImageOptions.LargeImage")));
             this.barButtonItem14.Name = "barButtonItem14";
+            this.barButtonItem14.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // btnAnaRaporlar
             // 
@@ -355,6 +370,12 @@
             this.btnGuncelleme.Name = "btnGuncelleme";
             this.btnGuncelleme.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGuncelleme_ItemClick);
             // 
+            // btnRaf
+            // 
+            this.btnRaf.Caption = "Raf Kartları";
+            this.btnRaf.Id = 33;
+            this.btnRaf.Name = "btnRaf";
+            // 
             // ribbonPageCategory1
             // 
             this.ribbonPageCategory1.Name = "ribbonPageCategory1";
@@ -406,6 +427,7 @@
             this.ribbonPageGroup1.ItemLinks.Add(this.btnStok);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnCari);
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem12);
+            this.ribbonPageGroup1.ItemLinks.Add(this.btnRaf);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnFisHareket);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             this.ribbonPageGroup1.Text = "Kayıtlar";
@@ -425,6 +447,7 @@
             this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem10);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "Satış İşlemleri";
+            this.ribbonPageGroup6.Visible = false;
             // 
             // ribbonPageGroup7
             // 
@@ -433,6 +456,7 @@
             this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem14);
             this.ribbonPageGroup7.Name = "ribbonPageGroup7";
             this.ribbonPageGroup7.Text = "Tanımlar";
+            this.ribbonPageGroup7.Visible = false;
             // 
             // ribbonPageGroup8
             // 
@@ -477,10 +501,10 @@
             // ribbonStatusBar
             // 
             this.ribbonStatusBar.ItemLinks.Add(this.barKullaniciAdi);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 753);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 770);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1419, 32);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1566, 31);
             // 
             // xtraTabbedMdiManager1
             // 
@@ -514,22 +538,20 @@
             this.barButtonItem23.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem23.ImageOptions.LargeImage")));
             this.barButtonItem23.Name = "barButtonItem23";
             // 
-            // defaultLookAndFeel1
-            // 
-            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Office 2010 Silver";
-            // 
             // RibbonForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1419, 785);
+            this.ClientSize = new System.Drawing.Size(1566, 801);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
-            this.MinimumSize = new System.Drawing.Size(1290, 720);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(1278, 720);
             this.Name = "RibbonForm1";
             this.Ribbon = this.ribbon;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StatusBar = this.ribbonStatusBar;
             this.Text = "Fays Concept Yeni Nesil";
@@ -597,5 +619,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
         private DevExpress.XtraBars.BarButtonItem btnGuncelleme;
         private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
+        private DevExpress.XtraBars.BarButtonItem btnRaf;
     }
 }

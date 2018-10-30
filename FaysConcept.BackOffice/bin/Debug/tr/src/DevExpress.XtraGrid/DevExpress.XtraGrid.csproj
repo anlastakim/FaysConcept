@@ -11,7 +11,7 @@
     </ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>DevExpress.XtraGrid.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.XtraGrid.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Flow</DefaultHTMLPageLayout>
@@ -102,6 +102,9 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Base\ErrorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Printing\CardViewPrinting.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -113,6 +116,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Base\ErrorPanel.resx">
+      <DependentUpon>ErrorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\ErrorPanel.tr.resx">
+      <DependentUpon>ErrorPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LayoutView\Designer\PrintDesigner.tr.resx">
       <SubType>Designer</SubType>
       <DependentUpon>PrintDesigner.cs</DependentUpon>

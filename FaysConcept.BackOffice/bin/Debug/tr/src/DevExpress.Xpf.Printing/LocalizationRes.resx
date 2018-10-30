@@ -1101,6 +1101,47 @@
   <data name="PrintingStringId.EditingFields_Hint" xml:space="preserve">
     <value>Highlight all editing fields to quickly discover which of the document elements are editable.</value>
   </data>
+  <data name="PrintingStringId.RibbonPageGroup_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="PrintingStringId.PageLayout" xml:space="preserve">
+    <value>Page Layout</value>
+  </data>
+  <data name="PrintingStringId.PageLayout_Hint" xml:space="preserve">
+    <value>Select how many pages to show side-by-side.</value>
+  </data>
+  <data name="PrintingStringId.PageLayout_SinglePage" xml:space="preserve">
+    <value>Single Page</value>
+  </data>
+  <data name="PrintingStringId.PageLayout_SinglePage_Hint" xml:space="preserve">
+    <value>Show only one page at a time.</value>
+  </data>
+  <data name="PrintingStringId.PageLayout_TwoPages" xml:space="preserve">
+    <value>Two Pages</value>
+  </data>
+  <data name="PrintingStringId.PageLayout_TwoPages_Hint" xml:space="preserve">
+    <value>Show two pages side by side.</value>
+  </data>
+  <data name="PrintingStringId.PageLayout_WrapPages" xml:space="preserve">
+    <value>Wrap Pages</value>
+  </data>
+  <data name="PrintingStringId.PageLayout_WrapPages_Hint" xml:space="preserve">
+    <value>Show as many pages side by side, as the current zoom factor allows.</value>
+  </data>
+  <data name="PrintingStringId.EnableContinuousScrolling" xml:space="preserve">
+    <value>Enable Continuous Scrolling</value>
+  </data>
+  <data name="PrintingStringId.EnableContinuousScrolling_Hint" xml:space="preserve">
+    <value>Enable continuous scrolling between pages in a single or two pages view.</value>
+  </data>
+  <data name="PrintingStringId.ShowCoverPage" xml:space="preserve">
+    <value>Show Cover Page</value>
+  </data>
+  <data name="PrintingStringId.ShowCoverPage_Hint" xml:space="preserve">
+    <value>Show the document's first page separately or alongside the next page in the two pages view.</value>
+  </data>
+
+
   <data name="PrintingStringId.ReportBehavior_RibbonReportsCaption" xml:space="preserve">
     <value>Reports</value>
   </data>
@@ -1161,5 +1202,72 @@
   </data>
   <data name="PrintingStringId.ReportManagerServiceWizard_PageSetup" xml:space="preserve">
     <value>Page Setup</value>
-  </data>  
+  </data>
+  <data name="PrintingStringId.DuplexMode" xml:space="preserve">
+    <value>Print on both sides</value>
+  </data>
+  <data name="PrintingStringId.DuplexMode_Simplex" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PrintingStringId.DuplexMode_Horizontal" xml:space="preserve">
+    <value>Flip on Short Edge</value>
+  </data>
+  <data name="PrintingStringId.DuplexMode_Vertical" xml:space="preserve">
+    <value>Flip on Long Edge</value>
+  </data>
+  <data name="PrintingStringId.PrintAllPages" xml:space="preserve">
+    <value>Print All Pages</value>
+  </data>
+  <data name="PrintingStringId.PrintAllPagesDescription" xml:space="preserve">
+    <value>The whole document</value>
+  </data>
+  <data name="PrintingStringId.PrintCurrentPage" xml:space="preserve">
+    <value>Print Current Page</value>
+  </data>
+  <data name="PrintingStringId.PrintCurrentPageDescription" xml:space="preserve">
+    <value>Just this page</value>
+  </data>
+  <data name="PrintingStringId.PrintCustomPages" xml:space="preserve">
+    <value>Custom Print</value>
+  </data>
+  <data name="PrintingStringId.PrintCustomPagesDescription" xml:space="preserve">
+    <value>Enter page numbers and/or page ranges</value>
+  </data>
+  <data name="PrintingStringId.PrintOneSided" xml:space="preserve">
+    <value>Print One Sided</value>
+  </data>
+  <data name="PrintingStringId.PrintOneSidedDescription" xml:space="preserve">
+    <value>Only print one side of the page</value>
+  </data>
+  <data name="PrintingStringId.PrintOnBothSides" xml:space="preserve">
+    <value>Print on Both Sides</value>
+  </data>
+  <data name="PrintingStringId.PrintCopies" xml:space="preserve">
+    <value>Copies</value>
+  </data>
+  <data name="PrintingStringId.Collated" xml:space="preserve">
+    <value>Collated</value>
+  </data>
+  <data name="PrintingStringId.Uncollated" xml:space="preserve">
+    <value>Uncollated</value>
+  </data>
+  <data name="PrintingStringId.PrintPreviewSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="PrintingStringId.PrintPreviewTitle" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="PrintingStringId.PageSetupSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="PrintingStringId.PageSetupWidth" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="PrintingStringId.PageSetupHeight" xml:space="preserve">
+    <value>Inches</value>
+  </data>
+  <data name="PrintingStringId.PageSetupPageMargins" xml:space="preserve">
+    <value>Page Margins</value>
+  </data>
+
 </root>

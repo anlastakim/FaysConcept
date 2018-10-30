@@ -8,7 +8,7 @@ using DevExpress.Internal;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Developer Express Inc.")]
 [assembly: AssemblyProduct("DevExpress.XtraWizard")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2017 Developer Express Inc.")]
+[assembly: AssemblyCopyright("Copyright (c) 2000-2018 Developer Express Inc.")]
 [assembly: AssemblyTrademark("XtraWizard Control")]
 [assembly: AssemblyCulture("")]
 [assembly: AssemblyVersion(AssemblyInfo.SatelliteContractVersion)]

@@ -404,7 +404,7 @@
             this.splitContainerControl2.Panel1.Text = "Panel1";
             this.splitContainerControl2.Panel2.Controls.Add(this.groupControl2);
             this.splitContainerControl2.Panel2.Text = "Panel2";
-            this.splitContainerControl2.Size = new System.Drawing.Size(1365, 236);
+            this.splitContainerControl2.Size = new System.Drawing.Size(1365, 235);
             this.splitContainerControl2.SplitterPosition = 645;
             this.splitContainerControl2.TabIndex = 0;
             this.splitContainerControl2.Text = "splitContainerControl2";
@@ -415,17 +415,17 @@
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl1.Location = new System.Drawing.Point(0, 0);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(645, 236);
+            this.groupControl1.Size = new System.Drawing.Size(645, 235);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Depo Bazlı Stok Miktarları";
             // 
             // gridcontdepostok
             // 
             this.gridcontdepostok.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridcontdepostok.Location = new System.Drawing.Point(2, 20);
+            this.gridcontdepostok.Location = new System.Drawing.Point(2, 21);
             this.gridcontdepostok.MainView = this.griddepostok;
             this.gridcontdepostok.Name = "gridcontdepostok";
-            this.gridcontdepostok.Size = new System.Drawing.Size(641, 214);
+            this.gridcontdepostok.Size = new System.Drawing.Size(641, 212);
             this.gridcontdepostok.TabIndex = 2;
             this.gridcontdepostok.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.griddepostok});
@@ -498,17 +498,17 @@
             this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl2.Location = new System.Drawing.Point(0, 0);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(715, 236);
+            this.groupControl2.Size = new System.Drawing.Size(714, 235);
             this.groupControl2.TabIndex = 1;
             this.groupControl2.Text = "Genel Stok Durumu";
             // 
             // gridcontgenelstok
             // 
             this.gridcontgenelstok.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridcontgenelstok.Location = new System.Drawing.Point(2, 20);
+            this.gridcontgenelstok.Location = new System.Drawing.Point(2, 21);
             this.gridcontgenelstok.MainView = this.gridgenelstok;
             this.gridcontgenelstok.Name = "gridcontgenelstok";
-            this.gridcontgenelstok.Size = new System.Drawing.Size(711, 214);
+            this.gridcontgenelstok.Size = new System.Drawing.Size(710, 212);
             this.gridcontgenelstok.TabIndex = 2;
             this.gridcontgenelstok.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridgenelstok});

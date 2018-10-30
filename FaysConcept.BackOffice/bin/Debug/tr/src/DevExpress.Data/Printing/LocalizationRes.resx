@@ -252,6 +252,9 @@
   <data name="PreviewStringId.Msg_CreatingDocument" xml:space="preserve">
     <value>Creating the document...</value>
   </data>
+  <data name="PreviewStringId.Msg_WaitingForParameterValues" xml:space="preserve">
+    <value>Waiting for parameter values...</value>
+  </data>
   <data name="PreviewStringId.Msg_ExportingDocument" xml:space="preserve">
     <value>Exporting the document...</value>
   </data>
@@ -382,11 +385,18 @@ Try a shorter name.</value>
   <data name="PreviewStringId.Msg_SeparatorCannotBeEmptyString" xml:space="preserve">
     <value>The separator cannot be an empty string.</value>
   </data>
+  <data name="PreviewStringId.Msg_CannotExportToDocx" xml:space="preserve">
+    <value>The document cannot be exported to DOCX format correctly with the specified settings.
+If possible, avoid intersecting elements in your document, or try to use the '{0}' export mode with the '{1}' option disabled.</value>
+  </data>
   <data name="PreviewStringId.Msg_InvalidatePath" xml:space="preserve">
     <value>Cannot find the specified path.</value>
   </data>
   <data name="PreviewStringId.Msg_FileAlreadyExists" xml:space="preserve">
     <value>The output file already exists. Click OK to overwrite.</value>
+  </data>
+  <data name="PreviewStringId.Msg_EmptyUsefulPageSizeError" xml:space="preserve">
+    <value>Page margins are greater than page size.</value>
   </data>
   <data name="PreviewStringId.Margin_Inch" xml:space="preserve">
     <value>Inch</value>
@@ -408,6 +418,15 @@ Try a shorter name.</value>
   </data>
   <data name="PreviewStringId.ScrollingInfo_Page" xml:space="preserve">
     <value>Page</value>
+  </data>
+  <data name="PreviewStringId.PrintDialog_Duplex_Simplex" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PreviewStringId.PrintDialog_Duplex_Vertical" xml:space="preserve">
+    <value>Flip on Long Edge</value>
+  </data>
+  <data name="PreviewStringId.PrintDialog_Duplex_Horizontal" xml:space="preserve">
+    <value>Flip on Short Edge</value>
   </data>
   <data name="PreviewStringId.WMForm_PictureDlg_Title" xml:space="preserve">
     <value>Select Picture</value>
@@ -629,7 +648,10 @@ Try a shorter name.</value>
     <value>Page range:</value>
   </data>
   <data name="PreviewStringId.ExportOption_PdfConvertImagesToJpeg" xml:space="preserve">
-    <value>Convert Images to Jpeg</value>
+    <value>Convert images to JPEG</value>
+  </data>
+  <data name="PreviewStringId.ExportOption_PdfExportEditingFieldsToAcroForms" xml:space="preserve">
+    <value>Export editing fields to AcroForms</value>
   </data>
   <data name="PreviewStringId.ExportOption_PdfShowPrintDialogOnOpen" xml:space="preserve">
     <value>Show print dialog on open</value>
@@ -638,13 +660,13 @@ Try a shorter name.</value>
     <value>Don't embed these fonts:</value>
   </data>
   <data name="PreviewStringId.ExportOption_PdfPasswordSecurityOptions" xml:space="preserve">
-    <value>Password Security:</value>
+    <value>Password security:</value>
   </data>
   <data name="PreviewStringId.ExportOption_PdfSignatureOptions" xml:space="preserve">
-    <value>Digital Signature:</value>
+    <value>Digital signature:</value>
   </data>
   <data name="PreviewStringId.ExportOption_PdfImageQuality" xml:space="preserve">
-    <value>Images quality:</value>
+    <value>Image quality:</value>
   </data>
   <data name="PreviewStringId.ExportOption_PdfImageQuality_Lowest" xml:space="preserve">
     <value>Lowest</value>
@@ -662,7 +684,7 @@ Try a shorter name.</value>
     <value>Highest</value>
   </data>
   <data name="PreviewStringId.ExportOption_PdfACompatibility" xml:space="preserve">
-    <value>PDF/A Compatibility:</value>
+    <value>PDF/A compatibility:</value>
   </data>
   <data name="PreviewStringId.ExportOption_PdfACompatibility_None" xml:space="preserve">
     <value>None</value>
@@ -802,6 +824,12 @@ Try a shorter name.</value>
   <data name="PreviewStringId.ExportOption_DocxPageRange" xml:space="preserve">
     <value>Page range:</value>
   </data>
+  <data name="PreviewStringId.ExportOption_DocxTableLayout" xml:space="preserve">
+    <value>Table layout</value>
+  </data>
+  <data name="PreviewStringId.ExportOption_DocxKeepRowHeight" xml:space="preserve">
+    <value>Keep row height</value>
+  </data>
   <data name="PreviewStringId.ExportOption_DocxExportWatermarks" xml:space="preserve">
     <value>Export watermarks</value>
   </data>
@@ -825,6 +853,9 @@ Try a shorter name.</value>
   </data>
   <data name="PreviewStringId.ExportOption_TextExportMode_Text" xml:space="preserve">
     <value>Text</value>
+  </data>
+  <data name="PreviewStringId.ExportOption_CsvSeparator_UsingSystem" xml:space="preserve">
+    <value>(Using System Separator)</value>
   </data>
   <data name="PreviewStringId.ExportOption_XlsRawDataMode" xml:space="preserve">
     <value>Raw data mode</value>
@@ -1145,16 +1176,16 @@ Try a shorter name.</value>
     <value>Zoom In</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ShowFirstPage_STipTitle" xml:space="preserve">
-    <value>First Page (Ctrl+Home)</value>
+    <value>First Page (Home)</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ShowPrevPage_STipTitle" xml:space="preserve">
-    <value>Previous Page (PageUp)</value>
+    <value>Previous Page (Left Arrow)</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ShowNextPage_STipTitle" xml:space="preserve">
-    <value>Next Page (PageDown)</value>
+    <value>Next Page (Right Arrow)</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ShowLastPage_STipTitle" xml:space="preserve">
-    <value>Last Page (Ctrl+End)</value>
+    <value>Last Page (End)</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_MultiplePages_STipTitle" xml:space="preserve">
     <value>View Many Pages</value>

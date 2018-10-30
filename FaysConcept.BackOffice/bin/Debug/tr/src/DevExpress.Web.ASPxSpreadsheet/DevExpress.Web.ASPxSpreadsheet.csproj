@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.Web.ASPxSpreadsheet</RootNamespace>
-    <AssemblyName>DevExpress.Web.ASPxSpreadsheet.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.Web.ASPxSpreadsheet.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>

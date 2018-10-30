@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -61,6 +120,9 @@
   <data name="&gt;&gt;edtName.Name" xml:space="preserve">
     <value>edtName</value>
   </data>
+  <data name="&gt;&gt;edtName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -69,6 +131,9 @@
   </data>
   <data name="&gt;&gt;cbParent.Name" xml:space="preserve">
     <value>cbParent</value>
+  </data>
+  <data name="&gt;&gt;cbParent.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbParent.Parent" xml:space="preserve">
     <value>$this</value>
@@ -79,6 +144,9 @@
   <data name="&gt;&gt;cbApplyTo.Name" xml:space="preserve">
     <value>cbApplyTo</value>
   </data>
+  <data name="&gt;&gt;cbApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.ConditionalTypeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbApplyTo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -87,6 +155,9 @@
   </data>
   <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
     <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -97,6 +168,9 @@
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
   </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -105,6 +179,9 @@
   </data>
   <data name="&gt;&gt;previewRichEditControl.Name" xml:space="preserve">
     <value>previewRichEditControl</value>
+  </data>
+  <data name="&gt;&gt;previewRichEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Native.PreviewRichEditControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;previewRichEditControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -115,6 +192,9 @@
   <data name="&gt;&gt;lblProperties.Name" xml:space="preserve">
     <value>lblProperties</value>
   </data>
+  <data name="&gt;&gt;lblProperties.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblProperties.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -123,6 +203,9 @@
   </data>
   <data name="&gt;&gt;lblFormatting.Name" xml:space="preserve">
     <value>lblFormatting</value>
+  </data>
+  <data name="&gt;&gt;lblFormatting.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFormatting.Parent" xml:space="preserve">
     <value>$this</value>
@@ -133,6 +216,9 @@
   <data name="&gt;&gt;lblSeparator.Name" xml:space="preserve">
     <value>lblSeparator</value>
   </data>
+  <data name="&gt;&gt;lblSeparator.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblSeparator.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -141,6 +227,9 @@
   </data>
   <data name="&gt;&gt;btnFormat.Name" xml:space="preserve">
     <value>btnFormat</value>
+  </data>
+  <data name="&gt;&gt;btnFormat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DropDownButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnFormat.Parent" xml:space="preserve">
     <value>$this</value>
@@ -151,6 +240,9 @@
   <data name="&gt;&gt;lblApplyFormattingTo.Name" xml:space="preserve">
     <value>lblApplyFormattingTo</value>
   </data>
+  <data name="&gt;&gt;lblApplyFormattingTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblApplyFormattingTo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -160,6 +252,9 @@
   <data name="&gt;&gt;lblStyleBasedOn.Name" xml:space="preserve">
     <value>lblStyleBasedOn</value>
   </data>
+  <data name="&gt;&gt;lblStyleBasedOn.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblStyleBasedOn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -168,6 +263,9 @@
   </data>
   <data name="&gt;&gt;lblName.Name" xml:space="preserve">
     <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
     <value>$this</value>
@@ -181,6 +279,9 @@
   <data name="&gt;&gt;cbCurrentStyle.Name" xml:space="preserve">
     <value>cbCurrentStyle</value>
   </data>
+  <data name="&gt;&gt;cbCurrentStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbCurrentStyle.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -190,6 +291,9 @@
   <data name="&gt;&gt;lblCurrentStyle.Name" xml:space="preserve">
     <value>lblCurrentStyle</value>
   </data>
+  <data name="&gt;&gt;lblCurrentStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblCurrentStyle.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -198,6 +302,9 @@
   </data>
   <data name="&gt;&gt;lblSelectedStyle.Name" xml:space="preserve">
     <value>lblSelectedStyle</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSelectedStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -218,73 +325,145 @@
   <data name="&gt;&gt;repositoryItemFontEdit1.Name" xml:space="preserve">
     <value>repositoryItemFontEdit1</value>
   </data>
+  <data name="&gt;&gt;repositoryItemFontEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemFontEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit1.Name" xml:space="preserve">
     <value>repositoryItemRichEditFontSizeEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemRichEditStyleEdit1.Name" xml:space="preserve">
     <value>repositoryItemRichEditStyleEdit1</value>
   </data>
+  <data name="&gt;&gt;repositoryItemRichEditStyleEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemComboBox1.Name" xml:space="preserve">
     <value>repositoryItemComboBox1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemFontEdit2.Name" xml:space="preserve">
     <value>repositoryItemFontEdit2</value>
   </data>
+  <data name="&gt;&gt;repositoryItemFontEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemFontEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemColorEdit1.Name" xml:space="preserve">
     <value>repositoryItemColorEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit2.Name" xml:space="preserve">
     <value>repositoryItemRichEditFontSizeEdit2</value>
   </data>
+  <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit3.Name" xml:space="preserve">
     <value>repositoryItemRichEditFontSizeEdit3</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit3.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit4.Name" xml:space="preserve">
     <value>repositoryItemRichEditFontSizeEdit4</value>
   </data>
+  <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit4.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemCheckEdit1.Name" xml:space="preserve">
     <value>repositoryItemCheckEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit5.Name" xml:space="preserve">
     <value>repositoryItemRichEditFontSizeEdit5</value>
   </data>
+  <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit5.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemFontEdit3.Name" xml:space="preserve">
     <value>repositoryItemFontEdit3</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemFontEdit3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemFontEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit6.Name" xml:space="preserve">
     <value>repositoryItemRichEditFontSizeEdit6</value>
   </data>
+  <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit6.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemRichEditColorEdit1.Name" xml:space="preserve">
     <value>repositoryItemRichEditColorEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemRichEditColorEdit1.Type" xml:space="preserve">
+    <value>DevExpress.Office.UI.RepositoryItemOfficeColorEdit, DevExpress.XtraBars.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemFontEdit4.Name" xml:space="preserve">
     <value>repositoryItemFontEdit4</value>
   </data>
+  <data name="&gt;&gt;repositoryItemFontEdit4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemFontEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit7.Name" xml:space="preserve">
     <value>repositoryItemRichEditFontSizeEdit7</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit7.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemRichEditStyleEdit2.Name" xml:space="preserve">
     <value>repositoryItemRichEditStyleEdit2</value>
   </data>
+  <data name="&gt;&gt;repositoryItemRichEditStyleEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemFontEdit5.Name" xml:space="preserve">
     <value>repositoryItemFontEdit5</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemFontEdit5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemFontEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit8.Name" xml:space="preserve">
     <value>repositoryItemRichEditFontSizeEdit8</value>
   </data>
+  <data name="&gt;&gt;repositoryItemRichEditFontSizeEdit8.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemRichEditStyleEdit3.Name" xml:space="preserve">
     <value>repositoryItemRichEditStyleEdit3</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemRichEditStyleEdit3.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;popupMenuFormat.Name" xml:space="preserve">
     <value>popupMenuFormat</value>
   </data>
+  <data name="&gt;&gt;popupMenuFormat.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;repositoryItemRichEditStyleEdit4.Name" xml:space="preserve">
     <value>repositoryItemRichEditStyleEdit4</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemRichEditStyleEdit4.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;repositoryItemRichEditStyleEdit5.Name" xml:space="preserve">
     <value>repositoryItemRichEditStyleEdit5</value>
   </data>
+  <data name="&gt;&gt;repositoryItemRichEditStyleEdit5.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RepositoryItemRichEditStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>SnapTableStyleForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.TableStyleForm, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
 </root>

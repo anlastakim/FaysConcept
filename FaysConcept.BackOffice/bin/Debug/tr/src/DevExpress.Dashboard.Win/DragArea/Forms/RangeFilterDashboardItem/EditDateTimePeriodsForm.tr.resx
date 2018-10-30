@@ -144,4 +144,7 @@
   <data name="lciBtnRight.CustomizationFormText" xml:space="preserve">
     <value>lciAdd</value>
   </data>
+  <data name="gcPeriod.Caption" xml:space="preserve">
+    <value>Dönem</value>
+  </data>
 </root>

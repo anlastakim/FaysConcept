@@ -483,6 +483,45 @@
   <data name="ASPxGridViewStringId.CommandRecover" xml:space="preserve">
     <value>Kurtar</value>
   </data>
+  <data name="ASPxGridViewStringId.Toolbar_ShowCustomizationWindow" xml:space="preserve">
+    <value>Sütun seçici</value>
+  </data>
+  <data name="ASPxGridViewStringId.CustomizationDialog_ColumnChooserTab" xml:space="preserve">
+    <value>Sütun seçici</value>
+  </data>
+  <data name="ASPxGridViewStringId.CustomizationDialog_GroupTab" xml:space="preserve">
+    <value>Gruplandırma</value>
+  </data>
+  <data name="ASPxGridViewStringId.CustomizationDialog_SortTab" xml:space="preserve">
+    <value>Sıralama</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowCustomizationDialog" xml:space="preserve">
+    <value>Özelleştirme iletişim kutusunu göster</value>
+  </data>
+  <data name="ASPxGridViewStringId.Toolbar_FullCollapse" xml:space="preserve">
+    <value>Tümünü Daralt</value>
+  </data>
+  <data name="ASPxGridViewStringId.Toolbar_FullExpand" xml:space="preserve">
+    <value>Tümünü Genişlet</value>
+  </data>
+  <data name="ASPxGridViewStringId.Toolbar_ShowCustomizationDialog" xml:space="preserve">
+    <value>Özelleştirme iletişim kutusunu göster</value>
+  </data>
+  <data name="ASPxGridViewStringId.Toolbar_ShowFilterEditor" xml:space="preserve">
+    <value>Filtre Oluşturucu...</value>
+  </data>
+  <data name="ASPxGridViewStringId.Toolbar_ShowFilterRowMenu" xml:space="preserve">
+    <value>Filtre satırı menüsü</value>
+  </data>
+  <data name="ASPxGridViewStringId.Toolbar_ShowSummaryPanel" xml:space="preserve">
+    <value>Özet paneli</value>
+  </data>
+  <data name="ASPxGridViewStringId.CardView_Toolbar_ShowHeaderPanel" xml:space="preserve">
+    <value>Başlık Paneli</value>
+  </data>
+  <data name="ASPxGridViewStringId.Toolbar_ShowGroupPanel" xml:space="preserve">
+    <value>Grup Paneli</value>
+  </data>
   <data name="ASPxGridViewStringId.Toolbar_Cancel" xml:space="preserve">
     <value>İptal</value>
   </data>
@@ -525,43 +564,10 @@
   <data name="ASPxGridViewStringId.CustomizationDialog_FilterTab" xml:space="preserve">
     <value>Filtre uygulama</value>
   </data>
-  <data name="ASPxGridViewStringId.Toolbar_ShowCustomizationWindow" xml:space="preserve">
-    <value>Sütun seçici</value>
-  </data>
-  <data name="ASPxGridViewStringId.CustomizationDialog_ColumnChooserTab" xml:space="preserve">
-    <value>Sütun seçici</value>
-  </data>
-  <data name="ASPxGridViewStringId.CustomizationDialog_GroupTab" xml:space="preserve">
-    <value>Gruplandırma</value>
-  </data>
-  <data name="ASPxGridViewStringId.CustomizationDialog_SortTab" xml:space="preserve">
-    <value>Sıralama</value>
-  </data>
-  <data name="ASPxGridViewStringId.ContextMenu_ShowCustomizationDialog" xml:space="preserve">
-    <value>Özelleştirme iletişim kutusunu göster</value>
-  </data>
-  <data name="ASPxGridViewStringId.Toolbar_FullCollapse" xml:space="preserve">
-    <value>Tümünü Daralt</value>
-  </data>
-  <data name="ASPxGridViewStringId.Toolbar_FullExpand" xml:space="preserve">
-    <value>Tümünü Genişlet</value>
-  </data>
-  <data name="ASPxGridViewStringId.Toolbar_ShowCustomizationDialog" xml:space="preserve">
-    <value>Özelleştirme iletişim kutusunu göster</value>
-  </data>
-  <data name="ASPxGridViewStringId.Toolbar_ShowFilterEditor" xml:space="preserve">
-    <value>Filtre Oluşturucu...</value>
-  </data>
-  <data name="ASPxGridViewStringId.CardView_Toolbar_ShowHeaderPanel" xml:space="preserve">
-    <value>Başlık Paneli</value>
-  </data>
-  <data name="ASPxGridViewStringId.Toolbar_ShowGroupPanel" xml:space="preserve">
-    <value>Grup Paneli</value>
-  </data>
-  <data name="ASPxGridViewStringId.CardView_Toolbar_ShowCardHeader" xml:space="preserve">
-    <value>Kart Başlığı</value>
-  </data>
   <data name="ASPxGridViewStringId.CustomizationDialog_GroupPageListArea" xml:space="preserve">
     <value>Gruplanacak sütunlar</value>
+  </data>
+  <data name="ASPxGridViewStringId.CustomizationDialog_SortPageEmptyDragArea" xml:space="preserve">
+    <value>Hiçbir sıralama uygulanmadı</value>
   </data>
 </root>

@@ -1262,6 +1262,9 @@ None - The browser does not load the audio when the page loads</value>
     <value>Invalid YouTube video URL. Please make sure your URL is like the following: 
 http://www.youtube.com/watch?v=VideoID</value>
   </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_AllowFullscreen">
+    <value>Allow fullscreen</value>
+  </data>
   <data name="ASPxHtmlEditorStringId.AdvancedSearch_Next">
     <value>Next</value>
   </data>
@@ -1319,5 +1322,20 @@ Please select a file to proceed.</value>
   <data name="ASPxHtmlEditorStringId.InsertImage_GalleryRequiredErrorText">
     <value>File is required.
 Please select a file to proceed.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_PositionNotSet">
+    <value></value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PositionNotSet">
+    <value></value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PositionNotSet">
+    <value></value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PositionNotSet">
+    <value></value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_PositionNotSet">
+    <value></value>
   </data>
 </root>

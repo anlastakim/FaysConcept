@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.ExpressApp.Security</RootNamespace>
-    <AssemblyName>DevExpress.ExpressApp.Security.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.ExpressApp.Security.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -48,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ModuleLocalizationResources.resx" />
+    <EmbeddedResource Include="ModuleLocalizationResources.tr.resx" />
     <EmbeddedResource Include="UserVisibleExceptions.tr.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>

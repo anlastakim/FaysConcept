@@ -230,12 +230,6 @@ StartLocation karakter konumu bir dize sonu başlayan Dize1 Dize2, içindeki ba�
     <value>Concat (String1,..., StringN)
 Herhangi bir ek dizeler geçerli dize birleştirme içeren bir string değeri döndürür.</value>
   </data>
-  <data name="Condition.Caption" xml:space="preserve">
-    <value>Koşul ifade Düzenleyicisi</value>
-  </data>
-  <data name="Condition.Text" xml:space="preserve">
-    <value>Koşulu Düzenleyicisi</value>
-  </data>
   <data name="Contains.Description" xml:space="preserve">
     <value>İçerir (dize, dize)
 Alt dize dize içinde oluşur ise TRUE döndürür; Aksi takdirde, False döndürülür.</value>
@@ -317,9 +311,6 @@ Belirtilen float ifade üstel değerini verir.</value>
   <data name="Floor.Description" xml:space="preserve">
     <value>Floor(Value)
 En büyük tamsayıyı döndürür belirtilen sayısal ifade küçük veya eşit.</value>
-  </data>
-  <data name="FormatRule.Caption" xml:space="preserve">
-    <value>Biçim kural ifade Düzenleyicisi</value>
   </data>
   <data name="functionsTypes.Properties.DateTimeItems" xml:space="preserve">
     <value>Tarih-Saat</value>
@@ -672,9 +663,6 @@ Tüm baştaki ve sondaki boşluk karakterleri dizesi kaldırır.</value>
   <data name="True.Description" xml:space="preserve">
     <value>Boole True değerini temsil eder.</value>
   </data>
-  <data name="UnboundColumn.Caption" xml:space="preserve">
-    <value>İfade Düzenleyicisi</value>
-  </data>
   <data name="Upper.Description" xml:space="preserve">
     <value>Upper(String)
 Büyük harf döndürür dize.</value>
@@ -695,17 +683,11 @@ Geçerli sistem tarihi ve saati, Eşgüdümlü Evrensel Saat (UTC) olarak ifade 
   <data name="buttonOK.Text" xml:space="preserve">
     <value>Tamam</value>
   </data>
-  <data name="functionsTypes.Properties.AllItems" xml:space="preserve">
-    <value>(Hepsi)</value>
-  </data>
   <data name="Fields.Text" xml:space="preserve">
     <value>Alanlar</value>
   </data>
   <data name="Functions.Text" xml:space="preserve">
     <value>Fonksiyonlar</value>
-  </data>
-  <data name="Parameters.Text" xml:space="preserve">
-    <value>Değişkenler</value>
   </data>
   <data name="functionsTypes.Properties.StringItems" xml:space="preserve">
     <value>Dize</value>

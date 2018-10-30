@@ -283,11 +283,32 @@
   <data name="XtraPdfViewerStringId.CommandZoomOutShortcutCaption" xml:space="preserve">
     <value> (Ctrl + Minus)</value>
   </data>
+  <data name="XtraPdfViewerStringId.CommentBarCaption" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DeleteAnnotationCommandCaption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DeleteAnnotationCommandDescription" xml:space="preserve">
+    <value>Delete selected annotation.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionListCreateAllBarsTransaction" xml:space="preserve">
+    <value>Create PDF Viewer Bars</value>
+  </data>
   <data name="XtraPdfViewerStringId.DesignerActionListCreateBarsTransaction" xml:space="preserve">
     <value>Create Bars</value>
   </data>
+  <data name="XtraPdfViewerStringId.DesignerActionListCreateBarTransaction" xml:space="preserve">
+    <value>Create "{0}" Bar</value>
+  </data>
   <data name="XtraPdfViewerStringId.DesignerActionListCreateRibbonTransaction" xml:space="preserve">
     <value>Create Ribbon</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodCreateAllBars" xml:space="preserve">
+    <value>Create All Bars</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodCreateBar" xml:space="preserve">
+    <value>Create "{0}" Bar</value>
   </data>
   <data name="XtraPdfViewerStringId.DesignerActionMethodCreateBars" xml:space="preserve">
     <value>Create Bars</value>
@@ -428,6 +449,33 @@ Do you want to open it nevertheless?</value>
   </data>
   <data name="XtraPdfViewerStringId.SelectionRibbonGroupCaption" xml:space="preserve">
     <value>Selection</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ShowAnnotationPropertiesCommandCaption" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ShowAnnotationPropertiesCommandDescription" xml:space="preserve">
+    <value>Shows the annotation properties dialog for selected annotation.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextCommentRibbonPageGroupCaption" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextHighlightCommandCaption" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextHighlightTextCommandDescription" xml:space="preserve">
+    <value>Highlight text.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextStrikethroughCommandCaption" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextStrikethroughCommandDescription" xml:space="preserve">
+    <value>Strikethrough text.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextUnderlineCommandCaption" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextUnderlineCommandDescription" xml:space="preserve">
+    <value>Underline text.</value>
   </data>
   <data name="XtraPdfViewerStringId.ZoomRibbonGroupCaption" xml:space="preserve">
     <value>Zoom</value>

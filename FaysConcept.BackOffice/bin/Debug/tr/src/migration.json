@@ -1,0 +1,20 @@
+[ 
+	{	
+		"srcPath":"/DevExpress.Dashboard.Win/DataSourceBrowser/CalculatedField/CalculatedFieldExpressionEditorForm.resx",
+		"srcKey":"CountDistinctAggregate.Description",
+		"destPath":"/DevExpress.Dashboard.Web/ResFiles/CalculatedField/CalculatedFieldExpressionEditorForm.resx",
+        "destKey":"CountDistinctAggregate.Description"
+	},
+	{	
+		"srcPath":"/DevExpress.Dashboard.Win/DataSourceBrowser/CalculatedField/CalculatedFieldExpressionEditorForm.resx",
+		"srcKey":"MedianAggregate.Description",
+		"destPath":"/DevExpress.Dashboard.Web/ResFiles/CalculatedField/CalculatedFieldExpressionEditorForm.resx",
+        "destKey":"MedianAggregate.Description"
+	},
+	{	
+		"srcPath":"/DevExpress.Dashboard.Win/DataSourceBrowser/CalculatedField/CalculatedFieldExpressionEditorForm.resx",
+		"srcKey":"StdDevAggregate.Description",
+		"destPath":"/DevExpress.Dashboard.Web/ResFiles/CalculatedField/CalculatedFieldExpressionEditorForm.resx",
+        "destKey":"StdDevAggregate.Description"
+	}
+] 

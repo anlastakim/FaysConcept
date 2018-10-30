@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.ExpressApp.Web</RootNamespace>
-    <AssemblyName>DevExpress.ExpressApp.Web.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.ExpressApp.Web.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ModuleLocalizationResources.tr.resx" />
     <EmbeddedResource Include="Resources\ASPxCriteriaPropertyEditorLocalization.tr.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -66,6 +67,7 @@
     <EmbeddedResource Include="Resources\ASPxCriteriaPropertyEditorLocalization.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModuleLocalizationResources.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

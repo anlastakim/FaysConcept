@@ -219,4 +219,16 @@
   <data name="DevExpress.DataAccess.Excel.ExcelDataSource" xml:space="preserve">
     <value>Excel Veri Kaynağı</value>
   </data>
+  <data name="DevExpress.DataAccess.EntityFramework.DBSetFilter.Parameters" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFStoredProcedureInfo.Parameters" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFDataSource.Filters" xml:space="preserve">
+    <value>Filtreler</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.ObjectDataSource" xml:space="preserve">
+    <value>ObjectDataSource</value>
+  </data>
 </root>

@@ -53,6 +53,15 @@
   <data name="ASPxEditorsStringId.Calendar_Cancel">
     <value>Cancel</value>
   </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavBackToDays">
+    <value>Back To Days</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavBackToMonths">
+    <value>Back To Months</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavBackToYears">
+    <value>Back To Years</value>
+  </data>
   <data name="ASPxEditorsStringId.ColorEdit_CustomColor">
     <value>Custom Color...</value>
   </data>
@@ -187,5 +196,11 @@
   </data>
   <data name="ASPxEditorsStringId.DateRangeErrorText">
     <value>The date range must be from {0} to {1} days</value>
+  </data>
+  <data name="ASPxEditorsStringId.ListBoxFilteringEditorNullText">
+    <value>Enter text to filter...</value>
+  </data>
+  <data name="ASPxEditorsStringId.ListBoxSelectAllText">
+    <value>Select All</value>
   </data>
 </root>

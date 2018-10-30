@@ -70,6 +70,9 @@
   <data name="DashboardStringId.ActionDrillUp" xml:space="preserve">
     <value>Drill Up</value>
   </data>
+  <data name="DashboardStringId.ActionExportDashboard" xml:space="preserve">
+    <value>Export Dashboard</value>
+  </data>
   <data name="DashboardStringId.ActionExportTemplate" xml:space="preserve">
     <value>{0} - {1}</value>
   </data>
@@ -85,8 +88,14 @@
   <data name="DashboardStringId.ActionExportToPdf" xml:space="preserve">
     <value>Export To PDF</value>
   </data>
+  <data name="DashboardStringId.ActionMaximizeDashboardItem" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
   <data name="DashboardStringId.ActionOtherValues" xml:space="preserve">
     <value>Values</value>
+  </data>
+  <data name="DashboardStringId.ActionRestoreDashboardItem" xml:space="preserve">
+    <value>Restore</value>
   </data>
   <data name="DashboardStringId.ActionSelectDateTimePeriod" xml:space="preserve">
     <value>Select Date Time Period</value>
@@ -97,6 +106,13 @@
   <data name="DashboardStringId.AggregateExFunctionDescriptionCountNotNull" xml:space="preserve">
     <value>CountNotNull(Value)
 Returns a number of non-null objects in a collection.</value>
+  </data>
+  <data name="DashboardStringId.AggregateExFunctionDescriptionMode" xml:space="preserve">
+    <value>Mode(Value)
+The mode of the values. A mode is the value that is repeated more often than any other.</value>
+  </data>
+  <data name="DashboardStringId.AggrInMasterFilterDimensionError" xml:space="preserve">
+    <value>Master filtering cannot be applied by dimension values created using the expression containing the Aggr function.</value>
   </data>
   <data name="DashboardStringId.AutoArrangeContent" xml:space="preserve">
     <value>Auto Arrange Content</value>
@@ -437,6 +453,9 @@ Returns a number of non-null objects in a collection.</value>
   <data name="DashboardStringId.DifferenceCalculationMeasureCaptionFormatString" xml:space="preserve">
     <value>Difference of {0}</value>
   </data>
+  <data name="DashboardStringId.DisplayValueCaption" xml:space="preserve">
+    <value>Display Value</value>
+  </data>
   <data name="DashboardStringId.ElementNameCards" xml:space="preserve">
     <value>Cards</value>
   </data>
@@ -607,6 +626,22 @@ Extracts the week of the month from the defined DateTime.</value>
     <value>GetWeekOfYear(DateTime)
 Extracts the week of the year from the defined DateTime.</value>
   </data>
+  <data name="DashboardStringId.FunctionOperatorExFunctionDescriptionMakeDateTime3" xml:space="preserve">
+    <value>MakeDateTime(Year, Month, Day)
+Returns a date value constructed from the specified Year, Month and Day.</value>
+  </data>
+  <data name="DashboardStringId.FunctionOperatorExFunctionDescriptionMakeDateTime4" xml:space="preserve">
+    <value>MakeDateTime(Year, Month, Day, Hour)
+Returns a date value constructed from the specified Year, Month, Day and Hour.</value>
+  </data>
+  <data name="DashboardStringId.FunctionOperatorExFunctionDescriptionMakeDateTime5" xml:space="preserve">
+    <value>MakeDateTime(Year, Month, Day, Hour, Minute)
+Returns a date value constructed from the specified Year, Month, Day, Hour and Minute.</value>
+  </data>
+  <data name="DashboardStringId.FunctionOperatorExFunctionDescriptionMakeDateTime6" xml:space="preserve">
+    <value>MakeDateTime(Year, Month, Day, Hour, Minute, Second)
+Returns a date value constructed from the specified Year, Month, Day, Hour, Minute and Second.</value>
+  </data>
   <data name="DashboardStringId.FunctionOperatorExFunctionDescriptionToBoolean" xml:space="preserve">
     <value>ToBoolean(Value)
 Converts Value to an equivalent Boolean value.</value>
@@ -614,6 +649,9 @@ Converts Value to an equivalent Boolean value.</value>
   <data name="DashboardStringId.FunctionOperatorExFunctionDescriptionToDateTime" xml:space="preserve">
     <value>ToDateTime(Value)
 Converts Value to a DateTime value.</value>
+  </data>
+  <data name="DashboardStringId.GeoPointMapTooltipPointCount" xml:space="preserve">
+    <value>{0} points</value>
   </data>
   <data name="DashboardStringId.GridClearSorting" xml:space="preserve">
     <value>Clear Sorting</value>
@@ -786,6 +824,9 @@ The Web application server failed to establish the following data connections:
   <data name="DashboardStringId.MessageLayoutDuplicatedDashboardItem" xml:space="preserve">
     <value>A layout item for the specified dashboard item has already been added to the layout tree</value>
   </data>
+  <data name="DashboardStringId.MessageLegacyCardLayoutIsNotSupported" xml:space="preserve">
+    <value>Card layout is outdated and cannot be displayed. To view this item, specify the layout template in the Dashboard Designer. To know more, see the 'Designing Dashboard Items &gt; Cards &gt; Layout' documentation topic.</value>
+  </data>
   <data name="DashboardStringId.MessageLoading" xml:space="preserve">
     <value>Loading...</value>
   </data>
@@ -800,6 +841,9 @@ The Web application server failed to establish the following data connections:
   </data>
   <data name="DashboardStringId.MessageServerModeNotSupportedMedian" xml:space="preserve">
     <value>Median is not supported in server mode for</value>
+  </data>
+  <data name="DashboardStringId.MessageServerModeNotSupportedMode" xml:space="preserve">
+    <value>Mode is not supported in server mode for</value>
   </data>
   <data name="DashboardStringId.MessageSummaryCalculatedFieldInDimension" xml:space="preserve">
     <value>Cannot change the expression of the '{0}' calculated field that provides data for the '{1}' dimension. Summary-based calculated fields can provide data for measures only.</value>
@@ -979,6 +1023,21 @@ The Web application server failed to establish the following data connections:
   <data name="DashboardStringId.PivotGridTotal" xml:space="preserve">
     <value>{0} Total</value>
   </data>
+  <data name="DashboardStringId.PointLabelContentTypeArgument" xml:space="preserve">
+    <value>Argument</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypePercent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeSeriesName" xml:space="preserve">
+    <value>Series Name</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
   <data name="DashboardStringId.PrintHeadersOnEveryPage" xml:space="preserve">
     <value>Print Headers on Every Page</value>
   </data>
@@ -1039,14 +1098,20 @@ The Web application server failed to establish the following data connections:
   <data name="DashboardStringId.ScaleMode" xml:space="preserve">
     <value>Scale Mode</value>
   </data>
-  <data name="DashboardStringId.ScaleModeAutoFitToPageWidth" xml:space="preserve">
-    <value>Auto Fit to Page Width</value>
+  <data name="DashboardStringId.ScaleModeAutoFitToPagesWidth" xml:space="preserve">
+    <value>Auto Fit to Pages Width</value>
   </data>
   <data name="DashboardStringId.ScaleModeNone" xml:space="preserve">
     <value>None</value>
   </data>
   <data name="DashboardStringId.ScaleModeUseScaleFactor" xml:space="preserve">
     <value>Use Scale Factor</value>
+  </data>
+  <data name="DashboardStringId.SearchNullValuePrompt" xml:space="preserve">
+    <value>Enter text to search...</value>
+  </data>
+  <data name="DashboardStringId.SelectDate" xml:space="preserve">
+    <value>Select date</value>
   </data>
   <data name="DashboardStringId.SeriesTypeArea" xml:space="preserve">
     <value>Area</value>
@@ -1098,9 +1163,6 @@ The Web application server failed to establish the following data connections:
   </data>
   <data name="DashboardStringId.SeriesTypeLine" xml:space="preserve">
     <value>Line</value>
-  </data>
-  <data name="DashboardStringId.SeriesTypeOpenHighLowClose" xml:space="preserve">
-    <value>Open-High-Low-Close</value>
   </data>
   <data name="DashboardStringId.SeriesTypePoint" xml:space="preserve">
     <value>Point</value>
@@ -1189,6 +1251,9 @@ The Web application server failed to establish the following data connections:
   <data name="DashboardStringId.SummaryTypeMin" xml:space="preserve">
     <value>Min</value>
   </data>
+  <data name="DashboardStringId.SummaryTypeMode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
   <data name="DashboardStringId.SummaryTypeStdDev" xml:space="preserve">
     <value>StdDev</value>
   </data>
@@ -1224,6 +1289,9 @@ The Web application server failed to establish the following data connections:
   </data>
   <data name="DashboardStringId.TreemapLabelValueTemplate" xml:space="preserve">
     <value>{0}: {1}</value>
+  </data>
+  <data name="DashboardStringId.UriCaption" xml:space="preserve">
+    <value>Uri</value>
   </data>
   <data name="DashboardStringId.Value1Caption" xml:space="preserve">
     <value>Value 1</value>

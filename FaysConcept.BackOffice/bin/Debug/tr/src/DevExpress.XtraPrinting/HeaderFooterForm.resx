@@ -123,9 +123,6 @@
   <metadata name="fontDialogFoot.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>145, 17</value>
   </metadata>
-  <metadata name="barAndDockingController1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 54</value>
-  </metadata>
   <metadata name="imageCollection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>446, 54</value>
   </metadata>
@@ -191,9 +188,6 @@
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="repositoryItemButtonEdit1.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="beiFont.Width" type="System.Int32, mscorlib">
-    <value>180</value>
   </data>
   <data name="bar1.Text" xml:space="preserve">
     <value>Custom 1</value>
@@ -582,12 +576,6 @@
   <data name="&gt;&gt;fontDialogFoot.Type" xml:space="preserve">
     <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;barAndDockingController1.Name" xml:space="preserve">
-    <value>barAndDockingController1</value>
-  </data>
-  <data name="&gt;&gt;barAndDockingController1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarAndDockingController, DevExpress.XtraBars.v18.1, Culture=neutral</value>
-  </data>
   <data name="&gt;&gt;imageCollection1.Name" xml:space="preserve">
     <value>imageCollection1</value>
   </data>
@@ -782,6 +770,9 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>HeaderFooterFormBase</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="repositoryItemFontEdit1.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>

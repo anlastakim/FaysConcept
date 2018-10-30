@@ -88,4 +88,10 @@
   <data name="productLabel.Text" xml:space="preserve">
     <value>Markalı ürünler:</value>
   </data>
+  <data name="detailsList.Properties.Columns" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="productList.Properties.Columns" xml:space="preserve">
+    <value>Adı</value>
+  </data>
 </root>

@@ -223,10 +223,10 @@
     <value>Name</value>
   </data>
   <data name="StringId.PictureEditOpenFileFilter" xml:space="preserve">
-    <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg;*.jpeg)|*.jpg;*.jpeg|Icon Files (*.ico)|*.ico|Portable Network Graphics Format (*.png)|*.png|All Picture Files |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif|All Files |*.*</value>
+    <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg;*.jpeg)|*.jpg;*.jpeg|Icon Files (*.ico)|*.ico|Portable Network Graphics Format (*.png)|*.png|Scalable Vector Graphics Format (*.svg)|*.svg|All Picture Files |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif|All Files |*.*</value>
   </data>
   <data name="StringId.PictureEditSaveFileFilter" xml:space="preserve">
-    <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg)|*.jpg|Portable Network Graphics Format (*.png)|*.png</value>
+    <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg)|*.jpg|Portable Network Graphics Format (*.png)|*.png|Scalable Vector Graphics Format (*.svg)|*.svg</value>
   </data>
   <data name="StringId.MaskBoxValidateError" xml:space="preserve">
     <value>The entered value is incomplete.  Do you want to correct it?

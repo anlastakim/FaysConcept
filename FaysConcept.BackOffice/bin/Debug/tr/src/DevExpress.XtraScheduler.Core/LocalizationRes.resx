@@ -958,6 +958,9 @@ Details:
   <data name="SchedulerStringId.Msg_InvalidSize" xml:space="preserve">
     <value>Invalid value specified for the size.</value>
   </data>
+  <data name="SchedulerStringId.Msg_InvalidTime" xml:space="preserve">
+    <value>Invalid time  - it falls in an hour that was skipped when the clock is adjusted forward to Daylight Savings Time.</value>
+  </data>
   <data name="SchedulerStringId.Msg_InvalidTimeOfDayInterval" xml:space="preserve">
     <value>Invalid duration for the TimeOfDayInterval</value>
   </data>

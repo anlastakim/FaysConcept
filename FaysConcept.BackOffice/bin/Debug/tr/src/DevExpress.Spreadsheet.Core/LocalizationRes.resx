@@ -571,6 +571,9 @@
   <data name="XtraSpreadsheetStringId.Caption_GroupChartsDesignLayouts" xml:space="preserve">
     <value>Chart Layouts</value>
   </data>
+  <data name="XtraSpreadsheetStringId.Caption_GroupChartsDesignLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
   <data name="XtraSpreadsheetStringId.Caption_GroupChartsDesignStyles" xml:space="preserve">
     <value>Chart Styles</value>
   </data>
@@ -918,6 +921,9 @@
   </data>
   <data name="XtraSpreadsheetStringId.Caption_PivotGrandTotal" xml:space="preserve">
     <value>Grand Total</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Caption_PivotOrValue" xml:space="preserve">
+    <value>or</value>
   </data>
   <data name="XtraSpreadsheetStringId.Caption_PivotTableAnalyze" xml:space="preserve">
     <value>Analyze</value>
@@ -1416,6 +1422,9 @@
   </data>
   <data name="XtraSpreadsheetStringId.DataFieldSettingsPivotTableForm_ShowValueRunningTotal" xml:space="preserve">
     <value>Running Total In</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.DefaultChartsheetName" xml:space="preserve">
+    <value>Chart</value>
   </data>
   <data name="XtraSpreadsheetStringId.DefaultDocumentName" xml:space="preserve">
     <value>Document</value>
@@ -4576,7 +4585,7 @@ Consider using a stacked area chart instead.</value>
     <value>Add new columns to worksheet.</value>
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_InsertSheetContextMenuItem" xml:space="preserve">
-    <value>Insert</value>
+    <value>Insert...</value>
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_InsertSheetContextMenuItemDescription" xml:space="preserve">
     <value>Insert Sheet.</value>
@@ -4599,8 +4608,50 @@ Consider using a stacked area chart instead.</value>
   <data name="XtraSpreadsheetStringId.MenuCmd_InsertTable" xml:space="preserve">
     <value>Table</value>
   </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableCellsCommandGroup" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableCellsCommandGroupDescription" xml:space="preserve">
+    <value>Click here to insert rows or columns into the table.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableColumnsToTheLeft" xml:space="preserve">
+    <value>Insert Table Columns to the Left</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableColumnsToTheLeftContextMenuItem" xml:space="preserve">
+    <value>Table Columns to the Left</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableColumnsToTheLeftDescription" xml:space="preserve">
+    <value>Add Table Columns to the Left.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableColumnToTheRight" xml:space="preserve">
+    <value>Insert Table Column to the Right</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableColumnToTheRightContextMenuItem" xml:space="preserve">
+    <value>Table Column to the Right</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableColumnToTheRightDescription" xml:space="preserve">
+    <value>Add Table Column to the Right.</value>
+  </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableDescription" xml:space="preserve">
     <value>Insert Table.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableRowBelow" xml:space="preserve">
+    <value>Insert Table Row Below</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableRowBelowContextMenuItem" xml:space="preserve">
+    <value>Table Row Below</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableRowBelowDescription" xml:space="preserve">
+    <value>Add Table Row Below.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableRowsAbove" xml:space="preserve">
+    <value>Insert Table Rows Above</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableRowsAboveContextMenuItem" xml:space="preserve">
+    <value>Table Rows Above</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_InsertTableRowsAboveDescription" xml:space="preserve">
+    <value>Add Table Rows Above.</value>
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_MailMergeAddDataSourceCommand" xml:space="preserve">
     <value>Add Data Source</value>
@@ -4754,6 +4805,15 @@ Consider using a stacked area chart instead.</value>
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_MailMergeVerticalModeCommandDescription" xml:space="preserve">
     <value>Insert merged ranges one under the other. Header and footer are at the top and at the bottom of the sheet respectively.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_MoveChart" xml:space="preserve">
+    <value>Move Chart</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_MoveChartContextMenuItem" xml:space="preserve">
+    <value>Move Chart...</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_MoveChartDescription" xml:space="preserve">
+    <value>Move this chart to another sheet or tab in the workbook.</value>
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_MoveOrCopySheet" xml:space="preserve">
     <value>Move or Copy Sheet...</value>
@@ -4959,6 +5019,12 @@ Column headings are the letters or numbers that appear above the columns on a sh
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_PasteEnhancedMetafileDescription" xml:space="preserve">
     <value>Inserts the contents of the Clipboard as a picture. This format is better than Bitmap for printing to high quality printers.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_PasteMSODrawingObject" xml:space="preserve">
+    <value>Microsoft Office Drawing Object</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_PasteMSODrawingObjectDescription" xml:space="preserve">
+    <value>Inserts the contents of the Clipboard as a Microsoft Office Drawing Object format.</value>
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_PasteRtfText" xml:space="preserve">
     <value>Formatted text (RTF)</value>
@@ -5322,6 +5388,30 @@ This banding can make tables easier to read.</value>
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_RemoveSheetRowsDescription" xml:space="preserve">
     <value>Delete rows from worksheet.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_RemoveTableCellsCommandGroup" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_RemoveTableCellsCommandGroupDescription" xml:space="preserve">
+    <value>Click here to delete rows or columns from the table.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_RemoveTableColumns" xml:space="preserve">
+    <value>Delete Table Columns</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_RemoveTableColumnsContextMenuItem" xml:space="preserve">
+    <value>Table Columns</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_RemoveTableColumnsDescription" xml:space="preserve">
+    <value>Delete Table Columns.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_RemoveTableRows" xml:space="preserve">
+    <value>Delete Table Rows</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_RemoveTableRowsContextMenuItem" xml:space="preserve">
+    <value>Table Rows</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.MenuCmd_RemoveTableRowsDescription" xml:space="preserve">
+    <value>Delete Table Rows.</value>
   </data>
   <data name="XtraSpreadsheetStringId.MenuCmd_RenameSheet" xml:space="preserve">
     <value>Rename Sheet...</value>
@@ -5760,6 +5850,9 @@ Column headings are the letters or numbers that appear above the columns on a sh
   <data name="XtraSpreadsheetStringId.Msg_CannotExportActiveXControls" xml:space="preserve">
     <value>ActiveX controls cannot be transferred to the selected file format. The controls will be lost.</value>
   </data>
+  <data name="XtraSpreadsheetStringId.Msg_CannotExportEmptyWorkbook" xml:space="preserve">
+    <value>A workbook must contain at least one sheet.</value>
+  </data>
   <data name="XtraSpreadsheetStringId.Msg_CannotFilterInBindingRange" xml:space="preserve">
     <value>Cannot filter data in the specified data-bound range.</value>
   </data>
@@ -5783,9 +5876,6 @@ Column headings are the letters or numbers that appear above the columns on a sh
   </data>
   <data name="XtraSpreadsheetStringId.Msg_CannotRemoveAllRowsFromBindingRange" xml:space="preserve">
     <value>Cannot remove all rows from a data source range. It must contain at least one row.</value>
-  </data>
-  <data name="XtraSpreadsheetStringId.Msg_CannotRemoveSheetContainingBindingRange" xml:space="preserve">
-    <value> Cannot delete a worksheet containing a cell range associated with a data source.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_CanNotShiftNonBlankCellsOffOfTheSheet" xml:space="preserve">
     <value>To prevent possible loss of data, Spreasheet cannot shift nonblank cells off of the worksheet. Select another location in which to insert new cells, or delete data from the end of your worksheet.</value>
@@ -6015,6 +6105,15 @@ To delete a locked cell, first remove protection using the Unprotect Sheet comma
   </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorChangingPartOfAnArray" xml:space="preserve">
     <value>Changing part of an array is not allowed.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorChartSheetIndexOutside" xml:space="preserve">
+    <value>ChartSheet index should be positive and less than the number of ChartSheets.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorChartSheetToBeDeletedNotFound" xml:space="preserve">
+    <value>ChartSheet is not found in a workbook.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorChartSheetWithNameNotFound" xml:space="preserve">
+    <value>ChartSheet with this name is not found.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorColumnIntervalRangeExpected" xml:space="preserve">
     <value>Range should be a valid column interval range.</value>
@@ -6261,6 +6360,9 @@ If the names you are creating are listed in a row or column, you must select mor
   <data name="XtraSpreadsheetStringId.Msg_ErrorLastPrimaryAxisCannotBeChanged" xml:space="preserve">
     <value>The last primary axis on the chart cannot be converted to a secondary axis.</value>
   </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorMaxNumberOfSeriesPerChart" xml:space="preserve">
+    <value>The maximum number of series per chart is 255.</value>
+  </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorMuiltiCellArrayFormulaInTable" xml:space="preserve">
     <value>Multi-cell array formulas are not allowed in tables.</value>
   </data>
@@ -6324,6 +6426,12 @@ If the names you are creating are listed in a row or column, you must select mor
   <data name="XtraSpreadsheetStringId.Msg_ErrorSharedFormulaIndexOutside" xml:space="preserve">
     <value>Shared formula with this index does not exist.</value>
   </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorSheetAlreadyExists" xml:space="preserve">
+    <value>A sheet with the same name already exists.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorSheetIndexOutside" xml:space="preserve">
+    <value>Sheet index should be positive and less than the number of sheets.</value>
+  </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorSheetNameContainsNotAllowedCharacters" xml:space="preserve">
     <value>The worksheet name must not contain the following symbols: \ / ? : * [ or ]</value>
   </data>
@@ -6332,6 +6440,9 @@ If the names you are creating are listed in a row or column, you must select mor
   </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorSheetNameStartOrEndWithSingleQuote" xml:space="preserve">
     <value>The worksheet name must not start and end with a single quote (').</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorSheetWithNameNotFound" xml:space="preserve">
+    <value>Sheet with this name is not found.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorSomeChartTypesCannotBeCombinedWithOtherChartTypes" xml:space="preserve">
     <value>Some chart types cannot be combined with other chart types. Select a different chart type.</value>
@@ -6380,6 +6491,12 @@ If the names you are creating are listed in a row or column, you must select mor
   </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorUnionRangesWithDifferentWorksheets" xml:space="preserve">
     <value>Union ranges containing ranges with different worksheets are not supported.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorUseCommentFromAnotherWorksheet" xml:space="preserve">
+    <value>Cannot use a comment from another worksheet.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorUseDeletedChartsheet" xml:space="preserve">
+    <value>ChartSheet is already deleted.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorUseDeletedComment" xml:space="preserve">
     <value>Comment is already deleted.</value>
@@ -6431,6 +6548,9 @@ If the names you are creating are listed in a row or column, you must select mor
   </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorUseTableStyleFromAnotherWorkbook" xml:space="preserve">
     <value>Cannot use a table style from another workbook.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_ErrorWorkbookIsProtected" xml:space="preserve">
+    <value>Workbook is protected and cannot be changed.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_ErrorWorksheetIndexOutside" xml:space="preserve">
     <value>Worksheet index should be positive and less than the number of worksheets.</value>
@@ -6949,7 +7069,7 @@ Do you want to expand the selection?</value>
 Select a single range and click the command again.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_UnableToSortRangeContainsBindingRange" xml:space="preserve">
-    <value>Cannot sort the selected data. It belongs to a data source range that is not allowed to sort.</value>
+    <value>Cannot sort the selected data. It belongs to a data source range for which sorting is not allowed.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_UnableToSortRangeContainsBindingRangeAPI" xml:space="preserve">
     <value>Cannot sort a data source range for which the AllowSort option is not set.</value>
@@ -6959,6 +7079,14 @@ Select a single range and click the command again.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_UnmergeMergedCellsClarification" xml:space="preserve">
     <value>This operation will cause some merged cells to unmerge. Do you wish to continue?</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_UnsupportedChart" xml:space="preserve">
+    <value>This chart isn't available in Spreadsheet.</value>
+  </data>
+  <data name="XtraSpreadsheetStringId.Msg_UnsupportedChartExcel" xml:space="preserve">
+    <value>This chart isn't available in your version of Excel.
+
+Editing this shape or saving this workbook into a different file format will permanently break the chart.</value>
   </data>
   <data name="XtraSpreadsheetStringId.Msg_UnsupportedPivotSlicerExcel" xml:space="preserve">
     <value>This shape represents a slicer. Slicers are supported in Excel 2010 or later.

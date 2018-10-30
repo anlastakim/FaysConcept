@@ -244,4 +244,28 @@
   <data name="ASPxSchedulerStringId.Agenda_NoAppointmentsToDisplay" xml:space="preserve">
     <value>No appointments to display</value>
   </data>
+  <data name="ASPxSchedulerStringId.ToolTip_DeleteAppointment" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ASPxSchedulerStringId.ToolTip_EditAppointment" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ASPxSchedulerStringId.ToolTip_Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_EndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonOpenItem" xml:space="preserve">
+    <value>Open Item</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_TimeZone" xml:space="preserve">
+    <value>Time Zone:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Resources_ShowFilterWindow" xml:space="preserve">
+    <value>Show resources filter window</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Resources_FilterNullText" xml:space="preserve">
+    <value>Resource name...</value>
+  </data>
 </root>

@@ -159,4 +159,7 @@
   <data name="ASPxEditorsStringId.BinaryImage_InvalidData" xml:space="preserve">
     <value>Geçersiz görüntü verisi</value>
   </data>
+  <data name="ASPxEditorsStringId.ListBoxSelectAllText" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
 </root>

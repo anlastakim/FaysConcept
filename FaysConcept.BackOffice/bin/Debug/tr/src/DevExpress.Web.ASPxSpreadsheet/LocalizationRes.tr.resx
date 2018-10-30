@@ -502,13 +502,58 @@ Lütfen devam etmek için sayfayı yenileyin.</value>
   <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_Sample" xml:space="preserve">
     <value>Örnek</value>
   </data>
-  <data name="ASPxSpreadsheetStringId.FindAndReplace_MatchCase" xml:space="preserve">
-    <value>Harf eşleştir</value>
-  </data>
   <data name="ASPxSpreadsheetStringId.FileManager_OpenedFileMoveErrorText" xml:space="preserve">
     <value>Dosya taşınamaz. Başka bir kullanıcının önceden açtığı.</value>
   </data>
   <data name="ASPxSpreadsheetStringId.FileManager_OpenedFileRenameErrorText" xml:space="preserve">
     <value>Dosya adı değiştirilemez. Başka bir kullanıcının önceden açtığı.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_Data" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ErrorMessageTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_InputMessageTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_ClearAll" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_Style" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FindAndReplace_MatchCase" xml:space="preserve">
+    <value>Harf eşleştir</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_Caption" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_GroupCaption" xml:space="preserve">
+    <value>Doğrulama ölçütlerini</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_Caption" xml:space="preserve">
+    <value>İleti giriş</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ShowAlert" xml:space="preserve">
+    <value>Geçersiz veri girildikten sonra hata uyarısını göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ShowDescription" xml:space="preserve">
+    <value>Kullanıcı geçersiz veri girdiğinde bu hata uyarısını göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_InputMessage" xml:space="preserve">
+    <value>İleti giriş</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_ShowDescription" xml:space="preserve">
+    <value>Hücre seçildikten sonra bu girdi iletisini göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_ShowMessage" xml:space="preserve">
+    <value>Hücre seçildikten sonra girdi iletisini göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_InCellDropDown" xml:space="preserve">
+    <value>Hücre içi aşağı açılma</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_ApplyChanges" xml:space="preserve">
+    <value>Bu değişiklikleri aynı ayarlara sahip diğer hücrelerin Tümüne Uygula</value>
   </data>
 </root>

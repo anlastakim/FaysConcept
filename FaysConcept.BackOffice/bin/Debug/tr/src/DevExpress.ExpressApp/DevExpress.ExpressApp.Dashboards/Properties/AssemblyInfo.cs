@@ -11,4 +11,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 [assembly: AssemblyVersion(AssemblyInfo.SatelliteContractVersion)]
 
-[assembly:AssemblyCopyright("Copyright (c) 2000-2017 Developer Express Inc.")]
+[assembly:AssemblyCopyright("Copyright (c) 2000-2018 Developer Express Inc.")]

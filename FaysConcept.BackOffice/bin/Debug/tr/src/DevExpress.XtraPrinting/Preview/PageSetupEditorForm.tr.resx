@@ -159,4 +159,22 @@
   <data name="lbMargins.MarginsTextInMillimeters" xml:space="preserve">
     <value>Kenar boşluklarını milimetre</value>
   </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="lbCustomPaperSize.Text" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="lbSize.Text" xml:space="preserve">
+    <value>Boyut:</value>
+  </data>
+  <data name="grpBoxPaper.Text" xml:space="preserve">
+    <value>Kağıt</value>
+  </data>
+  <data name="lbHeight.Text" xml:space="preserve">
+    <value>Yükseklik:</value>
+  </data>
+  <data name="lbWidth.Text" xml:space="preserve">
+    <value>Genişliği:</value>
+  </data>
 </root>

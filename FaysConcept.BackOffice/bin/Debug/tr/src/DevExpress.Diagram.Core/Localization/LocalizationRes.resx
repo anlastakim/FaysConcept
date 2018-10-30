@@ -1206,6 +1206,15 @@
   <data name="DiagramControlStringId.DiagramCommand_TipOverTreeLayout_LeftToRight" xml:space="preserve">
     <value>Left To Right</value>
   </data>    
+  <data name="DiagramControlStringId.ReLayoutMindMapTreeHeader" xml:space="preserve">
+    <value>MindMap</value>
+  </data>    
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayout_Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>    
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayout_Vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>    
   <data name="DiagramControlStringId.ReLayoutSugiyama" xml:space="preserve">
     <value>Layered</value>
   </data>    
@@ -1257,6 +1266,15 @@
   <data name="DiagramControlStringId.DiagramCommand_TipOverTreeLayoutForSubordinates_LeftToRight" xml:space="preserve">
     <value>Left To Right</value>
   </data>    
+  <data name="DiagramControlStringId.ReLayoutPartsMindMapTreeHeader" xml:space="preserve">
+    <value>MindMap</value>
+  </data>    
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayoutForSubordinates_Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>    
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayoutForSubordinates_Vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>    
   <data name="DiagramControlStringId.ChangeConnectorType" xml:space="preserve">
     <value>Connectors</value>
   </data>    
@@ -1271,6 +1289,9 @@
   </data>    
   <data name="DiagramControlStringId.DiagramCommand_ChangeConnectorType_Straight" xml:space="preserve">
     <value>Straight</value>
+  </data>    
+  <data name="DiagramControlStringId.DiagramCommand_ChangeConnectorType_OrgChart" xml:space="preserve">
+    <value>OrgChart</value>
   </data>    
   <data name="DiagramControlStringId.PrintMenu" xml:space="preserve">
     <value>Print</value>
@@ -1886,6 +1907,9 @@
   </data>    
   <data name="DiagramControlStringId.ExportDiagram_ExportFailedMessage" xml:space="preserve">
     <value>Diagram could not be exported because the resulting image is too large.</value>
+  </data>    
+  <data name="DiagramControlStringId.ExportDiagram_ExportFailed_UnsupportedFormat_Message" xml:space="preserve">
+    <value>Attempting to save the diagram content using an unsupported file extension.</value>
   </data>    
   <data name="DiagramControlStringId.OpenFile_UnknownItemKindMessage" xml:space="preserve">
     <value>The diagram contains an unknown item: '{0}'</value>

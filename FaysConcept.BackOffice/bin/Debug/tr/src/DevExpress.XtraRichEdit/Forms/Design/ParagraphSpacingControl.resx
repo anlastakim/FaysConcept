@@ -60,61 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace">
-    </xsd:import>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute ref="xml:space">
-              </xsd:attribute>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="name" type="xsd:string">
-              </xsd:attribute>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1">
-                </xsd:element>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1">
-              </xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3">
-              </xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4">
-              </xsd:attribute>
-              <xsd:attribute ref="xml:space">
-              </xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required">
-              </xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -128,24 +112,22 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblBefore.AccessibleName" xml:space="preserve">
     <value>Before</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-  </assembly>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
   <data name="lblBefore.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 6</value>
   </data>
   <data name="lblBefore.Size" type="System.Drawing.Size, System.Drawing">
     <value>36, 13</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-  </assembly>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="lblBefore.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -154,6 +136,9 @@
   </data>
   <data name="&gt;&gt;lblBefore.Name" xml:space="preserve">
     <value>lblBefore</value>
+  </data>
+  <data name="&gt;&gt;lblBefore.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBefore.Parent" xml:space="preserve">
     <value>$this</value>
@@ -179,6 +164,9 @@
   <data name="&gt;&gt;lblAfter.Name" xml:space="preserve">
     <value>lblAfter</value>
   </data>
+  <data name="&gt;&gt;lblAfter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblAfter.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -202,6 +190,9 @@
   </data>
   <data name="&gt;&gt;lblLineSpacing.Name" xml:space="preserve">
     <value>lblLineSpacing</value>
+  </data>
+  <data name="&gt;&gt;lblLineSpacing.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblLineSpacing.Parent" xml:space="preserve">
     <value>$this</value>
@@ -227,6 +218,9 @@
   <data name="&gt;&gt;lblAt.Name" xml:space="preserve">
     <value>lblAt</value>
   </data>
+  <data name="&gt;&gt;lblAt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblAt.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -242,6 +236,9 @@
   <data name="spnAtFloatSpacing.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="spnAtFloatSpacing.Properties.Mask.EditMask" xml:space="preserve">
+    <value>############################0.############################;</value>
+  </data>
   <data name="spnAtFloatSpacing.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 20</value>
   </data>
@@ -250,6 +247,9 @@
   </data>
   <data name="&gt;&gt;spnAtFloatSpacing.Name" xml:space="preserve">
     <value>spnAtFloatSpacing</value>
+  </data>
+  <data name="&gt;&gt;spnAtFloatSpacing.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnAtFloatSpacing.Parent" xml:space="preserve">
     <value>$this</value>
@@ -269,6 +269,9 @@
   <data name="&gt;&gt;spnSpacingBefore.Name" xml:space="preserve">
     <value>spnSpacingBefore</value>
   </data>
+  <data name="&gt;&gt;spnSpacingBefore.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;spnSpacingBefore.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -287,6 +290,9 @@
   <data name="&gt;&gt;spnAtSpacing.Name" xml:space="preserve">
     <value>spnAtSpacing</value>
   </data>
+  <data name="&gt;&gt;spnAtSpacing.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;spnAtSpacing.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -304,6 +310,9 @@
   </data>
   <data name="&gt;&gt;spnSpacingAfter.Name" xml:space="preserve">
     <value>spnSpacingAfter</value>
+  </data>
+  <data name="&gt;&gt;spnSpacingAfter.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnSpacingAfter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -326,13 +335,16 @@
   <data name="&gt;&gt;edtLineSpacing.Name" xml:space="preserve">
     <value>edtLineSpacing</value>
   </data>
+  <data name="&gt;&gt;edtLineSpacing.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.LineSpacingEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtLineSpacing.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;edtLineSpacing.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -345,6 +357,6 @@
     <value>ParagraphSpacingControl</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

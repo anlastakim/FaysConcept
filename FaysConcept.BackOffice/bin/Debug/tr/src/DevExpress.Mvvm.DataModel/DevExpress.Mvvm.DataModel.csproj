@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.Mvvm.DataModel</RootNamespace>
-    <AssemblyName>DevExpress.Mvvm.v17.1.DataModel</AssemblyName>
+    <AssemblyName>DevExpress.Mvvm.v18.1.DataModel</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>

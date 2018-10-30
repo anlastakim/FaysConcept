@@ -253,4 +253,7 @@
   <data name="LayoutStringId.EditRows" xml:space="preserve">
     <value>Satırları düzenle</value>
   </data>
+  <data name="LayoutStringId.GroupStyleTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
 </root>

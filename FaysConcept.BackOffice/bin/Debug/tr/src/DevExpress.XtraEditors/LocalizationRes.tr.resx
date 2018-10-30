@@ -946,12 +946,6 @@
   <data name="StringId.FilterCriteriaToStringUnaryOperatorPlus" xml:space="preserve">
     <value>+</value>
   </data>
-  <data name="StringId.Hours" xml:space="preserve">
-    <value>Saat</value>
-  </data>
-  <data name="StringId.Secs" xml:space="preserve">
-    <value>saniye sürdü</value>
-  </data>
   <data name="StringId.CalcButtonC" xml:space="preserve">
     <value>C</value>
   </data>
@@ -1017,9 +1011,6 @@
   </data>
   <data name="StringId.FilterCriteriaToStringFunctionSin" xml:space="preserve">
     <value>Sin</value>
-  </data>
-  <data name="StringId.Mins" xml:space="preserve">
-    <value>ortaçağ halk ozanı</value>
   </data>
   <data name="StringId.PreviewIOActive" xml:space="preserve">
     <value>GÇ etkin</value>
@@ -1124,7 +1115,16 @@
     <value>3 Bayrak</value>
   </data>
   <data name="StringId.Days" xml:space="preserve">
-    <value>gün</value>
+    <value>Gün</value>
+  </data>
+  <data name="StringId.Secs" xml:space="preserve">
+    <value>Saniye</value>
+  </data>
+  <data name="StringId.Mins" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="StringId.Hours" xml:space="preserve">
+    <value>Saat</value>
   </data>
   <data name="StringId.ManageRuleCommonColor" xml:space="preserve">
     <value>Renk:</value>
@@ -1528,16 +1528,28 @@
   <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoYearsAway" xml:space="preserve">
     <value>İki yıl önce</value>
   </data>
-  <data name="StringId.ManageRuleCellValueNotEqualTo" xml:space="preserve">
-    <value>Eşit değildir</value>
-  </data>
-  <data name="StringId.IconSetTitleStars3" xml:space="preserve">
-    <value>3 Yıldız</value>
+  <data name="StringId.IconSetCategoryIndicators" xml:space="preserve">
+    <value>Göstergeler</value>
   </data>
   <data name="StringId.FormatRuleMenuItemGradientFill" xml:space="preserve">
     <value>Gradyan dolgu</value>
   </data>
   <data name="StringId.FormatRuleMenuItemSolidFill" xml:space="preserve">
     <value>Düz dolgu</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueNotEqualTo" xml:space="preserve">
+    <value>Eşit değildir</value>
+  </data>
+  <data name="StringId.IconSetTitleStars3" xml:space="preserve">
+    <value>3 Yıldız</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Değerinden büyük veya eşit</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsRegular" xml:space="preserve">
+    <value>Düzenli</value>
+  </data>
+  <data name="StringId.ManageRuleCommonAutomatic" xml:space="preserve">
+    <value>Otomatik</value>
   </data>
 </root>

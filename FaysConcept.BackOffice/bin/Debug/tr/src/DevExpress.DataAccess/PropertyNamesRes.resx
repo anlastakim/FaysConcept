@@ -138,6 +138,18 @@
   <data name="DevExpress.DataAccess.EntityFramework.EFDataSource.StoredProcedures" xml:space="preserve">
     <value>Stored Procedures</value>
   </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFStoredProcedureInfo.Parameters" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFDataSource.Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.DBSetFilter.Parameters" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.ObjectDataSource" xml:space="preserve">
+    <value>ObjectDataSource</value>
+  </data>
   <data name="DevExpress.DataAccess.ObjectBinding.ObjectDataSource.Constructor" xml:space="preserve">
     <value>Constructor</value>
   </data>
@@ -195,7 +207,7 @@
   <data name="DevExpress.DataAccess.Sql.TableQuery.Skip" xml:space="preserve">
     <value>Skip</value>
   </data>
-<data name="DevExpress.DataAccess.Sql.SelectQuery.Distinct" xml:space="preserve">
+  <data name="DevExpress.DataAccess.Sql.SelectQuery.Distinct" xml:space="preserve">
     <value>Distinct</value>
   </data>
   <data name="DevExpress.DataAccess.Sql.SelectQuery.FilterString" xml:space="preserve">
@@ -252,6 +264,12 @@
   <data name="DevExpress.DataAccess.Excel.ExcelDataSource.SourceOptions" xml:space="preserve">
     <value>Source Options</value>
   </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDataSource.ExcelSourceOptions" xml:space="preserve">
+    <value>Excel Source Options</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDataSource.CsvSourceOptions" xml:space="preserve">
+    <value>CSV Source Options</value>
+  </data>
   <data name="DevExpress.DataAccess.Excel.ExcelDefinedNameSettings.DefinedName" xml:space="preserve">
     <value>Defined Name</value>
   </data>
@@ -260,6 +278,15 @@
   </data>
   <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.ImportSettings" xml:space="preserve">
     <value>Import Settings</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.ExcelTableSettings" xml:space="preserve">
+    <value>Excel Table Settings</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.ExcelDefinedNameSettings" xml:space="preserve">
+    <value>Excel Defined Name Settings</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.ExcelWorksheetSettings" xml:space="preserve">
+    <value>Excel Worksheet Settings</value>
   </data>
   <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.Password" xml:space="preserve">
     <value>Password</value>
@@ -284,5 +311,14 @@
   </data>
   <data name="DevExpress.DataAccess.Excel.ExcelWorksheetSettings.WorksheetName" xml:space="preserve">
     <value>Worksheet Name</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.ConnectionOptions.CloseConnection" xml:space="preserve">
+    <value>Close Connection</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.ConnectionOptions.DbCommandTimeout" xml:space="preserve">
+    <value>Command Timeout</value>
+  </data>
+  <data name="DevExpress.DataAccess.ConnectionParameters.DataConnectionParametersBase" xml:space="preserve">
+    <value>Connection Parameters</value>
   </data>
 </root>

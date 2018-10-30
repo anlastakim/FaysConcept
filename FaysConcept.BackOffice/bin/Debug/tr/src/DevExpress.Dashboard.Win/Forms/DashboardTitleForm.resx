@@ -82,7 +82,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>4</value>
   </data>
   <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
@@ -100,7 +100,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>3</value>
   </data>
   <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -118,7 +118,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>1</value>
   </data>
   <data name="barDockControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
@@ -136,7 +136,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -144,16 +144,25 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 380</value>
+    <value>151, 380</value>
   </data>
   <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 22</value>
+    <value>74, 22</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="layoutControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="ceRight.EditValue" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -316,6 +325,9 @@
   <data name="ieImage.Location" type="System.Drawing.Point, System.Drawing">
     <value>102, 176</value>
   </data>
+  <data name="ieImage.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 124</value>
+  </data>
   <data name="ieImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 124</value>
   </data>
@@ -420,6 +432,9 @@
   </data>
   <data name="layoutControl.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="layoutControl.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>319, 415</value>
   </data>
   <data name="layoutControlItem9.Text" xml:space="preserve">
     <value>Image:</value>

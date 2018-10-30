@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -78,6 +137,9 @@
   <data name="&gt;&gt;formatNumberCustomControl.Name" xml:space="preserve">
     <value>formatNumberCustomControl</value>
   </data>
+  <data name="&gt;&gt;formatNumberCustomControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.FormatNumberCustomControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;formatNumberCustomControl.Parent" xml:space="preserve">
     <value>xtraTabNumber</value>
   </data>
@@ -103,6 +165,9 @@
   <data name="&gt;&gt;lblCategoryDescription.Name" xml:space="preserve">
     <value>lblCategoryDescription</value>
   </data>
+  <data name="&gt;&gt;lblCategoryDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblCategoryDescription.Parent" xml:space="preserve">
     <value>xtraTabNumber</value>
   </data>
@@ -123,6 +188,9 @@
   </data>
   <data name="&gt;&gt;lblNumberDescription.Name" xml:space="preserve">
     <value>lblNumberDescription</value>
+  </data>
+  <data name="&gt;&gt;lblNumberDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblNumberDescription.Parent" xml:space="preserve">
     <value>xtraTabNumber</value>
@@ -145,6 +213,9 @@
   <data name="&gt;&gt;formatNumberTypeControl.Name" xml:space="preserve">
     <value>formatNumberTypeControl</value>
   </data>
+  <data name="&gt;&gt;formatNumberTypeControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.FormatNumberTypeControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;formatNumberTypeControl.Parent" xml:space="preserve">
     <value>xtraTabNumber</value>
   </data>
@@ -165,6 +236,9 @@
   </data>
   <data name="&gt;&gt;formatNumberDecimalControl.Name" xml:space="preserve">
     <value>formatNumberDecimalControl</value>
+  </data>
+  <data name="&gt;&gt;formatNumberDecimalControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.FormatNumberDecimalControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;formatNumberDecimalControl.Parent" xml:space="preserve">
     <value>xtraTabNumber</value>
@@ -193,6 +267,9 @@
   <data name="&gt;&gt;lblNumberSample.Name" xml:space="preserve">
     <value>lblNumberSample</value>
   </data>
+  <data name="&gt;&gt;lblNumberSample.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblNumberSample.Parent" xml:space="preserve">
     <value>grpNumberSample</value>
   </data>
@@ -213,6 +290,9 @@
   </data>
   <data name="&gt;&gt;grpNumberSample.Name" xml:space="preserve">
     <value>grpNumberSample</value>
+  </data>
+  <data name="&gt;&gt;grpNumberSample.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;grpNumberSample.Parent" xml:space="preserve">
     <value>xtraTabNumber</value>
@@ -235,6 +315,9 @@
   <data name="&gt;&gt;lbCategory.Name" xml:space="preserve">
     <value>lbCategory</value>
   </data>
+  <data name="&gt;&gt;lbCategory.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lbCategory.Parent" xml:space="preserve">
     <value>xtraTabNumber</value>
   </data>
@@ -256,6 +339,9 @@
   <data name="&gt;&gt;lBoxNumberCategory.Name" xml:space="preserve">
     <value>lBoxNumberCategory</value>
   </data>
+  <data name="&gt;&gt;lBoxNumberCategory.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lBoxNumberCategory.Parent" xml:space="preserve">
     <value>xtraTabNumber</value>
   </data>
@@ -270,6 +356,9 @@
   </data>
   <data name="&gt;&gt;xtraTabNumber.Name" xml:space="preserve">
     <value>xtraTabNumber</value>
+  </data>
+  <data name="&gt;&gt;xtraTabNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;xtraTabNumber.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -301,6 +390,9 @@
   <data name="&gt;&gt;lblOrientation.Name" xml:space="preserve">
     <value>lblOrientation</value>
   </data>
+  <data name="&gt;&gt;lblOrientation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblOrientation.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -319,6 +411,9 @@
   <data name="&gt;&gt;lbPreviewRotatedText.Name" xml:space="preserve">
     <value>lbPreviewRotatedText</value>
   </data>
+  <data name="&gt;&gt;lbPreviewRotatedText.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lbPreviewRotatedText.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -326,7 +421,7 @@
     <value>1</value>
   </data>
   <data name="edtVerticalAlignment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 90</value>
+    <value>18, 93</value>
   </data>
   <data name="edtVerticalAlignment.Properties.NullText" xml:space="preserve">
     <value>Bottom</value>
@@ -339,6 +434,9 @@
   </data>
   <data name="&gt;&gt;edtVerticalAlignment.Name" xml:space="preserve">
     <value>edtVerticalAlignment</value>
+  </data>
+  <data name="&gt;&gt;edtVerticalAlignment.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtVerticalAlignment.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
@@ -364,6 +462,9 @@
   <data name="&gt;&gt;lblPreview.Name" xml:space="preserve">
     <value>lblPreview</value>
   </data>
+  <data name="&gt;&gt;lblPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblPreview.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -371,7 +472,7 @@
     <value>3</value>
   </data>
   <data name="edtHorizontalAlignment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 48</value>
+    <value>18, 48</value>
   </data>
   <data name="edtHorizontalAlignment.Properties.NullText" xml:space="preserve">
     <value>General</value>
@@ -384,6 +485,9 @@
   </data>
   <data name="&gt;&gt;edtHorizontalAlignment.Name" xml:space="preserve">
     <value>edtHorizontalAlignment</value>
+  </data>
+  <data name="&gt;&gt;edtHorizontalAlignment.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtHorizontalAlignment.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
@@ -412,6 +516,9 @@
   <data name="&gt;&gt;edtDegrees.Name" xml:space="preserve">
     <value>edtDegrees</value>
   </data>
+  <data name="&gt;&gt;edtDegrees.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtDegrees.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -436,6 +543,9 @@
   <data name="&gt;&gt;lblDegrees.Name" xml:space="preserve">
     <value>lblDegrees</value>
   </data>
+  <data name="&gt;&gt;lblDegrees.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblDegrees.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -443,7 +553,7 @@
     <value>6</value>
   </data>
   <data name="edtTextDirection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 269</value>
+    <value>18, 275</value>
   </data>
   <data name="edtTextDirection.Properties.NullText" xml:space="preserve">
     <value>Context</value>
@@ -456,6 +566,9 @@
   </data>
   <data name="&gt;&gt;edtTextDirection.Name" xml:space="preserve">
     <value>edtTextDirection</value>
+  </data>
+  <data name="&gt;&gt;edtTextDirection.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtTextDirection.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
@@ -481,6 +594,9 @@
   <data name="&gt;&gt;chkWrapText.Name" xml:space="preserve">
     <value>chkWrapText</value>
   </data>
+  <data name="&gt;&gt;chkWrapText.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkWrapText.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -504,6 +620,9 @@
   </data>
   <data name="&gt;&gt;chkShrinkToFit.Name" xml:space="preserve">
     <value>chkShrinkToFit</value>
+  </data>
+  <data name="&gt;&gt;chkShrinkToFit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkShrinkToFit.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
@@ -529,6 +648,9 @@
   <data name="&gt;&gt;chkMergeCells.Name" xml:space="preserve">
     <value>chkMergeCells</value>
   </data>
+  <data name="&gt;&gt;chkMergeCells.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkMergeCells.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -539,7 +661,7 @@
     <value>False</value>
   </data>
   <data name="chkJustifyDistributed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 114</value>
+    <value>18, 117</value>
   </data>
   <data name="chkJustifyDistributed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
@@ -556,6 +678,9 @@
   <data name="&gt;&gt;chkJustifyDistributed.Name" xml:space="preserve">
     <value>chkJustifyDistributed</value>
   </data>
+  <data name="&gt;&gt;chkJustifyDistributed.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkJustifyDistributed.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -566,7 +691,7 @@
     <value>Text Direction</value>
   </data>
   <data name="lblTextDirection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 250</value>
+    <value>18, 256</value>
   </data>
   <data name="lblTextDirection.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 13</value>
@@ -580,6 +705,9 @@
   <data name="&gt;&gt;lblTextDirection.Name" xml:space="preserve">
     <value>lblTextDirection</value>
   </data>
+  <data name="&gt;&gt;lblTextDirection.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblTextDirection.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -590,7 +718,7 @@
     <value>Indent</value>
   </data>
   <data name="lblIndent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 51</value>
+    <value>171, 52</value>
   </data>
   <data name="lblIndent.Size" type="System.Drawing.Size, System.Drawing">
     <value>36, 13</value>
@@ -604,6 +732,9 @@
   <data name="&gt;&gt;lblIndent.Name" xml:space="preserve">
     <value>lblIndent</value>
   </data>
+  <data name="&gt;&gt;lblIndent.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblIndent.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -614,7 +745,7 @@
     <value>Vertical</value>
   </data>
   <data name="lblVertical.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 72</value>
+    <value>18, 74</value>
   </data>
   <data name="lblVertical.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 13</value>
@@ -628,6 +759,9 @@
   <data name="&gt;&gt;lblVertical.Name" xml:space="preserve">
     <value>lblVertical</value>
   </data>
+  <data name="&gt;&gt;lblVertical.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblVertical.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -638,7 +772,7 @@
     <value>Horizontal</value>
   </data>
   <data name="lblHorizontal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 29</value>
+    <value>18, 29</value>
   </data>
   <data name="lblHorizontal.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 13</value>
@@ -652,6 +786,9 @@
   <data name="&gt;&gt;lblHorizontal.Name" xml:space="preserve">
     <value>lblHorizontal</value>
   </data>
+  <data name="&gt;&gt;lblHorizontal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblHorizontal.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -662,10 +799,10 @@
     <value>Right to left</value>
   </data>
   <data name="lblRightToLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 231</value>
+    <value>10, 237</value>
   </data>
   <data name="lblRightToLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>310, 13</value>
+    <value>307, 13</value>
   </data>
   <data name="lblRightToLeft.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -675,6 +812,9 @@
   </data>
   <data name="&gt;&gt;lblRightToLeft.Name" xml:space="preserve">
     <value>lblRightToLeft</value>
+  </data>
+  <data name="&gt;&gt;lblRightToLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRightToLeft.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
@@ -700,6 +840,9 @@
   <data name="&gt;&gt;lblTextControl.Name" xml:space="preserve">
     <value>lblTextControl</value>
   </data>
+  <data name="&gt;&gt;lblTextControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblTextControl.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -724,6 +867,9 @@
   <data name="&gt;&gt;lblTextAlignment.Name" xml:space="preserve">
     <value>lblTextAlignment</value>
   </data>
+  <data name="&gt;&gt;lblTextAlignment.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblTextAlignment.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -734,7 +880,7 @@
     <value>0</value>
   </data>
   <data name="edtIndent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 69</value>
+    <value>171, 71</value>
   </data>
   <data name="edtIndent.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 0</value>
@@ -751,6 +897,9 @@
   <data name="&gt;&gt;edtIndent.Name" xml:space="preserve">
     <value>edtIndent</value>
   </data>
+  <data name="&gt;&gt;edtIndent.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtIndent.Parent" xml:space="preserve">
     <value>xtraTabAlignment</value>
   </data>
@@ -765,6 +914,9 @@
   </data>
   <data name="&gt;&gt;xtraTabAlignment.Name" xml:space="preserve">
     <value>xtraTabAlignment</value>
+  </data>
+  <data name="&gt;&gt;xtraTabAlignment.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;xtraTabAlignment.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -790,6 +942,9 @@
   <data name="&gt;&gt;lblFontDescription.Name" xml:space="preserve">
     <value>lblFontDescription</value>
   </data>
+  <data name="&gt;&gt;lblFontDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFontDescription.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -810,6 +965,9 @@
   </data>
   <data name="&gt;&gt;edtColorFont.Name" xml:space="preserve">
     <value>edtColorFont</value>
+  </data>
+  <data name="&gt;&gt;edtColorFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtColorFont.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
@@ -844,6 +1002,9 @@
   <data name="&gt;&gt;edtFontPreview.Name" xml:space="preserve">
     <value>edtFontPreview</value>
   </data>
+  <data name="&gt;&gt;edtFontPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.SimpleRichEditControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtFontPreview.Parent" xml:space="preserve">
     <value>grpPreview</value>
   </data>
@@ -864,6 +1025,9 @@
   </data>
   <data name="&gt;&gt;grpPreview.Name" xml:space="preserve">
     <value>grpPreview</value>
+  </data>
+  <data name="&gt;&gt;grpPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;grpPreview.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
@@ -892,6 +1056,9 @@
   <data name="&gt;&gt;chkNormalFont.Name" xml:space="preserve">
     <value>chkNormalFont</value>
   </data>
+  <data name="&gt;&gt;chkNormalFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkNormalFont.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -915,6 +1082,9 @@
   </data>
   <data name="&gt;&gt;lblColorFont.Name" xml:space="preserve">
     <value>lblColorFont</value>
+  </data>
+  <data name="&gt;&gt;lblColorFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblColorFont.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
@@ -943,6 +1113,9 @@
   <data name="&gt;&gt;chkSubscript.Name" xml:space="preserve">
     <value>chkSubscript</value>
   </data>
+  <data name="&gt;&gt;chkSubscript.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkSubscript.Parent" xml:space="preserve">
     <value>grpEffects</value>
   </data>
@@ -963,6 +1136,9 @@
   </data>
   <data name="&gt;&gt;chkSuperscript.Name" xml:space="preserve">
     <value>chkSuperscript</value>
+  </data>
+  <data name="&gt;&gt;chkSuperscript.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkSuperscript.Parent" xml:space="preserve">
     <value>grpEffects</value>
@@ -985,6 +1161,9 @@
   <data name="&gt;&gt;chkStrikeThrough.Name" xml:space="preserve">
     <value>chkStrikeThrough</value>
   </data>
+  <data name="&gt;&gt;chkStrikeThrough.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkStrikeThrough.Parent" xml:space="preserve">
     <value>grpEffects</value>
   </data>
@@ -1006,6 +1185,9 @@
   <data name="&gt;&gt;grpEffects.Name" xml:space="preserve">
     <value>grpEffects</value>
   </data>
+  <data name="&gt;&gt;grpEffects.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;grpEffects.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -1026,6 +1208,9 @@
   </data>
   <data name="&gt;&gt;edtUnderline.Name" xml:space="preserve">
     <value>edtUnderline</value>
+  </data>
+  <data name="&gt;&gt;edtUnderline.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtUnderline.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
@@ -1051,6 +1236,9 @@
   <data name="&gt;&gt;lblUnderline.Name" xml:space="preserve">
     <value>lblUnderline</value>
   </data>
+  <data name="&gt;&gt;lblUnderline.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblUnderline.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -1071,6 +1259,9 @@
   </data>
   <data name="&gt;&gt;lBoxSize.Name" xml:space="preserve">
     <value>lBoxSize</value>
+  </data>
+  <data name="&gt;&gt;lBoxSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lBoxSize.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
@@ -1093,6 +1284,9 @@
   <data name="&gt;&gt;lBoxFontStyle.Name" xml:space="preserve">
     <value>lBoxFontStyle</value>
   </data>
+  <data name="&gt;&gt;lBoxFontStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lBoxFontStyle.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -1114,6 +1308,9 @@
   <data name="&gt;&gt;lBoxFont.Name" xml:space="preserve">
     <value>lBoxFont</value>
   </data>
+  <data name="&gt;&gt;lBoxFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lBoxFont.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -1134,6 +1331,9 @@
   </data>
   <data name="&gt;&gt;edtSize.Name" xml:space="preserve">
     <value>edtSize</value>
+  </data>
+  <data name="&gt;&gt;edtSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtSize.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
@@ -1159,6 +1359,9 @@
   <data name="&gt;&gt;lblSize.Name" xml:space="preserve">
     <value>lblSize</value>
   </data>
+  <data name="&gt;&gt;lblSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblSize.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -1176,6 +1379,9 @@
   </data>
   <data name="&gt;&gt;edtFontStyle.Name" xml:space="preserve">
     <value>edtFontStyle</value>
+  </data>
+  <data name="&gt;&gt;edtFontStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFontStyle.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
@@ -1201,6 +1407,9 @@
   <data name="&gt;&gt;lblFontStyle.Name" xml:space="preserve">
     <value>lblFontStyle</value>
   </data>
+  <data name="&gt;&gt;lblFontStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFontStyle.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -1218,6 +1427,9 @@
   </data>
   <data name="&gt;&gt;edtFont.Name" xml:space="preserve">
     <value>edtFont</value>
+  </data>
+  <data name="&gt;&gt;edtFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFont.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
@@ -1243,6 +1455,9 @@
   <data name="&gt;&gt;lblFont.Name" xml:space="preserve">
     <value>lblFont</value>
   </data>
+  <data name="&gt;&gt;lblFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFont.Parent" xml:space="preserve">
     <value>xtraTabFont</value>
   </data>
@@ -1257,6 +1472,9 @@
   </data>
   <data name="&gt;&gt;xtraTabFont.Name" xml:space="preserve">
     <value>xtraTabFont</value>
+  </data>
+  <data name="&gt;&gt;xtraTabFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;xtraTabFont.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -1275,6 +1493,9 @@
   </data>
   <data name="&gt;&gt;formatBorderControl.Name" xml:space="preserve">
     <value>formatBorderControl</value>
+  </data>
+  <data name="&gt;&gt;formatBorderControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.FormatBorderControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;formatBorderControl.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
@@ -1300,6 +1521,9 @@ above.</value>
   </data>
   <data name="&gt;&gt;lblBorderDescription.Name" xml:space="preserve">
     <value>lblBorderDescription</value>
+  </data>
+  <data name="&gt;&gt;lblBorderDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBorderDescription.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
@@ -1342,6 +1566,9 @@ above.</value>
   </data>
   <data name="&gt;&gt;btnInside.Name" xml:space="preserve">
     <value>btnInside</value>
+  </data>
+  <data name="&gt;&gt;btnInside.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnInside.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
@@ -1389,6 +1616,9 @@ above.</value>
   <data name="&gt;&gt;btnNone.Name" xml:space="preserve">
     <value>btnNone</value>
   </data>
+  <data name="&gt;&gt;btnNone.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnNone.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
   </data>
@@ -1433,6 +1663,9 @@ above.</value>
   <data name="&gt;&gt;btnOutline.Name" xml:space="preserve">
     <value>btnOutline</value>
   </data>
+  <data name="&gt;&gt;btnOutline.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnOutline.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
   </data>
@@ -1456,6 +1689,9 @@ above.</value>
   </data>
   <data name="&gt;&gt;lblBorder.Name" xml:space="preserve">
     <value>lblBorder</value>
+  </data>
+  <data name="&gt;&gt;lblBorder.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBorder.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
@@ -1481,6 +1717,9 @@ above.</value>
   <data name="&gt;&gt;lblInside.Name" xml:space="preserve">
     <value>lblInside</value>
   </data>
+  <data name="&gt;&gt;lblInside.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblInside.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
   </data>
@@ -1504,6 +1743,9 @@ above.</value>
   </data>
   <data name="&gt;&gt;lblOutline.Name" xml:space="preserve">
     <value>lblOutline</value>
+  </data>
+  <data name="&gt;&gt;lblOutline.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblOutline.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
@@ -1529,6 +1771,9 @@ above.</value>
   <data name="&gt;&gt;lblNone.Name" xml:space="preserve">
     <value>lblNone</value>
   </data>
+  <data name="&gt;&gt;lblNone.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblNone.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
   </data>
@@ -1552,6 +1797,9 @@ above.</value>
   </data>
   <data name="&gt;&gt;lblPresets.Name" xml:space="preserve">
     <value>lblPresets</value>
+  </data>
+  <data name="&gt;&gt;lblPresets.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblPresets.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
@@ -1577,6 +1825,9 @@ above.</value>
   <data name="&gt;&gt;edtColorBorder.Name" xml:space="preserve">
     <value>edtColorBorder</value>
   </data>
+  <data name="&gt;&gt;edtColorBorder.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtColorBorder.Parent" xml:space="preserve">
     <value>grpLine</value>
   </data>
@@ -1600,6 +1851,9 @@ above.</value>
   </data>
   <data name="&gt;&gt;lblColorBorder.Name" xml:space="preserve">
     <value>lblColorBorder</value>
+  </data>
+  <data name="&gt;&gt;lblColorBorder.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblColorBorder.Parent" xml:space="preserve">
     <value>grpLine</value>
@@ -1625,6 +1879,9 @@ above.</value>
   <data name="&gt;&gt;lblStyle.Name" xml:space="preserve">
     <value>lblStyle</value>
   </data>
+  <data name="&gt;&gt;lblStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblStyle.Parent" xml:space="preserve">
     <value>grpLine</value>
   </data>
@@ -1642,6 +1899,9 @@ above.</value>
   </data>
   <data name="&gt;&gt;lbBorderLineStyle.Name" xml:space="preserve">
     <value>lbBorderLineStyle</value>
+  </data>
+  <data name="&gt;&gt;lbBorderLineStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.BorderLineStyleListBox, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbBorderLineStyle.Parent" xml:space="preserve">
     <value>grpLine</value>
@@ -1664,6 +1924,9 @@ above.</value>
   <data name="&gt;&gt;grpLine.Name" xml:space="preserve">
     <value>grpLine</value>
   </data>
+  <data name="&gt;&gt;grpLine.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;grpLine.Parent" xml:space="preserve">
     <value>xtraTabBorder</value>
   </data>
@@ -1679,11 +1942,41 @@ above.</value>
   <data name="&gt;&gt;xtraTabBorder.Name" xml:space="preserve">
     <value>xtraTabBorder</value>
   </data>
+  <data name="&gt;&gt;xtraTabBorder.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;xtraTabBorder.Parent" xml:space="preserve">
     <value>tabControl</value>
   </data>
   <data name="&gt;&gt;xtraTabBorder.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="bthFillEffects.AccessibleName" xml:space="preserve">
+    <value>Fill Effects</value>
+  </data>
+  <data name="bthFillEffects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 106</value>
+  </data>
+  <data name="bthFillEffects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 23</value>
+  </data>
+  <data name="bthFillEffects.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bthFillEffects.Text" xml:space="preserve">
+    <value>F&amp;ill Effects...</value>
+  </data>
+  <data name="&gt;&gt;bthFillEffects.Name" xml:space="preserve">
+    <value>bthFillEffects</value>
+  </data>
+  <data name="&gt;&gt;bthFillEffects.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;bthFillEffects.Parent" xml:space="preserve">
+    <value>xtraTabFill</value>
+  </data>
+  <data name="&gt;&gt;bthFillEffects.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="chkNoColor.AccessibleName" xml:space="preserve">
     <value>No Color</value>
@@ -1703,11 +1996,14 @@ above.</value>
   <data name="&gt;&gt;chkNoColor.Name" xml:space="preserve">
     <value>chkNoColor</value>
   </data>
+  <data name="&gt;&gt;chkNoColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkNoColor.Parent" xml:space="preserve">
     <value>xtraTabFill</value>
   </data>
   <data name="&gt;&gt;chkNoColor.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="lblBackgroundColor.AccessibleName" xml:space="preserve">
     <value>Background Color</value>
@@ -1727,11 +2023,14 @@ above.</value>
   <data name="&gt;&gt;lblBackgroundColor.Name" xml:space="preserve">
     <value>lblBackgroundColor</value>
   </data>
+  <data name="&gt;&gt;lblBackgroundColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblBackgroundColor.Parent" xml:space="preserve">
     <value>xtraTabFill</value>
   </data>
   <data name="&gt;&gt;lblBackgroundColor.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="edtPatternColor.EditValue" type="System.Drawing.Color, System.Drawing">
     <value></value>
@@ -1743,16 +2042,19 @@ above.</value>
     <value>164, 20</value>
   </data>
   <data name="edtPatternColor.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;edtPatternColor.Name" xml:space="preserve">
     <value>edtPatternColor</value>
+  </data>
+  <data name="&gt;&gt;edtPatternColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtPatternColor.Parent" xml:space="preserve">
     <value>xtraTabFill</value>
   </data>
   <data name="&gt;&gt;edtPatternColor.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="lblPatternColor.AccessibleName" xml:space="preserve">
     <value>Pattern Color</value>
@@ -1764,7 +2066,7 @@ above.</value>
     <value>68, 13</value>
   </data>
   <data name="lblPatternColor.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="lblPatternColor.Text" xml:space="preserve">
     <value>P&amp;attern Color:</value>
@@ -1772,11 +2074,14 @@ above.</value>
   <data name="&gt;&gt;lblPatternColor.Name" xml:space="preserve">
     <value>lblPatternColor</value>
   </data>
+  <data name="&gt;&gt;lblPatternColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblPatternColor.Parent" xml:space="preserve">
     <value>xtraTabFill</value>
   </data>
   <data name="&gt;&gt;lblPatternColor.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="edtPatternStyle.Location" type="System.Drawing.Point, System.Drawing">
     <value>299, 82</value>
@@ -1785,7 +2090,7 @@ above.</value>
     <value>164, 20</value>
   </data>
   <data name="edtPatternStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>8</value>
   </data>
   <metadata name="toolTipController1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>208, 17</value>
@@ -1793,11 +2098,14 @@ above.</value>
   <data name="&gt;&gt;edtPatternStyle.Name" xml:space="preserve">
     <value>edtPatternStyle</value>
   </data>
+  <data name="&gt;&gt;edtPatternStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.PatternStyleImageComboBoxEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtPatternStyle.Parent" xml:space="preserve">
     <value>xtraTabFill</value>
   </data>
   <data name="&gt;&gt;edtPatternStyle.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="lblPatternStyle.AccessibleName" xml:space="preserve">
     <value>Pattern Style</value>
@@ -1809,7 +2117,7 @@ above.</value>
     <value>67, 13</value>
   </data>
   <data name="lblPatternStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="lblPatternStyle.Text" xml:space="preserve">
     <value>P&amp;attern Style:</value>
@@ -1817,34 +2125,40 @@ above.</value>
   <data name="&gt;&gt;lblPatternStyle.Name" xml:space="preserve">
     <value>lblPatternStyle</value>
   </data>
+  <data name="&gt;&gt;lblPatternStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblPatternStyle.Parent" xml:space="preserve">
     <value>xtraTabFill</value>
   </data>
   <data name="&gt;&gt;lblPatternStyle.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="grpFillSample.AccessibleName" xml:space="preserve">
     <value>Sample</value>
   </data>
-  <data name="drawPatternType.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+  <data name="drawFillType.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>Control</value>
   </data>
-  <data name="drawPatternType.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="drawFillType.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 24</value>
   </data>
-  <data name="drawPatternType.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="drawFillType.Size" type="System.Drawing.Size, System.Drawing">
     <value>445, 62</value>
   </data>
-  <data name="drawPatternType.TabIndex" type="System.Int32, mscorlib">
+  <data name="drawFillType.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
   </data>
-  <data name="&gt;&gt;drawPatternType.Name" xml:space="preserve">
-    <value>drawPatternType</value>
+  <data name="&gt;&gt;drawFillType.Name" xml:space="preserve">
+    <value>drawFillType</value>
   </data>
-  <data name="&gt;&gt;drawPatternType.Parent" xml:space="preserve">
+  <data name="&gt;&gt;drawFillType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;drawFillType.Parent" xml:space="preserve">
     <value>grpFillSample</value>
   </data>
-  <data name="&gt;&gt;drawPatternType.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;drawFillType.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="grpFillSample.Location" type="System.Drawing.Point, System.Drawing">
@@ -1854,7 +2168,7 @@ above.</value>
     <value>455, 91</value>
   </data>
   <data name="grpFillSample.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="grpFillSample.Text" xml:space="preserve">
     <value>Sample</value>
@@ -1862,11 +2176,14 @@ above.</value>
   <data name="&gt;&gt;grpFillSample.Name" xml:space="preserve">
     <value>grpFillSample</value>
   </data>
+  <data name="&gt;&gt;grpFillSample.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;grpFillSample.Parent" xml:space="preserve">
     <value>xtraTabFill</value>
   </data>
   <data name="&gt;&gt;grpFillSample.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="edtBackColor.EditValue" type="System.Drawing.Color, System.Drawing">
     <value></value>
@@ -1883,11 +2200,14 @@ above.</value>
   <data name="&gt;&gt;edtBackColor.Name" xml:space="preserve">
     <value>edtBackColor</value>
   </data>
+  <data name="&gt;&gt;edtBackColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtBackColor.Parent" xml:space="preserve">
     <value>xtraTabFill</value>
   </data>
   <data name="&gt;&gt;edtBackColor.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="xtraTabFill.Size" type="System.Drawing.Size, System.Drawing">
     <value>474, 352</value>
@@ -1897,6 +2217,9 @@ above.</value>
   </data>
   <data name="&gt;&gt;xtraTabFill.Name" xml:space="preserve">
     <value>xtraTabFill</value>
+  </data>
+  <data name="&gt;&gt;xtraTabFill.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;xtraTabFill.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -1923,6 +2246,9 @@ Changes group, Protect Sheet button).</value>
   <data name="&gt;&gt;lblProtection.Name" xml:space="preserve">
     <value>lblProtection</value>
   </data>
+  <data name="&gt;&gt;lblProtection.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblProtection.Parent" xml:space="preserve">
     <value>xtraTabProtection</value>
   </data>
@@ -1943,6 +2269,9 @@ Changes group, Protect Sheet button).</value>
   </data>
   <data name="&gt;&gt;chkHidden.Name" xml:space="preserve">
     <value>chkHidden</value>
+  </data>
+  <data name="&gt;&gt;chkHidden.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkHidden.Parent" xml:space="preserve">
     <value>xtraTabProtection</value>
@@ -1965,6 +2294,9 @@ Changes group, Protect Sheet button).</value>
   <data name="&gt;&gt;chkLocked.Name" xml:space="preserve">
     <value>chkLocked</value>
   </data>
+  <data name="&gt;&gt;chkLocked.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkLocked.Parent" xml:space="preserve">
     <value>xtraTabProtection</value>
   </data>
@@ -1980,6 +2312,9 @@ Changes group, Protect Sheet button).</value>
   <data name="&gt;&gt;xtraTabProtection.Name" xml:space="preserve">
     <value>xtraTabProtection</value>
   </data>
+  <data name="&gt;&gt;xtraTabProtection.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;xtraTabProtection.Parent" xml:space="preserve">
     <value>tabControl</value>
   </data>
@@ -1988,6 +2323,9 @@ Changes group, Protect Sheet button).</value>
   </data>
   <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
     <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2005,13 +2343,16 @@ Changes group, Protect Sheet button).</value>
     <value>75, 23</value>
   </data>
   <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>10</value>
   </data>
   <data name="btnOk.Text" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
     <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2029,13 +2370,16 @@ Changes group, Protect Sheet button).</value>
     <value>75, 23</value>
   </data>
   <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>11</value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2061,7 +2405,13 @@ Changes group, Protect Sheet button).</value>
   <data name="&gt;&gt;toolTipController1.Name" xml:space="preserve">
     <value>toolTipController1</value>
   </data>
+  <data name="&gt;&gt;toolTipController1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ToolTipController, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormatCellsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

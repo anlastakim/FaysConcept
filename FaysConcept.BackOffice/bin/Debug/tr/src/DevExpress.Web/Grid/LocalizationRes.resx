@@ -217,6 +217,18 @@
   <data name="ASPxGridViewStringId.Alt_FilterRowButton">
     <value>Open filter row popup menu</value>
   </data>
+  <data name="ASPxGridViewStringId.Alt_DragAndDropArrowUp">
+    <value>Up Arrow</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_DragAndDropArrowDown">
+    <value>Down Arrow</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_DragAndDropArrowLeft">
+    <value>Left Arrow</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_DragAndDropArrowRight">
+    <value>Right Arrow</value>
+  </data>
   <data name="ASPxGridViewStringId.Outlook_Older">
     <value>Older</value>
   </data>
@@ -391,6 +403,9 @@
   <data name="ASPxGridViewStringId.ContextMenu_GroupSummaryMenu">
     <value>Group Summary</value>
   </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ExportTo">
+    <value>Export to {0}</value>
+  </data>
   <data name="ASPxGridViewStringId.Toolbar_FullExpand">
     <value>Expand All</value>
   </data>
@@ -462,6 +477,9 @@
   </data>
   <data name="ASPxGridViewStringId.Toolbar_CollapseDetailRow">
     <value>Collapse Detail</value>
+  </data>
+  <data name="ASPxGridViewStringId.Toolbar_ExportTo">
+    <value>Export to {0}</value>
   </data>
   <data name="ASPxGridViewStringId.CustomizationDialog_ColumnChooserTab">
     <value>Column Chooser</value>

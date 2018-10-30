@@ -64,4 +64,7 @@
   <data name="btnCancel.Text" xml:space="preserve">
     <value>İptal</value>
   </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
 </root>

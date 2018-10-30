@@ -139,6 +139,12 @@
   <data name="ASPxTreeListStringId.Alt_Expand" xml:space="preserve">
     <value>[Genişlet]</value>
   </data>
+  <data name="ASPxTreeListStringId.Toolbar_FullCollapse" xml:space="preserve">
+    <value>Tümünü Daralt</value>
+  </data>
+  <data name="ASPxTreeListStringId.Toolbar_FullExpand" xml:space="preserve">
+    <value>Tümünü Genişlet</value>
+  </data>
   <data name="ASPxTreeListStringId.Toolbar_Cancel" xml:space="preserve">
     <value>İptal</value>
   </data>
@@ -169,13 +175,13 @@
   <data name="ASPxTreeListStringId.Toolbar_ClearSorting" xml:space="preserve">
     <value>Sıralamayı Temizle</value>
   </data>
-  <data name="ASPxTreeListStringId.Toolbar_FullCollapse" xml:space="preserve">
-    <value>Tümünü Daralt</value>
-  </data>
-  <data name="ASPxTreeListStringId.Toolbar_FullExpand" xml:space="preserve">
-    <value>Tümünü Genişlet</value>
-  </data>
   <data name="ASPxTreeListStringId.Toolbar_ShowCustomizationWindow" xml:space="preserve">
     <value>Sütun seçici</value>
+  </data>
+  <data name="ASPxTreeListStringId.Toolbar_ClearFilter" xml:space="preserve">
+    <value>Filtreyi Temizle</value>
+  </data>
+  <data name="ASPxTreeListStringId.Toolbar_ExportTo" xml:space="preserve">
+    <value>{0} için dışa aktarma</value>
   </data>
 </root>

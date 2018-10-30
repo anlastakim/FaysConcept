@@ -620,4 +620,7 @@
   <data name="ASPxperienceStringId.UploadControl_CallbackResultIncorrectError" xml:space="preserve">
     <value>Web sunucu beklenmeyen bir yanıt döndürdü.</value>
   </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_Location" xml:space="preserve">
+    <value>Konum</value>
+  </data>
 </root>

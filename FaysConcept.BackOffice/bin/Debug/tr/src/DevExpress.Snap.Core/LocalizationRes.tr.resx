@@ -700,4 +700,7 @@ Varsayılan sütun başlıkları içerir.</value>
   <data name="SnapStringId.GroupField_SortOrder" xml:space="preserve">
     <value>Sıralama düzeni</value>
   </data>
+  <data name="SnapStringId.Msg_InvalidCalculatedFieldName" xml:space="preserve">
+    <value>Belirtilen hesaplanan alan adı geçerli değil: {0}.</value>
+  </data>
 </root>

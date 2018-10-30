@@ -79,4 +79,10 @@
   <data name="horizontalPitchLabel.Text" xml:space="preserve">
     <value>&amp;Yatay Seviye:</value>
   </data>
+  <data name="labelWizardImageControl.WidthText" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="labelWizardImageControl.HeightText" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
 </root>

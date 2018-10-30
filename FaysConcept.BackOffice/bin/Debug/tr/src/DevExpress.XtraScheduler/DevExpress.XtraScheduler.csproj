@@ -11,7 +11,7 @@
     </ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>DevExpress.XtraScheduler.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.XtraScheduler.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
@@ -98,6 +98,7 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Design\AppointmentPrintControls\PrintControl.cs" />
     <Compile Include="Design\DailyRecurrenceControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -157,6 +158,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Design\AppointmentPrintControls\PrintControl.resx">
+      <DependentUpon>PrintControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\AppointmentPrintControls\PrintControl.tr.resx">
+      <DependentUpon>PrintControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AppointmentRibbonForm.resx">
       <DependentUpon>AppointmentRibbonForm.cs</DependentUpon>
     </EmbeddedResource>

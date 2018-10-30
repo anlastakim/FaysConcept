@@ -110,6 +110,16 @@
   <data name="ASPxSpreadsheetStringId.SaveFile_FolderManager_Header">
     <value>Select destination folder or existing file</value>
   </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_PathDoesNotExist">
+    <value>Path does not exist.
+Check the path and try again.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_WrongDocumentPath">
+    <value>The document could not be saved because the destination path is invalid.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_WrongDocumentExtension">
+    <value>The document could not be saved because the target file's extension is invalid.</value>
+  </data>
   <data name="ASPxSpreadsheetStringId.RowHeight">
     <value>Row Height</value>
   </data>
@@ -269,6 +279,21 @@
   <data name="ASPxSpreadsheetStringId.BorderLineStyle_Thick">
     <value>Thick</value>
   </data>
+  <data name="ASPxSpreadsheetStringId.ReadingViewTab_Title">
+    <value>Reading View</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ReadingViewGroup_Title">
+    <value>Reading View</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DocumentViewsGroup_Title">
+    <value>Document Views</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.EditingViewCommand_Text">
+    <value>Editing View</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ReadingViewCommand_Text">
+    <value>Reading View</value>
+  </data>
   <data name="ASPxSpreadsheetStringId.ViewGroup_Title">
     <value>View</value>
   </data>
@@ -328,6 +353,63 @@
   </data>
   <data name="ASPxSpreadsheetStringId.FormulaValidation_Failed_Caption">
     <value>Formula Validation Failed</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_Caption">
+    <value>Settings</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_GroupCaption">
+    <value>Validation criteria</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_Allow">
+    <value>Allow</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_IgnoreBlank">
+    <value>Ignore blank</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_Data">
+    <value>Data</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_InCellDropDown">
+    <value>In-cell dropdown</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_ApplyChanges">
+    <value>Apply these changes to all other cells with the same settings</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_Caption">
+    <value>Input Message</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_ShowMessage">
+    <value>Show input message when cell is selected</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_ShowDescription">
+    <value>When cell is selected, show this input message</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_InputMessageTitle">
+    <value>Title</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_InputMessage">
+    <value>Input message</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_Caption">
+    <value>Error Alert</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ShowAlert">
+    <value>Show error alert after invalid data is entered</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ShowDescription">
+    <value>When user enters invalid data, show this error alert</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_Style">
+    <value>Style</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ErrorMessageTitle">
+    <value>Title</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ErrorMessage">
+    <value>Error message</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_ClearAll">
+    <value>Clear All</value>
   </data>
   <data name="ASPxSpreadsheetStringId.ModifyTableStyle">
     <value>Change Table Style</value>

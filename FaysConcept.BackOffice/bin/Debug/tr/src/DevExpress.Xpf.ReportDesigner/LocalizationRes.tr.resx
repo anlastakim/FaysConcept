@@ -97,6 +97,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ReportDesignerStringId.NewParameterEditor_Description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
   <data name="ReportDesignerStringId.ChartDesigner_OptionsTab_Header" xml:space="preserve">
     <value>Seçenekler</value>
   </data>
@@ -107,6 +110,9 @@
     <value>Sil</value>
   </data>
   <data name="ReportDesignerStringId.ChartDesigner_DataTab_Header" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Data" xml:space="preserve">
     <value>Veri</value>
   </data>
   <data name="ReportDesignerStringId.Chart_SeriesEditor_PropertiesTab" xml:space="preserve">
@@ -133,6 +139,12 @@
   <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesTitle" xml:space="preserve">
     <value>Başlık</value>
   </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AxisElements_AddConstantLine_Caption" xml:space="preserve">
+    <value>Sabit hat</value>
+  </data>
   <data name="ReportDesignerStringId.ChartDesigner_ChartElements_AddLegend_Caption" xml:space="preserve">
     <value>Gösterge</value>
   </data>
@@ -156,6 +168,9 @@
   </data>
   <data name="ReportDesignerStringId.Undo_Caption" xml:space="preserve">
     <value>Geri Al</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_BarSeriesGroup" xml:space="preserve">
+    <value>Bar serisi</value>
   </data>
   <data name="ReportDesignerStringId.Warning" xml:space="preserve">
     <value>Uyarı</value>
@@ -181,6 +196,18 @@
   <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesTitleCollection" xml:space="preserve">
     <value>Başlıklar</value>
   </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_ConstantLineCollection" xml:space="preserve">
+    <value>Sabit Çizgiler</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_IndicatorCollection" xml:space="preserve">
+    <value>Göstergeler</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_PolarDiagram" xml:space="preserve">
+    <value>Kutup diyagramı</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_RadarDiagram" xml:space="preserve">
+    <value>Radar diyagramı</value>
+  </data>
   <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesLabel" xml:space="preserve">
     <value>Etiket</value>
   </data>
@@ -190,11 +217,17 @@
   <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesPointCollection" xml:space="preserve">
     <value>Noktalar</value>
   </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SimpleDiagram3D" xml:space="preserve">
+    <value>3D basit diyagramı</value>
+  </data>
   <data name="ReportDesignerStringId.ChartDesigner_Tree_StripCollection" xml:space="preserve">
     <value>Şeritler</value>
   </data>
   <data name="ReportDesignerStringId.Ribbon_AlignmentGroup" xml:space="preserve">
     <value>Hizalama</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_Name" xml:space="preserve">
+    <value>Adı</value>
   </data>
   <data name="ReportDesignerStringId.Copy" xml:space="preserve">
     <value>Kopyala</value>
@@ -235,6 +268,9 @@
   <data name="ReportDesignerStringId.RibbonGroup_Font" xml:space="preserve">
     <value>Yazı tipi</value>
   </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Caption" xml:space="preserve">
+    <value>Resim yazısı</value>
+  </data>
   <data name="ReportDesignerStringId.RibbonPage_Preview" xml:space="preserve">
     <value>Önizleme</value>
   </data>
@@ -251,6 +287,9 @@
     <value>Değer</value>
   </data>
   <data name="ReportDesignerStringId.ChartDesigner_DataTab_ValueDropTargetControlText" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_Value" xml:space="preserve">
     <value>Değer</value>
   </data>
   <data name="ReportDesignerStringId.Chart_PalettesEditor_Load" xml:space="preserve">
@@ -271,6 +310,15 @@
   <data name="ReportDesignerStringId.Properties_SummaryRunning_Page" xml:space="preserve">
     <value>Sayfa</value>
   </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_Height" xml:space="preserve">
+    <value>Yükseklik:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_Width" xml:space="preserve">
+    <value>Genişliği:</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_Type" xml:space="preserve">
+    <value>Türü</value>
+  </data>
   <data name="ReportDesignerStringId.FieldList" xml:space="preserve">
     <value>Alan Listesi</value>
   </data>
@@ -288,15 +336,6 @@
   </data>
   <data name="ReportDesignerStringId.ChartDesigner_Msg3DRotationActionName" xml:space="preserve">
     <value>Döndürme</value>
-  </data>
-  <data name="ReportDesignerStringId.Chart_SeriesEditor_ArgumentColumn" xml:space="preserve">
-    <value>Sav</value>
-  </data>
-  <data name="ReportDesignerStringId.Chart_SummaryFunctionEditor_Argument_Caption" xml:space="preserve">
-    <value>Sav</value>
-  </data>
-  <data name="ReportDesignerStringId.ChartDesigner_DataTab_ArgumentDropTargetControlText" xml:space="preserve">
-    <value>Sav</value>
   </data>
   <data name="ReportDesignerStringId.Ribbon_EditGroup" xml:space="preserve">
     <value>Düzenle</value>
@@ -316,8 +355,23 @@
   <data name="ReportDesignerStringId.Paste_Caption" xml:space="preserve">
     <value>Yapıştır</value>
   </data>
+  <data name="ReportDesignerStringId.Chart_SeriesEditor_ArgumentColumn" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SummaryFunctionEditor_Argument_Caption" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_ArgumentDropTargetControlText" xml:space="preserve">
+    <value>Sav</value>
+  </data>
   <data name="ReportDesignerStringId.Cell" xml:space="preserve">
     <value>Hücre</value>
+  </data>
+  <data name="ReportDesignerStringId.Insert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Count" xml:space="preserve">
+    <value>Adet</value>
   </data>
   <data name="ReportDesignerStringId.PageSetup_Caption" xml:space="preserve">
     <value>Sayfa yapısı</value>
@@ -333,6 +387,15 @@
   </data>
   <data name="ReportDesignerStringId.Row" xml:space="preserve">
     <value>Satır</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Sum" xml:space="preserve">
+    <value>Toplam</value>
   </data>
   <data name="ReportDesignerStringId.ReportExplorer_Styles" xml:space="preserve">
     <value>Stiller</value>
@@ -361,20 +424,11 @@
   <data name="ReportDesignerStringId.Editors_NullValue_Text" xml:space="preserve">
     <value>(yok)</value>
   </data>
-  <data name="ReportDesignerStringId.Insert" xml:space="preserve">
-    <value>Ekle</value>
-  </data>
   <data name="ReportDesignerStringId.Ribbon_ArrangeGroup" xml:space="preserve">
     <value>Yerleştir</value>
   </data>
   <data name="ReportDesignerStringId.RibbonGroup_Arrange" xml:space="preserve">
     <value>Yerleştir</value>
-  </data>
-  <data name="ReportDesignerStringId.ReportWizard_SelectColumns" xml:space="preserve">
-    <value>Raporda görüntülemek istediğiniz sütunları seçin.</value>
-  </data>
-  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType" xml:space="preserve">
-    <value>Oluşturmak istediğiniz rapor türünü seçin.</value>
   </data>
   <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_Outline1" xml:space="preserve">
     <value>Anahat 1</value>
@@ -457,46 +511,31 @@
   <data name="ReportDesignerStringId.VerticalSpaceMakeEqual_Caption" xml:space="preserve">
     <value>Dikey Boşluğu Eşitle</value>
   </data>
-  <data name="ReportDesignerStringId.NewParameterEditor_Description" xml:space="preserve">
-    <value>Açıklama</value>
+  <data name="ReportDesignerStringId.Properties_Expression" xml:space="preserve">
+    <value>İfade</value>
   </data>
-  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Data" xml:space="preserve">
-    <value>Veri</value>
+  <data name="ReportDesignerStringId.Properties_SummaryFunction" xml:space="preserve">
+    <value>Özet işlevi</value>
   </data>
-  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Title" xml:space="preserve">
-    <value>Başlık</value>
+  <data name="ReportDesignerStringId.Ribbon_HomePage" xml:space="preserve">
+    <value>Ana Sayfa</value>
   </data>
-  <data name="ReportDesignerStringId.NewParameterEditor_Name" xml:space="preserve">
-    <value>Adı</value>
+  <data name="ReportDesignerStringId.Properties_Field" xml:space="preserve">
+    <value>Alan</value>
   </data>
-  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Caption" xml:space="preserve">
-    <value>Resim yazısı</value>
+  <data name="ReportDesignerStringId.Properties_FormatString" xml:space="preserve">
+    <value>Biçimlendirme Kalıbı</value>
   </data>
-  <data name="ReportDesignerStringId.NewParameterEditor_Value" xml:space="preserve">
-    <value>Değer</value>
+  <data name="ReportDesignerStringId.ColorEditor_None" xml:space="preserve">
+    <value>Hiçbiri</value>
   </data>
-  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_Height" xml:space="preserve">
-    <value>Yükseklik:</value>
-  </data>
-  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_Width" xml:space="preserve">
-    <value>Genişliği:</value>
-  </data>
-  <data name="ReportDesignerStringId.NewParameterEditor_Type" xml:space="preserve">
-    <value>Türü</value>
-  </data>
-  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Count" xml:space="preserve">
-    <value>Adet</value>
-  </data>
-  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Max" xml:space="preserve">
-    <value>Max</value>
-  </data>
-  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Min" xml:space="preserve">
-    <value>Min</value>
-  </data>
-  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Sum" xml:space="preserve">
-    <value>Toplam</value>
+  <data name="ReportDesignerStringId.ColorEditor_Custom" xml:space="preserve">
+    <value>Özel</value>
   </data>
   <data name="ReportDesignerStringId.SortOrder" xml:space="preserve">
     <value>Sıralama düzeni</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ParentBookmark" xml:space="preserve">
+    <value>Ana yer imini</value>
   </data>
 </root>

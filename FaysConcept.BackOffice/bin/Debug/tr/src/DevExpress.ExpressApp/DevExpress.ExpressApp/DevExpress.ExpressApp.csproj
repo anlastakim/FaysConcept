@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.ExpressApp</RootNamespace>
-    <AssemblyName>DevExpress.ExpressApp.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.ExpressApp.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -64,6 +64,8 @@
     <EmbeddedResource Include="Localization\UserVisibleExceptions.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModuleLocalizationResources.resx" />
+    <EmbeddedResource Include="ModuleLocalizationResources.tr.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

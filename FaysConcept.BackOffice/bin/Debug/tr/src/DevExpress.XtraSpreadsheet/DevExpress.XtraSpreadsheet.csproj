@@ -11,7 +11,7 @@
     </ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>DevExpress.XtraSpreadsheet.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.XtraSpreadsheet.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
@@ -236,6 +236,9 @@
     <Compile Include="Forms\FieldsPanelPivotTableForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\FillEffectsFormatCellsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\FindReplaceForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -272,10 +275,16 @@
     <Compile Include="Forms\InsertPivotTableForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\InsertSheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\InsertTableForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\ManageDataSourcesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MoveChartForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\MoveOrCopySheetForm.cs">
@@ -350,6 +359,9 @@
     <Compile Include="Forms\PivotTableValueFilterForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\ProtectChartsheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\ProtectedRangeManagerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -369,6 +381,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\SelectDataSourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SheetActivationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\SimpleFilterForm.cs">
@@ -569,6 +584,9 @@
     <EmbeddedResource Include="Forms\FieldsPanelPivotTableForm.resx">
       <DependentUpon>FieldsPanelPivotTableForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FillEffectsFormatCellsForm.resx">
+      <DependentUpon>FillEffectsFormatCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FindReplaceForm.resx">
       <DependentUpon>FindReplaceForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -616,6 +634,9 @@
     <EmbeddedResource Include="Forms\InsertPivotTableForm.resx">
       <DependentUpon>InsertPivotTableForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertSheetForm.resx">
+      <DependentUpon>InsertSheetForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\InsertTableForm.resx">
       <DependentUpon>InsertTableForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -627,6 +648,10 @@
       <DependentUpon>ManageDataSourcesForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MoveChartForm.resx">
+      <DependentUpon>MoveChartForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MoveOrCopySheetForm.resx">
       <DependentUpon>MoveOrCopySheetForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -635,7 +660,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\NameForDefinedNameRequestForm.resx">
       <DependentUpon>NameForDefinedNameRequestForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\NameManagerForm.resx">
       <DependentUpon>NameManagerForm.cs</DependentUpon>
@@ -712,6 +736,9 @@
     <EmbeddedResource Include="Forms\PivotTableValueFilterForm.resx">
       <DependentUpon>PivotTableValueFilterForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProtectChartsheetForm.resx">
+      <DependentUpon>ProtectChartsheetForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ProtectedRangeManagerForm.resx">
       <DependentUpon>ProtectedRangeManagerForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -736,6 +763,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SelectDataSourceForm.resx">
       <DependentUpon>SelectDataSourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SheetActivationForm.resx">
+      <DependentUpon>SheetActivationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SimpleFilterForm.resx">
       <DependentUpon>SimpleFilterForm.cs</DependentUpon>

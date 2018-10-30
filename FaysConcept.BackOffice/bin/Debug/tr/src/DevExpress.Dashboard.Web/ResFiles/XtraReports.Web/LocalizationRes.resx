@@ -14,9 +14,6 @@
   <data name="ASPxReportsStringId.SearchDialog_Header">
     <value>Search</value>
   </data>
-  <data name="ASPxReportsStringId.SearchDialog_EnterText">
-    <value>Enter the text to find in the document.</value>
-  </data>
   <data name="ASPxReportsStringId.SearchDialog_FindWhat">
     <value>Find&amp;nbsp;what</value>
   </data>
@@ -55,6 +52,12 @@
   </data>
   <data name="ASPxReportsStringId.SearchDialog_Finished">
     <value>Finished searching the document.</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Collapse">
+    <value>Collapse</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Open">
+    <value>Open</value>
   </data>
   <data name="ASPxReportsStringId.ToolBarItemText_Search">
     <value>Display the search window</value>
@@ -266,6 +269,9 @@
   <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageToolTip">
     <value>Display the specified page.</value>
   </data>
+  <data name="ASPxReportsStringId.SearchDialog_EnterText">
+    <value>Enter the text to find in the document.</value>
+  </data>
   <data name="ASPxReportsStringId.WebDocumentViewer_SelectAll">
     <value>(Select All)</value>
   </data>
@@ -277,6 +283,9 @@
 - assigning the ASPxWebDocumentViewer.ReportSourceId property;
 - calling the ASPxWebDocumentViewer.OpenReport method;
 - calling the ASPxWebDocumentViewer.OpenReportXmlLayout method.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_CustomDocumentOperationsDenied_Error">
+    <value>The requested document operation cannot be performed.</value>
   </data>
   <data name="ASPxReportsStringId.WebDocumentViewer_AccessDenied_Error">
     <value>Access is denied. You are not granted permission to perform this operation.</value>
@@ -309,7 +318,7 @@
     <value>0 pages</value>
   </data>
   <data name="ASPxReportsStringId.WebDocumentViewer_NoParameters">
-    <value></value>
+    <value>The report does not contain any parameters.</value>
   </data>
   <data name="ASPxReportsStringId.WebDocumentViewer_SearchResultText">
     <value>Search result</value>
@@ -397,6 +406,12 @@
   </data>
   <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToRight">
     <value>Insert Column To the Right</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DistributeColumnsEvenly">
+    <value>Distribute Columns Evenly</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DistributeRowsEvenly">
+    <value>Distribute Rows Evenly</value>
   </data>
   <data name="ASPxReportsStringId.ReportDesigner_GroupFields_Empty">
     <value>To create a new item, click Add.</value>
@@ -490,6 +505,15 @@
   </data>
   <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSource_Description">
     <value>Choose a Data Source to use in your report.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_UseExisting_DataSource">
+    <value>Do you want to use an existing data source?</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSourceFromList">
+    <value>Yes, let me choose an existing data source from the list</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateNewDataSource">
+    <value>No, I'd like to create a new SQL data source</value>
   </data>
   <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataMember_Title">
     <value>Choose a Table or View</value>
@@ -683,6 +707,24 @@
   <data name="ASPxReportsStringId.ReportDesigner_Wizard_PaperSize">
     <value>Paper Size:</value>
   </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_Description">
+    <value>Select data members to assign to the report and its detail reports and fields to display in these reports.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SelectFieldsAndSummaries">
+    <value>Select fields and assign summary functions to them</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SelectReport">
+    <value>Select the report</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_SelectDataMembers">
+    <value>Select data members</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_SelectDataFields">
+    <value>Select data fields</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SummaryFunctions">
+    <value>Summary functions</value>
+  </data>
   <data name="ASPxReportsStringId.ReportDesigner_MenuItem_AddSqlDataSource">
     <value>Add SQL Data Source...</value>
   </data>
@@ -794,6 +836,9 @@
   <data name="ASPxReportsStringId.ReportDesigner_NameValidationError">
     <value>Invalid name</value>
   </data>
+  <data name="ASPxReportsStringId.ReportDesigner_NameUniqueError">
+    <value>Name is not unique</value>
+  </data>
   <data name="ASPxReportsStringId.ReportDesigner_ScriptEditor_Toolbar_SelectControl">
     <value>Select control...</value>
   </data>
@@ -824,6 +869,9 @@
   <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Point">
     <value>Point</value>
   </data>
+  <data name="ASPxReportsStringId.ReportDesigner_CrossBandControls">
+    <value>Cross-Band Controls</value>
+  </data>
   <data name="ASPxReportsStringId.ReportDesigner_PropertyGrid_Editor_EmptyText">
     <value>Select...</value>
   </data>
@@ -832,6 +880,9 @@
   </data>
   <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_EditMasterDetailRelations">
     <value>Edit Master-Detail Relations</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_AdvancedMode">
+    <value>Advanced Mode</value>
   </data>
   <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Value">
     <value>Value</value>
@@ -844,5 +895,56 @@
   </data>
   <data name="ASPxReportsStringId.FilterEditor_Operand_CreateNewParameter">
     <value>Create new parameter</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_TreeCreationError">
+    <value>Cannot create a tree for this expression</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_AddArgument">
+    <value>Add Argument</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_AddNewItem">
+    <value>Add New Item</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Mobile_TapHereToSearch">
+    <value>Tap here to Search</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SearchBox_EmptyText">
+    <value>Enter text to search...</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportError">
+    <value>An error occurred during the export</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetExportStatusError">
+    <value>Error obtaining an export status</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportStatusError">
+    <value>Error on retrieving an exporting status: </value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DrillThroughError">
+    <value>Drill through operation failed</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_OpenReportError">
+    <value>Could not open report</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_DataSource_FilterCriteriaTitle">
+    <value>Filter Criteria</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CustomizeLabelPage_LabelCountText">
+    <value>labels on the page</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Message_ContainsErrors">
+    <value>The script contains error(s).</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Message_ValidScript">
+    <value>The script is valid.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Error">
+    <value>Impossible to validate the script.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_NameIsRequired_Error">
+    <value>Name is required and should be a valid identifier.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GuidIsRequired_Error">
+    <value>Guid is required and should have a valid format.</value>
   </data>
 </root>

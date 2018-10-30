@@ -573,6 +573,18 @@
   <data name="DiagramControlStringId.ArrowShapes_NotchedArrow_Name" xml:space="preserve">
     <value>Çentikli OK </value>
   </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayout_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayoutForSubordinates_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayout_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayoutForSubordinates_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
   <data name="DiagramControlStringId.DiagramCommand_ToggleFontStrikethrough" xml:space="preserve">
     <value>Üstü çizili</value>
   </data>
@@ -593,5 +605,23 @@
   </data>
   <data name="DiagramControlStringId.PrintPreview_FitToMaxPagesAcrossSelector" xml:space="preserve">
     <value>Max sayfalar arasında seçici için uygun</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_HorizontalLines" xml:space="preserve">
+    <value>Yatay çizgiler</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_VerticalLines" xml:space="preserve">
+    <value>Dikey çizgiler</value>
+  </data>
+  <data name="DiagramControlStringId.Validation_Size" xml:space="preserve">
+    <value>Değeri {0} değerinden büyük veya eşit {1} olmalıdır.</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutMindMapTreeHeader" xml:space="preserve">
+    <value>US</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutPartsMindMapTreeHeader" xml:space="preserve">
+    <value>US</value>
+  </data>
+  <data name="DiagramControlStringId.ForegroundColor" xml:space="preserve">
+    <value>Yazı tipi rengi</value>
   </data>
 </root>

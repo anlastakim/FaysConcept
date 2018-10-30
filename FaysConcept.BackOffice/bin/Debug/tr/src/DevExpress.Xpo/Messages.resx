@@ -145,10 +145,10 @@
     <value>{0}.{1} is not a collection property. It should be labeled with AssociationAttribute and be of the XPBaseCollection descendant type. Probably, you use GetCollection in the situation where GetList should be used.</value>
   </data>
   <data name="Collections_WantNotDeleteFilteredAggregateCollection" xml:space="preserve">
-    <value>Deleting the '{0}' object with the partially loaded aggregated collection '{1}' may cause orphan objects/records</value>
+    <value>Deleting the '{0}' object with the partially loaded aggregated collection '{1}' may cause orphan objects/records.</value>
   </data>
   <data name="Collections_GeneralPurposeCollectionInsteadOfRefCollection" xml:space="preserve">
-    <value>The invalid implementation of the associated collection property '{0}.{1}' is detected. The collection should be created via the GetCollection method or XPCollection(Session session, object theOwner, XPMemberInfo refProperty) constructor.</value>
+    <value>The invalid implementation of the associated collection property '{0}.{1}' is detected. The collection should be created via the GetCollection method or the XPCollection(Session session, object theOwner, XPMemberInfo refProperty) constructor.</value>
   </data>
   <data name="ConnectionProvider_UnableToFillRefType" xml:space="preserve">
     <value>Cannot ensure database schema for member '{1}' of type '{0}'. Error: {2}.</value>
@@ -577,16 +577,16 @@
     <value>Cannot query a data store using criterion "{0}" that uses a non-persistent property '{1}'. If you were using '{0}' as a ValueMember for a lookup, please use an empty ValueMember instead.</value>
   </data>
   <data name="Security_TheCommitOperationWasProhibitedByTheRules" xml:space="preserve">
-    <value>The commit operation is prohibited by validation rules.</value>
+    <value>The commit operation is prohibited by security rules.</value>
   </data>
   <data name="Security_SavingAnObjectWasProhibitedByTheRulesOfVal" xml:space="preserve">
-    <value>Saving the '{0}' object is prohibited by validation rules.</value>
+    <value>Saving the '{0}' object is prohibited by security rules.</value>
   </data>
   <data name="Security_SavingAnObjectWasProhibitedByTheRulesWProp" xml:space="preserve">
-    <value>Saving the '{0}.{1}' property is prohibited by validation rules.</value>
+    <value>Saving the '{0}.{1}' property is prohibited by security rules.</value>
   </data>
   <data name="Security_DeletingAnObjectWasProhibitedByTheRules" xml:space="preserve">
-    <value>Deleting the '{0}' object is prohibited by validation rules.</value>
+    <value>Deleting the '{0}' object is prohibited by security rules.</value>
   </data>
   <data name="Security_ICommandChannel_TransferringRequestsIsProhibited" xml:space="preserve">
     <value>Transferring requests via ICommandChannel is prohibited within the security engine.</value>
@@ -756,6 +756,9 @@
   <data name="LinqToXpo_SkipOperationIsNotSupportedWithoutSorting" xml:space="preserve">
     <value>The Skip operation is not supported without sorting.</value>
   </data>
+  <data name="LinqToXpo_ElemAtOperationIsNotSupportedWithoutSorting" xml:space="preserve">
+    <value>The ElementAt operation is not supported without sorting.</value>
+  </data>
   <data name="LinqToXpo_SequenceContainsNoMatchingElement" xml:space="preserve">
     <value>Sequence contains no matching element.</value>
   </data>
@@ -839,5 +842,29 @@
   </data>
   <data name="Async_InternalErrorAsyncActionIsAlreadyDisposed" xml:space="preserve">
     <value>Internal error: an asynchronous action is already disposed of. It may be caused by an issue in XPO. Please contact the DevExpress support team.</value>
+  </data>
+  <data name="SqlConnectionProvider_CannotCreateAColumnForTheX0FieldWithTheX1D" xml:space="preserve">
+    <value>Cannot create a column for the '{0}' field with the '{1}' default value. Please, specify another default value for this field</value>
+  </data>
+  <data name="ASE_CommandNotAllowedWithinMultiStatementTransaction" xml:space="preserve">
+    <value>The database does not support the creation or modification of the schema with transaction. To perform this operation, you must configure the database to support modification of the schema with transaction, or disable transactions at the time the schema is updated. To do this, set the field ExecuteUpdateSchemaInTransaction = false (for the current provider instance), or the field  GlobalExecuteUpdateSchemaInTransaction = false (for all instances of the provider).</value>
+  </data>
+  <data name="Metadata_NullableAttributeNotApplicable" xml:space="preserve">
+    <value>Nullable attribute cannot be applied to member {0} of class {1} because member is not persistent, is aliased, is many to many aliased or has reference type to object.</value>
+  </data>
+  <data name="ServiceCollectionExtensions_ConnectionPoolCannotBeUsed" xml:space="preserve">
+    <value>Connection pool cannot be used with Simple Data Layer</value>
+  </data>
+  <data name="ServiceCollectionExtensions_ConnectionStringEmpty" xml:space="preserve">
+    <value>Connection string cannot be empty when used not-inmemory data store and not custom data store</value>
+  </data>
+  <data name="ServiceCollectionExtensions_EntityTypesEmpty" xml:space="preserve">
+    <value>EntityTypes must be not null and contains mininum 1 item</value>
+  </data>
+  <data name="ServiceCollectionExtensions_NoConstructor" xml:space="preserve">
+    <value>Type {0} does not have constructor with parameters {1}.</value>
+  </data>
+  <data name="Postgresql_LegacyGuidDetected" xml:space="preserve">
+    <value>To avoid this exception, set the UseLegacyGuidSupport or static GlobalUseLegacyGuidSupport field of the DevExpress.Xpo.DB.PostgreSqlConnectionProvider to 'true'.</value>
   </data>
 </root>

@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.ExpressApp.Win</RootNamespace>
-    <AssemblyName>DevExpress.ExpressApp.Win.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.ExpressApp.Win.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -48,9 +48,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ModuleLocalizationResources.resx" />
+    <EmbeddedResource Include="ModuleLocalizationResources.tr.resx" />
     <EmbeddedResource Include="Resources\MaskModelEditorControlLocalizationResources.resx" />
+    <EmbeddedResource Include="Templates\Bars\LightStyleMainForm.resx" />
+    <EmbeddedResource Include="Templates\Bars\LightStyleMainForm.tr.resx" />
     <EmbeddedResource Include="Templates\Bars\NestedFrameTemplateV2.resx" />
     <EmbeddedResource Include="Templates\Bars\NestedFrameTemplateV2.tr.resx" />
+    <EmbeddedResource Include="Templates\Ribbon\LightStyleMainRibbonForm.resx" />
+    <EmbeddedResource Include="Templates\Ribbon\LightStyleMainRibbonForm.tr.resx" />
     <EmbeddedResource Include="Templates\Bars\DetailFormV2.resx" />
     <EmbeddedResource Include="Templates\Bars\DetailFormV2.tr.resx" />
     <EmbeddedResource Include="Templates\Bars\MainFormV2.resx" />

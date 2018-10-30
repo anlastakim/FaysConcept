@@ -192,4 +192,13 @@
   <data name="ChartStringId.TitleDefaultContent" xml:space="preserve">
     <value>Başlık</value>
   </data>
+  <data name="ChartStringId.OthersArgument" xml:space="preserve">
+    <value>Diğerleri</value>
+  </data>
+  <data name="ChartStringId.TotalLabelHeader" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="ChartStringId.ValueDurationHoursPatternDescription" xml:space="preserve">
+    <value>Değer süresi (saat)</value>
+  </data>
 </root>

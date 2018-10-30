@@ -119,13 +119,17 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
   <data name="lbName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 15</value>
+    <value>10, 10</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="lbName.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 6</value>
   </data>
   <data name="lbName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 13</value>
+    <value>41, 24</value>
   </data>
   <data name="ceMultiValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 163</value>
+    <value>90, 163</value>
   </data>
   <data name="ceMultiValue.Properties.Caption" xml:space="preserve">
     <value>Allow multiple values</value>
@@ -140,6 +144,9 @@
   <data name="&gt;&gt;ceMultiValue.Name" xml:space="preserve">
     <value>ceMultiValue</value>
   </data>
+  <data name="&gt;&gt;ceMultiValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;ceMultiValue.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -147,10 +154,13 @@
     <value>4</value>
   </data>
   <data name="lbDefaultValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 87</value>
+    <value>10, 82</value>
+  </data>
+  <data name="lbDefaultValue.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 6</value>
   </data>
   <data name="lbDefaultValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 13</value>
+    <value>78, 24</value>
   </data>
   <data name="lbDefaultValue.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -161,6 +171,9 @@
   <data name="&gt;&gt;lbDefaultValue.Name" xml:space="preserve">
     <value>lbDefaultValue</value>
   </data>
+  <data name="&gt;&gt;lbDefaultValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lbDefaultValue.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -168,7 +181,7 @@
     <value>5</value>
   </data>
   <data name="ceStandardValues.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 140</value>
+    <value>90, 140</value>
   </data>
   <data name="ceStandardValues.Properties.Caption" xml:space="preserve">
     <value>Supports the collection of standard values</value>
@@ -182,6 +195,9 @@
   <data name="&gt;&gt;ceStandardValues.Name" xml:space="preserve">
     <value>ceStandardValues</value>
   </data>
+  <data name="&gt;&gt;ceStandardValues.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;ceStandardValues.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -189,7 +205,7 @@
     <value>6</value>
   </data>
   <data name="ceShowAtParametersPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 117</value>
+    <value>90, 117</value>
   </data>
   <data name="ceShowAtParametersPanel.Properties.Caption" xml:space="preserve">
     <value>Show in the parameters panel</value>
@@ -203,6 +219,9 @@
   <data name="&gt;&gt;ceShowAtParametersPanel.Name" xml:space="preserve">
     <value>ceShowAtParametersPanel</value>
   </data>
+  <data name="&gt;&gt;ceShowAtParametersPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;ceShowAtParametersPanel.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -210,10 +229,13 @@
     <value>8</value>
   </data>
   <data name="lbType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 63</value>
+    <value>10, 58</value>
+  </data>
+  <data name="lbType.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 6</value>
   </data>
   <data name="lbType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 13</value>
+    <value>38, 24</value>
   </data>
   <data name="lbType.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -224,6 +246,9 @@
   <data name="&gt;&gt;lbType.Name" xml:space="preserve">
     <value>lbType</value>
   </data>
+  <data name="&gt;&gt;lbType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lbType.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -231,10 +256,13 @@
     <value>9</value>
   </data>
   <data name="lbDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 39</value>
+    <value>10, 34</value>
+  </data>
+  <data name="lbDescription.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 6</value>
   </data>
   <data name="lbDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 13</value>
+    <value>67, 24</value>
   </data>
   <data name="lbDescription.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -245,39 +273,44 @@
   <data name="&gt;&gt;lbDescription.Name" xml:space="preserve">
     <value>lbDescription</value>
   </data>
+  <data name="&gt;&gt;lbDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lbDescription.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;lbDescription.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
-  <data name="teDefaultValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="defaultValueEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="teDefaultValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 84</value>
+  <data name="defaultValueEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 84</value>
   </data>
-  <data name="teDefaultValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>283, 20</value>
+  <data name="defaultValueEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 16</value>
   </data>
-  <data name="teDefaultValue.TabIndex" type="System.Int32, mscorlib">
+  <data name="defaultValueEditor.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;teDefaultValue.Name" xml:space="preserve">
-    <value>teDefaultValue</value>
+  <data name="&gt;&gt;defaultValueEditor.Name" xml:space="preserve">
+    <value>defaultValueEditor</value>
   </data>
-  <data name="&gt;&gt;teDefaultValue.Parent" xml:space="preserve">
+  <data name="&gt;&gt;defaultValueEditor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.BaseEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;defaultValueEditor.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
-  <data name="&gt;&gt;teDefaultValue.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;defaultValueEditor.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
   <data name="btOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
   <data name="btOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 327</value>
+    <value>208, 377</value>
   </data>
   <data name="btOK.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 22</value>
@@ -291,6 +324,9 @@
   <data name="&gt;&gt;btOK.Name" xml:space="preserve">
     <value>btOK</value>
   </data>
+  <data name="&gt;&gt;btOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btOK.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -301,16 +337,19 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="cbType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 60</value>
+    <value>90, 60</value>
   </data>
   <data name="cbType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>283, 20</value>
+    <value>277, 20</value>
   </data>
   <data name="cbType.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="&gt;&gt;cbType.Name" xml:space="preserve">
     <value>cbType</value>
+  </data>
+  <data name="&gt;&gt;cbType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbType.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -322,7 +361,7 @@
     <value>Bottom, Right</value>
   </data>
   <data name="btCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 327</value>
+    <value>289, 377</value>
   </data>
   <data name="btCancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 22</value>
@@ -336,6 +375,9 @@
   <data name="&gt;&gt;btCancel.Name" xml:space="preserve">
     <value>btCancel</value>
   </data>
+  <data name="&gt;&gt;btCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btCancel.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -346,16 +388,19 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="teDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 36</value>
+    <value>90, 36</value>
   </data>
   <data name="teDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>283, 20</value>
+    <value>277, 20</value>
   </data>
   <data name="teDescription.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;teDescription.Name" xml:space="preserve">
     <value>teDescription</value>
+  </data>
+  <data name="&gt;&gt;teDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;teDescription.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -367,10 +412,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="teName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 12</value>
+    <value>90, 12</value>
   </data>
   <data name="teName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>283, 20</value>
+    <value>277, 20</value>
   </data>
   <data name="teName.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -378,14 +423,41 @@
   <data name="&gt;&gt;teName.Name" xml:space="preserve">
     <value>teName</value>
   </data>
+  <data name="&gt;&gt;teName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;teName.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;teName.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
+  <data name="linesContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 217</value>
+  </data>
+  <data name="linesContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="linesContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 144</value>
+  </data>
+  <data name="linesContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;linesContainer.Name" xml:space="preserve">
+    <value>linesContainer</value>
+  </data>
+  <data name="&gt;&gt;linesContainer.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Native.Lines.LinesContainer, DevExpress.XtraPrinting.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;linesContainer.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;linesContainer.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
   <data name="dataNavigator1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 287</value>
+    <value>12, 337</value>
   </data>
   <data name="dataNavigator1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -402,11 +474,14 @@
   <data name="&gt;&gt;dataNavigator1.Name" xml:space="preserve">
     <value>dataNavigator1</value>
   </data>
+  <data name="&gt;&gt;dataNavigator1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DataNavigator, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;dataNavigator1.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;dataNavigator1.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="staticItemsTreeList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -433,7 +508,7 @@
     <value>13, 217</value>
   </data>
   <data name="staticItemsTreeList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>353, 70</value>
+    <value>353, 120</value>
   </data>
   <data name="staticItemsTreeList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -441,31 +516,13 @@
   <data name="&gt;&gt;staticItemsTreeList.Name" xml:space="preserve">
     <value>staticItemsTreeList</value>
   </data>
+  <data name="&gt;&gt;staticItemsTreeList.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;staticItemsTreeList.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;staticItemsTreeList.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="linesContainer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 217</value>
-  </data>
-  <data name="linesContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="linesContainer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>353, 94</value>
-  </data>
-  <data name="linesContainer.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;linesContainer.Name" xml:space="preserve">
-    <value>linesContainer</value>
-  </data>
-  <data name="&gt;&gt;linesContainer.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;linesContainer.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
   <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -477,20 +534,23 @@
   <data name="grpButtons.CustomizationFormText" xml:space="preserve">
     <value>grpButtons</value>
   </data>
-  <data name="layoutControlGroupStaticValues.Text" xml:space="preserve">
-    <value>Static values</value>
-  </data>
   <data name="layoutControlGroupDynamicValues.Text" xml:space="preserve">
     <value>Dynamic values</value>
   </data>
+  <data name="layoutControlGroupStaticValues.Text" xml:space="preserve">
+    <value>Static values</value>
+  </data>
   <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 361</value>
+    <value>379, 411</value>
   </data>
   <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
     <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -507,6 +567,9 @@
   <data name="&gt;&gt;lbName.Name" xml:space="preserve">
     <value>lbName</value>
   </data>
+  <data name="&gt;&gt;lbName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lbName.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -520,10 +583,10 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>379, 361</value>
+    <value>379, 411</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>395, 400</value>
+    <value>395, 450</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -534,82 +597,151 @@
   <data name="&gt;&gt;columnValue.Name" xml:space="preserve">
     <value>columnValue</value>
   </data>
+  <data name="&gt;&gt;columnValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;columnDescription.Name" xml:space="preserve">
     <value>columnDescription</value>
+  </data>
+  <data name="&gt;&gt;columnDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
-    <value>layoutControlGroup3</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
-    <value>layoutControlItem9</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
-    <value>layoutControlItem10</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
-    <value>layoutControlItem11</value>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
     <value>layoutControlGroup2</value>
   </data>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
     <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
     <value>layoutControlItem6</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
     <value>layoutControlItem8</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
     <value>layoutControlItem1</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
     <value>layoutControlItem3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
     <value>layoutControlItem5</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
     <value>layoutControlItem7</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
     <value>layoutControlItem4</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
+    <value>layoutControlItem9</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
+    <value>layoutControlItem10</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
+    <value>layoutControlItem11</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;grpButtons.Name" xml:space="preserve">
     <value>grpButtons</value>
+  </data>
+  <data name="&gt;&gt;grpButtons.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItemCancel.Name" xml:space="preserve">
     <value>layoutControlItemCancel</value>
   </data>
+  <data name="&gt;&gt;layoutControlItemCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;layoutControlItemOK.Name" xml:space="preserve">
     <value>layoutControlItemOK</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroupLookUpSettings.Name" xml:space="preserve">
-    <value>layoutControlGroupLookUpSettings</value>
+  <data name="&gt;&gt;layoutControlItemOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
-  <data name="&gt;&gt;tabbedControlGroup1.Name" xml:space="preserve">
-    <value>tabbedControlGroup1</value>
+  <data name="&gt;&gt;tabbedControlGroupLookUpSettings.Name" xml:space="preserve">
+    <value>tabbedControlGroupLookUpSettings</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroupStaticValues.Name" xml:space="preserve">
-    <value>layoutControlGroupStaticValues</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItemDataNavigator.Name" xml:space="preserve">
-    <value>layoutControlItemDataNavigator</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem16.Name" xml:space="preserve">
-    <value>layoutControlItem16</value>
+  <data name="&gt;&gt;tabbedControlGroupLookUpSettings.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.TabbedControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlGroupDynamicValues.Name" xml:space="preserve">
     <value>layoutControlGroupDynamicValues</value>
   </data>
+  <data name="&gt;&gt;layoutControlGroupDynamicValues.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;layoutControlItem15.Name" xml:space="preserve">
     <value>layoutControlItem15</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem15.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupStaticValues.Name" xml:space="preserve">
+    <value>layoutControlGroupStaticValues</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupStaticValues.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemDataNavigator.Name" xml:space="preserve">
+    <value>layoutControlItemDataNavigator</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemDataNavigator.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem16.Name" xml:space="preserve">
+    <value>layoutControlItem16</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem16.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>NewParameterEditorForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.Design.ReportsEditorFormBase, DevExpress.Utils.v18.1.UI, Culture=neutral</value>
   </data>
 </root>

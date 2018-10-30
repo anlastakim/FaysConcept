@@ -117,8 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AutoCompleteTypeDefault" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
   <data name="PropertiesCaption" xml:space="preserve">
     <value>Özellikler</value>
+  </data>
+  <data name="AutoCompleteTypeNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="MaskTypeNone" xml:space="preserve">
+    <value>Hiçbiri</value>
   </data>
   <data name="AppearanceCaption" xml:space="preserve">
     <value>Görünüş</value>
@@ -131,6 +140,9 @@
   </data>
   <data name="Number" xml:space="preserve">
     <value>Sayı</value>
+  </data>
+  <data name="MaskTypeNumeric" xml:space="preserve">
+    <value>Sayısal</value>
   </data>
   <data name="RuleCaption" xml:space="preserve">
     <value>Kural</value>
@@ -171,23 +183,45 @@
   <data name="Decimal" xml:space="preserve">
     <value>Ondalık</value>
   </data>
-  <data name="AutoCompleteTypeDefault" xml:space="preserve">
-    <value>Varsayılan</value>
-  </data>
-  <data name="AutoCompleteTypeNone" xml:space="preserve">
-    <value>Hiçbiri</value>
-  </data>
-  <data name="MaskTypeNone" xml:space="preserve">
-    <value>Hiçbiri</value>
-  </data>
-  <data name="MaskTypeNumeric" xml:space="preserve">
-    <value>Sayısal</value>
-  </data>
   <data name="MaskTypeDateTime" xml:space="preserve">
     <value>Tarih/Saat</value>
+  </data>
+  <data name="YesNoDescription" xml:space="preserve">
+    <value>Evet
+Hayır</value>
   </data>
   <data name="TrueFalseDescription" xml:space="preserve">
     <value>Doğru
 Yanlış</value>
+  </data>
+  <data name="MaskTypeRegular" xml:space="preserve">
+    <value>Düzenli</value>
+  </data>
+  <data name="UppercaseLettersDescription" xml:space="preserve">
+    <value>herhangi bir büyük harf</value>
+  </data>
+  <data name="MaskTypeRegEx" xml:space="preserve">
+    <value>Düzenli ifade</value>
+  </data>
+  <data name="MaskTypeSimple" xml:space="preserve">
+    <value>Basit</value>
+  </data>
+  <data name="AutoCompleteTypeOptimistic" xml:space="preserve">
+    <value>İyimser</value>
+  </data>
+  <data name="AutoCompleteTypeStrong" xml:space="preserve">
+    <value>Güçlü</value>
+  </data>
+  <data name="AnySymbols" xml:space="preserve">
+    <value>Başka simgeleri</value>
+  </data>
+  <data name="AnySymbolsDescription" xml:space="preserve">
+    <value>Başka simgeleri</value>
+  </data>
+  <data name="BinaryNumberDescription" xml:space="preserve">
+    <value>Herhangi bir ikili sayı</value>
+  </data>
+  <data name="OctalNumberDescription" xml:space="preserve">
+    <value>Herhangi bir sekizlik sayı</value>
   </data>
 </root>

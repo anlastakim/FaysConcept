@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -75,6 +134,9 @@
   <data name="&gt;&gt;edtFont.Name" xml:space="preserve">
     <value>edtFont</value>
   </data>
+  <data name="&gt;&gt;edtFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.FontEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtFont.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -98,6 +160,9 @@
   </data>
   <data name="&gt;&gt;lblFont.Name" xml:space="preserve">
     <value>lblFont</value>
+  </data>
+  <data name="&gt;&gt;lblFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFont.Parent" xml:space="preserve">
     <value>$this</value>
@@ -123,6 +188,9 @@
   <data name="&gt;&gt;lblFontStyle.Name" xml:space="preserve">
     <value>lblFontStyle</value>
   </data>
+  <data name="&gt;&gt;lblFontStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFontStyle.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -146,6 +214,9 @@
   </data>
   <data name="&gt;&gt;lblFontSize.Name" xml:space="preserve">
     <value>lblFontSize</value>
+  </data>
+  <data name="&gt;&gt;lblFontSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFontSize.Parent" xml:space="preserve">
     <value>$this</value>
@@ -171,6 +242,9 @@
   <data name="&gt;&gt;lblFontColor.Name" xml:space="preserve">
     <value>lblFontColor</value>
   </data>
+  <data name="&gt;&gt;lblFontColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFontColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -194,6 +268,9 @@
   </data>
   <data name="&gt;&gt;lblUnderlineStyle.Name" xml:space="preserve">
     <value>lblUnderlineStyle</value>
+  </data>
+  <data name="&gt;&gt;lblUnderlineStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblUnderlineStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -219,6 +296,9 @@
   <data name="&gt;&gt;lblUnderlineColor.Name" xml:space="preserve">
     <value>lblUnderlineColor</value>
   </data>
+  <data name="&gt;&gt;lblUnderlineColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblUnderlineColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -242,6 +322,9 @@
   </data>
   <data name="&gt;&gt;lblEffects.Name" xml:space="preserve">
     <value>lblEffects</value>
+  </data>
+  <data name="&gt;&gt;lblEffects.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblEffects.Parent" xml:space="preserve">
     <value>$this</value>
@@ -268,11 +351,17 @@
   <data name="&gt;&gt;cbUnderlineColor.Name" xml:space="preserve">
     <value>cbUnderlineColor</value>
   </data>
+  <data name="&gt;&gt;cbUnderlineColor.Type" xml:space="preserve">
+    <value>DevExpress.Office.UI.OfficeColorEdit, DevExpress.XtraBars.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbUnderlineColor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbUnderlineColor.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="cbForeColor.EditValue" type="System.Drawing.Color, System.Drawing">
+    <value></value>
   </data>
   <data name="cbForeColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 62</value>
@@ -285,6 +374,9 @@
   </data>
   <data name="&gt;&gt;cbForeColor.Name" xml:space="preserve">
     <value>cbForeColor</value>
+  </data>
+  <data name="&gt;&gt;cbForeColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraBars.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbForeColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -306,6 +398,9 @@
   </data>
   <data name="&gt;&gt;edtFontSize.Name" xml:space="preserve">
     <value>edtFontSize</value>
+  </data>
+  <data name="&gt;&gt;edtFontSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFontSize.Parent" xml:space="preserve">
     <value>$this</value>
@@ -331,6 +426,9 @@
   <data name="&gt;&gt;edtUnderlineStyle.Name" xml:space="preserve">
     <value>edtUnderlineStyle</value>
   </data>
+  <data name="&gt;&gt;edtUnderlineStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.UnderlineStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtUnderlineStyle.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -341,7 +439,7 @@
     <value>FontEffects</value>
   </data>
   <data name="fontEffects.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 107</value>
+    <value>0, 108</value>
   </data>
   <data name="fontEffects.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -354,6 +452,9 @@
   </data>
   <data name="&gt;&gt;fontEffects.Name" xml:space="preserve">
     <value>fontEffects</value>
+  </data>
+  <data name="&gt;&gt;fontEffects.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.FontEffects, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;fontEffects.Parent" xml:space="preserve">
     <value>$this</value>
@@ -382,15 +483,15 @@
   <data name="&gt;&gt;edtFontStyle.Name" xml:space="preserve">
     <value>edtFontStyle</value>
   </data>
+  <data name="&gt;&gt;edtFontStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.FontStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;edtFontStyle.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;edtFontStyle.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -408,5 +509,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>RichEditFontControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

@@ -188,12 +188,6 @@ It is blank by default. You can use it to present list summaries and other infor
 
 To single out which data records to omit in the document, use the Quick Filter option in the Field tab.</value>
   </data>    
-  <data name="SnapStringId.ShowCustomSortForm_MenuCaption" xml:space="preserve">
-    <value>Sort</value>
-  </data>    
-  <data name="SnapStringId.ShowCustomSortForm_Description" xml:space="preserve">
-    <value>Sort</value>
-  </data>    
   <data name="SnapStringId.ConvertToParagraphsCommand_MenuCaption" xml:space="preserve">
     <value>Convert SnapList to Paragraphs</value>
   </data>    

@@ -157,8 +157,14 @@ Size: {0}</value>
   <data name="PdfCoreStringId.MsgIncorrectMarkedContentTag" xml:space="preserve">
     <value>The marked content tag can't be empty.</value>
   </data>
+  <data name="PdfCoreStringId.MsgIncorrectMarkupAnnotation" xml:space="preserve">
+    <value>The specified annotation does not belong to the current document.</value>
+  </data>
   <data name="PdfCoreStringId.MsgIncorrectMiterLimit" xml:space="preserve">
     <value>The miter limit should be greater than 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectOpacity" xml:space="preserve">
+    <value>The opacity value should be greater than or equal to 0 and less than or equal to 1.</value>
   </data>
   <data name="PdfCoreStringId.MsgIncorrectPageArtBox" xml:space="preserve">
     <value>The page art box should be less than or equal to the media box.</value>
@@ -226,6 +232,9 @@ Size: {0}</value>
   <data name="PdfCoreStringId.MsgUnavailableOperation" xml:space="preserve">
     <value>This operation is not available while no document is being loaded.</value>
   </data>
+  <data name="PdfCoreStringId.MsgUnsupportedAnnotationType" xml:space="preserve">
+    <value>Text highlight annotation is not supported in a PDF/A-1 document.</value>
+  </data>
   <data name="PdfCoreStringId.MsgUnsupportedBrushType" xml:space="preserve">
     <value>Custom brushes are not supported.</value>
   </data>
@@ -252,6 +261,15 @@ Size: {0}</value>
   </data>
   <data name="PdfCoreStringId.MsgZeroColorComponentsCount" xml:space="preserve">
     <value>The color should have at least one component.</value>
+  </data>
+  <data name="PdfCoreStringId.TextHighlightDefaultSubject" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="PdfCoreStringId.TextStrikethroughDefaultSubject" xml:space="preserve">
+    <value>Cross-Out</value>
+  </data>
+  <data name="PdfCoreStringId.TextUnderlineDefaultSubject" xml:space="preserve">
+    <value>Underline</value>
   </data>
   <data name="PdfCoreStringId.UnitExaBytes" xml:space="preserve">
     <value>EB</value>

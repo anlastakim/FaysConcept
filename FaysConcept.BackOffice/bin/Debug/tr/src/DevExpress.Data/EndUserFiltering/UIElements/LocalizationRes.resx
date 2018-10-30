@@ -315,6 +315,12 @@
   <data name="FilterUIElementLocalizerStringId.CustomUIFilterDoesNotContainDescription" xml:space="preserve">
    <value>Does not contain a specific text</value>
   </data>
+    <data name="FilterUIElementLocalizerStringId.CustomUIFilterIsSameDayName" xml:space="preserve">
+    <value>Is Same Day</value>
+  </data>
+  <data name="FilterUIElementLocalizerStringId.CustomUIFilterIsSameDayDescription" xml:space="preserve">
+    <value>The same date</value>
+  </data>
   <data name="FilterUIElementLocalizerStringId.CustomUIFilterBeforeName" xml:space="preserve">
    <value>Before</value>
   </data>
@@ -557,6 +563,9 @@
   </data>
   <data name="FilterUIElementLocalizerStringId.FilteringUITabValues" xml:space="preserve">
     <value>Values</value>
+  </data>
+  <data name="FilterUIElementLocalizerStringId.FilteringUITabGroups" xml:space="preserve">
+    <value>Groups</value>
   </data>
   <data name="FilterUIElementLocalizerStringId.FilteringUIClearFilter" xml:space="preserve">
     <value>Clear Filter</value>

@@ -212,9 +212,6 @@
   <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="btnHelp.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="btnHelp.Location" type="System.Drawing.Point, System.Drawing">
     <value>246, 195</value>
   </data>
@@ -296,9 +293,6 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>320, 223</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>336, 248</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

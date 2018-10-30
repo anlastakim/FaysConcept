@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.Web.Resources</RootNamespace>
-    <AssemblyName>DevExpress.Web.Resources.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.Web.Resources.v18.1</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
@@ -55,6 +55,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Localization\DataAccess.UI\LocalizationRes.resx" />
     <EmbeddedResource Include="Localization\DataAccess.UI\LocalizationRes.tr.resx" />
+    <EmbeddedResource Include="Localization\LocalizationRes.resx" />
+    <EmbeddedResource Include="Localization\LocalizationRes.tr.resx" />
     <EmbeddedResource Include="Localization\XtraEditors\LocalizationRes.resx" />
     <EmbeddedResource Include="Localization\XtraEditors\LocalizationRes.tr.resx" />
     <EmbeddedResource Include="Localization\XtraReports.Extensions\Wizards\Localization\LocalizationRes.resx" />

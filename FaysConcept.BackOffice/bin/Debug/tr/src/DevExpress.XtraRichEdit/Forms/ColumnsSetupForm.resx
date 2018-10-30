@@ -60,61 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace">
-    </xsd:import>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute ref="xml:space">
-              </xsd:attribute>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string">
-              </xsd:attribute>
-              <xsd:attribute name="name" type="xsd:string">
-              </xsd:attribute>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1">
-                </xsd:element>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1">
-              </xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3">
-              </xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4">
-              </xsd:attribute>
-              <xsd:attribute ref="xml:space">
-              </xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1">
-                </xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required">
-              </xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -128,18 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-  </assembly>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="grpPresets.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-  </assembly>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
   <data name="columnsPresetControlRight.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>Transparent</value>
   </data>
@@ -149,8 +131,7 @@
   <data name="columnsPresetControlRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 53</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-  </assembly>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
   <data name="columnsPresetControlRight.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
@@ -159,6 +140,9 @@
   </data>
   <data name="&gt;&gt;columnsPresetControlRight.Name" xml:space="preserve">
     <value>columnsPresetControlRight</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlRight.Parent" xml:space="preserve">
     <value>grpPresets</value>
@@ -184,6 +168,9 @@
   <data name="&gt;&gt;columnsPresetControlLeft.Name" xml:space="preserve">
     <value>columnsPresetControlLeft</value>
   </data>
+  <data name="&gt;&gt;columnsPresetControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;columnsPresetControlLeft.Parent" xml:space="preserve">
     <value>grpPresets</value>
   </data>
@@ -207,6 +194,9 @@
   </data>
   <data name="&gt;&gt;columnsPresetControlThree.Name" xml:space="preserve">
     <value>columnsPresetControlThree</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlThree.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlThree.Parent" xml:space="preserve">
     <value>grpPresets</value>
@@ -232,6 +222,9 @@
   <data name="&gt;&gt;columnsPresetControlTwo.Name" xml:space="preserve">
     <value>columnsPresetControlTwo</value>
   </data>
+  <data name="&gt;&gt;columnsPresetControlTwo.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;columnsPresetControlTwo.Parent" xml:space="preserve">
     <value>grpPresets</value>
   </data>
@@ -256,6 +249,9 @@
   <data name="&gt;&gt;columnsPresetControlOne.Name" xml:space="preserve">
     <value>columnsPresetControlOne</value>
   </data>
+  <data name="&gt;&gt;columnsPresetControlOne.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;columnsPresetControlOne.Parent" xml:space="preserve">
     <value>grpPresets</value>
   </data>
@@ -276,6 +272,9 @@
   </data>
   <data name="&gt;&gt;grpPresets.Name" xml:space="preserve">
     <value>grpPresets</value>
+  </data>
+  <data name="&gt;&gt;grpPresets.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;grpPresets.Parent" xml:space="preserve">
     <value>$this</value>
@@ -298,6 +297,9 @@
   <data name="&gt;&gt;columnsEdit.Name" xml:space="preserve">
     <value>columnsEdit</value>
   </data>
+  <data name="&gt;&gt;columnsEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.ColumnsEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;columnsEdit.Parent" xml:space="preserve">
     <value>grpColumns</value>
   </data>
@@ -318,6 +320,9 @@
   </data>
   <data name="&gt;&gt;chkEqualColumnWidth.Name" xml:space="preserve">
     <value>chkEqualColumnWidth</value>
+  </data>
+  <data name="&gt;&gt;chkEqualColumnWidth.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkEqualColumnWidth.Parent" xml:space="preserve">
     <value>grpColumns</value>
@@ -340,6 +345,9 @@
   <data name="&gt;&gt;grpColumns.Name" xml:space="preserve">
     <value>grpColumns</value>
   </data>
+  <data name="&gt;&gt;grpColumns.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;grpColumns.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -361,6 +369,9 @@
   <data name="&gt;&gt;lblColumnCount.Name" xml:space="preserve">
     <value>lblColumnCount</value>
   </data>
+  <data name="&gt;&gt;lblColumnCount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblColumnCount.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -373,6 +384,9 @@
   <data name="edtColumnCount.Location" type="System.Drawing.Point, System.Drawing">
     <value>115, 119</value>
   </data>
+  <data name="edtColumnCount.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
   <data name="edtColumnCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
   </data>
@@ -381,6 +395,9 @@
   </data>
   <data name="&gt;&gt;edtColumnCount.Name" xml:space="preserve">
     <value>edtColumnCount</value>
+  </data>
+  <data name="&gt;&gt;edtColumnCount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtColumnCount.Parent" xml:space="preserve">
     <value>$this</value>
@@ -412,6 +429,9 @@
   <data name="&gt;&gt;chkLineBetween.Name" xml:space="preserve">
     <value>chkLineBetween</value>
   </data>
+  <data name="&gt;&gt;chkLineBetween.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkLineBetween.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -429,6 +449,9 @@
   </data>
   <data name="&gt;&gt;cbApplyTo.Name" xml:space="preserve">
     <value>cbApplyTo</value>
+  </data>
+  <data name="&gt;&gt;cbApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbApplyTo.Parent" xml:space="preserve">
     <value>$this</value>
@@ -450,6 +473,9 @@
   </data>
   <data name="&gt;&gt;lblApplyTo.Name" xml:space="preserve">
     <value>lblApplyTo</value>
+  </data>
+  <data name="&gt;&gt;lblApplyTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblApplyTo.Parent" xml:space="preserve">
     <value>$this</value>
@@ -481,6 +507,9 @@
   <data name="&gt;&gt;chkStartNewColumn.Name" xml:space="preserve">
     <value>chkStartNewColumn</value>
   </data>
+  <data name="&gt;&gt;chkStartNewColumn.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkStartNewColumn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -504,6 +533,9 @@
   </data>
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -529,13 +561,16 @@
   <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
     <value>btnOk</value>
   </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -552,5 +587,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ColumnsSetupForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

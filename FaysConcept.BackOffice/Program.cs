@@ -6,6 +6,7 @@ using DevExpress.UserSkins;
 using DevExpress.Skins;
 using FaysConcept.FrontOffice;
 using FaysConcept.BackOffice.Ana_Menu;
+using System.Threading;
 
 namespace FaysConcept.BackOffice
 {
@@ -17,6 +18,7 @@ namespace FaysConcept.BackOffice
         [STAThread]
         static void Main()
         {
+            Thread.CurrentThread.CurrentCulture = Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("tr-TR");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 

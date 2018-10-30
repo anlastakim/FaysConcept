@@ -154,10 +154,10 @@
     <value>252, 186</value>
   </data>
   <data name="emptySpaceLabelControl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 25, 0, 25</value>
+    <value>0, 20, 0, 20</value>
   </data>
   <data name="emptySpaceLabelControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 63</value>
+    <value>26, 53</value>
   </data>
   <data name="emptySpaceLabelControl.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -520,10 +520,10 @@
     <value>531, 387</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>480, 266</value>
+    <value>480, 350</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+    <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Formatting Rules Editor</value>

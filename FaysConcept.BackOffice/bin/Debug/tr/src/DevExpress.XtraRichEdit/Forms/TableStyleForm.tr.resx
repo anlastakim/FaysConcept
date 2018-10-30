@@ -150,4 +150,7 @@
   <data name="barParagraphFormatting.Text" xml:space="preserve">
     <value>Paragraf</value>
   </data>
+  <data name="colorEditItem1.Caption" xml:space="preserve">
+    <value>Yazı tipi rengi</value>
+  </data>
 </root>

@@ -177,4 +177,10 @@
   <data name="lbPrintToFile.Text" xml:space="preserve">
     <value>Dosyaya Yazdır:</value>
   </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="lbDuplex.Text" xml:space="preserve">
+    <value>Her iki yüze de Yazdır:</value>
+  </data>
 </root>

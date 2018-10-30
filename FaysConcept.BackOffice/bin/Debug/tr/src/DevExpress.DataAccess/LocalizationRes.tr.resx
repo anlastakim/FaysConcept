@@ -384,4 +384,10 @@ Dosya adını denetleyin ve yeniden deneyin.</value>
   <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Aggregate" xml:space="preserve">
     <value>Toplama</value>
   </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DataAccessStringId.EFFilterControl_EmptyFilterString" xml:space="preserve">
+    <value>Filtre dizesi null olamaz.</value>
+  </data>
 </root>

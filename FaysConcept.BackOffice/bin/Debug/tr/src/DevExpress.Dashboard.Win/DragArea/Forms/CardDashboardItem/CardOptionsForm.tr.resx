@@ -138,6 +138,21 @@
   <data name="layoutControl1.Text" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
+  <data name="btnApplyToAll.Text" xml:space="preserve">
+    <value>Tüm Kartlara Uygula</value>
+  </data>
+  <data name="formatOptionsGroup.Text" xml:space="preserve">
+    <value>Biçim Seçenekleri</value>
+  </data>
+  <data name="liMaxContentWidth.Text" xml:space="preserve">
+    <value>Max Genişlik:</value>
+  </data>
+  <data name="liMinWidth.Text" xml:space="preserve">
+    <value>Min Genişlik:</value>
+  </data>
+  <data name="liValueType.Text" xml:space="preserve">
+    <value>Değer türünü seçin:</value>
+  </data>
   <data name="btnReset.Text" xml:space="preserve">
     <value>Sıfırla</value>
   </data>
@@ -155,20 +170,5 @@
   </data>
   <data name="layoutControlItem12.Text" xml:space="preserve">
     <value>layoutControlItem1</value>
-  </data>
-  <data name="btnApplyToAll.Text" xml:space="preserve">
-    <value>Tüm Kartlara Uygula</value>
-  </data>
-  <data name="formatOptionsGroup.Text" xml:space="preserve">
-    <value>Biçim Seçenekleri</value>
-  </data>
-  <data name="liMaxContentWidth.Text" xml:space="preserve">
-    <value>Max Genişlik:</value>
-  </data>
-  <data name="liMinWidth.Text" xml:space="preserve">
-    <value>Min Genişlik:</value>
-  </data>
-  <data name="liValueType.Text" xml:space="preserve">
-    <value>Değer türünü seçin:</value>
   </data>
 </root>

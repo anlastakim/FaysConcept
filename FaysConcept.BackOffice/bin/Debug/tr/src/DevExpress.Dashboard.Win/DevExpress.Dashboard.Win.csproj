@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.DashboardWin</RootNamespace>
-    <AssemblyName>DevExpress.Dashboard.v17.1.Win</AssemblyName>
+    <AssemblyName>DevExpress.Dashboard.v18.1.Win</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -186,6 +186,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="DragArea\Forms\GridDashboardItem\GridDimensionColumnControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DragArea\Forms\GridDashboardItem\GridHyperlinkColumnControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="DragArea\Forms\GridDashboardItem\GridMeasureColumnControl.cs">
@@ -595,6 +598,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DragArea\Forms\GridDashboardItem\GridDimensionColumnControl.tr.resx">
       <DependentUpon>GridDimensionColumnControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DragArea\Forms\GridDashboardItem\GridHyperlinkColumnControl.resx">
+      <DependentUpon>GridHyperlinkColumnControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DragArea\Forms\GridDashboardItem\GridHyperlinkColumnControl.tr.resx">
+      <DependentUpon>GridHyperlinkColumnControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DragArea\Forms\GridDashboardItem\GridMeasureColumnControl.resx">
       <DependentUpon>GridMeasureColumnControl.cs</DependentUpon>

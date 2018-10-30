@@ -58,10 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="columnArgumentName.Text" xml:space="preserve">
+  <data name="treeListColumn1.Caption" xml:space="preserve">
     <value>ColumnHeader</value>
   </data>
-  <data name="columnBoundValue.Text" xml:space="preserve">
+  <data name="treeListColumn2.Caption" xml:space="preserve">
     <value>ColumnHeader</value>
   </data>
   <data name="btnRemoveParameter.Text" xml:space="preserve">

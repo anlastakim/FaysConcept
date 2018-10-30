@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.Xpf.LayoutControl</RootNamespace>
-    <AssemblyName>DevExpress.Xpf.LayoutControl.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.Xpf.LayoutControl.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>

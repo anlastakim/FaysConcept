@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -78,6 +137,9 @@
   <data name="&gt;&gt;lblSourceName.Name" xml:space="preserve">
     <value>lblSourceName</value>
   </data>
+  <data name="&gt;&gt;lblSourceName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblSourceName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -98,6 +160,9 @@
   </data>
   <data name="&gt;&gt;lblSourceNameValue.Name" xml:space="preserve">
     <value>lblSourceNameValue</value>
+  </data>
+  <data name="&gt;&gt;lblSourceNameValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSourceNameValue.Parent" xml:space="preserve">
     <value>$this</value>
@@ -123,6 +188,9 @@
   <data name="&gt;&gt;lblCustomName.Name" xml:space="preserve">
     <value>lblCustomName</value>
   </data>
+  <data name="&gt;&gt;lblCustomName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblCustomName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -147,6 +215,9 @@
   </data>
   <data name="&gt;&gt;edtCustomName.Name" xml:space="preserve">
     <value>edtCustomName</value>
+  </data>
+  <data name="&gt;&gt;edtCustomName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtCustomName.Parent" xml:space="preserve">
     <value>$this</value>
@@ -181,6 +252,9 @@
   <data name="&gt;&gt;chkCustomSubtotal.Name" xml:space="preserve">
     <value>chkCustomSubtotal</value>
   </data>
+  <data name="&gt;&gt;chkCustomSubtotal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkCustomSubtotal.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
   </data>
@@ -204,6 +278,9 @@
   </data>
   <data name="&gt;&gt;chkNoneSubtotal.Name" xml:space="preserve">
     <value>chkNoneSubtotal</value>
+  </data>
+  <data name="&gt;&gt;chkNoneSubtotal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkNoneSubtotal.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
@@ -229,6 +306,9 @@
   <data name="&gt;&gt;chkAutomaticSubtotal.Name" xml:space="preserve">
     <value>chkAutomaticSubtotal</value>
   </data>
+  <data name="&gt;&gt;chkAutomaticSubtotal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkAutomaticSubtotal.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
   </data>
@@ -253,6 +333,9 @@
   <data name="&gt;&gt;chkIncludeNewItems.Name" xml:space="preserve">
     <value>chkIncludeNewItems</value>
   </data>
+  <data name="&gt;&gt;chkIncludeNewItems.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkIncludeNewItems.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
   </data>
@@ -273,6 +356,9 @@
   </data>
   <data name="&gt;&gt;lblSeperator2.Name" xml:space="preserve">
     <value>lblSeperator2</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSeperator2.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
@@ -304,6 +390,9 @@
   <data name="&gt;&gt;lblFilter.Name" xml:space="preserve">
     <value>lblFilter</value>
   </data>
+  <data name="&gt;&gt;lblFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFilter.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
   </data>
@@ -327,6 +416,9 @@
   </data>
   <data name="&gt;&gt;lbFunctions.Name" xml:space="preserve">
     <value>lbFunctions</value>
+  </data>
+  <data name="&gt;&gt;lbFunctions.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbFunctions.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
@@ -352,6 +444,9 @@
   <data name="&gt;&gt;lblSelectFunctions.Name" xml:space="preserve">
     <value>lblSelectFunctions</value>
   </data>
+  <data name="&gt;&gt;lblSelectFunctions.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblSelectFunctions.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
   </data>
@@ -372,6 +467,9 @@
   </data>
   <data name="&gt;&gt;lblSeparator.Name" xml:space="preserve">
     <value>lblSeparator</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSeparator.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
@@ -400,6 +498,9 @@
   <data name="&gt;&gt;lblSubtotals.Name" xml:space="preserve">
     <value>lblSubtotals</value>
   </data>
+  <data name="&gt;&gt;lblSubtotals.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblSubtotals.Parent" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
   </data>
@@ -414,6 +515,9 @@
   </data>
   <data name="&gt;&gt;xtraTabSubtotalsAndFilters.Name" xml:space="preserve">
     <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;xtraTabSubtotalsAndFilters.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;xtraTabSubtotalsAndFilters.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -451,6 +555,9 @@
   <data name="&gt;&gt;chkInsertPageBreak.Name" xml:space="preserve">
     <value>chkInsertPageBreak</value>
   </data>
+  <data name="&gt;&gt;chkInsertPageBreak.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkInsertPageBreak.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
   </data>
@@ -471,6 +578,9 @@
   </data>
   <data name="&gt;&gt;lblSeparator4.Name" xml:space="preserve">
     <value>lblSeparator4</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSeparator4.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
@@ -502,6 +612,9 @@
   <data name="&gt;&gt;lblPrint.Name" xml:space="preserve">
     <value>lblPrint</value>
   </data>
+  <data name="&gt;&gt;lblPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblPrint.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
   </data>
@@ -525,6 +638,9 @@
   </data>
   <data name="&gt;&gt;chkShowItemWithNoData.Name" xml:space="preserve">
     <value>chkShowItemWithNoData</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemWithNoData.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkShowItemWithNoData.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
@@ -550,6 +666,9 @@
   <data name="&gt;&gt;chkInsertBlankLine.Name" xml:space="preserve">
     <value>chkInsertBlankLine</value>
   </data>
+  <data name="&gt;&gt;chkInsertBlankLine.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkInsertBlankLine.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
   </data>
@@ -573,6 +692,9 @@
   </data>
   <data name="&gt;&gt;chkRepeatItemLabels.Name" xml:space="preserve">
     <value>chkRepeatItemLabels</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatItemLabels.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkRepeatItemLabels.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
@@ -598,6 +720,9 @@
   <data name="&gt;&gt;chkShowItemLabelsTabularForm.Name" xml:space="preserve">
     <value>chkShowItemLabelsTabularForm</value>
   </data>
+  <data name="&gt;&gt;chkShowItemLabelsTabularForm.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkShowItemLabelsTabularForm.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
   </data>
@@ -621,6 +746,9 @@
   </data>
   <data name="&gt;&gt;chkSubtotalTop.Name" xml:space="preserve">
     <value>chkSubtotalTop</value>
+  </data>
+  <data name="&gt;&gt;chkSubtotalTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkSubtotalTop.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
@@ -646,6 +774,9 @@
   <data name="&gt;&gt;chkCompactForm.Name" xml:space="preserve">
     <value>chkCompactForm</value>
   </data>
+  <data name="&gt;&gt;chkCompactForm.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkCompactForm.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
   </data>
@@ -666,6 +797,9 @@
   </data>
   <data name="&gt;&gt;lblSeparator3.Name" xml:space="preserve">
     <value>lblSeparator3</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSeparator3.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
@@ -694,6 +828,9 @@
   <data name="&gt;&gt;lblLayout.Name" xml:space="preserve">
     <value>lblLayout</value>
   </data>
+  <data name="&gt;&gt;lblLayout.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblLayout.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
   </data>
@@ -718,6 +855,9 @@
   <data name="&gt;&gt;chkShowItemLabelsOutlineForm.Name" xml:space="preserve">
     <value>chkShowItemLabelsOutlineForm</value>
   </data>
+  <data name="&gt;&gt;chkShowItemLabelsOutlineForm.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chkShowItemLabelsOutlineForm.Parent" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
   </data>
@@ -733,6 +873,9 @@
   <data name="&gt;&gt;xtraTabLayoutAndPrint.Name" xml:space="preserve">
     <value>xtraTabLayoutAndPrint</value>
   </data>
+  <data name="&gt;&gt;xtraTabLayoutAndPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;xtraTabLayoutAndPrint.Parent" xml:space="preserve">
     <value>tabControl</value>
   </data>
@@ -741,6 +884,9 @@
   </data>
   <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
     <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -769,6 +915,9 @@
   <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
     <value>btnOk</value>
   </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -795,6 +944,9 @@
   </data>
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -823,6 +975,9 @@
   <data name="&gt;&gt;btnNumberFormat.Name" xml:space="preserve">
     <value>btnNumberFormat</value>
   </data>
+  <data name="&gt;&gt;btnNumberFormat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnNumberFormat.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -849,5 +1004,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FieldSettingsPivotTableForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

@@ -1170,9 +1170,6 @@ to view its layout.</value>
   <data name="ChartStringId.IndWilliamsR" xml:space="preserve">
     <value>Williams %R</value>
   </data>
-  <data name="ChartStringId.InvalidPlaceholder" xml:space="preserve">
-    <value>Invalid placeholder</value>
-  </data>
   <data name="ChartStringId.InvalidRangeControlText" xml:space="preserve">
     <value>This chart diagram can not be displayed in a Range Control.</value>
   </data>
@@ -1506,6 +1503,12 @@ to show a series on this pane</value>
   <data name="ChartStringId.MsgIncorrectDateTimeGridAlignmentPropertyUsing" xml:space="preserve">
     <value>The GridAlignment property can't be modified in the automatic date-time scale mode.</value>
   </data>
+  <data name="ChartStringId.MsgIncorrectDateTimeMeasureUnitMultiplierPropertyUsing" xml:space="preserve">
+    <value>The MeasureUnitMultiplier property can't be modified in both the automatic and continuous date-time scale modes.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDateTimeMeasureUnitMultiplierValue" xml:space="preserve">
+    <value>The MeasureUnitMultiplier property value should be greater than zero.</value>
+  </data>
   <data name="ChartStringId.MsgIncorrectDateTimeMeasureUnitPropertyUsing" xml:space="preserve">
     <value>The MeasureUnit property can't be modified in both the automatic and continuous date-time scale modes.</value>
   </data>
@@ -1587,6 +1590,9 @@ to show a series on this pane</value>
   <data name="ChartStringId.MsgIncorrectLabelMaxWidth" xml:space="preserve">
     <value>The maximum width of the label should be greater than or equal to 0.</value>
   </data>
+  <data name="ChartStringId.MsgIncorrectLegendCrosshairContentOffset" xml:space="preserve">
+    <value>The legend crosshair content offset should be greater than or equal to 0 and less than 1000.</value>
+  </data>
   <data name="ChartStringId.MsgIncorrectLegendHorizontalIndent" xml:space="preserve">
     <value>The legend horizontal indent should be greater than or equal to 0 and less than 1000.</value>
   </data>
@@ -1595,6 +1601,12 @@ to show a series on this pane</value>
   </data>
   <data name="ChartStringId.MsgIncorrectLegendMarkerSize" xml:space="preserve">
     <value>The legend marker size should be greater than 0 and less than 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMaxCrosshairContentHeight" xml:space="preserve">
+    <value>The legend's MaxCrosshairContentHeight property value must be greater than or equal to 0 and less than 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMaxCrosshairContentWidth" xml:space="preserve">
+    <value>The legend's MaxCrosshairContentWidth property value must be greater than 0 and less than 1000.</value>
   </data>
   <data name="ChartStringId.MsgIncorrectLegendTextOffset" xml:space="preserve">
     <value>The legend text offset should be greater than or equal to 0 and less than 1000.</value>
@@ -1824,6 +1836,9 @@ to show a series on this pane</value>
   <data name="ChartStringId.MsgIncorrectTopNThresholdValue" xml:space="preserve">
     <value>The top N threshold value should be greater than 0.</value>
   </data>
+  <data name="ChartStringId.MsgIncorrectTotalLabelIndent" xml:space="preserve">
+    <value>The total label indent should be greater than or equal to 0 and less than 1000.</value>
+  </data>
   <data name="ChartStringId.MsgIncorrectTransformationMatrix" xml:space="preserve">
     <value>Incorrect transformation matrix.</value>
   </data>
@@ -1910,6 +1925,9 @@ to show a series on this pane</value>
   </data>
   <data name="ChartStringId.MsgMeasureUnitCanNotBeSetForAxisY" xml:space="preserve">
     <value>The MeasureUnit property can't be set for the axis Y.</value>
+  </data>
+  <data name="ChartStringId.MsgMeasureUnitMultiplierCanNotBeSetForAxisY" xml:space="preserve">
+    <value>The MeasureUnitMultiplier property can't be set for the axis Y.</value>
   </data>
   <data name="ChartStringId.MsgMinMaxDifferentTypes" xml:space="preserve">
     <value>The types of the MinValue and MaxValue don't match.</value>
@@ -2045,11 +2063,11 @@ or show other panes from the Diagram.Panes collection.</value>
   <data name="ChartStringId.MsgUnsupportedDateTimeScaleModeWithScrollingZooming" xml:space="preserve">
     <value>Automatic DateTimeScaleMode can't work together with zooming and scrolling.</value>
   </data>
-  <data name="ChartStringId.MsgUnsupportedManualRangeForAutomaticDateTimeScaleMode" xml:space="preserve">
-    <value>It is impossible to set a custom range, if the DateTimeScaleMode is not Manual.</value>
-  </data>
   <data name="ChartStringId.MsgUnsupportedResolveOverlappingMode" xml:space="preserve">
     <value>The specified overlapping mode isn't supported by the current series view.</value>
+  </data>
+  <data name="ChartStringId.MsgUnsupportedResolveOverlappingModeInStackedBarTotalLabel" xml:space="preserve">
+    <value>The specified overlapping mode isn't supported by the stacked bar total label.</value>
   </data>
   <data name="ChartStringId.MsgUnsupportedTopNOptions" xml:space="preserve">
     <value>TopNOptions can't be enabled for this series, because either its ValueScaleType is not Numerical or its data points have more than 1 value.</value>
@@ -2587,6 +2605,12 @@ so that it best fits the page on which it is printed)</value>
   <data name="ChartStringId.ToolTipRelativePosition" xml:space="preserve">
     <value>Relative Position</value>
   </data>
+  <data name="ChartStringId.TotalSeriesLabelHeader" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ChartStringId.TotalValuePatternDescription" xml:space="preserve">
+    <value>Total value</value>
+  </data>
   <data name="ChartStringId.TrnAnnotationDeleted" xml:space="preserve">
     <value>Annotation deleted</value>
   </data>
@@ -2688,6 +2712,9 @@ so that it best fits the page on which it is printed)</value>
   </data>
   <data name="ChartStringId.TrnXYDiagramPanesChanged" xml:space="preserve">
     <value>Panes changed</value>
+  </data>
+  <data name="ChartStringId.UnknownPatternPlaceholder" xml:space="preserve">
+    <value>Unknown pattern placeholder</value>
   </data>
   <data name="ChartStringId.Value1PatternDescription" xml:space="preserve">
     <value>Value 1</value>
@@ -2805,6 +2832,9 @@ so that it best fits the page on which it is printed)</value>
   </data>
   <data name="ChartStringId.WizAggregateFunctionCount" xml:space="preserve">
     <value>Count</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionCustom" xml:space="preserve">
+    <value>Custom</value>
   </data>
   <data name="ChartStringId.WizAggregateFunctionDefault" xml:space="preserve">
     <value>Default</value>

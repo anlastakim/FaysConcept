@@ -176,6 +176,9 @@
   <data name="&gt;&gt;lbCaption.Name" xml:space="preserve">
     <value>lbCaption</value>
   </data>
+  <data name="&gt;&gt;lbCaption.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lbCaption.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -196,6 +199,9 @@
   </data>
   <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
     <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -221,6 +227,9 @@
   <data name="&gt;&gt;txtPageNumber.Name" xml:space="preserve">
     <value>txtPageNumber</value>
   </data>
+  <data name="&gt;&gt;txtPageNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;txtPageNumber.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
@@ -241,6 +250,9 @@
   </data>
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -338,5 +350,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>GoToPageDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

@@ -134,6 +134,9 @@ Do you want to continue?</value>
   <data name="ChartDesignerStringId.OptionsControlCategory_General" xml:space="preserve">
     <value>GENERAL</value>
   </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_GridLines" xml:space="preserve">
+    <value>GRID LINES</value>
+  </data>
   <data name="ChartDesignerStringId.OptionsControlCategory_Label" xml:space="preserve">
     <value>LABEL</value>
   </data>
@@ -178,6 +181,9 @@ Do you want to continue?</value>
   </data>
   <data name="ChartDesignerStringId.OptionsControlCategory_TextOptions" xml:space="preserve">
     <value>TEXT OPTIONS</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Tickmarks" xml:space="preserve">
+    <value>TICKMARKS</value>
   </data>
   <data name="ChartDesignerStringId.OptionsControlCategory_Title" xml:space="preserve">
     <value>TITLE</value>
@@ -278,6 +284,9 @@ Do you want to continue?</value>
   <data name="ChartDesignerStringId.Tree_SimpleDiagram3D" xml:space="preserve">
     <value>3D Simple Diagram</value>
   </data>
+  <data name="ChartDesignerStringId.Tree_StackedBarTotalLabel" xml:space="preserve">
+    <value>Stacked Bar Total Label</value>
+  </data>
   <data name="ChartDesignerStringId.Tree_StripCollection" xml:space="preserve">
     <value>Strips</value>
   </data>
@@ -289,6 +298,9 @@ Do you want to continue?</value>
   </data>
   <data name="ChartDesignerStringId.Tree_SwiftPlotSecondaryAxisYCollection" xml:space="preserve">
     <value>Secondary Y-Axes</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_TotalLabel" xml:space="preserve">
+    <value>Total Label</value>
   </data>
   <data name="ChartDesignerStringId.Tree_XYDiagram" xml:space="preserve">
     <value>XY-Diagram</value>

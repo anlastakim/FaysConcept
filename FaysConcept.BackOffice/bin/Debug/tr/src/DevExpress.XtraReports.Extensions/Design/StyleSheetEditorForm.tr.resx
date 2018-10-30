@@ -141,4 +141,7 @@
   <data name="btRemove.ToolTip" xml:space="preserve">
     <value>Stil kaldır</value>
   </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
 </root>

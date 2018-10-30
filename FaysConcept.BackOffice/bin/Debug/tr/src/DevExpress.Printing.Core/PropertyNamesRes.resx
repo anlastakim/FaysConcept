@@ -279,6 +279,90 @@
   <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Bracket" xml:space="preserve">
     <value>Bracket</value>
   </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Codabar" xml:space="preserve">
+    <value>Codabar</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Industrial2of5" xml:space="preserve">
+    <value>Industrial 2 of 5</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Interleaved2of5" xml:space="preserve">
+    <value>Interleaved 2 of 5</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code39" xml:space="preserve">
+    <value>Code 39</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code39Extended" xml:space="preserve">
+    <value>Code 39 Extended</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code93" xml:space="preserve">
+    <value>Code 93</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code93Extended" xml:space="preserve">
+    <value>Code 93 Extended</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code128" xml:space="preserve">
+    <value>Code 128</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code11" xml:space="preserve">
+    <value>Code 11</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.CodeMSI" xml:space="preserve">
+    <value>Code MSI</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.PostNet" xml:space="preserve">
+    <value>PostNet</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN13" xml:space="preserve">
+    <value>EAN 13</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCA" xml:space="preserve">
+    <value>UPC A</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN8" xml:space="preserve">
+    <value>EAN 8</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN128" xml:space="preserve">
+    <value>EAN 128</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCSupplemental2" xml:space="preserve">
+    <value>UPC Supplemental 2</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCSupplemental5" xml:space="preserve">
+    <value>UPC Supplemental 5</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCE0" xml:space="preserve">
+    <value>UPC E0</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCE1" xml:space="preserve">
+    <value>UPC E1</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Matrix2of5" xml:space="preserve">
+    <value>Matrix 2 of 5</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.PDF417" xml:space="preserve">
+    <value>PDF 417</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DataMatrix" xml:space="preserve">
+    <value>Data Matrix</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.QRCode" xml:space="preserve">
+    <value>QR Code</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.IntelligentMail" xml:space="preserve">
+    <value>Intelligent Mail</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DataMatrixGS1" xml:space="preserve">
+    <value>Data Matrix GS1</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.ITF14" xml:space="preserve">
+    <value>ITF 14</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DataBar" xml:space="preserve">
+    <value>DataBar</value>    
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.IntelligentMailPackage" xml:space="preserve">
+    <value>Intelligent Mail Package</value>    
+  </data>
   <data name="DevExpress.XtraPrinting.SizeMode.Custom" xml:space="preserve">
     <value>Custom</value>
   </data>
@@ -696,6 +780,30 @@
   <data name="DevExpress.XtraPrinting.DocxExportOptions.AllowFloatingPictures" xml:space="preserve">
     <value>Allow Floating Pictures</value>
   </data>
+  <data name="DevExpress.XtraPrinting.DocxExportOptions.DocumentOptions" xml:space="preserve">  
+    <value>Document Options</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions" xml:space="preserve">
+    <value>DOCx Document Options</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Keywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
   <data name="DevExpress.XtraPrinting.EmailOptions.AdditionalRecipients" xml:space="preserve">
     <value>Additional Recipients</value>
   </data>
@@ -795,6 +903,9 @@
   <data name="DevExpress.XtraPrinting.PdfExportOptions.ConvertImagesToJpeg" xml:space="preserve">
     <value>Convert Images to Jpeg</value>
   </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.ExportEditingFieldsToAcroForms" xml:space="preserve">
+    <value>Export Editing Fields to AcroForms</value>
+  </data>
   <data name="DevExpress.XtraPrinting.ImageExportMode.SingleFilePageByPage" xml:space="preserve">
     <value>Single File (Page-by-Page)</value>
   </data>
@@ -875,6 +986,12 @@
   </data>
   <data name="DevExpress.XtraPrinting.BarCode.CodabarGenerator.StartStopPair" xml:space="preserve">
     <value>Start and Stop Symbols</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarGenerator.StartSymbol" xml:space="preserve">
+    <value>Start Symbol</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarGenerator.StopSymbol" xml:space="preserve">
+    <value>Stop Symbol</value>
   </data>
   <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version38" xml:space="preserve">
     <value>Version 38 (169x169)</value>
@@ -1045,7 +1162,7 @@
     <value>None</value>
   </data>
   <data name="DevExpress.XtraPrinting.PageByPageExportOptionsBase.RasterizationResolution" xml:space="preserve">
-    <value>Rasterization resolution</value>
+    <value>Rasterization Resolution</value>
   </data>
   <data name="DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right" xml:space="preserve">
     <value>Right</value>
@@ -1403,6 +1520,21 @@
   </data>
   <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopPair.AT" xml:space="preserve">
     <value>AT</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.B" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.C" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.D" xml:space="preserve">
+    <value>D</value>
   </data>
   <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix48x48" xml:space="preserve">
     <value>48 x 48</value>

@@ -58,33 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="PdfViewerStringId.AttachmentsViewerDescriptionHeader" xml:space="preserve">
-    <value>Description</value>
-  </data>
-  <data name="PdfViewerStringId.AttachmentsViewerFileNameHeader" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="PdfViewerStringId.AttachmentsViewerModifiedHeader" xml:space="preserve">
-    <value>Modified</value>
-  </data>
-  <data name="PdfViewerStringId.AttachmentsViewerOpenCaption" xml:space="preserve">
-    <value>Open Attachment</value>
-  </data>
-  <data name="PdfViewerStringId.AttachmentsViewerOpenDescription" xml:space="preserve">
-    <value>Open file in its native application</value>
-  </data>
-  <data name="PdfViewerStringId.AttachmentsViewerPanelCaption" xml:space="preserve">
-    <value>Attachments</value>
-  </data>
-  <data name="PdfViewerStringId.AttachmentsViewerSaveCaption" xml:space="preserve">
-    <value>Save Attachment...</value>
-  </data>
-  <data name="PdfViewerStringId.AttachmentsViewerSaveDescription" xml:space="preserve">
-    <value>Save Attachment</value>
-  </data>
-  <data name="PdfViewerStringId.AttachmentsViewerSizeHeader" xml:space="preserve">
-    <value>Size</value>
-  </data>
   <data name="PdfViewerStringId.BarCaption" xml:space="preserve">
     <value>PDF Viewer</value>
   </data>
@@ -122,13 +95,13 @@
     <value>Export</value>
   </data>
   <data name="PdfViewerStringId.CommandExportDescription" xml:space="preserve">
-    <value>Export form data to a file.</value>
+    <value>Export form data to the file.</value>
   </data>
   <data name="PdfViewerStringId.CommandImportCaption" xml:space="preserve">
     <value>Import</value>
   </data>
   <data name="PdfViewerStringId.CommandImportDescription" xml:space="preserve">
-    <value>Import form data from a file.</value>
+    <value>Import form data from the file.</value>
   </data>
   <data name="PdfViewerStringId.CommandNextPageCaption" xml:space="preserve">
     <value>Next</value>
@@ -260,7 +233,7 @@
     <value>Zoom Out</value>
   </data>
   <data name="PdfViewerStringId.CommandZoomOutDescription" xml:space="preserve">
-    <value>Zoom out to see more of the page at a reduced size.</value>
+    <value>Zoom out to see more of the page at a reduces size.</value>
   </data>
   <data name="PdfViewerStringId.CommandZoomOutShortcutCaption" xml:space="preserve">
     <value> (Ctrl + Minus)</value>
@@ -268,8 +241,11 @@
   <data name="PdfViewerStringId.FileRibbonGroupCaption" xml:space="preserve">
     <value>File</value>
   </data>
-  <data name="PdfViewerStringId.FindRibbonGroupCaption" xml:space="preserve">
-    <value>Find</value>
+  <data name="PdfViewerStringId.FileSize" xml:space="preserve">
+    <value>{0:0.00} {1} ({2} Bytes)</value>
+  </data>
+  <data name="PdfViewerStringId.FileSizeInBytes" xml:space="preserve">
+    <value>{0} Bytes</value>
   </data>
   <data name="PdfViewerStringId.FormDataFileFilter" xml:space="preserve">
     <value>FDF Files (.fdf)|*.fdf|XML Files (.xml)|*.xml</value>
@@ -302,23 +278,18 @@
     <value>Error</value>
   </data>
   <data name="PdfViewerStringId.MessageErrorCurrentPageNumberOutOfRange" xml:space="preserve">
-    <value>The current page number should be greater than 0.</value>
+    <value>The current page number value should be greater than 0.</value>
   </data>
   <data name="PdfViewerStringId.MessageErrorZoomFactorOutOfRange" xml:space="preserve">
-    <value>The zoom factor must be in the range from {0} to {1}.</value>
+    <value>The zoom factor should be greater than or equal to {0} and less than or equal to {1}.</value>
   </data>
   <data name="PdfViewerStringId.MessageExportError" xml:space="preserve">
-    <value>An error occurred while exporting the form data from the document.</value>
-  </data>
-  <data name="PdfViewerStringId.MessageFileAttachmentOpening" xml:space="preserve">
-    <value>The document requests to access an external application to open this file:
-'{0}'
-Do you want to open it?</value>
+    <value>An error occurred while exporting the document's form data.</value>
   </data>
   <data name="PdfViewerStringId.MessageImportError" xml:space="preserve">
     <value>Unable to import the specified data into the document form.
 {0}
- Please ensure that the provided data meets the {1} specification.</value>
+Please ensure that the provided data meets the {1} specification.</value>
   </data>
   <data name="PdfViewerStringId.MessageIncorrectPassword" xml:space="preserve">
     <value>The password is incorrect. Please make sure that Caps Lock is not enabled.</value>
@@ -332,7 +303,7 @@ Do you want to open it?</value>
 Please ensure that the application can access this file and that it is valid, or specify a different file.</value>
   </data>
   <data name="PdfViewerStringId.MessageSaveAsError" xml:space="preserve">
-    <value>Cannot save the PDF document with the following name: {0}.</value>
+    <value>Cannot save the PDF with the following name: {0}.</value>
   </data>
   <data name="PdfViewerStringId.MessageSearchCaption" xml:space="preserve">
     <value>Find</value>
@@ -347,9 +318,8 @@ Please ensure that the application can access this file and that it is valid, or
     <value>Security Warning</value>
   </data>
   <data name="PdfViewerStringId.MessageSecurityWarningUriOpening" xml:space="preserve">
-    <value>The document is trying to access an external resource by using the following URL:
-'{0}'
-Do you want to open it nevertheless?</value>
+    <value>The document is trying to access an external resource by using the following URI (uniform resource identifier): '{0}'
+Do you want to open it?</value>
   </data>
   <data name="PdfViewerStringId.NavigationRibbonGroupCaption" xml:space="preserve">
     <value>Navigation</value>
@@ -558,29 +528,26 @@ Do you want to open it nevertheless?</value>
   <data name="PdfViewerStringId.SavingDocumentMessage" xml:space="preserve">
     <value>Saving... Please wait.</value>
   </data>
-  <data name="PdfViewerStringId.ThumbnailsViewerPanelCaption" xml:space="preserve">
-    <value>Page Thumbnails</value>
+  <data name="PdfViewerStringId.UnitExaBytes" xml:space="preserve">
+    <value>EB</value>
   </data>
-  <data name="PdfViewerStringId.ThumbnailsViewerPrintPagesCaption" xml:space="preserve">
-    <value>Print Pages...</value>
+  <data name="PdfViewerStringId.UnitGigaBytes" xml:space="preserve">
+    <value>GB</value>
   </data>
-  <data name="PdfViewerStringId.ThumbnailsViewerPrintPagesDescription" xml:space="preserve">
-    <value>Print Pages...</value>
+  <data name="PdfViewerStringId.UnitKiloBytes" xml:space="preserve">
+    <value>KB</value>
   </data>
-  <data name="PdfViewerStringId.ThumbnailsViewerZoomInCaption" xml:space="preserve">
-    <value>Enlarge Page Thumbnails</value>
+  <data name="PdfViewerStringId.UnitMegaBytes" xml:space="preserve">
+    <value>MB</value>
   </data>
-  <data name="PdfViewerStringId.ThumbnailsViewerZoomInDescription" xml:space="preserve">
-    <value>Enlarge Page Thumbnails</value>
+  <data name="PdfViewerStringId.UnitPetaBytes" xml:space="preserve">
+    <value>PB</value>
   </data>
-  <data name="PdfViewerStringId.ThumbnailsViewerZoomOutCaption" xml:space="preserve">
-    <value>Reduce Page Thumbnails</value>
+  <data name="PdfViewerStringId.UnitTeraBytes" xml:space="preserve">
+    <value>TB</value>
   </data>
-  <data name="PdfViewerStringId.ThumbnailsViewerZoomOutDescription" xml:space="preserve">
-    <value>Reduce Page Thumbnails</value>
-  </data>
-  <data name="PdfViewerStringId.ViewRibbonGroupCaption" xml:space="preserve">
-    <value>View</value>
+  <data name="PdfViewerStringId.UnitZettaBytes" xml:space="preserve">
+    <value>ZB</value>
   </data>
   <data name="PdfViewerStringId.ZoomRibbonGroupCaption" xml:space="preserve">
     <value>Zoom</value>

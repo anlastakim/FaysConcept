@@ -150,4 +150,7 @@
   <data name="lcColumnType.Text" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
+  <data name="hyperlinkCheckEdit.Properties.Caption" xml:space="preserve">
+    <value>Köprü</value>
+  </data>
 </root>

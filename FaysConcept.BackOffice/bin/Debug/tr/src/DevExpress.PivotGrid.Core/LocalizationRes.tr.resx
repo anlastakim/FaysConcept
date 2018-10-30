@@ -578,4 +578,19 @@ Buradan indirebilirsiniz:</value>
   <data name="PivotGridStringId.ExpressionValidationNotSummaryExpressionExpected" xml:space="preserve">
     <value>Ölçüt toplamları içeremez.</value>
   </data>
+  <data name="PivotGridStringId.ExpressionEditorFieldsCategory" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="PivotGridStringId.EditFilter" xml:space="preserve">
+    <value>Filtreyi Düzenle</value>
+  </data>
+  <data name="PivotGridStringId.FilterFormCaption" xml:space="preserve">
+    <value>Filtre Düzenleyicisi</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortBySummary" xml:space="preserve">
+    <value>Sort tarafından Özeti</value>
+  </data>
+  <data name="PivotGridStringId.ServerRequestError" xml:space="preserve">
+    <value>Sunucu isteği ({0}) işleme sırasında hata oluştu</value>
+  </data>
 </root>

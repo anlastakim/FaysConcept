@@ -538,7 +538,7 @@
     <value>Kaydet</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ShowNextPage_STipTitle" xml:space="preserve">
-    <value>Sonraki Sayfa</value>
+    <value>Sonraki Sayfa (Right Arrow)</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_FillBackground_STipTitle" xml:space="preserve">
     <value>Arkaplan Rengi</value>
@@ -785,7 +785,7 @@ Sol:		 {2}		Sağ:		   {3}</value>
     <value>{0} / {1}</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ShowPrevPage_STipTitle" xml:space="preserve">
-    <value>Önceki Sayfa</value>
+    <value>Önceki Sayfa (Left Arrow)</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ExportPdf_STipContent" xml:space="preserve">
     <value>Dokümanı PDF dosyasına aktar ve diske kaydet</value>
@@ -1049,7 +1049,7 @@ Sol:		 {2}		Sağ:		   {3}</value>
     <value>Dokümanı PDF dosyasına aktar ve e-posta'ya ekle</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ShowFirstPage_STipTitle" xml:space="preserve">
-    <value>İlk Sayfa</value>
+    <value>İlk Sayfa (Home)</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_PrintDirect_STipTitle" xml:space="preserve">
     <value>Hızlı Yazdır</value>
@@ -1176,7 +1176,7 @@ Yine de devam et?</value>
     <value>Boyut</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ShowLastPage_STipTitle" xml:space="preserve">
-    <value>Son Sayfa</value>
+    <value>Son Sayfa (End)</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_ExportXls_Description" xml:space="preserve">
     <value>Microsoft Excel Workbook</value>
@@ -1786,20 +1786,11 @@ Daha kısa bir isim deneyin.</value>
   <data name="PreviewStringId.ExportOption_DocxExportMode_SingleFilePageByPage" xml:space="preserve">
     <value>Sayfa sayfa tek dosya</value>
   </data>
-  <data name="PreviewStringId.ExportOptionsForm_CaptionDocx" xml:space="preserve">
-    <value>DOCx dışa aktarma seçenekleri</value>
-  </data>
-  <data name="PreviewStringId.RibbonPreview_ExportDocx_Caption" xml:space="preserve">
+  <data name="PreviewStringId.RibbonPreview_SendDocx_Caption" xml:space="preserve">
     <value>DOCX dosya</value>
   </data>
-  <data name="PreviewStringId.RibbonPreview_ExportDocx_Description" xml:space="preserve">
+  <data name="PreviewStringId.RibbonPreview_SendDocx_Description" xml:space="preserve">
     <value>Microsoft Word 2007 belgesi</value>
-  </data>
-  <data name="PreviewStringId.EditingFieldEditors_OnlyLatinLetters" xml:space="preserve">
-    <value>Yalnızca Latince harfleri</value>
-  </data>
-  <data name="PreviewStringId.Msg_Search_Caption" xml:space="preserve">
-    <value>Arama</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_SendDocx_STipContent" xml:space="preserve">
     <value>DOCX için belgeyi dışa aktarın ve e-postaya iliştir.</value>
@@ -1815,5 +1806,26 @@ Daha kısa bir isim deneyin.</value>
   </data>
   <data name="PreviewStringId.RibbonPreview_HighlightEditingFields_STipContent" xml:space="preserve">
     <value>Vurgu tüm düzenleme alanları hızlı bir şekilde belge öğeleri düzenlenebilir olan keşfetmek için.</value>
+  </data>
+  <data name="PreviewStringId.ExportOption_CsvSeparator_UsingSystem" xml:space="preserve">
+    <value>(Sistem ayırıcı kullanarak)</value>
+  </data>
+  <data name="PreviewStringId.ExportOption_DocxKeepRowHeight" xml:space="preserve">
+    <value>Satır yüksekliğini koru</value>
+  </data>
+  <data name="PreviewStringId.ExportOption_DocxTableLayout" xml:space="preserve">
+    <value>Tablo düzeni</value>
+  </data>
+  <data name="PreviewStringId.MenuItem_DocxDocument" xml:space="preserve">
+    <value>DOCX dosya</value>
+  </data>
+  <data name="PreviewStringId.PrintDialog_Duplex_Simplex" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="PreviewStringId.Msg_Search_Caption" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="PreviewStringId.RibbonPreview_SendDocx_STipTitle" xml:space="preserve">
+    <value>E-posta olarak DOCX</value>
   </data>
 </root>

@@ -257,6 +257,10 @@
   <data name="ASPxRichEditStringId.Invalid_FileName">
     <value>Invalid file name</value>
   </data>
+  <data name="ASPxRichEditStringId.PathDoesNotExist">
+    <value>Path does not exist.
+Check the path and try again.</value>
+  </data>
   <data name="ASPxRichEditStringId.Portrait">
     <value>Portrait</value>
   </data>

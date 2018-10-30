@@ -80,7 +80,7 @@
     <value>True</value>
   </data>
   <data name="autoCheckEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 104</value>
+    <value>15, 129</value>
   </data>
   <data name="autoCheckEdit.Properties.Caption" xml:space="preserve">
     <value>Auto</value>
@@ -142,6 +142,27 @@
   <data name="&gt;&gt;deltaCheckEdit.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="hyperlinkCheckEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 104</value>
+  </data>
+  <data name="hyperlinkCheckEdit.Properties.Caption" xml:space="preserve">
+    <value>Hyperlink</value>
+  </data>
+  <data name="hyperlinkCheckEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 19</value>
+  </data>
+  <data name="hyperlinkCheckEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;hyperlinkCheckEdit.Name" xml:space="preserve">
+    <value>hyperlinkCheckEdit</value>
+  </data>
+  <data name="&gt;&gt;hyperlinkCheckEdit.Parent" xml:space="preserve">
+    <value>lcColumnType</value>
+  </data>
+  <data name="&gt;&gt;hyperlinkCheckEdit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="sparklineCheckEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 79</value>
   </data>
@@ -161,7 +182,7 @@
     <value>lcColumnType</value>
   </data>
   <data name="&gt;&gt;sparklineCheckEdit.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="measureCheckEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 29</value>
@@ -182,7 +203,7 @@
     <value>lcColumnType</value>
   </data>
   <data name="&gt;&gt;measureCheckEdit.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="lcColumnType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -352,102 +373,6 @@
   <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="dimensionColumnControl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="dimensionColumnControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="dimensionColumnControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 20</value>
-  </data>
-  <data name="dimensionColumnControl.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>300, 100</value>
-  </data>
-  <data name="dimensionColumnControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 212</value>
-  </data>
-  <data name="dimensionColumnControl.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="dimensionColumnControl.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;dimensionColumnControl.Name" xml:space="preserve">
-    <value>dimensionColumnControl</value>
-  </data>
-  <data name="measureColumnControl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="measureColumnControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="measureColumnControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 20</value>
-  </data>
-  <data name="measureColumnControl.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>330, 90</value>
-  </data>
-  <data name="measureColumnControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 212</value>
-  </data>
-  <data name="measureColumnControl.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="measureColumnControl.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;measureColumnControl.Name" xml:space="preserve">
-    <value>measureColumnControl</value>
-  </data>
-  <data name="deltaColumnControl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="deltaColumnControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="deltaColumnControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 20</value>
-  </data>
-  <data name="deltaColumnControl.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>330, 84</value>
-  </data>
-  <data name="deltaColumnControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 212</value>
-  </data>
-  <data name="deltaColumnControl.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="deltaColumnControl.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;deltaColumnControl.Name" xml:space="preserve">
-    <value>deltaColumnControl</value>
-  </data>
-  <data name="sparklineColumnControl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sparklineColumnControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="sparklineColumnControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 40</value>
-  </data>
-  <data name="sparklineColumnControl.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>288, 112</value>
-  </data>
-  <data name="sparklineColumnControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 212</value>
-  </data>
-  <data name="sparklineColumnControl.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="sparklineColumnControl.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;sparklineColumnControl.Name" xml:space="preserve">
-    <value>sparklineColumnControl</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -461,7 +386,7 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>527, 320</value>
+    <value>527, 321</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>543, 359</value>
@@ -489,6 +414,9 @@
   </data>
   <data name="&gt;&gt;lciSparkline.Name" xml:space="preserve">
     <value>lciSparkline</value>
+  </data>
+  <data name="&gt;&gt;lciHyperlink.Name" xml:space="preserve">
+    <value>lciHyperlink</value>
   </data>
   <data name="&gt;&gt;lciAuto.Name" xml:space="preserve">
     <value>lciAuto</value>

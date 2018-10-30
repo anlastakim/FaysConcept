@@ -117,98 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="GaugesPresetsStringId.ThemeDefault" xml:space="preserve">
-    <value>Default</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeWhite" xml:space="preserve">
-    <value>White</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeDarkNight" xml:space="preserve">
-    <value>Dark Night</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeDeepFire" xml:space="preserve">
-    <value>Deep Fire</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeIceColdZone" xml:space="preserve">
-    <value>Ice-Cold Zone</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeGothicMat" xml:space="preserve">
-    <value>Gothic Mat</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeShiningDark" xml:space="preserve">
-    <value>Shining Dark</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeAfricaSunset" xml:space="preserve">
-    <value>Africa Sunset</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeMechanical" xml:space="preserve">
-    <value>Mechanical</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeSilverBlur" xml:space="preserve">
-    <value>Silver Blur</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemePureDark" xml:space="preserve">
-    <value>Pure Dark</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeCleanWhite" xml:space="preserve">
-    <value>Clean White</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeSportCar" xml:space="preserve">
-    <value>Sport Car</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeMilitary" xml:space="preserve">
-    <value>Military</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeRetro" xml:space="preserve">
-    <value>Retro</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeDisco" xml:space="preserve">
-    <value>Disco</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeClever" xml:space="preserve">
-    <value>Clever</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeCosmic" xml:space="preserve">
-    <value>Cosmic</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeSmart" xml:space="preserve">
-    <value>Smart</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeProgressive" xml:space="preserve">
-    <value>Progressive</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeEco" xml:space="preserve">
-    <value>Eco</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeMagicLight" xml:space="preserve">
-    <value>Magic Light</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeiStyle" xml:space="preserve">
-    <value>iStyle</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeFuture" xml:space="preserve">
-    <value>Future</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeYellowSubmarine" xml:space="preserve">
-    <value>Yellow Submarine</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeClassic" xml:space="preserve">
-    <value>Classic</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeRed" xml:space="preserve">
-    <value>Red</value>
-  </data>
   <data name="GaugesPresetsStringId.ThemeFlatLight" xml:space="preserve">
     <value>Flat Light</value>
   </data>
   <data name="GaugesPresetsStringId.ThemeFlatDark" xml:space="preserve">
     <value>Flat Dark</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeIgnis" xml:space="preserve">
-    <value>Ignis</value>
-  </data>
-  <data name="GaugesPresetsStringId.ThemeHaze" xml:space="preserve">
-    <value>Haze</value>
   </data>
   <data name="GaugesPresetsStringId.ShapeFull" xml:space="preserve">
     <value>Full</value>
@@ -225,19 +138,10 @@
   <data name="GaugesPresetsStringId.ShapeThreeFourth" xml:space="preserve">
     <value>ThreeFourth</value>
   </data>
-  <data name="GaugesPresetsStringId.ShapeWide" xml:space="preserve">
-    <value>Wide</value>
-  </data>
   <data name="GaugesPresetsStringId.ShapeHorizontal" xml:space="preserve">
     <value>Horizontal</value>
   </data>
   <data name="GaugesPresetsStringId.ShapeVertical" xml:space="preserve">
     <value>Vertical</value>
   </data>  
-  <data name="GaugesPresetsStringId.StyleChooserFilterTheme" xml:space="preserve">
-    <value>Theme</value>
-  </data>
-  <data name="GaugesPresetsStringId.StyleChooserFilterShape" xml:space="preserve">
-    <value>Shape</value>
-  </data>
 </root>

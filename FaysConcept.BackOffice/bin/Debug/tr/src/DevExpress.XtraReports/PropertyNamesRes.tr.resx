@@ -1848,7 +1848,37 @@
   <data name="DevExpress.XtraReports.UI.SnappingMode.None" xml:space="preserve">
     <value>Hiçbiri</value>
   </data>
+  <data name="DevExpress.XtraReports.UI.XRControl.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.XRControl.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
   <data name="DevExpress.XtraReports.UI.SortingOptions.FieldName" xml:space="preserve">
     <value>Alan Adı</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.DocumentExportMode.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraReports.Wizards.TemplateFieldKind.Comments" xml:space="preserve">
+    <value>Yorumlar</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.TextFitMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraReports.Wizards.TemplateFieldKind.ShipCity" xml:space="preserve">
+    <value>Sevk Şehir</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.DocumentExportMode.Regular" xml:space="preserve">
+    <value>Düzenli</value>
+  </data>
+  <data name="DevExpress.XtraReports.Wizards.TemplateFieldKind.VendorContactName" xml:space="preserve">
+    <value>Satıcı ilgili kişi adı</value>
+  </data>
+  <data name="DevExpress.XtraReports.Wizards.TemplateFieldKind.UnitVAT" xml:space="preserve">
+    <value>Birim KDV</value>
+  </data>
+  <data name="DevExpress.XtraReports.Wizards.TemplateFieldKind.Note" xml:space="preserve">
+    <value>Not</value>
   </data>
 </root>

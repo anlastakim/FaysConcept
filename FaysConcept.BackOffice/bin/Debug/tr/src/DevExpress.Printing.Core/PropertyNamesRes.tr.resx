@@ -414,7 +414,7 @@
   <data name="DevExpress.XtraPrinting.BarCode.QRCodeCompactionMode.Byte" xml:space="preserve">
     <value>Bayt</value>
   </data>
-  <data name="DevExpress.XtraPrinting.RtfExportOptions.EmptyFirstPageHeaderFooter" xml:space="preserve">
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.EmptyFirstPageHeaderFooter" xml:space="preserve">
     <value>Boş ilk sayfa üstbilgisi/altbilgisi</value>
   </data>
   <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix20x20" xml:space="preserve">
@@ -612,7 +612,7 @@
   <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level2" xml:space="preserve">
     <value>Seviye 2</value>
   </data>
-  <data name="DevExpress.XtraPrinting.RtfExportOptions.KeepRowHeight" xml:space="preserve">
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.KeepRowHeight" xml:space="preserve">
     <value>Satır Yüksekliğini Koru</value>
   </data>
   <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version11" xml:space="preserve">
@@ -906,7 +906,7 @@
   <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level5" xml:space="preserve">
     <value>Seviye 5</value>
   </data>
-  <data name="DevExpress.XtraPrinting.RtfExportOptions.PageRange" xml:space="preserve">
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.PageRange" xml:space="preserve">
     <value>Sayfa Aralığı</value>
   </data>
   <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.PageBorderColor" xml:space="preserve">
@@ -927,7 +927,7 @@
   <data name="DevExpress.XtraPrinting.TextExportOptionsBase.Separator" xml:space="preserve">
     <value>Ayraç</value>
   </data>
-  <data name="DevExpress.XtraPrinting.RtfExportOptions.ExportWatermarks" xml:space="preserve">
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.ExportWatermarks" xml:space="preserve">
     <value>Filigranları Aktar</value>
   </data>
   <data name="DevExpress.XtraPrinting.ActionAfterExport.AskUser" xml:space="preserve">
@@ -1362,19 +1362,73 @@
   <data name="DevExpress.XtraPrinting.PdfACompatibility.PdfA3b" xml:space="preserve">
     <value>PDF/A-3b</value>
   </data>
-  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.PageRange" xml:space="preserve">
-    <value>Sayfa Aralığı</value>
-  </data>
   <data name="DevExpress.XtraPrinting.DocxExportOptions.ExportMode" xml:space="preserve">
-    <value>Aktarım Modu</value>
+    <value>Mod verme</value>
   </data>
   <data name="DevExpress.XtraPrinting.PageByPageExportOptionsBase.RasterizationResolution" xml:space="preserve">
     <value>Rasterleştirme çözünürlük</value>
   </data>
-  <data name="DevExpress.XtraPrinting.DocxExportOptions" xml:space="preserve">
-    <value>DOCx dışa aktarma seçenekleri</value>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Title" xml:space="preserve">
+    <value>Başlık</value>
   </data>
-  <data name="DevExpress.XtraPrinting.XlExportOptionsBase.FitToPrintedPageHeight" xml:space="preserve">
-    <value>Yazdırılan sayfa yüksekliği Sığdır</value>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Subject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Comments" xml:space="preserve">
+    <value>Yorumlar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.PageRange" xml:space="preserve">
+    <value>Sayfa Aralığı</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Author" xml:space="preserve">
+    <value>Yazar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Codabar" xml:space="preserve">
+    <value>Codabar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DataBar" xml:space="preserve">
+    <value>DataBar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DataMatrix" xml:space="preserve">
+    <value>Data Matrix</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN128" xml:space="preserve">
+    <value>EAN 128</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN13" xml:space="preserve">
+    <value>EAN 13</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN8" xml:space="preserve">
+    <value>EAN 8</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.ITF14" xml:space="preserve">
+    <value>ITF 14</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.PDF417" xml:space="preserve">
+    <value>PDF 417</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.PostNet" xml:space="preserve">
+    <value>PostNet</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCA" xml:space="preserve">
+    <value>UPC A</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCE1" xml:space="preserve">
+    <value>UPC E1</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.B" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.C" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.A" xml:space="preserve">
+    <value>A</value>
   </data>
 </root>

@@ -17,6 +17,9 @@
   <data name="ASPxperienceStringId.Loading">
     <value>Loading&amp;hellip;</value>
   </data>
+  <data name="ASPxperienceStringId.SharePoint_DesignTime_EmptyView">
+    <value>This control cannot be rendered in the Design view for the current project type</value>
+  </data>
   <data name="ASPxperienceStringId.Pager_All">
     <value>All</value>
   </data>
@@ -143,7 +146,7 @@
     <value>This file extension isn't allowed</value>
   </data>
   <data name="ASPxperienceStringId.UploadControl_FileDoesNotExistError">
-    <value>The uploading file doesn't exist</value>
+    <value>The uploading file '{0}' doesn't exist</value>
   </data>
   <data name="ASPxperienceStringId.UploadControl_ClearFileSelectionButtonToolTip">
     <value>Clear selection</value>
@@ -231,6 +234,9 @@
   </data>
   <data name="ASPxperienceStringId.FileManager_TbCopy">
     <value>Copy</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbExpandFolderContainer">
+    <value>Expand/collapse folder container</value>
   </data>
   <data name="ASPxperienceStringId.FileManager_DeleteConfirm">
     <value>Are you sure you want to delete '{0}'?</value>
@@ -349,6 +355,9 @@
   <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_Size">
     <value>Size</value>
   </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_Location">
+    <value>Location</value>
+  </data>
   <data name="ASPxperienceStringId.Ribbon_FileTabText">
     <value>File</value>
   </data>
@@ -432,6 +441,12 @@
   </data>
   <data name="ASPxperienceStringId.Accessibility_ListBoxDescription">
     <value>ListBox. Use arrow keys to navigate.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ListBoxShowFilter">
+    <value>Show filter</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ListBoxHideFilter">
+    <value>Hide filter</value>
   </data>
   <data name="ASPxperienceStringId.Accessibility_CalendarDescription">
     <value>Calendar. Use arrow keys to navigate.</value>
@@ -585,6 +600,9 @@
   </data>
   <data name="ASPxperienceStringId.Accessibility_GridToolbarDescription">
     <value>A horizontal toolbar used to execute commands associated with the parent grid.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridSearchPanelDescription">
+    <value>The grid's search panel.</value>
   </data>
   <data name="ASPxperienceStringId.Accessibility_Checked">
     <value>checked</value>

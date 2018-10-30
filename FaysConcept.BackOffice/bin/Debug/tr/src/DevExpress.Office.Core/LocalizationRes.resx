@@ -497,6 +497,9 @@ Left:	{0,10}	Right:		{2,10}</value>
   <data name="OfficeStringId.Msg_MagicNumberNotFound" xml:space="preserve">
     <value>The file you are trying to open is in different format than specified by the file extension.</value>
   </data>
+  <data name="OfficeStringId.Msg_UnsupportedFormatOrCorruptedFile" xml:space="preserve">
+    <value>Unsupported format or corrupted file.</value>
+  </data>
   <data name="OfficeStringId.UnitAbbreviation_Centimeter" xml:space="preserve">
     <value> cm</value>
   </data>

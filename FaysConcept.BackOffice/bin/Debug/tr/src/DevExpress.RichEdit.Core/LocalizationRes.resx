@@ -97,9 +97,6 @@
   <data name="XtraRichEditStringId.Caption_ClipboardSubItem" xml:space="preserve">
     <value>Clipboard</value>
   </data>
-  <data name="XtraRichEditStringId.Caption_ColorAutomatic" xml:space="preserve">
-    <value>Automatic</value>
-  </data>
   <data name="XtraRichEditStringId.Caption_Comments" xml:space="preserve">
     <value>Comments</value>
   </data>
@@ -330,9 +327,6 @@
   </data>
   <data name="XtraRichEditStringId.Caption_MainDocumentComments" xml:space="preserve">
     <value>Main document comments</value>
-  </data>
-  <data name="XtraRichEditStringId.Caption_NoColor" xml:space="preserve">
-    <value>No Color</value>
   </data>
   <data name="XtraRichEditStringId.Caption_NumberingListBoxNone" xml:space="preserve">
     <value>None</value>
@@ -1274,6 +1268,9 @@
     <value>The number must be between {0} and {1}.</value>
   </data>
   <data name="XtraRichEditStringId.InsertTableForm_InvalidRowCount" xml:space="preserve">
+    <value>The number must be between {0} and {1}.</value>
+  </data>
+  <data name="XtraRichEditStringId.ColumnsSetupForm_InvalidColumnCount" xml:space="preserve">
     <value>The number must be between {0} and {1}.</value>
   </data>
   <data name="XtraRichEditStringId.KeyName_Alt" xml:space="preserve">
@@ -3008,6 +3005,60 @@ Left:	{0,10}	Right:		{2,10}</value>
   <data name="XtraRichEditStringId.MenuCmd_SetParagraphBodyTextLevelDescription" xml:space="preserve">
     <value>Do Not Show in Table of Contents</value>
   </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading1Level" xml:space="preserve">
+    <value>Level 1</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading1LevelDescription" xml:space="preserve">
+    <value>Level 1</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading2Level" xml:space="preserve">
+    <value>Level 2</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading2LevelDescription" xml:space="preserve">
+    <value>Level 2</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading3Level" xml:space="preserve">
+    <value>Level 3</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading3LevelDescription" xml:space="preserve">
+    <value>Level 3</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading4Level" xml:space="preserve">
+    <value>Level 4</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading4LevelDescription" xml:space="preserve">
+    <value>Level 4</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading5Level" xml:space="preserve">
+    <value>Level 5</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading5LevelDescription" xml:space="preserve">
+    <value>Level 5</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading6Level" xml:space="preserve">
+    <value>Level 6</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading6LevelDescription" xml:space="preserve">
+    <value>Level 6</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading7Level" xml:space="preserve">
+    <value>Level 7</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading7LevelDescription" xml:space="preserve">
+    <value>Level 7</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading8Level" xml:space="preserve">
+    <value>Level 8</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading8LevelDescription" xml:space="preserve">
+    <value>Level 8</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading9Level" xml:space="preserve">
+    <value>Level 9</value>
+  </data>
+  <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeading9LevelDescription" xml:space="preserve">
+    <value>Level 9</value>
+  </data>
   <data name="XtraRichEditStringId.MenuCmd_SetParagraphHeadingLevel" xml:space="preserve">
     <value>Level {0}</value>
   </data>
@@ -3678,6 +3729,9 @@ You can set the table width based on the window size or convert it back to use f
   <data name="XtraRichEditStringId.Msg_CantDeleteDefaultStyle" xml:space="preserve">
     <value>Cannot delete default style.</value>
   </data>
+  <data name="XtraRichEditStringId.Msg_CantPasteFormField" xml:space="preserve">
+    <value>You cannot paste form fields into comments, headers, footers, footnotes, endnotes, or text boxes.</value>
+  </data>
   <data name="XtraRichEditStringId.Msg_CantResetDefaultProperties" xml:space="preserve">
     <value>Can not reset default style settings.</value>
   </data>
@@ -3686,6 +3740,9 @@ You can set the table width based on the window size or convert it back to use f
   </data>
   <data name="XtraRichEditStringId.Msg_ClickToFollowHyperlink" xml:space="preserve">
     <value>Click to follow link</value>
+  </data>
+  <data name="XtraRichEditStringId.Msg_TableExceedsMaximumNumberOfColumns" xml:space="preserve">
+    <value>This exceeds the maximum number of columns.</value>
   </data>
   <data name="XtraRichEditStringId.Msg_ContinueSearchFromBeginningQuestion" xml:space="preserve">
     <value>Do you want to start the search from the beginning of the document?</value>
@@ -3813,6 +3870,9 @@ You can set the table width based on the window size or convert it back to use f
   <data name="XtraRichEditStringId.Msg_MagicNumberNotFound" xml:space="preserve">
     <value>The file you are trying to open is in different format than specified by the file extension.</value>
   </data>
+  <data name="XtraRichEditStringId.Msg_MenuManagerPropertyIsNotSet" xml:space="preserve">
+    <value>The MenuManager property of RichEditControl is not set.</value>
+  </data>
   <data name="XtraRichEditStringId.Msg_MissingOperator" xml:space="preserve">
     <value>!Missing operator.</value>
   </data>
@@ -3887,7 +3947,7 @@ You can set the table width based on the window size or convert it back to use f
     <value>Only MS Word 97 and later versions are supported</value>
   </data>
   <data name="XtraRichEditStringId.Msg_UnsupportedFormatException" xml:space="preserve">
-    <value>File format is not supported</value>
+    <value>Unsupported format or corrupted file</value>
   </data>
   <data name="XtraRichEditStringId.Msg_UseDeletedBookmarkError" xml:space="preserve">
     <value>Error: using deleted bookmark</value>
@@ -3930,6 +3990,9 @@ You can set the table width based on the window size or convert it back to use f
   </data>
   <data name="XtraRichEditStringId.Msg_UseInvalidCharacterProperties" xml:space="preserve">
     <value>Error: character properties are no longer valid</value>
+  </data>
+  <data name="XtraRichEditStringId.Msg_UseInvalidCompatibilitySettings" xml:space="preserve">
+    <value>Error: these compatibility settings are no longer valid</value>
   </data>
   <data name="XtraRichEditStringId.Msg_UseInvalidCustomProperties" xml:space="preserve">
     <value>Error: this custom properties is no longer valid</value>
@@ -4035,5 +4098,155 @@ You can set the table width based on the window size or convert it back to use f
   </data>
   <data name="XtraRichEditStringId.Yes" xml:space="preserve">
     <value>Y</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_ColorAutomatic" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_Formatting" xml:space="preserve">
+    <value>Formatting</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupCaptions" xml:space="preserve">
+    <value>Captions</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupClipboard" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupCommon" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupDocumentComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupDocumentLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupDocumentProofing" xml:space="preserve">
+    <value>Proofing</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupDocumentProtection" xml:space="preserve">
+    <value>Protect</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupDocumentTracking" xml:space="preserve">
+    <value>Tracking</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupDocumentViews" xml:space="preserve">
+    <value>Document Views</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupEditing" xml:space="preserve">
+    <value>Editing</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupFloatingPictureToolsArrange" xml:space="preserve">
+    <value>Arrange</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupFloatingPictureToolsShapeStyles" xml:space="preserve">
+    <value>Shape Styles</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupFont" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupHeaderFooter" xml:space="preserve">
+    <value>Header &amp;&amp; Footer</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupHeaderFooterToolsDesignClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupHeaderFooterToolsDesignNavigation" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupHeaderFooterToolsDesignOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupIllustrations" xml:space="preserve">
+    <value>Illustrations</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupInfo" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupLinks" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupMailMerge" xml:space="preserve">
+    <value>Mail Merge</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupPageBackground" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupPages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupPageSetup" xml:space="preserve">
+    <value>Page Setup</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupParagraph" xml:space="preserve">
+    <value>Paragraph</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupShow" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupStyles" xml:space="preserve">
+    <value>Styles</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupSymbols" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupTableOfContents" xml:space="preserve">
+    <value>Table of Contents</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupTables" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_GroupZoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_NoColor" xml:space="preserve">
+    <value>No Color</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_NoFill" xml:space="preserve">
+    <value>No Fill</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_NoOutline" xml:space="preserve">
+    <value>No Outline</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageCategoryFloatingPictureTools" xml:space="preserve">
+    <value>Picture Tools</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageCategoryHeaderFooterTools" xml:space="preserve">
+    <value>Header &amp; Footer Tools</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageFloatingObjectPictureToolsFormat" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageHeaderFooterToolsDesign" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageInsert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageLayout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageMailings" xml:space="preserve">
+    <value>Mail Merge</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PagePageLayout" xml:space="preserve">
+    <value>Page Layout</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageReferences" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageReview" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="RichEditExtensionsStringId.Caption_PageView" xml:space="preserve">
+    <value>View</value>
   </data>
 </root>

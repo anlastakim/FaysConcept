@@ -1065,7 +1065,28 @@
   <data name="PrintingStringId.MoreOptions" xml:space="preserve">
     <value>Daha fazla seçenek</value>
   </data>
+  <data name="PrintingStringId.RibbonPageGroup_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
   <data name="PrintingStringId.False" xml:space="preserve">
     <value>Yanlış</value>
+  </data>
+  <data name="PrintingStringId.DuplexMode_Simplex" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="PrintingStringId.PrintPreviewTitle" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="PrintingStringId.PageSetupWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="PrintingStringId.PageSetupSize" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="PrintingStringId.PrintPreviewSettings" xml:space="preserve">
+    <value>Ayarları</value>
+  </data>
+  <data name="PrintingStringId.PrinterStatus" xml:space="preserve">
+    <value>Durumu</value>
   </data>
 </root>

@@ -770,4 +770,7 @@ Nerede bu mesafedeki düşme her hücre.</value>
   <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatStrikethrough" xml:space="preserve">
     <value>Üstü çizili</value>
   </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_GreaterOrEqual" xml:space="preserve">
+    <value>Değerinden büyük veya eşit</value>
+  </data>
 </root>

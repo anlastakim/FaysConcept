@@ -245,7 +245,7 @@
     <value>There are no used data sources in this dashboard.</value>
   </data>
   <data name="DashboardWebStringId.DataSources.NoAvailableDataSources" xml:space="preserve">
-    <value>There are no avalible datasources.</value>
+    <value>There are no available datasources.</value>
   </data>
   <data name="DashboardWebStringId.DataSources.ChooseDataSource" xml:space="preserve">
     <value>Choose the data source for the dashboard</value>
@@ -323,7 +323,7 @@
     <value>Add</value>
   </data>
   <data name="DashboardWebStringId.DataSources.AvailableDataSourcesError" xml:space="preserve">
-    <value>An error has occurred on an attempt to load the list of available data sources</value>
+    <value>An error occurred during an attempt to load the list of available data sources</value>
   </data>
   <data name="DashboardWebStringId.DataSources.DashboardDataSourceWizard" xml:space="preserve">
     <value>Dashboard Data Source Wizard</value>
@@ -607,12 +607,6 @@
   <data name="DashboardWebStringId.Chart.Value" xml:space="preserve">
     <value>Value</value>
   </data>
-  <data name="DashboardWebStringId.Chart.SeriesName" xml:space="preserve">
-    <value>Series Name</value>
-  </data>
-  <data name="DashboardWebStringId.Chart.ArgumentAndValue" xml:space="preserve">
-    <value>Argument and Value</value>
-  </data>
   <data name="DashboardWebStringId.Chart.ShowZeroValues" xml:space="preserve">
     <value>Show for zero values</value>
   </data>
@@ -687,6 +681,9 @@
   </data>
   <data name="DashboardWebStringId.FilterItem.ShowAllValue" xml:space="preserve">
     <value>Show 'All' Value</value>
+  </data>
+  <data name="DashboardWebStringId.FilterItem.EnableSearch" xml:space="preserve">
+    <value>Enable Search</value>
   </data>
   <data name="DashboardWebStringId.Gauge.Min" xml:space="preserve">
     <value>Minimum Value</value>
@@ -775,8 +772,14 @@
   <data name="DashboardWebStringId.Grid.Delta" xml:space="preserve">
     <value>Delta</value>
   </data>
+  <data name="DashboardWebStringId.Grid.Hyperlink" xml:space="preserve">
+    <value>Hyperlink</value>
+  </data>
   <data name="DashboardWebStringId.Grid.Sparkline" xml:space="preserve">
     <value>Sparkline</value>
+  </data>
+  <data name="DashboardWebStringId.Grid.Hyperlink" xml:space="preserve">
+    <value>Hyperlink</value>
   </data>
   <data name="DashboardWebStringId.Grid.Options" xml:space="preserve">
     <value>Grid Options</value>
@@ -789,6 +792,15 @@
   </data>  
   <data name="DashboardWebStringId.Map.ValueMap" xml:space="preserve">
     <value>Value Map</value>
+  </data>
+  <data name="DashboardWebStringId.Map.TooltipCaption" xml:space="preserve">
+    <value>Tooltip Caption</value>
+  </data>
+  <data name="DashboardWebStringId.Map.TooltipActualValueCaption" xml:space="preserve">
+    <value>Tooltip Actual Value Caption</value>
+  </data>
+  <data name="DashboardWebStringId.Map.TooltipDeltaCaption" xml:space="preserve">
+    <value>Tooltip Delta Caption</value>
   </data>
   <data name="DashboardWebStringId.Map.DeltaMap" xml:space="preserve">
     <value>Delta Map</value>
@@ -816,6 +828,9 @@
   </data>
   <data name="DashboardWebStringId.Map.AttributeDimension" xml:space="preserve">
     <value>Attribute Dimension</value>
+  </data>
+  <data name="DashboardWebStringId.Map.IncludeSummaryValueToShapeTitle" xml:space="preserve">
+    <value>Include Summary Value</value>
   </data>
   <data name="DashboardWebStringId.Map.AttributeName" xml:space="preserve">
     <value>Attribute Name</value>
@@ -1661,7 +1676,7 @@
     <value>The current dashboard does not contain color schemes</value>
   </data>
   <data name="DashboardWebStringId.Bindings" xml:space="preserve">
-    <value>Bindings</value>
+    <value>Binding</value>
   </data>
   <data name="DashboardWebStringId.DashboardItemMenu.Bindings.SelectDataSourceButton" xml:space="preserve">
     <value>Select a data source</value>
@@ -1703,7 +1718,7 @@
     <value>Nothing was found</value>
   </data>
   <data name="DashboardWebStringId.Errors.AttemptToLoadData" xml:space="preserve">
-    <value>An error has occurred on an attempt to load data</value>
+    <value>An error occurred during an attempt to load data</value>
   </data>
   <data name="DashboardWebStringId.Dimension.GroupInterval" xml:space="preserve">
     <value>Group Interval</value>
@@ -1730,40 +1745,43 @@
     <value>Saving is not available</value>
   </data>
   <data name="DashboardWebStringId.Notification.AttemptToLoadDashboards" xml:space="preserve">
-    <value>An error has occurred on an attempt to load the list of available dashboards</value>
+    <value>An error occurred during an attempt to load the list of available dashboards</value>
+  </data>
+  <data name="DashboardWebStringId.Notification.AttemptToConnectionStrings" xml:space="preserve">
+    <value>An error occurred on an attempt to load connection strings</value>
   </data>
   <data name="DashboardWebStringId.Notification.DashboardLoading" xml:space="preserve">
     <value>Dashboard is loading...</value>
   </data>
   <data name="DashboardWebStringId.Notification.AttemptToLoadDashboard" xml:space="preserve">
-    <value>An error has occurred on an attempt to load the dashboard </value>
+    <value>An error occurred during an attempt to load the dashboard </value>
   </data>
   <data name="DashboardWebStringId.Notification.MethodIsNotAllowedInViewerMode" xml:space="preserve">
     <value>This method is not allowed in the viewer mode</value>
   </data>
   <data name="DashboardWebStringId.Notification.AttemptToLoadParameterValues" xml:space="preserve">
-    <value>An error has occurred on an attempt to load parameter values for the data source </value>
+    <value>An error occurred during an attempt to load parameter values for the data source </value>
   </data>
   <data name="DashboardWebStringId.Notification.AttemptToGetUnderlyingData" xml:space="preserve">
-    <value>An error has occurred on an attempt to get underlying data for the item </value>
+    <value>An error occurred during an attempt to get underlying data for the item </value>
   </data>
   <data name="DashboardWebStringId.Notification.AttemptToConvertItemToType" xml:space="preserve">
-    <value>An error has occurred on an attempt to convert the item to the type </value>
+    <value>An error occurred during an attempt to convert the item to the type </value>
   </data>
   <data name="DashboardWebStringId.Notification.AttemptToLoadDimensionUniqueValues" xml:space="preserve">
-    <value>An error has occurred on an attempt to load dimension unique values for the data source </value>
+    <value>An error occurred during an attempt to load dimension unique values for the data source </value>
   </data>
   <data name="DashboardWebStringId.Notification.AttemptToLoadFieldListForDataSource" xml:space="preserve">
-    <value>An error has occurred on an attempt to load the field list for the data source </value>
+    <value>An error occurred during an attempt to load the field list for the data source </value>
   </data>
   <data name="DashboardWebStringId.Notification.AttemptToGetColorScheme" xml:space="preserve">
-    <value>An error has occurred on an attempt to get the color scheme</value>
+    <value>An error occurred during an attempt to get the color scheme</value>
   </data>
   <data name="DashboardWebStringId.Notification.NewDashboardCannotBeCreated" xml:space="preserve">
     <value>A new dashboard cannot be created</value>
   </data>
   <data name="DashboardWebStringId.Notification.ErrorHasOccuredOn" xml:space="preserve">
-    <value>An error has occurred on an</value>
+    <value>An error occurred during an</value>
   </data>
   <data name="DashboardWebStringId.Notification.UnsupportedDataSourceType" xml:space="preserve">
     <value>Unsupported data source type</value>
@@ -1818,5 +1836,14 @@
   </data>
   <data name="DashboardWebStringId.DataSources.EditCalculatedField" xml:space="preserve">
     <value>Edit Calculated Field</value>
+  </data>
+  <data name="DashboardWebStringId.MobileLayout.Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="DashboardWebStringId.MobileLayout.SwitchToViewer" xml:space="preserve">
+    <value>You have opened the Web Dashboard in the Designer mode. The control supports a mobile layout only if it works in the Viewer mode. Do you want to switch to the Viewer mode?</value>
+  </data>
+  <data name="DashboardWebStringId.Search" xml:space="preserve">
+    <value>Search...</value>
   </data>
 </root>

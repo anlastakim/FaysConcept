@@ -100,7 +100,49 @@
   <data name="VGridStringId.FindNullPrompt" xml:space="preserve">
     <value>aramak için metni girin</value>
   </data>
+  <data name="VGridStringId.MenuRowCollapse" xml:space="preserve">
+    <value>Daralt</value>
+  </data>
+  <data name="VGridStringId.MenuRowExpand" xml:space="preserve">
+    <value>Genişlet</value>
+  </data>
+  <data name="VGridStringId.FilterEditorCancelButton" xml:space="preserve">
+    <value>&amp;İptal</value>
+  </data>
+  <data name="VGridStringId.FilterEditorOkButton" xml:space="preserve">
+    <value>&amp;Tamam</value>
+  </data>
+  <data name="VGridStringId.WindowErrorCaption" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="VGridStringId.PopupFilterAll" xml:space="preserve">
+    <value>(Hepsi)</value>
+  </data>
   <data name="VGridStringId.ExpressionEditorFieldsName" xml:space="preserve">
     <value>Alanlar</value>
+  </data>
+  <data name="VGridStringId.FilterEditorApplyButton" xml:space="preserve">
+    <value>&amp;Uygula</value>
+  </data>
+  <data name="VGridStringId.MenuRowClearFilter" xml:space="preserve">
+    <value>Filtreyi Temizle</value>
+  </data>
+  <data name="VGridStringId.FilterPanelCustomizeButton" xml:space="preserve">
+    <value>Filtreyi Düzenle</value>
+  </data>
+  <data name="VGridStringId.PopupFilterBlanks" xml:space="preserve">
+    <value>(Boş olanlar)</value>
+  </data>
+  <data name="VGridStringId.FilterEditorCaption" xml:space="preserve">
+    <value>Filtre Düzenleyicisi</value>
+  </data>
+  <data name="VGridStringId.MenuRowCollapseAll" xml:space="preserve">
+    <value>Tümünü Daralt</value>
+  </data>
+  <data name="VGridStringId.MenuRowExpandAll" xml:space="preserve">
+    <value>Tümünü Genişlet</value>
+  </data>
+  <data name="VGridStringId.MenuRowFilterEditor" xml:space="preserve">
+    <value>Filtre Düzenleyicisi...</value>
   </data>
 </root>

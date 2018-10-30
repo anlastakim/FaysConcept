@@ -132,4 +132,10 @@
   <data name="btnFindPrev.Text" xml:space="preserve">
     <value>Önceki</value>
   </data>
+  <data name="lbSearch.Text" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="ddBtnParameters.Text" xml:space="preserve">
+    <value> </value>
+  </data>
 </root>

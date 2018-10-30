@@ -147,4 +147,7 @@
   <data name="DockManagerStringId.MessageFormPropertyChangedText" xml:space="preserve">
     <value>If you change the 'Form' property all layout changes will be lost. Do you want to continue?</value>
   </data>
+  <data name="DockManagerStringId.DockManagerIsNotInitialized" xml:space="preserve">
+    <value>The Dock Manager is not yet initialized. Call the DockManager.ForceInitialize method prior to changing panel visibility states.</value>
+  </data>
 </root>

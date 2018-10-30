@@ -219,6 +219,15 @@
   <data name="UtilsUIStringId.Parameter_Type_Int64" xml:space="preserve">
     <value>Sayı (64-bit tamsayı)</value>
   </data>
+  <data name="UtilsUIStringId.PropGrid_TTip_Properties" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="UtilsUIStringId.PropGrid_Capt_ShowFavorites" xml:space="preserve">
+    <value>Favori Özellikleri Göster</value>
+  </data>
+  <data name="UtilsUIStringId.PropGrid_TTip_Expressions" xml:space="preserve">
+    <value>İfadeler</value>
+  </data>
   <data name="UtilsUIStringId.Msg_FormatStringNotFound" xml:space="preserve">
     <value>Biçim dizesi standart kategorilerin hiçbirinde yer almıyor.</value>
   </data>

@@ -537,4 +537,16 @@
   <data name="FilterUIElementLocalizerStringId.CustomUIFilterLessThanName" xml:space="preserve">
     <value>Daha az</value>
   </data>
+  <data name="FilterUIElementLocalizerStringId.CustomUIFilterUserDescription" xml:space="preserve">
+    <value>Önceden tanımlanmış filtreler</value>
+  </data>
+  <data name="FilterUIElementLocalizerStringId.CustomUIFilterUserName" xml:space="preserve">
+    <value>Önceden tanımlanmış filtreler</value>
+  </data>
+  <data name="FilterUIElementLocalizerStringId.CustomUIFilterYearToDateDescription" xml:space="preserve">
+    <value>Günümüze yılın başından itibaren</value>
+  </data>
+  <data name="FilterUIElementLocalizerStringId.FilteringUITabGroups" xml:space="preserve">
+    <value>Gruplar</value>
+  </data>
 </root>

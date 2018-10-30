@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -85,6 +144,9 @@
   <data name="&gt;&gt;chbFndRegex.Name" xml:space="preserve">
     <value>chbFndRegex</value>
   </data>
+  <data name="&gt;&gt;chbFndRegex.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chbFndRegex.Parent" xml:space="preserve">
     <value>pgFind</value>
   </data>
@@ -133,6 +195,9 @@
   <data name="&gt;&gt;cbFndSearchString.Name" xml:space="preserve">
     <value>cbFndSearchString</value>
   </data>
+  <data name="&gt;&gt;cbFndSearchString.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbFndSearchString.Parent" xml:space="preserve">
     <value>pgFind</value>
   </data>
@@ -163,6 +228,9 @@
   <data name="&gt;&gt;cbFndFindDirection.Name" xml:space="preserve">
     <value>cbFndFindDirection</value>
   </data>
+  <data name="&gt;&gt;cbFndFindDirection.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbFndFindDirection.Parent" xml:space="preserve">
     <value>pgFind</value>
   </data>
@@ -183,6 +251,9 @@
   </data>
   <data name="&gt;&gt;lblFndSearchString.Name" xml:space="preserve">
     <value>lblFndSearchString</value>
+  </data>
+  <data name="&gt;&gt;lblFndSearchString.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFndSearchString.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -205,6 +276,9 @@
   <data name="&gt;&gt;chbFndMatchCase.Name" xml:space="preserve">
     <value>chbFndMatchCase</value>
   </data>
+  <data name="&gt;&gt;chbFndMatchCase.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chbFndMatchCase.Parent" xml:space="preserve">
     <value>pgFind</value>
   </data>
@@ -225,6 +299,9 @@
   </data>
   <data name="&gt;&gt;chbFndFindWholeWord.Name" xml:space="preserve">
     <value>chbFndFindWholeWord</value>
+  </data>
+  <data name="&gt;&gt;chbFndFindWholeWord.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbFndFindWholeWord.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -247,6 +324,9 @@
   <data name="&gt;&gt;lblFndDirection.Name" xml:space="preserve">
     <value>lblFndDirection</value>
   </data>
+  <data name="&gt;&gt;lblFndDirection.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblFndDirection.Parent" xml:space="preserve">
     <value>pgFind</value>
   </data>
@@ -264,6 +344,9 @@
   </data>
   <data name="&gt;&gt;pgFind.Name" xml:space="preserve">
     <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;pgFind.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;pgFind.Parent" xml:space="preserve">
     <value>xtraTabControl</value>
@@ -291,6 +374,9 @@
   </data>
   <data name="&gt;&gt;chbRplRegex.Name" xml:space="preserve">
     <value>chbRplRegex</value>
+  </data>
+  <data name="&gt;&gt;chbRplRegex.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbRplRegex.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -340,6 +426,9 @@
   <data name="&gt;&gt;cbRplReplaceString.Name" xml:space="preserve">
     <value>cbRplReplaceString</value>
   </data>
+  <data name="&gt;&gt;cbRplReplaceString.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbRplReplaceString.Parent" xml:space="preserve">
     <value>pgReplace</value>
   </data>
@@ -388,6 +477,9 @@
   <data name="&gt;&gt;cbRplSearchString.Name" xml:space="preserve">
     <value>cbRplSearchString</value>
   </data>
+  <data name="&gt;&gt;cbRplSearchString.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbRplSearchString.Parent" xml:space="preserve">
     <value>pgReplace</value>
   </data>
@@ -418,6 +510,9 @@
   <data name="&gt;&gt;cbRplFindDirection.Name" xml:space="preserve">
     <value>cbRplFindDirection</value>
   </data>
+  <data name="&gt;&gt;cbRplFindDirection.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;cbRplFindDirection.Parent" xml:space="preserve">
     <value>pgReplace</value>
   </data>
@@ -438,6 +533,9 @@
   </data>
   <data name="&gt;&gt;chbRplMatchCase.Name" xml:space="preserve">
     <value>chbRplMatchCase</value>
+  </data>
+  <data name="&gt;&gt;chbRplMatchCase.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbRplMatchCase.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -460,6 +558,9 @@
   <data name="&gt;&gt;chbRplFindWholeWord.Name" xml:space="preserve">
     <value>chbRplFindWholeWord</value>
   </data>
+  <data name="&gt;&gt;chbRplFindWholeWord.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;chbRplFindWholeWord.Parent" xml:space="preserve">
     <value>pgReplace</value>
   </data>
@@ -480,6 +581,9 @@
   </data>
   <data name="&gt;&gt;lblRplSearchString.Name" xml:space="preserve">
     <value>lblRplSearchString</value>
+  </data>
+  <data name="&gt;&gt;lblRplSearchString.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRplSearchString.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -502,6 +606,9 @@
   <data name="&gt;&gt;lblRplReplaceString.Name" xml:space="preserve">
     <value>lblRplReplaceString</value>
   </data>
+  <data name="&gt;&gt;lblRplReplaceString.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblRplReplaceString.Parent" xml:space="preserve">
     <value>pgReplace</value>
   </data>
@@ -523,6 +630,9 @@
   <data name="&gt;&gt;lblRplDirection.Name" xml:space="preserve">
     <value>lblRplDirection</value>
   </data>
+  <data name="&gt;&gt;lblRplDirection.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;lblRplDirection.Parent" xml:space="preserve">
     <value>pgReplace</value>
   </data>
@@ -541,6 +651,9 @@
   <data name="&gt;&gt;pgReplace.Name" xml:space="preserve">
     <value>pgReplace</value>
   </data>
+  <data name="&gt;&gt;pgReplace.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;pgReplace.Parent" xml:space="preserve">
     <value>xtraTabControl</value>
   </data>
@@ -549,6 +662,9 @@
   </data>
   <data name="&gt;&gt;xtraTabControl.Name" xml:space="preserve">
     <value>xtraTabControl</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;xtraTabControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -574,6 +690,9 @@
   <data name="&gt;&gt;btnReplaceAll.Name" xml:space="preserve">
     <value>btnReplaceAll</value>
   </data>
+  <data name="&gt;&gt;btnReplaceAll.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnReplaceAll.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -597,6 +716,9 @@
   </data>
   <data name="&gt;&gt;btnFindNext.Name" xml:space="preserve">
     <value>btnFindNext</value>
+  </data>
+  <data name="&gt;&gt;btnFindNext.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnFindNext.Parent" xml:space="preserve">
     <value>$this</value>
@@ -622,6 +744,9 @@
   <data name="&gt;&gt;btnReplaceNext.Name" xml:space="preserve">
     <value>btnReplaceNext</value>
   </data>
+  <data name="&gt;&gt;btnReplaceNext.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
   <data name="&gt;&gt;btnReplaceNext.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -645,6 +770,9 @@
   </data>
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -672,5 +800,8 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>SearchTextForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
   </data>
 </root>

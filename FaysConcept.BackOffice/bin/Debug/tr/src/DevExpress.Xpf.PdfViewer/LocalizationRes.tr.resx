@@ -455,8 +455,23 @@ Lütfen uygulama bu dosyaya erişebilir ve geçerli olduğundan emin olun veya f
   <data name="PdfViewerStringId.MessageSaveAsError" xml:space="preserve">
     <value>PDF aşağıdaki adla kaydedemiyor: {0}.</value>
   </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesCancelCaption" xml:space="preserve">
+    <value>İptal</value>
+  </data>
   <data name="PdfViewerStringId.AttachmentsViewerDescriptionHeader" xml:space="preserve">
     <value>Açıklama</value>
+  </data>
+  <data name="PdfViewerStringId.CommandDeleteAnnotationCaption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesOkCaption" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyAppearanceGroupCaption" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyGeneralGroupCaption" xml:space="preserve">
+    <value>Genel</value>
   </data>
   <data name="PdfViewerStringId.ViewRibbonGroupCaption" xml:space="preserve">
     <value>Görünüm</value>
@@ -467,7 +482,46 @@ Lütfen uygulama bu dosyaya erişebilir ve geçerli olduğundan emin olun veya f
   <data name="PdfViewerStringId.AttachmentsViewerSizeHeader" xml:space="preserve">
     <value>Boyut</value>
   </data>
+  <data name="PdfViewerStringId.AnnotationPropertyColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="PdfViewerStringId.CommandCursorModeTextStrikethroughCaption" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="PdfViewerStringId.CommandCursorModeTextUnderlineCaption" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
   <data name="PdfViewerStringId.FindRibbonGroupCaption" xml:space="preserve">
     <value>Bul</value>
+  </data>
+  <data name="PdfViewerStringId.CommentTextRibbonGroupCaption" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertySubject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyComment" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="PdfViewerStringId.BarCommentCaption" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesStrikeOutMarkupType" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertiesUnderlineMarkupType" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationPropertyAuthor" xml:space="preserve">
+    <value>Yazar</value>
+  </data>
+  <data name="PdfViewerStringId.PropertiesAuthor" xml:space="preserve">
+    <value>Yazar</value>
+  </data>
+  <data name="PdfViewerStringId.PropertiesVersion" xml:space="preserve">
+    <value>Sürüm</value>
+  </data>
+  <data name="PdfViewerStringId.PrintDialogStatus" xml:space="preserve">
+    <value>Durumu</value>
   </data>
 </root>

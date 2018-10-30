@@ -2942,6 +2942,12 @@ aralıkları belirtilen sayıda içine</value>
   <data name="DashboardWinStringId.CommandTreemapTileLabelsArgumentCaption" xml:space="preserve">
     <value>Sav</value>
   </data>
+  <data name="DashboardWinStringId.CommandInsertTreemapCaption" xml:space="preserve">
+    <value>Ağaç Harita</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToTreemapCaption" xml:space="preserve">
+    <value>Ağaç Harita</value>
+  </data>
   <data name="DashboardWinStringId.CommandPivotColumnTotalsPositionFarCaption" xml:space="preserve">
     <value>İleri</value>
   </data>
@@ -2969,17 +2975,17 @@ aralıkları belirtilen sayıda içine</value>
   <data name="DashboardWinStringId.CommandPivotValuesPositionColumnsCaption" xml:space="preserve">
     <value>Sütunlar</value>
   </data>
+  <data name="DashboardWinStringId.CommandPieLabelPositionOutsideCaption" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelPositionInsideCaption" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
   <data name="DashboardWinStringId.CardRowDataElementTypeDimensionValueCaption" xml:space="preserve">
     <value>Boyut</value>
   </data>
   <data name="DashboardWinStringId.CardRowDataElementTypeSparklineCaption" xml:space="preserve">
     <value>Mini grafik</value>
-  </data>
-  <data name="DashboardWinStringId.CommandPivotValuesPositionRowsCaption" xml:space="preserve">
-    <value>Satırlar</value>
-  </data>
-  <data name="DashboardWinStringId.CommandPivotLayoutTypeTabularCaption" xml:space="preserve">
-    <value>Sekmeli</value>
   </data>
   <data name="DashboardWinStringId.IncludeCurrentDayCheckEditCaption" xml:space="preserve">
     <value>INCLUDE geçerli</value>
@@ -3001,6 +3007,18 @@ aralıkları belirtilen sayıda içine</value>
   </data>
   <data name="DashboardWinStringId.IncludeCurrentYearCheckEditCaption" xml:space="preserve">
     <value>INCLUDE geçerli</value>
+  </data>
+  <data name="DashboardWinStringId.HoursLabelCaption" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotValuesPositionRowsCaption" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DashboardWinStringId.DaysLabelCaption" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotLayoutTypeTabularCaption" xml:space="preserve">
+    <value>Sekmeli</value>
   </data>
   <data name="DashboardWinStringId.CommandConvertToChoroplethMapCaption" xml:space="preserve">
     <value>Choropleth Haritası</value>
@@ -3053,23 +3071,8 @@ aralıkları belirtilen sayıda içine</value>
   <data name="DashboardWinStringId.CommandTreemapTileTooltipsNoneDescription" xml:space="preserve">
     <value>Veri etiketlerini görüntülenmez.</value>
   </data>
-  <data name="DashboardWinStringId.HoursLabelCaption" xml:space="preserve">
-    <value>Saat</value>
-  </data>
-  <data name="DashboardWinStringId.DaysLabelCaption" xml:space="preserve">
-    <value>gün</value>
-  </data>
-  <data name="DashboardWinStringId.CommandPieLabelPositionOutsideCaption" xml:space="preserve">
-    <value>Dışarıda</value>
-  </data>
-  <data name="DashboardWinStringId.CommandPieLabelPositionInsideCaption" xml:space="preserve">
-    <value>İçinde</value>
-  </data>
-  <data name="DashboardWinStringId.CommandInsertTreemapCaption" xml:space="preserve">
-    <value>Ağaç Harita</value>
-  </data>
-  <data name="DashboardWinStringId.CommandConvertToTreemapCaption" xml:space="preserve">
-    <value>Ağaç Harita</value>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsValueDescription" xml:space="preserve">
+    <value>Değerleri veri etiketleri içinde görüntülenir.</value>
   </data>
   <data name="DashboardWinStringId.CommandTreemapTileLabelsDescription" xml:space="preserve">
     <value>Döşeme içinde hangi değerlerin görüntüleneceğini belirtin.</value>
@@ -3079,5 +3082,17 @@ aralıkları belirtilen sayıda içine</value>
   </data>
   <data name="DashboardWinStringId.CommandPivotRowTotalsPositionTopDescription" xml:space="preserve">
     <value>Satır toplamları grup/özet üst kısmında görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.ScatterCalculationAlongArguments" xml:space="preserve">
+    <value>Bağımsız değişkenler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotRowTotalsPositionDisabledDescription" xml:space="preserve">
+    <value>Satır toplamları konumunu Pivot düzen kompakt için ayarlandığında değiştirilemez.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToTreemapDescription" xml:space="preserve">
+    <value>Bir treemap öğesi seçili Pano öğesine dönüştürmek</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionGroupChildValues" xml:space="preserve">
+    <value>'{0}' için döşeme Grup ayarlarını değiştir</value>
   </data>
 </root>

@@ -32,6 +32,12 @@
   <data name="ASPxTreeListStringId.CommandCancel">
     <value>Cancel</value>
   </data>
+  <data name="ASPxTreeListStringId.CommandApplyFilter">
+    <value></value>
+  </data>
+  <data name="ASPxTreeListStringId.CommandClearFilter">
+    <value></value>
+  </data>
   <data name="ASPxTreeListStringId.ConfirmDelete">
     <value>Confirm Delete?</value>
   </data>
@@ -68,6 +74,15 @@
   <data name="ASPxTreeListStringId.Toolbar_ShowFooter">
     <value>Footer</value>
   </data>
+  <data name="ASPxTreeListStringId.Toolbar_ShowFilterRow">
+    <value>Filter Row</value>
+  </data>
+  <data name="ASPxTreeListStringId.Toolbar_ShowFilterRowMenu">
+    <value>Filter Row Menu</value>
+  </data>
+  <data name="ASPxTreeListStringId.Toolbar_ClearFilter">
+    <value>Clear Filter</value>
+  </data>
   <data name="ASPxTreeListStringId.Toolbar_NewRoot">
     <value>New Root</value>
   </data>
@@ -94,5 +109,14 @@
   </data>
   <data name="ASPxTreeListStringId.Toolbar_CollapseNode">
     <value>Collapse</value>
+  </data>
+  <data name="ASPxTreeListStringId.Toolbar_ExportTo">
+    <value>Export to {0}</value>
+  </data>
+  <data name="ASPxTreeListStringId.ConfirmOnLosingBatchChanges">
+    <value>Are you sure you want to perform the action? All unsaved grid data will be lost.</value>
+  </data>
+  <data name="ASPxTreeListStringId.CommandRecover">
+    <value>Recover</value>
   </data>
 </root>

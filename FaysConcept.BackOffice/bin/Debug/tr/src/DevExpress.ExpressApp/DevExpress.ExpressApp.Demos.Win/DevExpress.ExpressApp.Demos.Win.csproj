@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevExpress.ExpressApp.Demos.Win</RootNamespace>
-    <AssemblyName>DevExpress.ExpressApp.Demos.Win.v17.1</AssemblyName>
+    <AssemblyName>DevExpress.ExpressApp.Demos.Win.v18.1</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\DevExpress.Key\StrongKey.snk</AssemblyOriginatorKeyFile>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>

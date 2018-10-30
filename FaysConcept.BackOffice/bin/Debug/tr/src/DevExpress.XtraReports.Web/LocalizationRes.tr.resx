@@ -441,26 +441,23 @@
   <data name="ASPxReportsStringId.ReportDesigner_Wizard_Height" xml:space="preserve">
     <value>Yükseklik:</value>
   </data>
-  <data name="ASPxReportsStringId.ReportDesigner_Actions" xml:space="preserve">
-    <value>Eylemler</value>
-  </data>
-  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_TableProperties" xml:space="preserve">
-    <value>Tablo Özellikleri</value>
-  </data>
-  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_Message" xml:space="preserve">
-    <value>Oluşturmak istediğiniz rapor türünü seçin.</value>
-  </data>
-  <data name="ASPxReportsStringId.ReportDesigner_GaugeViewType_Linear" xml:space="preserve">
-    <value>Doğrusal</value>
-  </data>
-  <data name="ASPxReportsStringId.WebDocumentViewer_ExportToText" xml:space="preserve">
-    <value>İhracat</value>
-  </data>
   <data name="ASPxReportsStringId.ReportDesigner_PropertyGrid_PopupMenu_Reset" xml:space="preserve">
     <value>Sıfırla</value>
   </data>
   <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Value" xml:space="preserve">
     <value>Değer</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GaugeViewType_Linear" xml:space="preserve">
+    <value>Doğrusal</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SearchBox_EmptyText" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Actions" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_TableProperties" xml:space="preserve">
+    <value>Tablo Özellikleri</value>
   </data>
   <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Document" xml:space="preserve">
     <value>Belge</value>
@@ -471,7 +468,85 @@
   <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Point" xml:space="preserve">
     <value>Nokta</value>
   </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportToText" xml:space="preserve">
+    <value>İhracat</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_docx" xml:space="preserve">
+    <value>DOCX</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_AddParameter" xml:space="preserve">
+    <value>Parametre Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Groups" xml:space="preserve">
+    <value>Gruplar</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_RunWizard" xml:space="preserve">
+    <value>Sihirbazı Çalıştır</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_StylesEditor_CreateNew" xml:space="preserve">
+    <value>Yeni Stil Oluştur</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteColumn" xml:space="preserve">
+    <value>Sütun Sil</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteRow" xml:space="preserve">
+    <value>Satır Sil</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertCell" xml:space="preserve">
+    <value>Hücre Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToLeft" xml:space="preserve">
+    <value>Sola Sütun Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToRight" xml:space="preserve">
+    <value>Sağa Sütun Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertRowBelow" xml:space="preserve">
+    <value>Aşağıya Satır Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Collapse" xml:space="preserve">
+    <value>Daralt</value>
+  </data>
   <data name="ASPxReportsStringId.SidePanel_Open" xml:space="preserve">
     <value>Aç</value>
+  </data>
+  <data name="ASPxReportsStringId.List_More" xml:space="preserve">
+    <value>Daha fazla</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptEditor_Toolbar_SelectEvent" xml:space="preserve">
+    <value>Olay seç...</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_AdvancedMode" xml:space="preserve">
+    <value>Gelişmiş mod</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_TreeCreationError" xml:space="preserve">
+    <value>Bu ifade için bir ağaç oluşturulamıyor</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GuidIsRequired_Error" xml:space="preserve">
+    <value>GUID gereklidir ve geçerli bir biçim olmalıdır.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_SelectDataFields" xml:space="preserve">
+    <value>Veri alanları seçin</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SelectFieldsAndSummaries" xml:space="preserve">
+    <value>Alanları seçin ve onlara özet işlevleri atama</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SummaryFunctions" xml:space="preserve">
+    <value>Özet işlevleri</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_UseExisting_DataSource" xml:space="preserve">
+    <value>Varolan bir veri kaynağını kullanmak istiyor musunuz?</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_CustomDocumentOperationsDenied_Error" xml:space="preserve">
+    <value>İstenen belge işlemi gerçekleştirilemez.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_TopMargin" xml:space="preserve">
+    <value>Üst Kenar Boşluğu:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_PageConfigureMasterDetailRelations" xml:space="preserve">
+    <value>Ana-ayrıntı ilişkileri yapılandırma.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_RightOperand" xml:space="preserve">
+    <value>Sağ işlenen.</value>
   </data>
 </root>
