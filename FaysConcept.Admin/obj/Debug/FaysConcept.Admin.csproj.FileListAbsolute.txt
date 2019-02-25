@@ -575,7 +575,6 @@ C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.CoreCompileIn
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.CopyComplete
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.exe
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.pdb
-C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.exe.licenses
 D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csprojAssemblyReference.cache
 D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmBaglantiAyarlari.resources
 D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmKullaniciGiris.resources
