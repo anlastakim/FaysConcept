@@ -138,7 +138,7 @@
     <value>lblInsert</value>
   </data>
   <data name="&gt;&gt;lblInsert.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblInsert.Parent" xml:space="preserve">
     <value>panelControl1</value>
@@ -166,7 +166,7 @@
     <value>btnInsert</value>
   </data>
   <data name="&gt;&gt;btnInsert.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnInsert.Parent" xml:space="preserve">
     <value>panelControl2</value>
@@ -193,7 +193,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>panelControl2</value>
@@ -229,7 +229,7 @@
     <value>rgFieldsSource</value>
   </data>
   <data name="&gt;&gt;rgFieldsSource.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;rgFieldsSource.Parent" xml:space="preserve">
     <value>panelControl1</value>
@@ -253,7 +253,7 @@
     <value>lblFields</value>
   </data>
   <data name="&gt;&gt;lblFields.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFields.Parent" xml:space="preserve">
     <value>panelControl1</value>
@@ -280,7 +280,7 @@
     <value>panelControl1</value>
   </data>
   <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -307,7 +307,7 @@
     <value>panelControl2</value>
   </data>
   <data name="&gt;&gt;panelControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;panelControl2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -331,7 +331,7 @@
     <value>lbMergeFields</value>
   </data>
   <data name="&gt;&gt;lbMergeFields.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbMergeFields.Parent" xml:space="preserve">
     <value>$this</value>
@@ -388,6 +388,6 @@
     <value>InsertMergeFieldForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>

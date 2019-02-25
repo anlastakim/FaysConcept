@@ -141,7 +141,7 @@
     <value>6</value>
   </data>
   <data name="&gt;&gt;lblNumberPosition.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -150,7 +150,7 @@
     <value>12</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.SimpleNumberingListFormBase, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.SimpleNumberingListFormBase, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
   <data name="btnFont.Location" type="System.Drawing.Point, System.Drawing">
@@ -193,7 +193,7 @@
     <value>8</value>
   </data>
   <data name="&gt;&gt;edtDisplayFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.DisplayFormatEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.DisplayFormatEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="edtDisplayFormat.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 20</value>
@@ -208,7 +208,7 @@
     <value>360, 230</value>
   </data>
   <data name="&gt;&gt;lblIndentAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtStart.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
@@ -238,10 +238,10 @@
     <value></value>
   </data>
   <data name="&gt;&gt;btnFont.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblNumberFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtStart.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -262,13 +262,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblNumberStyle.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="lblNumberFormat.Text" xml:space="preserve">
     <value>Number f&amp;ormat</value>
   </data>
   <data name="&gt;&gt;edtAligned.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="edtNumberFormat.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 25</value>
@@ -292,7 +292,7 @@
     <value>13</value>
   </data>
   <data name="&gt;&gt;edtStart.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtAligned.Parent" xml:space="preserve">
     <value>$this</value>
@@ -313,7 +313,7 @@
     <value>edtDisplayFormat</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtStart.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -370,13 +370,13 @@
     <value>True</value>
   </data>
   <data name="&gt;&gt;edtNumberFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.SimpleRichEditControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.SimpleRichEditControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblNumberStyle.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
   <data name="&gt;&gt;edtIndent.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="lblTextPosition.Size" type="System.Drawing.Size, System.Drawing">
     <value>337, 13</value>
@@ -424,10 +424,10 @@
     <value>lblNumberFormat</value>
   </data>
   <data name="&gt;&gt;edtNumberingAlignment.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.NumberingAlignmentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.NumberingAlignmentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblStartAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtAligned.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -457,7 +457,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblTextPosition.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblStartAt.Name" xml:space="preserve">
     <value>lblStartAt</value>
@@ -496,7 +496,7 @@
     <value>12, 60</value>
   </data>
   <data name="&gt;&gt;lblAlignedAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>275, 198</value>
@@ -526,7 +526,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtAligned.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>

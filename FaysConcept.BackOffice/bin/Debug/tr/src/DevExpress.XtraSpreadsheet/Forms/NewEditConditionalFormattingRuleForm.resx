@@ -138,7 +138,7 @@
     <value>lblSelectRuleType</value>
   </data>
   <data name="&gt;&gt;lblSelectRuleType.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSelectRuleType.Parent" xml:space="preserve">
     <value>$this</value>
@@ -166,7 +166,7 @@
     <value>lbRuleType</value>
   </data>
   <data name="&gt;&gt;lbRuleType.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbRuleType.Parent" xml:space="preserve">
     <value>$this</value>
@@ -196,7 +196,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -226,7 +226,7 @@
     <value>btnOk</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -256,7 +256,7 @@
     <value>conditionalFormattingIconSets</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingIconSets.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingIconSetsControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingIconSetsControl, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingIconSets.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -280,7 +280,7 @@
     <value>conditionalFormattingDataBar</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingDataBar.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingDataBarControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingDataBarControl, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingDataBar.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -301,7 +301,7 @@
     <value>conditionalFormattingColorScale</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingColorScale.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingColorScaleControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingColorScaleControl, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingColorScale.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -322,7 +322,7 @@
     <value>conditionalFormattingFormatCellsThatContain</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormatCellsThatContain.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatCellsThatContainControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatCellsThatContainControl, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormatCellsThatContain.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -343,7 +343,7 @@
     <value>conditionalFormattingFormulaDetermineWhichCellsFormat</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormulaDetermineWhichCellsFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormulaDetermineWhichCellsFormatControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormulaDetermineWhichCellsFormatControl, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormulaDetermineWhichCellsFormat.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -364,7 +364,7 @@
     <value>conditionalFormattingFormatUniqueDuplicateValues</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormatUniqueDuplicateValues.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatUniqueDuplicateValuesControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatUniqueDuplicateValuesControl, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormatUniqueDuplicateValues.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -385,7 +385,7 @@
     <value>conditionalFormattingFormatValuesAboveBelowAverage</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormatValuesAboveBelowAverage.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatValuesAboveBelowAverageControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatValuesAboveBelowAverageControl, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormatValuesAboveBelowAverage.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -406,7 +406,7 @@
     <value>conditionalFormattingFormatTopBottomRankedValues</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormatTopBottomRankedValues.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatTopBottomRankedValuesControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatTopBottomRankedValuesControl, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormatTopBottomRankedValues.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -433,7 +433,7 @@
     <value>lblSeparator</value>
   </data>
   <data name="&gt;&gt;lblSeparator.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSeparator.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -460,7 +460,7 @@
     <value>btnFormat</value>
   </data>
   <data name="&gt;&gt;btnFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnFormat.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -481,7 +481,7 @@
     <value>conditionalFormattingPreview</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingPreview.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingPreview, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingPreview, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingPreview.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -511,7 +511,7 @@
     <value>lblPreview</value>
   </data>
   <data name="&gt;&gt;lblPreview.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblPreview.Parent" xml:space="preserve">
     <value>grpEditRuleDescription</value>
@@ -535,7 +535,7 @@
     <value>grpEditRuleDescription</value>
   </data>
   <data name="&gt;&gt;grpEditRuleDescription.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;grpEditRuleDescription.Parent" xml:space="preserve">
     <value>$this</value>
@@ -559,6 +559,6 @@
     <value>NewEditConditionalFormattingRuleForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.ReferenceEditForm, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.ReferenceEditForm, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
 </root>

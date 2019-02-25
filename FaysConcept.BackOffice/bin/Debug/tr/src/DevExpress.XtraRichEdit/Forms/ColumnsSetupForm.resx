@@ -142,7 +142,7 @@
     <value>columnsPresetControlRight</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlRight.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlRight.Parent" xml:space="preserve">
     <value>grpPresets</value>
@@ -169,7 +169,7 @@
     <value>columnsPresetControlLeft</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlLeft.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlLeft.Parent" xml:space="preserve">
     <value>grpPresets</value>
@@ -196,7 +196,7 @@
     <value>columnsPresetControlThree</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlThree.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlThree.Parent" xml:space="preserve">
     <value>grpPresets</value>
@@ -223,7 +223,7 @@
     <value>columnsPresetControlTwo</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlTwo.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlTwo.Parent" xml:space="preserve">
     <value>grpPresets</value>
@@ -250,7 +250,7 @@
     <value>columnsPresetControlOne</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlOne.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlOne.Parent" xml:space="preserve">
     <value>grpPresets</value>
@@ -274,7 +274,7 @@
     <value>grpPresets</value>
   </data>
   <data name="&gt;&gt;grpPresets.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;grpPresets.Parent" xml:space="preserve">
     <value>$this</value>
@@ -298,7 +298,7 @@
     <value>columnsEdit</value>
   </data>
   <data name="&gt;&gt;columnsEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.ColumnsEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.ColumnsEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsEdit.Parent" xml:space="preserve">
     <value>grpColumns</value>
@@ -322,7 +322,7 @@
     <value>chkEqualColumnWidth</value>
   </data>
   <data name="&gt;&gt;chkEqualColumnWidth.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkEqualColumnWidth.Parent" xml:space="preserve">
     <value>grpColumns</value>
@@ -346,7 +346,7 @@
     <value>grpColumns</value>
   </data>
   <data name="&gt;&gt;grpColumns.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;grpColumns.Parent" xml:space="preserve">
     <value>$this</value>
@@ -370,7 +370,7 @@
     <value>lblColumnCount</value>
   </data>
   <data name="&gt;&gt;lblColumnCount.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblColumnCount.Parent" xml:space="preserve">
     <value>$this</value>
@@ -397,7 +397,7 @@
     <value>edtColumnCount</value>
   </data>
   <data name="&gt;&gt;edtColumnCount.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtColumnCount.Parent" xml:space="preserve">
     <value>$this</value>
@@ -430,7 +430,7 @@
     <value>chkLineBetween</value>
   </data>
   <data name="&gt;&gt;chkLineBetween.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkLineBetween.Parent" xml:space="preserve">
     <value>$this</value>
@@ -451,7 +451,7 @@
     <value>cbApplyTo</value>
   </data>
   <data name="&gt;&gt;cbApplyTo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbApplyTo.Parent" xml:space="preserve">
     <value>$this</value>
@@ -475,7 +475,7 @@
     <value>lblApplyTo</value>
   </data>
   <data name="&gt;&gt;lblApplyTo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblApplyTo.Parent" xml:space="preserve">
     <value>$this</value>
@@ -508,7 +508,7 @@
     <value>chkStartNewColumn</value>
   </data>
   <data name="&gt;&gt;chkStartNewColumn.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkStartNewColumn.Parent" xml:space="preserve">
     <value>$this</value>
@@ -535,7 +535,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -562,7 +562,7 @@
     <value>btnOk</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -589,6 +589,6 @@
     <value>ColumnsSetupForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>

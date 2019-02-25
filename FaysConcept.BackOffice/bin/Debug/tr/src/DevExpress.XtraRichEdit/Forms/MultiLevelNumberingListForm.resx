@@ -122,10 +122,10 @@
     <value>73, 51</value>
   </data>
   <data name="&gt;&gt;edtAligned.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblNumberPosition.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="lblTextPosition.Size" type="System.Drawing.Size, System.Drawing">
     <value>297, 13</value>
@@ -178,10 +178,10 @@
     <value>5</value>
   </data>
   <data name="&gt;&gt;lblAlignedAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbLevel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtFollowNumber.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -190,7 +190,7 @@
     <value>&amp;Start at:</value>
   </data>
   <data name="&gt;&gt;lblIndentAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnFont.Parent" xml:space="preserve">
     <value>$this</value>
@@ -208,7 +208,7 @@
     <value>13</value>
   </data>
   <data name="&gt;&gt;lBoxLevel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="lblTextPosition.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 252</value>
@@ -247,13 +247,13 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="btnFont.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="&gt;&gt;lblNumberFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtNumberingAlignment.Name" xml:space="preserve">
     <value>edtNumberingAlignment</value>
@@ -265,7 +265,7 @@
     <value>76, 13</value>
   </data>
   <data name="&gt;&gt;lblDisplayFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="lblIndentAt.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 13</value>
@@ -349,7 +349,7 @@
     <value>11</value>
   </data>
   <data name="&gt;&gt;edtDisplayFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.DisplayFormatEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.DisplayFormatEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="lbLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 32</value>
@@ -358,10 +358,10 @@
     <value>16</value>
   </data>
   <data name="&gt;&gt;lblNumberStyle.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFollowNumber.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtNumberingAlignment.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -391,7 +391,7 @@
     <value>False</value>
   </data>
   <data name="&gt;&gt;lblStartAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblDisplayFormat.ZOrder" xml:space="preserve">
     <value>17</value>
@@ -415,13 +415,13 @@
     <value>CenterScreen</value>
   </data>
   <data name="&gt;&gt;edtStart.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblAlignedAt.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
   <data name="&gt;&gt;lblTextPosition.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="lblAlignedAt.Location" type="System.Drawing.Point, System.Drawing">
     <value>173, 227</value>
@@ -475,13 +475,13 @@
     <value>Text position</value>
   </data>
   <data name="&gt;&gt;edtNumberingAlignment.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.NumberingAlignmentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.NumberingAlignmentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFollowNumber.Name" xml:space="preserve">
     <value>edtFollowNumber</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="lbLevel.Text" xml:space="preserve">
     <value>Le&amp;vel</value>
@@ -586,7 +586,7 @@
     <value>297, 13</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.SimpleNumberingListFormBase, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.SimpleNumberingListFormBase, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="lblNumberPosition.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 205</value>
@@ -628,13 +628,13 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;edtNumberFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.SimpleRichEditControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.SimpleRichEditControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblStartAt.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnFont.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtAligned.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -685,7 +685,7 @@
     <value>Cancel</value>
   </data>
   <data name="&gt;&gt;lblFollowNumberWith.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnFont.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -712,7 +712,7 @@
     <value>2</value>
   </data>
   <data name="&gt;&gt;edtIndent.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

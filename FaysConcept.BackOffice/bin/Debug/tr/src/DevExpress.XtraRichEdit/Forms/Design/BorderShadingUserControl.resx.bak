@@ -135,7 +135,7 @@
     <value>2</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlInsideHBorder.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -180,7 +180,7 @@
     <value>Table</value>
   </data>
   <data name="&gt;&gt;previewBSUserControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.PreviewBSUserControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.PreviewBSUserControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlLeftBorder.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -198,7 +198,7 @@
     <value>labelControl1</value>
   </data>
   <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 13</value>
@@ -213,13 +213,13 @@
     <value>columnsPresetControlTopBorder</value>
   </data>
   <data name="&gt;&gt;lblHint.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl3.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlTopBorder.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="columnsPresetControlRightBorder.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 188</value>
@@ -307,25 +307,25 @@
     <value>Preview</value>
   </data>
   <data name="&gt;&gt;labelControl3.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOptions.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="labelControl3.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlRightBorder.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlInsideHBorder.Name" xml:space="preserve">
     <value>columnsPresetControlInsideHBorder</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlBottomBorder.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="columnsPresetControlInsideHBorder.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -355,7 +355,7 @@
     <value>60, 188</value>
   </data>
   <data name="&gt;&gt;CBoxApplyTo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlRightBorder.Parent" xml:space="preserve">
     <value>$this</value>
@@ -379,7 +379,7 @@
     <value>Options...</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlLeftBorder.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOptions.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -454,7 +454,7 @@
     <value>5</value>
   </data>
   <data name="&gt;&gt;columnsPresetControlInsideVBorder.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
   </data>
   <data name="columnsPresetControlInsideHBorder.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 121</value>
@@ -490,7 +490,7 @@
     <value>Regular</value>
   </data>
   <data name="&gt;&gt;labelControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
   </data>
   <data name="CBoxApplyTo.Visible" type="System.Boolean, mscorlib">
     <value>False</value>

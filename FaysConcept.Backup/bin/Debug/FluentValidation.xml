@@ -972,6 +972,18 @@
             <param name="ruleBuilder">The rule builder on which the validator should be defined</param>
             <returns></returns>
         </member>
+        <member name="M:FluentValidation.DefaultValidatorExtensions.ScalePrecision``2(FluentValidation.IRuleBuilder{``0,``1},System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Defines a scale precision validator on the current rule builder that ensures that the specific value has a certain scale and precision
+            </summary>
+            <typeparam name="T">Type of object being validated</typeparam>
+            <typeparam name="TProperty">Type of property being validated</typeparam>
+            <param name="ruleBuilder">The rule builder on which the validator should be defined</param>
+            <param name="scale">Allowed scale of the value</param>
+            <param name="precision">Allowed precision of the value</param>
+            <param name="ignoreTrailingZeros">Whether the validator will ignore trailing zeros.</param>
+            <returns></returns>
+        </member>
         <member name="M:FluentValidation.DefaultValidatorExtensions.Custom``2(FluentValidation.IRuleBuilder{``0,``1},System.Action{``1,FluentValidation.Validators.CustomContext})">
             <summary>
             Defines a custom validation rule
@@ -1043,7 +1055,7 @@
         </member>
         <member name="M:FluentValidation.DefaultValidatorOptions.WithMessage``2(FluentValidation.IRuleBuilderOptions{``0,``1},System.String)">
             <summary>
-            Specifies a custom error message to use if validation fails.
+            Specifies a custom error message to use when validation fails. Only applies to the rule that directly precedes it.
             </summary>
             <param name="rule">The current rule</param>
             <param name="errorMessage">The error message to use</param>
@@ -1051,7 +1063,7 @@
         </member>
         <member name="M:FluentValidation.DefaultValidatorOptions.WithMessage``2(FluentValidation.IRuleBuilderOptions{``0,``1},System.Func{``0,System.String})">
             <summary>
-            Specifies a custom error message to use when validation fails.
+            Specifies a custom error message to use when validation fails. Only applies to the rule that directly precedes it.
             </summary>
             <param name="rule">The current rule</param>
             <param name="messageProvider">Delegate that will be invoked to retrieve the localized message. </param>
@@ -1059,7 +1071,7 @@
         </member>
         <member name="M:FluentValidation.DefaultValidatorOptions.WithMessage``2(FluentValidation.IRuleBuilderOptions{``0,``1},System.Func{``0,``1,System.String})">
             <summary>
-            Specifies a custom error message to use when validation fails.
+            Specifies a custom error message to use when validation fails. Only applies to the rule that directly precedes it.
             </summary>
             <param name="rule">The current rule</param>
             <param name="messageProvider">Delegate that will be invoked.Uses_localized_name to retrieve the localized message. </param>
@@ -1163,7 +1175,7 @@
             <param name="propertyName">The property name to use</param>
             <returns></returns>
         </member>
-        <member name="M:FluentValidation.DefaultValidatorOptions.OverridePropertyName``2(FluentValidation.IRuleBuilderOptions{``0,``1},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+        <member name="M:FluentValidation.DefaultValidatorOptions.OverridePropertyName``2(FluentValidation.IRuleBuilderOptions{``0,``1},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
             <summary>
             Overrides the name of the property associated with this rule.
             NOTE: This is a considered to be an advanced feature. Most of the time that you use this, you actually meant to use WithName.
@@ -1230,6 +1242,14 @@
             <typeparam name="TProperty"></typeparam>
             <param name="rule"></param>
             <param name="onFailure"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FluentValidation.DefaultValidatorOptions.OverrideIndexer``2(FluentValidation.IRuleBuilderInitialCollection{``0,``1},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``1,System.Int32,System.String})">
+            <summary>
+            Allows the generated indexer to be overridden for collection rules.
+            </summary>
+            <param name="rule">The current rule</param>
+            <param name="callback">The callback. Receives the model, the collection, the current element and the current index as parameters. Should return a string representation of the indexer. The default is "[" + index + "]"</param>
             <returns></returns>
         </member>
         <member name="M:FluentValidation.DefaultValidatorOptions.GetStringForValidator``1(FluentValidation.Resources.ILanguageManager)">
@@ -1351,6 +1371,12 @@
             Filter that should include/exclude items in the collection.
             </summary>
         </member>
+        <member name="P:FluentValidation.Internal.CollectionPropertyRule`1.IndexBuilder">
+            <summary>
+            Constructs the indexer in the property name associated with the error message.
+            By default this is "[" + index + "]"
+            </summary>
+        </member>
         <member name="M:FluentValidation.Internal.CollectionPropertyRule`1.Create``1(System.Linq.Expressions.Expression{System.Func{``0,System.Collections.Generic.IEnumerable{`0}}},System.Func{FluentValidation.CascadeMode})">
             <summary>
             Creates a new property rule from a lambda expression.
@@ -1408,6 +1434,36 @@
             Tries to compare the two objects, but will throw an exception if it fails.
             </summary>
             <returns>True on success, otherwise False.</returns>
+        </member>
+        <member name="M:FluentValidation.Internal.ConditionBuilder`1.When(System.Func{`0,System.Boolean},System.Action)">
+            <summary>
+            Defines a condition that applies to several rules
+            </summary>
+            <param name="predicate">The condition that should apply to multiple rules</param>
+            <param name="action">Action that encapsulates the rules.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FluentValidation.Internal.ConditionBuilder`1.Unless(System.Func{`0,System.Boolean},System.Action)">
+            <summary>
+            Defines an inverse condition that applies to several rules
+            </summary>
+            <param name="predicate">The condition that should be applied to multiple rules</param>
+            <param name="action">Action that encapsulates the rules</param>
+        </member>
+        <member name="M:FluentValidation.Internal.AsyncConditionBuilder`1.WhenAsync(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Boolean}},System.Action)">
+            <summary>
+            Defines an asynchronous condition that applies to several rules
+            </summary>
+            <param name="predicate">The asynchronous condition that should apply to multiple rules</param>
+            <param name="action">Action that encapsulates the rules.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FluentValidation.Internal.AsyncConditionBuilder`1.UnlessAsync(System.Func{`0,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Boolean}},System.Action)">
+            <summary>
+            Defines an inverse asynchronous condition that applies to several rules
+            </summary>
+            <param name="predicate">The asynchronous condition that should be applied to multiple rules</param>
+            <param name="action">Action that encapsulates the rules</param>
         </member>
         <member name="T:FluentValidation.Internal.DefaultValidatorSelector">
             <summary>
@@ -1680,7 +1736,7 @@
             </summary>
             <param name="propertyName">Name of the property to add</param>
         </member>
-        <member name="M:FluentValidation.Internal.PropertyChain.AddIndexer(System.Object)">
+        <member name="M:FluentValidation.Internal.PropertyChain.AddIndexer(System.Object,System.Boolean)">
             <summary>
             Adds an indexer to the property chain. For example, if the following chain has been constructed:
             Parent.Child
@@ -1688,6 +1744,7 @@
             Parent.Child[0]
             </summary>
             <param name="indexer"></param>
+            <param name="surroundWithBrackets">Whether square brackets should be applied before and after the indexer. Default true.</param>
         </member>
         <member name="M:FluentValidation.Internal.PropertyChain.ToString">
             <summary>
@@ -1716,6 +1773,16 @@
         <member name="T:FluentValidation.Internal.PropertyRule">
             <summary>
             Defines a rule associated with a property.
+            </summary>
+        </member>
+        <member name="P:FluentValidation.Internal.PropertyRule.Condition">
+            <summary>
+            Condition for all validators in this rule.
+            </summary>
+        </member>
+        <member name="P:FluentValidation.Internal.PropertyRule.AsyncCondition">
+            <summary>
+            Asynchronous condition for all validators in this rule.
             </summary>
         </member>
         <member name="P:FluentValidation.Internal.PropertyRule.Member">
@@ -2115,6 +2182,12 @@
             Gets the validator for the specified type.
             </summary>
         </member>
+        <member name="T:FluentValidation.Resources.ErrorCodeLanguageStringSource">
+            <summary>
+            Uses error code as the lookup for language manager, falling back to the default LanguageStringSource if not found.
+            Internal as the api may change.
+            </summary>
+        </member>
         <member name="T:FluentValidation.Resources.ILanguageManager">
             <summary>
             Allows the default error message translations to be managed. 
@@ -2502,6 +2575,17 @@
             </summary>
             <typeparam name="T"></typeparam>
             <typeparam name="TElement"></typeparam>
+        </member>
+        <member name="T:FluentValidation.IConditionBuilder">
+            <summary>
+            Fluent interface for conditions (When/Unless/WhenAsync/UnlessAsync)
+            </summary>
+        </member>
+        <member name="M:FluentValidation.IConditionBuilder.Otherwise(System.Action)">
+            <summary>
+            Rules to be invoked if the condition fails.
+            </summary>
+            <param name="action"></param>
         </member>
         <member name="T:FluentValidation.IValidationContext">
             <summary>

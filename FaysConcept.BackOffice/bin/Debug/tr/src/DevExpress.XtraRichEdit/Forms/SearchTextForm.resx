@@ -145,7 +145,7 @@
     <value>chbFndRegex</value>
   </data>
   <data name="&gt;&gt;chbFndRegex.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbFndRegex.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -196,7 +196,7 @@
     <value>cbFndSearchString</value>
   </data>
   <data name="&gt;&gt;cbFndSearchString.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbFndSearchString.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -229,7 +229,7 @@
     <value>cbFndFindDirection</value>
   </data>
   <data name="&gt;&gt;cbFndFindDirection.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbFndFindDirection.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -253,7 +253,7 @@
     <value>lblFndSearchString</value>
   </data>
   <data name="&gt;&gt;lblFndSearchString.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFndSearchString.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -277,7 +277,7 @@
     <value>chbFndMatchCase</value>
   </data>
   <data name="&gt;&gt;chbFndMatchCase.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbFndMatchCase.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -301,7 +301,7 @@
     <value>chbFndFindWholeWord</value>
   </data>
   <data name="&gt;&gt;chbFndFindWholeWord.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbFndFindWholeWord.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -325,7 +325,7 @@
     <value>lblFndDirection</value>
   </data>
   <data name="&gt;&gt;lblFndDirection.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFndDirection.Parent" xml:space="preserve">
     <value>pgFind</value>
@@ -346,7 +346,7 @@
     <value>pgFind</value>
   </data>
   <data name="&gt;&gt;pgFind.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;pgFind.Parent" xml:space="preserve">
     <value>xtraTabControl</value>
@@ -376,7 +376,7 @@
     <value>chbRplRegex</value>
   </data>
   <data name="&gt;&gt;chbRplRegex.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbRplRegex.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -427,7 +427,7 @@
     <value>cbRplReplaceString</value>
   </data>
   <data name="&gt;&gt;cbRplReplaceString.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbRplReplaceString.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -478,7 +478,7 @@
     <value>cbRplSearchString</value>
   </data>
   <data name="&gt;&gt;cbRplSearchString.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.MRUEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbRplSearchString.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -511,7 +511,7 @@
     <value>cbRplFindDirection</value>
   </data>
   <data name="&gt;&gt;cbRplFindDirection.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbRplFindDirection.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -535,7 +535,7 @@
     <value>chbRplMatchCase</value>
   </data>
   <data name="&gt;&gt;chbRplMatchCase.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbRplMatchCase.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -559,7 +559,7 @@
     <value>chbRplFindWholeWord</value>
   </data>
   <data name="&gt;&gt;chbRplFindWholeWord.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chbRplFindWholeWord.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -583,7 +583,7 @@
     <value>lblRplSearchString</value>
   </data>
   <data name="&gt;&gt;lblRplSearchString.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRplSearchString.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -607,7 +607,7 @@
     <value>lblRplReplaceString</value>
   </data>
   <data name="&gt;&gt;lblRplReplaceString.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRplReplaceString.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -631,7 +631,7 @@
     <value>lblRplDirection</value>
   </data>
   <data name="&gt;&gt;lblRplDirection.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRplDirection.Parent" xml:space="preserve">
     <value>pgReplace</value>
@@ -652,7 +652,7 @@
     <value>pgReplace</value>
   </data>
   <data name="&gt;&gt;pgReplace.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;pgReplace.Parent" xml:space="preserve">
     <value>xtraTabControl</value>
@@ -664,7 +664,7 @@
     <value>xtraTabControl</value>
   </data>
   <data name="&gt;&gt;xtraTabControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;xtraTabControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -691,7 +691,7 @@
     <value>btnReplaceAll</value>
   </data>
   <data name="&gt;&gt;btnReplaceAll.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnReplaceAll.Parent" xml:space="preserve">
     <value>$this</value>
@@ -718,7 +718,7 @@
     <value>btnFindNext</value>
   </data>
   <data name="&gt;&gt;btnFindNext.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnFindNext.Parent" xml:space="preserve">
     <value>$this</value>
@@ -745,7 +745,7 @@
     <value>btnReplaceNext</value>
   </data>
   <data name="&gt;&gt;btnReplaceNext.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnReplaceNext.Parent" xml:space="preserve">
     <value>$this</value>
@@ -772,7 +772,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -802,6 +802,6 @@
     <value>SearchTextForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>
