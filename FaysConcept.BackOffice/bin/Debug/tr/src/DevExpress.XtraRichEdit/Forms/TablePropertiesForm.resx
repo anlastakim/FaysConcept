@@ -138,7 +138,7 @@
     <value>btnBorder</value>
   </data>
   <data name="&gt;&gt;btnBorder.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnBorder.Parent" xml:space="preserve">
     <value>tableTab</value>
@@ -159,7 +159,7 @@
     <value>tableSizeControl</value>
   </data>
   <data name="&gt;&gt;tableSizeControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.TableSizeControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.TableSizeControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tableSizeControl.Parent" xml:space="preserve">
     <value>tableTab</value>
@@ -195,7 +195,7 @@
     <value>rgTableAlignment</value>
   </data>
   <data name="&gt;&gt;rgTableAlignment.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;rgTableAlignment.Parent" xml:space="preserve">
     <value>tableTab</value>
@@ -219,7 +219,7 @@
     <value>lblIndentFromLeft</value>
   </data>
   <data name="&gt;&gt;lblIndentFromLeft.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblIndentFromLeft.Parent" xml:space="preserve">
     <value>tableTab</value>
@@ -240,7 +240,7 @@
     <value>spnIndentFromLeft</value>
   </data>
   <data name="&gt;&gt;spnIndentFromLeft.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnIndentFromLeft.Parent" xml:space="preserve">
     <value>tableTab</value>
@@ -264,7 +264,7 @@
     <value>lblTableAlignment</value>
   </data>
   <data name="&gt;&gt;lblTableAlignment.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblTableAlignment.Parent" xml:space="preserve">
     <value>tableTab</value>
@@ -291,7 +291,7 @@
     <value>btnTableOptions</value>
   </data>
   <data name="&gt;&gt;btnTableOptions.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnTableOptions.Parent" xml:space="preserve">
     <value>tableTab</value>
@@ -315,7 +315,7 @@
     <value>lblTableSize</value>
   </data>
   <data name="&gt;&gt;lblTableSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblTableSize.Parent" xml:space="preserve">
     <value>tableTab</value>
@@ -333,7 +333,7 @@
     <value>tableTab</value>
   </data>
   <data name="&gt;&gt;tableTab.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tableTab.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -360,7 +360,7 @@
     <value>tableRowHeightControl</value>
   </data>
   <data name="&gt;&gt;tableRowHeightControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.Design.TableRowHeightControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.Design.TableRowHeightControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tableRowHeightControl.Parent" xml:space="preserve">
     <value>rowTab</value>
@@ -390,7 +390,7 @@
     <value>btnNextRow</value>
   </data>
   <data name="&gt;&gt;btnNextRow.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnNextRow.Parent" xml:space="preserve">
     <value>rowTab</value>
@@ -420,7 +420,7 @@
     <value>btnPreviousRow</value>
   </data>
   <data name="&gt;&gt;btnPreviousRow.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnPreviousRow.Parent" xml:space="preserve">
     <value>rowTab</value>
@@ -450,7 +450,7 @@
     <value>chkHeader</value>
   </data>
   <data name="&gt;&gt;chkHeader.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkHeader.Parent" xml:space="preserve">
     <value>rowTab</value>
@@ -480,7 +480,7 @@
     <value>chkCantSplit</value>
   </data>
   <data name="&gt;&gt;chkCantSplit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkCantSplit.Parent" xml:space="preserve">
     <value>rowTab</value>
@@ -504,7 +504,7 @@
     <value>lblRowNumber</value>
   </data>
   <data name="&gt;&gt;lblRowNumber.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRowNumber.Parent" xml:space="preserve">
     <value>rowTab</value>
@@ -528,7 +528,7 @@
     <value>lblRowSize</value>
   </data>
   <data name="&gt;&gt;lblRowSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRowSize.Parent" xml:space="preserve">
     <value>rowTab</value>
@@ -555,7 +555,7 @@
     <value>lblRowOptions</value>
   </data>
   <data name="&gt;&gt;lblRowOptions.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRowOptions.Parent" xml:space="preserve">
     <value>rowTab</value>
@@ -573,7 +573,7 @@
     <value>rowTab</value>
   </data>
   <data name="&gt;&gt;rowTab.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;rowTab.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -594,7 +594,7 @@
     <value>columnSizeControl</value>
   </data>
   <data name="&gt;&gt;columnSizeControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.TableSizeControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.TableSizeControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnSizeControl.Parent" xml:space="preserve">
     <value>columnTab</value>
@@ -624,7 +624,7 @@
     <value>btnNextColumn</value>
   </data>
   <data name="&gt;&gt;btnNextColumn.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnNextColumn.Parent" xml:space="preserve">
     <value>columnTab</value>
@@ -654,7 +654,7 @@
     <value>btnPreviousColumn</value>
   </data>
   <data name="&gt;&gt;btnPreviousColumn.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnPreviousColumn.Parent" xml:space="preserve">
     <value>columnTab</value>
@@ -678,7 +678,7 @@
     <value>lblColumn</value>
   </data>
   <data name="&gt;&gt;lblColumn.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblColumn.Parent" xml:space="preserve">
     <value>columnTab</value>
@@ -702,7 +702,7 @@
     <value>lblColumnSize</value>
   </data>
   <data name="&gt;&gt;lblColumnSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblColumnSize.Parent" xml:space="preserve">
     <value>columnTab</value>
@@ -720,7 +720,7 @@
     <value>columnTab</value>
   </data>
   <data name="&gt;&gt;columnTab.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;columnTab.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -741,7 +741,7 @@
     <value>cellSizeControl</value>
   </data>
   <data name="&gt;&gt;cellSizeControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.TableSizeControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.TableSizeControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cellSizeControl.Parent" xml:space="preserve">
     <value>cellTab</value>
@@ -780,7 +780,7 @@
     <value>rgCellVerticalAlignment</value>
   </data>
   <data name="&gt;&gt;rgCellVerticalAlignment.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;rgCellVerticalAlignment.Parent" xml:space="preserve">
     <value>cellTab</value>
@@ -807,7 +807,7 @@
     <value>btnCellOptions</value>
   </data>
   <data name="&gt;&gt;btnCellOptions.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCellOptions.Parent" xml:space="preserve">
     <value>cellTab</value>
@@ -831,7 +831,7 @@
     <value>lblCellVerticalAlighment</value>
   </data>
   <data name="&gt;&gt;lblCellVerticalAlighment.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblCellVerticalAlighment.Parent" xml:space="preserve">
     <value>cellTab</value>
@@ -855,7 +855,7 @@
     <value>lblCellSize</value>
   </data>
   <data name="&gt;&gt;lblCellSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblCellSize.Parent" xml:space="preserve">
     <value>cellTab</value>
@@ -873,7 +873,7 @@
     <value>cellTab</value>
   </data>
   <data name="&gt;&gt;cellTab.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cellTab.Parent" xml:space="preserve">
     <value>tabControl</value>
@@ -885,7 +885,7 @@
     <value>tabControl</value>
   </data>
   <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -912,7 +912,7 @@
     <value>btnOk</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -939,7 +939,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -966,6 +966,6 @@
     <value>TablePropertiesForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>

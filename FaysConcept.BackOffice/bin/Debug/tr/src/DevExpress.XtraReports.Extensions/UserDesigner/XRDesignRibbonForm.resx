@@ -209,6 +209,6 @@
     <value>XRDesignRibbonForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v18.2, Culture=neutral</value>
   </data>
 </root>

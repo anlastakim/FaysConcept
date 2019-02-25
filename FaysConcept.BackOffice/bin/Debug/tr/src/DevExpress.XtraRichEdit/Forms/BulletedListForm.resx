@@ -131,7 +131,7 @@
     <value>btnOk</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -156,7 +156,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -180,7 +180,7 @@
     <value>btnFont</value>
   </data>
   <data name="&gt;&gt;btnFont.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnFont.Parent" xml:space="preserve">
     <value>$this</value>
@@ -201,7 +201,7 @@
     <value>edtAligned</value>
   </data>
   <data name="&gt;&gt;edtAligned.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtAligned.Parent" xml:space="preserve">
     <value>$this</value>
@@ -222,7 +222,7 @@
     <value>edtIndent</value>
   </data>
   <data name="&gt;&gt;edtIndent.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtIndent.Parent" xml:space="preserve">
     <value>$this</value>
@@ -246,7 +246,7 @@
     <value>lblAlignedAt</value>
   </data>
   <data name="&gt;&gt;lblAlignedAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblAlignedAt.Parent" xml:space="preserve">
     <value>$this</value>
@@ -270,7 +270,7 @@
     <value>lblIndentAt</value>
   </data>
   <data name="&gt;&gt;lblIndentAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblIndentAt.Parent" xml:space="preserve">
     <value>$this</value>
@@ -291,7 +291,7 @@
     <value>bulletCharacterControl</value>
   </data>
   <data name="&gt;&gt;bulletCharacterControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.BulletCharacterControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.BulletCharacterControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;bulletCharacterControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -315,7 +315,7 @@
     <value>lblBulletCharacter</value>
   </data>
   <data name="&gt;&gt;lblBulletCharacter.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBulletCharacter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -339,7 +339,7 @@
     <value>lblBulletPosition</value>
   </data>
   <data name="&gt;&gt;lblBulletPosition.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBulletPosition.Parent" xml:space="preserve">
     <value>$this</value>
@@ -363,7 +363,7 @@
     <value>btnCharacter</value>
   </data>
   <data name="&gt;&gt;btnCharacter.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCharacter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -387,7 +387,7 @@
     <value>lblTextPosition</value>
   </data>
   <data name="&gt;&gt;lblTextPosition.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblTextPosition.Parent" xml:space="preserve">
     <value>$this</value>
@@ -415,6 +415,6 @@
     <value>BulletedListForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.NumberingListFormsBase, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.NumberingListFormsBase, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
 </root>

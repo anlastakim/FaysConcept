@@ -148,7 +148,7 @@
     <value>btnFindNext</value>
   </data>
   <data name="&gt;&gt;btnFindNext.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1</value>
   </data>
   <data name="&gt;&gt;btnFindNext.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -181,7 +181,7 @@
     <value>btnFindPrev</value>
   </data>
   <data name="&gt;&gt;btnFindPrev.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1</value>
   </data>
   <data name="&gt;&gt;btnFindPrev.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -208,7 +208,7 @@
     <value>textEdit</value>
   </data>
   <data name="&gt;&gt;textEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v17.1</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1</value>
   </data>
   <data name="&gt;&gt;textEdit.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -244,7 +244,7 @@
     <value>btnClose</value>
   </data>
   <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v17.1</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1</value>
   </data>
   <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -271,7 +271,7 @@
     <value>searchLabel</value>
   </data>
   <data name="&gt;&gt;searchLabel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v17.1</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1</value>
   </data>
   <data name="&gt;&gt;searchLabel.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -304,7 +304,7 @@
     <value>ddBtnParameters</value>
   </data>
   <data name="&gt;&gt;ddBtnParameters.Type" xml:space="preserve">
-    <value>DevExpress.XtraPdfViewer.Native.PdfSearchParametersButton, DevExpress.XtraPdfViewer.v17.1</value>
+    <value>DevExpress.XtraPdfViewer.Native.PdfSearchParametersButton, DevExpress.XtraPdfViewer.v18.1</value>
   </data>
   <data name="&gt;&gt;ddBtnParameters.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -358,6 +358,6 @@
     <value>PdfFindControl</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.Utils.FlyoutPanel, DevExpress.Utils.v17.1</value>
+    <value>DevExpress.Utils.FlyoutPanel, DevExpress.Utils.v18.1</value>
   </data>
 </root>

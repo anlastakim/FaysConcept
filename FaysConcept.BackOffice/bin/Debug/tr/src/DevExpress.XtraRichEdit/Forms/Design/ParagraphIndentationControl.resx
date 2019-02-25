@@ -138,7 +138,7 @@
     <value>lblLeft</value>
   </data>
   <data name="&gt;&gt;lblLeft.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblLeft.Parent" xml:space="preserve">
     <value>$this</value>
@@ -165,7 +165,7 @@
     <value>lblRight</value>
   </data>
   <data name="&gt;&gt;lblRight.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRight.Parent" xml:space="preserve">
     <value>$this</value>
@@ -192,7 +192,7 @@
     <value>lblSpecial</value>
   </data>
   <data name="&gt;&gt;lblSpecial.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSpecial.Parent" xml:space="preserve">
     <value>$this</value>
@@ -219,7 +219,7 @@
     <value>lblBy</value>
   </data>
   <data name="&gt;&gt;lblBy.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBy.Parent" xml:space="preserve">
     <value>$this</value>
@@ -240,7 +240,7 @@
     <value>spnSpecial</value>
   </data>
   <data name="&gt;&gt;spnSpecial.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnSpecial.Parent" xml:space="preserve">
     <value>$this</value>
@@ -261,7 +261,7 @@
     <value>spnRightIndent</value>
   </data>
   <data name="&gt;&gt;spnRightIndent.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnRightIndent.Parent" xml:space="preserve">
     <value>$this</value>
@@ -282,7 +282,7 @@
     <value>spnLeftIndent</value>
   </data>
   <data name="&gt;&gt;spnLeftIndent.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnLeftIndent.Parent" xml:space="preserve">
     <value>$this</value>
@@ -306,7 +306,7 @@
     <value>edtFirstLineIndent</value>
   </data>
   <data name="&gt;&gt;edtFirstLineIndent.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.FirstLineIndentTypeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.FirstLineIndentTypeEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFirstLineIndent.Parent" xml:space="preserve">
     <value>$this</value>

@@ -135,7 +135,7 @@
     <value>lblTableSize</value>
   </data>
   <data name="&gt;&gt;lblTableSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblTableSize.Parent" xml:space="preserve">
     <value>$this</value>
@@ -162,7 +162,7 @@
     <value>lblColumns</value>
   </data>
   <data name="&gt;&gt;lblColumns.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblColumns.Parent" xml:space="preserve">
     <value>$this</value>
@@ -189,7 +189,7 @@
     <value>lblRows</value>
   </data>
   <data name="&gt;&gt;lblRows.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblRows.Parent" xml:space="preserve">
     <value>$this</value>
@@ -216,7 +216,7 @@
     <value>btnOk</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -243,7 +243,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -270,7 +270,7 @@
     <value>spinColumns</value>
   </data>
   <data name="&gt;&gt;spinColumns.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spinColumns.Parent" xml:space="preserve">
     <value>$this</value>
@@ -297,7 +297,7 @@
     <value>spinRows</value>
   </data>
   <data name="&gt;&gt;spinRows.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spinRows.Parent" xml:space="preserve">
     <value>$this</value>
@@ -325,6 +325,6 @@
     <value>InsertTableForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>

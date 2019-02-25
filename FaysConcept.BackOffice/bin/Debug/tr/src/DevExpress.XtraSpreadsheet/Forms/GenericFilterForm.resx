@@ -139,7 +139,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -166,7 +166,7 @@
     <value>btnOk</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -196,7 +196,7 @@
     <value>cbFilterOperator</value>
   </data>
   <data name="&gt;&gt;cbFilterOperator.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbFilterOperator.Parent" xml:space="preserve">
     <value>$this</value>
@@ -220,7 +220,7 @@
     <value>lblShowRows</value>
   </data>
   <data name="&gt;&gt;lblShowRows.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblShowRows.Parent" xml:space="preserve">
     <value>$this</value>
@@ -250,7 +250,7 @@
     <value>lblColumnName</value>
   </data>
   <data name="&gt;&gt;lblColumnName.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblColumnName.Parent" xml:space="preserve">
     <value>$this</value>
@@ -274,7 +274,7 @@
     <value>cbFilterValue</value>
   </data>
   <data name="&gt;&gt;cbFilterValue.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbFilterValue.Parent" xml:space="preserve">
     <value>$this</value>
@@ -313,7 +313,7 @@
     <value>rgrpAndOr</value>
   </data>
   <data name="&gt;&gt;rgrpAndOr.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;rgrpAndOr.Parent" xml:space="preserve">
     <value>$this</value>
@@ -337,7 +337,7 @@
     <value>cbSecondaryFilterValue</value>
   </data>
   <data name="&gt;&gt;cbSecondaryFilterValue.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbSecondaryFilterValue.Parent" xml:space="preserve">
     <value>$this</value>
@@ -367,7 +367,7 @@
     <value>cbSecondaryFilterOperator</value>
   </data>
   <data name="&gt;&gt;cbSecondaryFilterOperator.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbSecondaryFilterOperator.Parent" xml:space="preserve">
     <value>$this</value>
@@ -391,7 +391,7 @@
     <value>lblQuestionSignDescription</value>
   </data>
   <data name="&gt;&gt;lblQuestionSignDescription.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblQuestionSignDescription.Parent" xml:space="preserve">
     <value>$this</value>
@@ -415,7 +415,7 @@
     <value>lblStarSignDescription</value>
   </data>
   <data name="&gt;&gt;lblStarSignDescription.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblStarSignDescription.Parent" xml:space="preserve">
     <value>$this</value>
@@ -483,7 +483,7 @@
     <value>edtValueDatePicker</value>
   </data>
   <data name="&gt;&gt;edtValueDatePicker.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtValueDatePicker.Parent" xml:space="preserve">
     <value>$this</value>
@@ -551,7 +551,7 @@
     <value>edtSecondaryValueDatePicker</value>
   </data>
   <data name="&gt;&gt;edtSecondaryValueDatePicker.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtSecondaryValueDatePicker.Parent" xml:space="preserve">
     <value>$this</value>
@@ -581,6 +581,6 @@
     <value>GenericFilterForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>

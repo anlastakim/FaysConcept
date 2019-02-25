@@ -138,7 +138,7 @@
     <value>lblBefore</value>
   </data>
   <data name="&gt;&gt;lblBefore.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblBefore.Parent" xml:space="preserve">
     <value>$this</value>
@@ -165,7 +165,7 @@
     <value>lblAfter</value>
   </data>
   <data name="&gt;&gt;lblAfter.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblAfter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -192,7 +192,7 @@
     <value>lblLineSpacing</value>
   </data>
   <data name="&gt;&gt;lblLineSpacing.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblLineSpacing.Parent" xml:space="preserve">
     <value>$this</value>
@@ -219,7 +219,7 @@
     <value>lblAt</value>
   </data>
   <data name="&gt;&gt;lblAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblAt.Parent" xml:space="preserve">
     <value>$this</value>
@@ -249,7 +249,7 @@
     <value>spnAtFloatSpacing</value>
   </data>
   <data name="&gt;&gt;spnAtFloatSpacing.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnAtFloatSpacing.Parent" xml:space="preserve">
     <value>$this</value>
@@ -270,7 +270,7 @@
     <value>spnSpacingBefore</value>
   </data>
   <data name="&gt;&gt;spnSpacingBefore.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnSpacingBefore.Parent" xml:space="preserve">
     <value>$this</value>
@@ -291,7 +291,7 @@
     <value>spnAtSpacing</value>
   </data>
   <data name="&gt;&gt;spnAtSpacing.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnAtSpacing.Parent" xml:space="preserve">
     <value>$this</value>
@@ -312,7 +312,7 @@
     <value>spnSpacingAfter</value>
   </data>
   <data name="&gt;&gt;spnSpacingAfter.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;spnSpacingAfter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -336,7 +336,7 @@
     <value>edtLineSpacing</value>
   </data>
   <data name="&gt;&gt;edtLineSpacing.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.LineSpacingEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.LineSpacingEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtLineSpacing.Parent" xml:space="preserve">
     <value>$this</value>

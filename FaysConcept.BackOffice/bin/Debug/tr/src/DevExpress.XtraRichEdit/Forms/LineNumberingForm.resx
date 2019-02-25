@@ -135,7 +135,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -168,7 +168,7 @@
     <value>rgrpNumberingRestart</value>
   </data>
   <data name="&gt;&gt;rgrpNumberingRestart.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;rgrpNumberingRestart.Parent" xml:space="preserve">
     <value>$this</value>
@@ -192,7 +192,7 @@
     <value>lblStartAt</value>
   </data>
   <data name="&gt;&gt;lblStartAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblStartAt.Parent" xml:space="preserve">
     <value>$this</value>
@@ -223,7 +223,7 @@
     <value>chkAddLineNumbering</value>
   </data>
   <data name="&gt;&gt;chkAddLineNumbering.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkAddLineNumbering.Parent" xml:space="preserve">
     <value>$this</value>
@@ -250,7 +250,7 @@
     <value>edtStartAt</value>
   </data>
   <data name="&gt;&gt;edtStartAt.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtStartAt.Parent" xml:space="preserve">
     <value>$this</value>
@@ -274,7 +274,7 @@
     <value>lblFromText</value>
   </data>
   <data name="&gt;&gt;lblFromText.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFromText.Parent" xml:space="preserve">
     <value>$this</value>
@@ -301,7 +301,7 @@
     <value>edtCountBy</value>
   </data>
   <data name="&gt;&gt;edtCountBy.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtCountBy.Parent" xml:space="preserve">
     <value>$this</value>
@@ -325,7 +325,7 @@
     <value>lblCountBy</value>
   </data>
   <data name="&gt;&gt;lblCountBy.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblCountBy.Parent" xml:space="preserve">
     <value>$this</value>
@@ -349,7 +349,7 @@
     <value>lblNumbering</value>
   </data>
   <data name="&gt;&gt;lblNumbering.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblNumbering.Parent" xml:space="preserve">
     <value>$this</value>
@@ -373,7 +373,7 @@
     <value>btnOk</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>$this</value>
@@ -394,7 +394,7 @@
     <value>edtFromText</value>
   </data>
   <data name="&gt;&gt;edtFromText.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFromText.Parent" xml:space="preserve">
     <value>$this</value>
@@ -421,6 +421,6 @@
     <value>LineNumberingForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>

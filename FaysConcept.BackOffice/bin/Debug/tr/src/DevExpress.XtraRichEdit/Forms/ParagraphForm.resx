@@ -153,13 +153,13 @@
     <value>100, 20</value>
   </data>
   <data name="&gt;&gt;edtAlignment.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.AlignmentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.AlignmentEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="labelControl4.Text" xml:space="preserve">
     <value>Pagination</value>
   </data>
   <data name="&gt;&gt;paragraphIndentationControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.ParagraphIndentationControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.ParagraphIndentationControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
     <value>327, 299</value>
@@ -178,7 +178,7 @@
     <value>labelControl3</value>
   </data>
   <data name="&gt;&gt;xtraTabControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="btnTabs.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -187,7 +187,7 @@
     <value>True</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnTabs.Parent" xml:space="preserve">
     <value>$this</value>
@@ -196,7 +196,7 @@
     <value>paragraphIndentationControl</value>
   </data>
   <data name="&gt;&gt;btnTabs.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="chkKeepLinesTogether.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
@@ -235,7 +235,7 @@
     <value>6, 13</value>
   </data>
   <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="chkPageBreakBefore.Properties.DisplayValueGrayed" xml:space="preserve">
     <value></value>
@@ -283,7 +283,7 @@
     <value>edtAlignment</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="lineAndPageBreaks.Text" xml:space="preserve">
     <value>Line and &amp;Page Breaks</value>
@@ -292,7 +292,7 @@
     <value>2</value>
   </data>
   <data name="&gt;&gt;chkContextualSpacing.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtAlignment.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 22</value>
@@ -364,13 +364,13 @@
     <value>lineAndPageBreaks</value>
   </data>
   <data name="&gt;&gt;lblAlignment.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="chkContextualSpacing.Properties.DisplayValueChecked" xml:space="preserve">
     <value></value>
   </data>
   <data name="&gt;&gt;indentsAndSpacing.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.RichEditTabPage, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.RichEditTabPage, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>
@@ -409,7 +409,7 @@
     <value>edtOutlineLevel</value>
   </data>
   <data name="&gt;&gt;chkKeepLinesTogether.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lineAndPageBreaks.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -445,7 +445,7 @@
     <value></value>
   </data>
   <data name="&gt;&gt;labelControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="edtAlignment.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value></value>
@@ -454,7 +454,7 @@
     <value>288, 19</value>
   </data>
   <data name="&gt;&gt;labelControl3.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="chkKeepLinesTogether.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 19</value>
@@ -472,7 +472,7 @@
     <value>3</value>
   </data>
   <data name="&gt;&gt;lblOutlineLevel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="chkPageBreakBefore.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 19</value>
@@ -484,7 +484,7 @@
     <value>Tabs</value>
   </data>
   <data name="&gt;&gt;chkPageBreakBefore.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtOutlineLevel.Parent" xml:space="preserve">
     <value>indentsAndSpacing</value>
@@ -502,7 +502,7 @@
     <value>458, 19</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkContextualSpacing.Name" xml:space="preserve">
     <value>chkContextualSpacing</value>
@@ -547,7 +547,7 @@
     <value>4</value>
   </data>
   <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="lblOutlineLevel.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -607,7 +607,7 @@
     <value>False</value>
   </data>
   <data name="&gt;&gt;edtOutlineLevel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblOutlineLevel.Name" xml:space="preserve">
     <value>lblOutlineLevel</value>
@@ -646,7 +646,7 @@
     <value>458, 48</value>
   </data>
   <data name="&gt;&gt;lineAndPageBreaks.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Forms.RichEditTabPage, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Forms.RichEditTabPage, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="chkContextualSpacing.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -661,7 +661,7 @@
     <value>indentsAndSpacing</value>
   </data>
   <data name="&gt;&gt;paragraphSpacingControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.ParagraphSpacingControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.ParagraphSpacingControl, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
     <value>labelControl2</value>

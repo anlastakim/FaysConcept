@@ -142,7 +142,7 @@
     <value>tbContactInfo</value>
   </data>
   <data name="&gt;&gt;tbContactInfo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tbContactInfo.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -166,7 +166,7 @@
     <value>certificateSelector</value>
   </data>
   <data name="&gt;&gt;certificateSelector.Type" xml:space="preserve">
-    <value>DevExpress.XtraPrinting.Native.WinControls.CertificateSelector, DevExpress.XtraPrinting.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraPrinting.Native.WinControls.CertificateSelector, DevExpress.XtraPrinting.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;certificateSelector.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -193,7 +193,7 @@
     <value>lbContactInfo</value>
   </data>
   <data name="&gt;&gt;lbContactInfo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbContactInfo.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -217,7 +217,7 @@
     <value>tbLocation</value>
   </data>
   <data name="&gt;&gt;tbLocation.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tbLocation.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -247,7 +247,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -271,7 +271,7 @@
     <value>tbReason</value>
   </data>
   <data name="&gt;&gt;tbReason.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tbReason.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -298,7 +298,7 @@
     <value>lbLocation</value>
   </data>
   <data name="&gt;&gt;lbLocation.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbLocation.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -328,7 +328,7 @@
     <value>btnOK</value>
   </data>
   <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -355,7 +355,7 @@
     <value>lbReason</value>
   </data>
   <data name="&gt;&gt;lbReason.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbReason.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -382,7 +382,7 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -400,7 +400,7 @@
     <value>lbCertificate</value>
   </data>
   <data name="&gt;&gt;lbCertificate.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lbCertificate.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -427,78 +427,78 @@
     <value>layoutControlGroup1</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;grpButtons.Name" xml:space="preserve">
     <value>grpButtons</value>
   </data>
   <data name="&gt;&gt;grpButtons.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItemOK.Name" xml:space="preserve">
     <value>layoutControlItemOK</value>
   </data>
   <data name="&gt;&gt;layoutControlItemOK.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItemCancel.Name" xml:space="preserve">
     <value>layoutControlItemCancel</value>
   </data>
   <data name="&gt;&gt;layoutControlItemCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
     <value>layoutControlItem3</value>
   </data>
   <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
     <value>layoutControlItem4</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
     <value>layoutControlItem5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
     <value>layoutControlItem6</value>
   </data>
   <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
     <value>layoutControlItem7</value>
   </data>
   <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
     <value>layoutControlItem8</value>
   </data>
   <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
     <value>layoutControlItem9</value>
   </data>
   <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
     <value>layoutControlItem10</value>
   </data>
   <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PdfSignatureEditorForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>

@@ -126,8 +126,8 @@
   <data name="grpAxisYCoordinate.Text" xml:space="preserve">
     <value>Eksen Y konumu.</value>
   </data>
-  <assembly alias="DevExpress.Utils.v17.1" name="DevExpress.Utils.v17.1, Culture=neutral"></assembly>
-  <assembly alias="DevExpress.XtraEditors.v17.1" name="DevExpress.XtraEditors.v17.1, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.Utils.v18.1" name="DevExpress.Utils.v18.1, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.XtraEditors.v18.1" name="DevExpress.XtraEditors.v18.1, Culture=neutral"></assembly>
   <data name="lblPane.Text" xml:space="preserve">
     <value>Bölme:</value>
   </data>

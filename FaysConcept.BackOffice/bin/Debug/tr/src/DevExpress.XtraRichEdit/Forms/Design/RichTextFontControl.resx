@@ -135,7 +135,7 @@
     <value>edtFont</value>
   </data>
   <data name="&gt;&gt;edtFont.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.FontEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.FontEdit, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFont.Parent" xml:space="preserve">
     <value>$this</value>
@@ -162,7 +162,7 @@
     <value>lblFont</value>
   </data>
   <data name="&gt;&gt;lblFont.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFont.Parent" xml:space="preserve">
     <value>$this</value>
@@ -189,7 +189,7 @@
     <value>lblFontStyle</value>
   </data>
   <data name="&gt;&gt;lblFontStyle.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFontStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -216,7 +216,7 @@
     <value>lblFontSize</value>
   </data>
   <data name="&gt;&gt;lblFontSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFontSize.Parent" xml:space="preserve">
     <value>$this</value>
@@ -243,7 +243,7 @@
     <value>lblFontColor</value>
   </data>
   <data name="&gt;&gt;lblFontColor.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFontColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -270,7 +270,7 @@
     <value>lblUnderlineStyle</value>
   </data>
   <data name="&gt;&gt;lblUnderlineStyle.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblUnderlineStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -297,7 +297,7 @@
     <value>lblUnderlineColor</value>
   </data>
   <data name="&gt;&gt;lblUnderlineColor.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblUnderlineColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -324,7 +324,7 @@
     <value>lblEffects</value>
   </data>
   <data name="&gt;&gt;lblEffects.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblEffects.Parent" xml:space="preserve">
     <value>$this</value>
@@ -352,7 +352,7 @@
     <value>cbUnderlineColor</value>
   </data>
   <data name="&gt;&gt;cbUnderlineColor.Type" xml:space="preserve">
-    <value>DevExpress.Office.UI.OfficeColorEdit, DevExpress.XtraBars.v18.1, Culture=neutral</value>
+    <value>DevExpress.Office.UI.OfficeColorEdit, DevExpress.XtraBars.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbUnderlineColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -376,7 +376,7 @@
     <value>cbForeColor</value>
   </data>
   <data name="&gt;&gt;cbForeColor.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraBars.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ColorPickEdit, DevExpress.XtraBars.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;cbForeColor.Parent" xml:space="preserve">
     <value>$this</value>
@@ -400,7 +400,7 @@
     <value>edtFontSize</value>
   </data>
   <data name="&gt;&gt;edtFontSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.RichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.RichEditFontSizeEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFontSize.Parent" xml:space="preserve">
     <value>$this</value>
@@ -427,7 +427,7 @@
     <value>edtUnderlineStyle</value>
   </data>
   <data name="&gt;&gt;edtUnderlineStyle.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.UnderlineStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.UnderlineStyleEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtUnderlineStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -454,7 +454,7 @@
     <value>fontEffects</value>
   </data>
   <data name="&gt;&gt;fontEffects.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.FontEffects, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.FontEffects, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;fontEffects.Parent" xml:space="preserve">
     <value>$this</value>
@@ -484,7 +484,7 @@
     <value>edtFontStyle</value>
   </data>
   <data name="&gt;&gt;edtFontStyle.Type" xml:space="preserve">
-    <value>DevExpress.XtraRichEdit.Design.FontStyleEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraRichEdit.Design.FontStyleEdit, DevExpress.XtraRichEdit.v18.2, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFontStyle.Parent" xml:space="preserve">
     <value>$this</value>
@@ -511,6 +511,6 @@
     <value>RichEditFontControl</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v18.2, Culture=neutral</value>
   </data>
 </root>
