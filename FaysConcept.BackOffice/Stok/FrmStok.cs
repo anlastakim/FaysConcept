@@ -27,14 +27,19 @@ namespace FaysConcept.BackOffice.Stok
         {
 
             InitializeComponent();
-           // yetkileri yükleme
+           //gridview sürükle bırak alanları regedit okuma
+            string regKey = "Software\\FaysConcept\\Layouts\\Stoklar";
+            gridView1.RestoreLayoutFromRegistry(regKey);
+            // yetkileri yükleme
             RoleTool.RolleriYukle(this);
         }
 
         private void FrmStok_Load(object sender, EventArgs e)
         {
             listele();
-
+            //gridview sürükle bırak alanları regedit okuma
+            string regKey = "Software\\FaysConcept\\Layouts\\Stoklar";
+            gridView1.RestoreLayoutFromRegistry(regKey);
         }
 
         public void listele()
@@ -44,6 +49,11 @@ namespace FaysConcept.BackOffice.Stok
 
         private void btnkapat_Click(object sender, EventArgs e)
         {
+            //gridview sürükle bırak alanları regedit kaydetme
+            string regKey = "Software\\FaysConcept\\Layouts\\Stoklar";
+            gridView1.SaveLayoutToRegistry(regKey);
+          
+         
             this.Close();
         }
 
@@ -137,6 +147,15 @@ namespace FaysConcept.BackOffice.Stok
             FrmStokHareket form = new FrmStokHareket(secilen, secilenad);
             form.ShowDialog();
 
+        }
+
+        private void FrmStok_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //gridview sürükle bırak alanları regedit kaydetme
+            string regKey = "Software\\FaysConcept\\Layouts\\Stoklar";
+            gridView1.SaveLayoutToRegistry(regKey);
+            
+        
         }
 
         //private void gridControl1_DoubleClick(object sender, EventArgs e)

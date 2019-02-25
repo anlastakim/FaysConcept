@@ -107,7 +107,7 @@ namespace FaysConcept.BackOffice.Stok
             this.lblBaslik.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblBaslik.Location = new System.Drawing.Point(0, 0);
             this.lblBaslik.Name = "lblBaslik";
-            this.lblBaslik.Size = new System.Drawing.Size(1370, 50);
+            this.lblBaslik.Size = new System.Drawing.Size(1414, 50);
             this.lblBaslik.TabIndex = 0;
             this.lblBaslik.Text = "Stok Kartları";
             // 
@@ -121,9 +121,9 @@ namespace FaysConcept.BackOffice.Stok
             this.grpMenu.Controls.Add(this.btnDuzenle);
             this.grpMenu.Controls.Add(this.btnEkle);
             this.grpMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpMenu.Location = new System.Drawing.Point(0, 660);
+            this.grpMenu.Location = new System.Drawing.Point(0, 640);
             this.grpMenu.Name = "grpMenu";
-            this.grpMenu.Size = new System.Drawing.Size(1370, 69);
+            this.grpMenu.Size = new System.Drawing.Size(1414, 89);
             this.grpMenu.TabIndex = 1;
             this.grpMenu.Text = "Menü";
             // 
@@ -133,9 +133,9 @@ namespace FaysConcept.BackOffice.Stok
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnkapat.ImageOptions.ImageIndex = 6;
             this.btnkapat.ImageOptions.ImageList = this.imgmenu;
-            this.btnkapat.Location = new System.Drawing.Point(1271, 22);
+            this.btnkapat.Location = new System.Drawing.Point(1234, 23);
             this.btnkapat.Name = "btnkapat";
-            this.btnkapat.Size = new System.Drawing.Size(87, 42);
+            this.btnkapat.Size = new System.Drawing.Size(168, 61);
             this.btnkapat.TabIndex = 4;
             this.btnkapat.Text = "Kapat";
             this.btnkapat.Click += new System.EventHandler(this.btnkapat_Click);
@@ -163,7 +163,7 @@ namespace FaysConcept.BackOffice.Stok
             this.btnGuncelle.ImageOptions.ImageList = this.imgmenu;
             this.btnGuncelle.Location = new System.Drawing.Point(492, 23);
             this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(87, 42);
+            this.btnGuncelle.Size = new System.Drawing.Size(87, 61);
             this.btnGuncelle.TabIndex = 4;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.Click += new System.EventHandler(this.btnguncelle_Click);
@@ -176,7 +176,7 @@ namespace FaysConcept.BackOffice.Stok
             this.btnHareket.ImageOptions.ImageList = this.imgmenu;
             this.btnHareket.Location = new System.Drawing.Point(384, 23);
             this.btnHareket.Name = "btnHareket";
-            this.btnHareket.Size = new System.Drawing.Size(102, 42);
+            this.btnHareket.Size = new System.Drawing.Size(102, 61);
             this.btnHareket.TabIndex = 4;
             this.btnHareket.Text = "Stok Durum";
             this.btnHareket.Click += new System.EventHandler(this.btnstokhareket_Click);
@@ -189,7 +189,7 @@ namespace FaysConcept.BackOffice.Stok
             this.btnKopyala.ImageOptions.ImageList = this.imgmenu;
             this.btnKopyala.Location = new System.Drawing.Point(291, 23);
             this.btnKopyala.Name = "btnKopyala";
-            this.btnKopyala.Size = new System.Drawing.Size(87, 42);
+            this.btnKopyala.Size = new System.Drawing.Size(87, 61);
             this.btnKopyala.TabIndex = 4;
             this.btnKopyala.Text = "Kopyala";
             this.btnKopyala.Click += new System.EventHandler(this.btnkopyala_Click);
@@ -202,7 +202,7 @@ namespace FaysConcept.BackOffice.Stok
             this.btnSil.ImageOptions.ImageList = this.imgmenu;
             this.btnSil.Location = new System.Drawing.Point(198, 23);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(87, 42);
+            this.btnSil.Size = new System.Drawing.Size(87, 61);
             this.btnSil.TabIndex = 4;
             this.btnSil.Text = "Sil";
             this.btnSil.Click += new System.EventHandler(this.btnsil_Click);
@@ -215,7 +215,7 @@ namespace FaysConcept.BackOffice.Stok
             this.btnDuzenle.ImageOptions.ImageList = this.imgmenu;
             this.btnDuzenle.Location = new System.Drawing.Point(105, 23);
             this.btnDuzenle.Name = "btnDuzenle";
-            this.btnDuzenle.Size = new System.Drawing.Size(87, 42);
+            this.btnDuzenle.Size = new System.Drawing.Size(87, 61);
             this.btnDuzenle.TabIndex = 3;
             this.btnDuzenle.Text = "Düzenle";
             this.btnDuzenle.Click += new System.EventHandler(this.btnduzenle_Click);
@@ -228,7 +228,7 @@ namespace FaysConcept.BackOffice.Stok
             this.btnEkle.ImageOptions.ImageList = this.imgmenu;
             this.btnEkle.Location = new System.Drawing.Point(12, 23);
             this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(87, 42);
+            this.btnEkle.Size = new System.Drawing.Size(87, 61);
             this.btnEkle.TabIndex = 2;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.Click += new System.EventHandler(this.btnekle_Click);
@@ -242,7 +242,7 @@ namespace FaysConcept.BackOffice.Stok
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1370, 610);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1414, 590);
             this.splitContainerControl1.SplitterPosition = 0;
             this.splitContainerControl1.TabIndex = 2;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -253,7 +253,7 @@ namespace FaysConcept.BackOffice.Stok
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1370, 604);
+            this.gridControl1.Size = new System.Drawing.Size(1414, 585);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -294,6 +294,11 @@ namespace FaysConcept.BackOffice.Stok
             this.MevcutStok});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsLayout.Columns.StoreAllOptions = true;
+            this.gridView1.OptionsLayout.Columns.StoreAppearance = true;
+            this.gridView1.OptionsLayout.StoreAllOptions = true;
+            this.gridView1.OptionsLayout.StoreAppearance = true;
+            this.gridView1.OptionsLayout.StoreFormatRules = true;
             this.gridView1.OptionsView.ShowAutoFilterRow = true;
             // 
             // colRefNo
@@ -302,7 +307,6 @@ namespace FaysConcept.BackOffice.Stok
             this.colRefNo.FieldName = "RefNo";
             this.colRefNo.Name = "colRefNo";
             this.colRefNo.OptionsColumn.AllowEdit = false;
-            this.colRefNo.OptionsColumn.ShowInCustomizationForm = false;
             // 
             // colDurumu
             // 
@@ -590,7 +594,7 @@ namespace FaysConcept.BackOffice.Stok
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(1370, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(1414, 0);
             // 
             // barDockControlBottom
             // 
@@ -598,7 +602,7 @@ namespace FaysConcept.BackOffice.Stok
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.barDockControlBottom.Location = new System.Drawing.Point(0, 729);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(1370, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1414, 0);
             // 
             // barDockControlLeft
             // 
@@ -612,7 +616,7 @@ namespace FaysConcept.BackOffice.Stok
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1370, 0);
+            this.barDockControlRight.Location = new System.Drawing.Point(1414, 0);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Size = new System.Drawing.Size(0, 729);
             // 
@@ -632,7 +636,7 @@ namespace FaysConcept.BackOffice.Stok
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.ClientSize = new System.Drawing.Size(1414, 729);
             this.Controls.Add(this.splitContainerControl1);
             this.Controls.Add(this.grpMenu);
             this.Controls.Add(this.lblBaslik);
@@ -644,6 +648,7 @@ namespace FaysConcept.BackOffice.Stok
             this.Name = "FrmStok";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stok Kartları Bölümü";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmStok_FormClosing);
             this.Load += new System.EventHandler(this.FrmStok_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).EndInit();
             this.grpMenu.ResumeLayout(false);

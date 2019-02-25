@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-using FaysConcept.Entities.Context;
-using FaysConcept.Entities.Tables;
 using System.Data.Entity;
 
 namespace FaysConcept.Entities.Interface

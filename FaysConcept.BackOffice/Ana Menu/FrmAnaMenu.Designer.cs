@@ -547,14 +547,12 @@
             this.Controls.Add(this.ribbon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
-            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1278, 720);
             this.Name = "RibbonForm1";
             this.Ribbon = this.ribbon;
-            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StatusBar = this.ribbonStatusBar;
-            this.Text = "Fays Concept Yeni Nesil";
+            this.Text = "Fays Concept WMS";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.RibbonForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();

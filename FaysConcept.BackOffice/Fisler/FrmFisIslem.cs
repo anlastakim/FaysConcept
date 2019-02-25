@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.Entity;
-using System.Drawing;
-using System.Text;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
 using DevExpress.XtraEditors;
 using FaysConcept.BackOffice.Cari;
 using FaysConcept.BackOffice.Depo;
@@ -150,6 +144,13 @@ namespace FaysConcept.BackOffice.Fisler
         {
 
         }
+
+    //    string regKey = "DevExpress\\XtraGrid\\Layouts\\MainLayout";
+    //    gridContr.MainView.SaveLayoutToRegistry(regKey);
+            
+    ////...
+
+    //gridControl1.MainView.RestoreLayoutFromRegistry(regKey);
 
         private StokHareket StokSec(Entities.Tables.Stok entity)  // stoğu alıp stok harekete gönderiyoruz.
         {

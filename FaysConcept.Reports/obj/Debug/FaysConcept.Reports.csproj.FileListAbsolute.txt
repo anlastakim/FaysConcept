@@ -433,8 +433,409 @@ C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csprojAssemblyRe
 C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.Stok.rptStokDurumu.resources
 C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.Stok.rptStokHareket.resources
 C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.GenerateResource.cache
-C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.dll.licenses
 C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.CoreCompileInputs.cache
 C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.CopyComplete
 C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.dll
 C:\Git\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.pdb
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\FaysConcept.Reports.dll.config
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\FaysConcept.Reports.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\FaysConcept.Reports.pdb
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Charts.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.CodeParser.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Data.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.DataAccess.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Office.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.PivotGrid.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Utils.v18.1.UI.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.Wizard.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraGauges.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraPrinting.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraReports.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraReports.v18.1.Extensions.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\FaysConcept.Entities.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\Microsoft.CSharp.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\System.Data.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\System.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\System.Drawing.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\System.Net.Http.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\System.Xml.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\System.Xml.Linq.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\FluentValidation.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraBars.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\INIFileParserDotNetCore.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\EntityFramework.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Xpo.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Images.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraVerticalGrid.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraLayout.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraGrid.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraNavBar.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraRichEdit.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.DataAccess.v18.1.UI.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.Extensions.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraPivotGrid.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Diagram.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraDiagram.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\FaysConcept.Entities.pdb
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\FaysConcept.Entities.dll.config
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Data.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.DataAccess.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Office.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.PivotGrid.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.Wizard.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraGauges.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Utils.v18.1.UI.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraReports.v18.1.Extensions.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraReports.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\FluentValidation.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraBars.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\EntityFramework.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Xpo.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraVerticalGrid.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraLayout.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraGrid.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraNavBar.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraRichEdit.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.DataAccess.v18.1.UI.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraPivotGrid.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.Diagram.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\DevExpress.XtraDiagram.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.DataAccess.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.DataAccess.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.DataAccess.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.DataAccess.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Office.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Office.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Office.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Office.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.PivotGrid.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.PivotGrid.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.PivotGrid.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.PivotGrid.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraCharts.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraCharts.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraCharts.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraCharts.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraGauges.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraGauges.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraGauges.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraGauges.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Utils.v18.1.UI.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Utils.v18.1.UI.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Utils.v18.1.UI.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Utils.v18.1.UI.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraReports.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraReports.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraReports.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraReports.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Xpo.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Xpo.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Xpo.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Xpo.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraLayout.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraLayout.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraLayout.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraLayout.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.DataAccess.v18.1.UI.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.DataAccess.v18.1.UI.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.DataAccess.v18.1.UI.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.DataAccess.v18.1.UI.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraPivotGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraPivotGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraPivotGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraPivotGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\de\DevExpress.Diagram.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\es\DevExpress.Diagram.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ja\DevExpress.Diagram.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\bin\Debug\ru\DevExpress.Diagram.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csprojAssemblyReference.cache
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.Stok.rptStokDurumu.resources
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.Stok.rptStokHareket.resources
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.GenerateResource.cache
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.CoreCompileInputs.cache
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.CopyComplete
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.pdb
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\FaysConcept.Reports.dll.config
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\FaysConcept.Reports.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\FaysConcept.Reports.pdb
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Charts.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.CodeParser.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Data.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.DataAccess.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Office.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.PivotGrid.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Utils.v18.1.UI.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.Wizard.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraGauges.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraPrinting.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraReports.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraReports.v18.1.Extensions.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\FaysConcept.Entities.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\Microsoft.CSharp.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\System.Data.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\System.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\System.Drawing.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\System.Net.Http.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\System.Xml.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\System.Xml.Linq.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\FluentValidation.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Utils.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraBars.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\INIFileParserDotNetCore.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\EntityFramework.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Xpo.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Images.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraVerticalGrid.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraLayout.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraGrid.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraNavBar.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraRichEdit.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.DataAccess.v18.1.UI.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.Extensions.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraPivotGrid.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Diagram.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraDiagram.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\FaysConcept.Entities.pdb
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\FaysConcept.Entities.dll.config
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Data.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.DataAccess.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Office.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.PivotGrid.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.Wizard.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraCharts.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraGauges.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Utils.v18.1.UI.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraReports.v18.1.Extensions.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraReports.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\FluentValidation.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Utils.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraBars.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\EntityFramework.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Xpo.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraVerticalGrid.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraLayout.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraGrid.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraNavBar.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraRichEdit.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.DataAccess.v18.1.UI.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraPivotGrid.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.Diagram.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\DevExpress.XtraDiagram.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.DataAccess.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.DataAccess.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.DataAccess.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.DataAccess.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Office.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Office.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Office.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Office.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.PivotGrid.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.PivotGrid.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.PivotGrid.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.PivotGrid.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraCharts.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraCharts.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraCharts.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraCharts.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraGauges.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraGauges.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraGauges.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraGauges.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Utils.v18.1.UI.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Utils.v18.1.UI.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Utils.v18.1.UI.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Utils.v18.1.UI.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraReports.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraReports.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraReports.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraReports.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Xpo.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Xpo.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Xpo.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Xpo.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraRichEdit.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraRichEdit.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraRichEdit.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraRichEdit.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.DataAccess.v18.1.UI.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.DataAccess.v18.1.UI.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.DataAccess.v18.1.UI.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.DataAccess.v18.1.UI.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.XtraPivotGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.XtraPivotGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.XtraPivotGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.XtraPivotGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\de\DevExpress.Diagram.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\es\DevExpress.Diagram.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ja\DevExpress.Diagram.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\bin\Debug\ru\DevExpress.Diagram.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csprojAssemblyReference.cache
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.Stok.rptStokDurumu.resources
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.Stok.rptStokHareket.resources
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.GenerateResource.cache
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.CoreCompileInputs.cache
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.csproj.CopyComplete
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Reports\obj\Debug\FaysConcept.Reports.pdb

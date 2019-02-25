@@ -92,7 +92,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Stok\rptStokDurumu.resx">
       <DependentUpon>rptStokDurumu.cs</DependentUpon>
     </EmbeddedResource>

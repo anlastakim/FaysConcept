@@ -571,8 +571,238 @@ C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmKullanicilar.reso
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmParolaHatirlat.resources
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.Properties.Resources.resources
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.GenerateResource.cache
-C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.exe.licenses
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.CoreCompileInputs.cache
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.CopyComplete
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.exe
 C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.pdb
+C:\Git\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.exe.licenses
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csprojAssemblyReference.cache
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmBaglantiAyarlari.resources
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmKullaniciGiris.resources
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmKullaniciIslem.resources
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmKullanicilar.resources
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmParolaHatirlat.resources
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.Properties.Resources.resources
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.GenerateResource.cache
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.exe
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.pdb
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\FaysConcept.Admin.exe.config
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\FaysConcept.Admin.exe
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\FaysConcept.Admin.pdb
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.BonusSkins.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Data.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraGrid.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraLayout.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraPrinting.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\EntityFramework.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\EntityFramework.SqlServer.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\FaysConcept.Entities.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\Microsoft.CSharp.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.Data.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.Deployment.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.Drawing.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.Windows.Forms.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.Xml.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\System.Xml.Linq.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\FluentValidation.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraBars.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\INIFileParserDotNetCore.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Office.v18.1.Core.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Images.v18.1.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\FaysConcept.Entities.pdb
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\FaysConcept.Entities.dll.config
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Data.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraGrid.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraLayout.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\EntityFramework.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\EntityFramework.SqlServer.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\FluentValidation.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.XtraBars.v18.1.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\DevExpress.Office.v18.1.Core.xml
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraLayout.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraLayout.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraLayout.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraLayout.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\de\DevExpress.Office.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\es\DevExpress.Office.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ja\DevExpress.Office.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\bin\Debug\ru\DevExpress.Office.v18.1.Core.resources.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.CoreCompileInputs.cache
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.CopyComplete
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\FaysConcept.Admin.exe.config
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\FaysConcept.Admin.exe
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\FaysConcept.Admin.pdb
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.BonusSkins.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Data.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Utils.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraGrid.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraLayout.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraPrinting.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\EntityFramework.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\FaysConcept.Entities.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\Microsoft.CSharp.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.Data.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.Deployment.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.Drawing.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.Windows.Forms.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.Xml.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\System.Xml.Linq.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\FluentValidation.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraBars.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\INIFileParserDotNetCore.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Office.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Images.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\FaysConcept.Entities.pdb
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\FaysConcept.Entities.dll.config
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Data.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Utils.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraGrid.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraLayout.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\EntityFramework.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\FluentValidation.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.XtraBars.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\DevExpress.Office.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\de\DevExpress.Office.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\es\DevExpress.Office.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ja\DevExpress.Office.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\bin\Debug\ru\DevExpress.Office.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csprojAssemblyReference.cache
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmBaglantiAyarlari.resources
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmKullaniciGiris.resources
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmKullaniciIslem.resources
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmKullanicilar.resources
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.FrmParolaHatirlat.resources
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.Properties.Resources.resources
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.GenerateResource.cache
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.CoreCompileInputs.cache
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.csproj.CopyComplete
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.exe
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Admin\obj\Debug\FaysConcept.Admin.pdb

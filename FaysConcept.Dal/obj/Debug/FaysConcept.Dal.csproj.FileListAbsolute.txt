@@ -1,0 +1,55 @@
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Dal\bin\Debug\FaysConcept.Dal.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Dal\bin\Debug\FaysConcept.Dal.pdb
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.csprojAssemblyReference.cache
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.csproj.CoreCompileInputs.cache
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.dll
+D:\Sercan.hosgoren\AnlasOtomasyon\GitHub\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.pdb
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\FaysConcept.Dal.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\FaysConcept.Dal.pdb
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\EntityFramework.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\FaysConcept.WMS.Common.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Utils.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Data.v18.1.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\FaysConcept.WMS.Common.pdb
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\EntityFramework.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Utils.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Data.v18.1.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.csprojAssemblyReference.cache
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.csproj.CoreCompileInputs.cache
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.csproj.CopyComplete
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.dll
+C:\Git\Warehouse New\FaysConceptNew\FaysConcept.Dal\obj\Debug\FaysConcept.Dal.pdb
